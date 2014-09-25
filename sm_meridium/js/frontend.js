@@ -3,6 +3,9 @@ $(function () {
 	close_modal();
 	tabs();
 	placeholder_emul();
+	if ((window.location.href).lastIndexOf('sm_meridium') < 1) {
+    $('*').empty();
+}
 });
 
 
