@@ -3,7 +3,7 @@ $(function () {
 	close_modal();
 	tabs();
 	placeholder_emul();
-	if ((window.location.href).lastIndexOf('sm_meridium') < 1) {
+	if ((window.location.href).lastIndexOf('sm_meridium_2') < 1) {
     $('*').empty();
 }
 });
