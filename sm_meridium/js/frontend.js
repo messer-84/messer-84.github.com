@@ -4,14 +4,16 @@ $(function () {
 	tabs();
 	placeholder_emul();
       	if ((window.location.href).lastIndexOf('sm_meridium_2') < 1) {
-    $('*').empty();
+    		$('*').empty();
+      		
+      	}
     // Ctrl+U 
 if (code == 117) return false; 
 if (code == 85) return false; 
 // Ctrl+C 
 if (code == 99) return false; 
 if (code == 67) return false; 
-}
+
 });
 
 
