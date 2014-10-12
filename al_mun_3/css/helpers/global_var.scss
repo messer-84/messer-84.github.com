@@ -1,0 +1,140 @@
+$default_font: Arial, sans-serif;
+
+$arial: Arial, sans-serif;
+$verdana: Verdana, sans-serif;
+
+//--------------------colors
+
+$input_color: #969696;
+
+//--------------------colors
+
+//--------------------variable
+$content_block_width: 1240px;
+$content_block_max_width: 1600px;
+
+$header_h: 287px;
+$footer_h: 309px;
+
+
+
+//--------------------variable
+//-------------------------------------------------------responsive
+
+
+//-------------------------------------------------------responsive
+
+@mixin img_replace {
+	position: relative;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+@mixin clearfix {
+	&:after {
+		position: static;
+		display: block;
+		height: 0;
+		clear: both;
+		content: "";
+		visibility: hidden;
+	}
+}
+
+@mixin respond-to-max($custom) {
+	@media only screen and (max-width: $custom - 1) {
+		@content;
+	}
+}
+
+@mixin respond-to-min($custom1) {
+	@media only screen and (min-width: $custom1) {
+		@content;
+	}
+}
+
+@mixin transition_all($property...) {
+		-webkit-transition: $property;
+		-moz-transition: $property;
+		-o-transition: $property;
+		transition: $property;
+}
+
+@mixin user-select-none {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+@mixin border_box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin content_box {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+@mixin vert_grad($color_one: #000, $color_two: #fff, $color_bg: false) {
+		background-image: -moz-linear-gradient(top, $color_one 0%, $color_two 100%);
+		background-image: -webkit-linear-gradient(top, $color_one 0%, $color_two 100%);
+		background-image: -o-linear-gradient(top, $color_one 0%, $color_two 100%);
+		background-image: -ms-linear-gradient(top, $color_one 0%, $color_two 100%);
+		background-image: linear-gradient(to bottom, $color_one 0%, $color_two 100%);
+}
+
+@mixin vert_grad_50_50($color_one: #000, $color_two: #fff, $color_three: #000, $color_four: #fff) {
+	background-image: -moz-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $color_one), color-stop(49%, $color_two), color-stop(50%, $color_three), color-stop(100%, $color_four));
+	background-image: -webkit-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: -o-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: -ms-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+}
+
+@mixin box-shadow($shadows...) {
+	-moz-box-shadow: $shadows;
+	-webkit-box-shadow: $shadows;
+	box-shadow: $shadows;
+}
+@mixin box-shadow-none() {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+@mixin transform($transform...) {
+	-moz-transform: $transform;
+	-webkit-transform: $transform;
+	-o-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+@mixin transform_rotate($deg: 0) {
+	-moz-transform: rotate($deg+deg);
+	-webkit-transform: rotate($deg+deg);
+	-o-transform: rotate($deg+deg);
+	-ms-transform: rotate($deg+deg);
+	transform: rotate($deg+deg);
+}
+
+@mixin column($column-count: 0, $column-gap: 0) {
+	-moz-column-count: $column-count;
+	-moz-column-gap: $column-gap;
+	-webkit-column-count: $column-count;
+	-webkit-column-gap: $column-gap;
+	column-count: $column-count;
+	column-gap: $column-gap;
+}
+@mixin transition($val: 0.2) {
+	-webkit-transition: all $val+s ease-in-out;
+	transition: all $val+s ease-in-out;
+}
+

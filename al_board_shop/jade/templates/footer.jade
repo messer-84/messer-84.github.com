@@ -1,0 +1,76 @@
+- var list_v1 = {name : [ 'Burton', 'Anon', 'Rehall','Forum', 'Atom','Ride','Foursquare','Backhill', 'Rome', 'Burton', 'Anon', 'Rehall','Forum', 'Atom','Ride','Foursquare','Backhill', 'Rome','Burton', 'Anon', 'Rehall','Forum', 'Atom','Ride','Foursquare','Backhill', 'Rome', 'Burton', 'Anon', 'Rehall','Forum', 'Atom','Ride','Foursquare','Backhill', 'Rome']}
+- var list_v2 = {name: ['Сноуборды', 'Ботинки', 'Крепления', 'Одежда', 'Аксессуары']}
+footer.footer
+		.footer_head
+				.follow_title_hold
+						span.follow_title Присоединяйтесь к нам
+						ul.follow_list
+								li.follow_l_item
+										a.follow_l_i_link.mod_1(href="#" title="#")
+								li.follow_l_item
+										a.follow_l_i_link.mod_2(href="#" title="#")
+								li.follow_l_item
+										a.follow_l_i_link.mod_3(href="#" title="#")
+		.footer_main
+				.footer_m_item.mod_1
+						.logo_box
+								| © 2011-2014. BOARDSHOP.RU
+								| магазин сноубордов и
+								| снаряжений в Москве
+						.contacts_block.mod_foot
+								ul.contacts_list.mod_foot
+										li.contacts_l_item.mod_fwb.st_1 +7 (495) 988 25 00
+										li.contacts_l_item.mod_fwb.st_1 8 (800) 333 82 10
+										li.contacts_l_item Бесплатный звонок по России
+										li.contacts_l_item пн-сб 10:00 - 18:00
+								ul.contacts_list.mod_foot
+										li.contacts_l_item
+												| г. Москва, м. Авиамоторная, ул. 5-я Кабельная, д. 2, &nbsp;
+												span.nbr стр. 1
+												| &nbsp;ТРК СпортЕХ
+										li.contacts_l_item
+												a.contacts_l_i_link.link_st_3(href="#" title="#") Схема проезда
+										li.contacts_l_item пн-вс 10:00 - 22:00
+						ul.method_pays.blocks_wrap
+								li.method_p_item.mod_1
+								li.method_p_item.mod_2
+								li.method_p_item.mod_3
+								li.method_p_item.mod_4
+								li.method_p_item.mod_5
+				.footer_m_item.mod_2
+						h3.foot_title Интернет-магазин
+						.blocks_wrap
+								ul.list_v1.mod_1
+										each val, index in list_v2.name
+												li.list_item_v1
+														a.list_i_link_v1(href="#" title="#")= val
+								ul.list_v1.mod_1.st_1
+										li.list_item_v1
+												a.list_i_link_v1(href='#') Распродажа
+										li.list_item_v1
+												a.list_i_link_v1(href='#') Сток-50%
+						h3.foot_title Бренды
+						ul.list_v1.mod_3_col
+								each val, index in list_v1.name
+										li.list_item_v1
+												a.list_i_link_v1(href="#" title="#")= val
+
+				.footer_m_item.mod_3
+						.social_block
+								#vk_groups
+								script(type='text/javascript')
+										| VK.Widgets.Group("vk_groups", {mode: 0, width: "310", height: "350", color1: 'fff', color2: '414141', color3: '414141'}, 45714908);
+						a.develop_link(href='http://magmaidea.ru/', title='Magma', target="_blank") Magma
+		nav.footer_nav_hold
+				ul.footer_nav
+						li.footer_n_item
+								a.footer_n_i_link(href="#" title="#") О нас
+						li.footer_n_item
+								a.footer_n_i_link(href="#" title="#") Скидки
+						li.footer_n_item
+								a.footer_n_i_link(href="#" title="#") Оплата и доставка
+						li.footer_n_item
+								a.footer_n_i_link(href="#" title="#") Помощь
+						li.footer_n_item
+								a.footer_n_i_link(href="#" title="#") Контакты
+

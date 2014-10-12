@@ -1,0 +1,178 @@
+- var n = 0
+- var select_name = 0
+- var radio_id = 0
+- var check_name = 0
+- var check_id = 0
+
+
+.primary_row
+		.filter_block_hold
+				h2.filter_hline Фильтр товаров
+				dl.filter_block
+						dt.filter_title.active Сноуборды
+						dd.filter_content.active
+								.form_block
+										form(action="#",method="post")
+												.form_item_v1.mod_half
+														.form_i_title_v1 Пол:
+														ul.check_list
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Женский
+																				span.num_v1 (5)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Мужской
+																				span.num_v1 (17)
+												.form_item_v1.mod_half
+														.form_i_title_v1 Сезон:
+														ul.check_list.list_multi_v1
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') 2011
+																				span.num_v1 (1)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') 2012
+																				span.num_v1 (4)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') 2013
+																				span.num_v1 (4)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') 2014
+																				span.num_v1 (8)
+												.form_item_wrap
+														.form_item_v1.item_brand
+																.form_i_title_v1.mod_1 Бренды:
+																ul.check_list.list_multi_v4
+																		li.check_item_v1
+																				input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																				label.form_lbl_check_v1(for='check_#{check_id}') Atom
+																						span.num_v1 (1)
+																		li.check_item_v1
+																				input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																				label.form_lbl_check_v1(for='check_#{check_id}') Burton
+																						span.num_v1 (4)
+																		li.check_item_v1
+																				input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																				label.form_lbl_check_v1(for='check_#{check_id}') Forum
+																						span.num_v1 (1)
+																		li.check_item_v1
+																				input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																				label.form_lbl_check_v1(for='check_#{check_id}') Lib Teach
+																						span.num_v1 (1)
+																		li.check_item_v1
+																				input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																				label.form_lbl_check_v1(for='check_#{check_id}') Niche
+																						span.num_v1 (1)
+																		li.check_item_v1
+																				input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																				label.form_lbl_check_v1(for='check_#{check_id}') Ride
+																						span.num_v1 (4)
+																		li.check_item_v1
+																				input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																				label.form_lbl_check_v1(for='check_#{check_id}') Rome
+																						span.num_v1 (1)
+														.form_item_v1.item_size
+																.form_i_title_v1 Размер:
+																.range_wrap
+																		.range_begin
+																				i.range_text от:
+																				input.range_field.mod_1.inpMin_1(type='text', value='150', name='range_begin', readonly='readonly')
+																		.range_end
+																				i.range_text до:
+																				input.range_field.mod_1.inpMax_1(type='text', name='range_end', value='169',readonly='readonly')
+																		input#amount_1.range_inp(type='text', readonly='', name='money_man')
+																.slider-range_w
+																		#slider
+
+												.form_item_v1
+														.form_i_title_v1 Цена:
+														.range_wrap
+																.range_begin
+																		i.range_text от:
+																		input.range_field.inpMin_2(type='text', value='4000', name='range_begin',readonly='readonly')
+																.range_end
+																		i.range_text до:
+																		input.range_field.inpMax_2(type='text', name='range_end', value='23000',readonly='readonly')
+																input#amount_2.range_inp(type='text', readonly='', name='money_man')
+														.slider-range_w
+																#slider_2
+												.form_foot
+														span.form_submit_v1.js_submit_1.st_1 Показать
+														span.form_reset_v1.js_reset_1 Сбросить фильтр
+						dt.filter_title Ботинки
+						dd.filter_content
+								.form_block
+										form(action="#",method="post")
+												.form_item_v1.mod_half
+														.form_i_title_v1 Пол:
+														ul.check_list
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Женский
+																				span.num_v1 (5)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Мужской
+																				span.num_v1 (17)
+												.form_foot
+														span.form_submit_v1.js_submit_1.st_1 Показать
+														span.form_reset_v1.js_reset_1 Сбросить фильтр
+						dt.filter_title Крепления
+						dd.filter_content
+								.form_block
+										form(action="#",method="post")
+												.form_item_v1.mod_half
+														.form_i_title_v1 Пол:
+														ul.check_list
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Женский
+																				span.num_v1 (5)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Мужской
+																				span.num_v1 (17)
+												.form_foot
+														span.form_submit_v1.js_submit_1.st_1 Показать
+														span.form_reset_v1.js_reset_1 Сбросить фильтр
+						dt.filter_title Одежда
+						dd.filter_content
+								.form_block
+										form(action="#",method="post")
+												.form_item_v1.mod_half
+														.form_i_title_v1 Пол:
+														ul.check_list
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Женский
+																				span.num_v1 (5)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Мужской
+																				span.num_v1 (17)
+												.form_foot
+														span.form_submit_v1.js_submit_1.st_1 Показать
+														span.form_reset_v1.js_reset_1 Сбросить фильтр
+						dt.filter_title Аксессуары
+						dd.filter_content
+								.form_block
+										form(action="#",method="post")
+												.form_item_v1.mod_half
+														.form_i_title_v1 Пол:
+														ul.check_list
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Женский
+																				span.num_v1 (5)
+																li.check_item_v1
+																		input.form_f_check_v1(type='checkbox', name='#{++check_name}', value='#{check_name}', id='check_#{++check_id}')
+																		label.form_lbl_check_v1(for='check_#{check_id}') Мужской
+																				span.num_v1 (17)
+												.form_foot
+														span.form_submit_v1.js_submit_1.st_1 Показать
+														span.form_reset_v1.js_reset_1 Сбросить фильтр
+

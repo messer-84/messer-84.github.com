@@ -1,0 +1,48 @@
+.cover {
+  display: none;
+  background: url(../img/black_80.png) 0 0 repeat;
+}
+
+.goods_img_hold:hover .cover {
+  display: block;
+}
+.goods_img_hold:hover .cover:before {
+  display: block;
+}
+
+.btn_buy {
+  background: #d0136b;
+}
+
+.btn_v1,
+.callback_control,
+.form_submit,
+.bx-prev,
+.bx-next,
+.timer_title {
+  background: #f6e559 !important;
+}
+
+.timer_title {
+  padding: 20px 15px 0;
+}
+
+.timer_hold {
+  background: #ddd !important;
+}
+
+.countdown {
+  background: #c3c3c3;
+}
+
+.form_box.mod_grey {
+  background: #ddd !important;
+}
+.form_box.mod_slider {
+  background: #222;
+}
+
+.order_box,
+.quest_box {
+  background: #222;
+}

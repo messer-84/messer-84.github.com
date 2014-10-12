@@ -1,0 +1,41 @@
+.inp_file {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.menu {
+  background: #e9f2fa;
+}
+
+.wrapper:after {
+  background: url(../img/content_row.jpg) 0 0 repeat-x;
+}
+
+.goods_i_link:before {
+  background: #000;
+  display: none;
+}
+.goods_i_link span {
+  display: none;
+}
+.goods_i_link.mod_1 span {
+  display: inline-block !important;
+}
+
+.goods_i_link:hover:before {
+  display: block;
+}
+.goods_i_link:hover span {
+  display: inline-block;
+}
+
+.table_values td {
+  border-bottom: 1px solid #626262;
+}
+
+.main_slider_wrap {
+  background: url(../img/main_slider_back.jpg) 0 0 repeat;
+}
+
+.main_t_item.selected {
+  background: #1e4d79;
+}

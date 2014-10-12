@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Магазин сноубордов</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-ui.custom.min.js"></script>
+    <script src="js/modernizr.2.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script src="js/selectordie.min.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script><!--[if gt IE 9]><!--><link rel="stylesheet" media="all" href="styles/main_global.css"><!--<![endif]--><!--[if IE 9]><link rel="stylesheet" media="all" href="styles/ie_9_global.css"><!--[if IE 8]><link rel="stylesheet" media="all" href="styles/ie_8_global.css"><script src="js/ie8.js"></script><![endif]-->
+    <script src="js/jquery.sliderkit.1.9.2.pack.js"></script>
+    <script src="js/frontend.js"></script>
+    <script src="js/slider_ranges.js"></script>
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="base">
+        <header class="header">
+          <div class="head_bar">
+            <div class="aux_nav_hold"><span class="aux_nav_control js_control_1"></span>
+              <ul class="aux_nav">
+                <li class="aux_n_item active"><a href="#" title="#" class="aux_n_i_link">О нас</a></li>
+                <li class="aux_n_item"><a href="#" title="#" class="aux_n_i_link">Скидки</a></li>
+                <li class="aux_n_item"><a href="#" title="#" class="aux_n_i_link">Оплата и доставка</a></li>
+                <li class="aux_n_item"><a href="#" title="#" class="aux_n_i_link">Помощь</a></li>
+                <li class="aux_n_item"><a href="#" title="#" class="aux_n_i_link">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="search_box">
+              <label for="search_site" class="hide">Поиск по каталогу</label>
+              <input type="text" name="search_site" placeholder="Поиск по каталогу" id="search_site" class="form_f_search">
+              <input type="submit" value="" class="form_submit_search">
+            </div>
+          </div>
+          <div class="head_main">
+            <h1 class="logo_hold"><a href="#" title="#" class="logo">Магазин сноубордов</a></h1>
+            <div class="contacts_block">
+              <ul class="contacts_list">
+                <li class="contacts_l_item">пн-сб 10:00-18:00</li>
+                <li class="contacts_l_item mod_fwb">+7 (495) 988 25 00</li>
+                <li class="contacts_l_item mod_fwb">8 (800) 333 82 10</li>
+                <li class="contacts_l_item">Бесплатный звонок по России</li>
+                <li class="contacts_l_item"><a href="#" title="#" class="link_st_2 js_control_v1">Заказать бесплатный звонок</a></li>
+              </ul>
+              <ul class="contacts_list">
+                <li class="contacts_l_item">пн-вс 10:00-22:00</li>
+                <li class="contacts_l_item">г. Москва, м. Авиамоторная</li>
+                <li class="contacts_l_item">ул. 5-я Кабельная, д. 2, стр. 1</li>
+                <li class="contacts_l_item">ТРК СпортЕХ</li>
+                <li class="contacts_l_item"><a href="#" title="#" class="link_st_3">Схема проезда</a></li>
+              </ul>
+            </div>
+            <div class="cart_box">
+              <div class="cart_title">Корзина</div>
+              <div class="cart_note">здесь будут ваши покупки</div>
+            </div>
+          </div>
+          <nav role="navigation" class="nav_hold">
+            <ul class="discount_menu">
+              <li class="discount_m_item"><a href="#" class="discount_m_i_link">Распродажа</a></li>
+              <li class="discount_m_item"><a href="#" class="discount_m_i_link">Сток-50%</a></li>
+            </ul>
+            <ul class="nav">
+              <li class="nav_item"><a href="#" title="#" class="nav_link"><span>Сноуборды</span></a>
+                <div class="nav_submenu_hold">
+                  <div class="nav_s_h_item mod_1">
+                    <h3 class="nav_s_title">Пол</h3>
+                    <ul class="nav_submenu">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Мужской</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Женский</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav_s_h_item mod_2">
+                    <h3 class="nav_s_title">Бренд</h3>
+                    <ul class="nav_submenu mod_3_col">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Atom</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">GNU</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rome</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Backhill</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Lib Tech</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rossignol</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Burton</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Never Summer</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Roxy</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">DC</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Niche</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">K2</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Ride</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_item"><a href="#" title="#" class="nav_link"><span>Ботинки</span></a>
+                <div class="nav_submenu_hold">
+                  <div class="nav_s_h_item mod_1">
+                    <h3 class="nav_s_title">Пол</h3>
+                    <ul class="nav_submenu">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Мужской</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Женский</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav_s_h_item mod_2">
+                    <h3 class="nav_s_title">Бренд</h3>
+                    <ul class="nav_submenu mod_3_col">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Atom</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">GNU</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rome</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Backhill</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Lib Tech</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rossignol</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Burton</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Never Summer</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Roxy</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">DC</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Niche</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">K2</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Ride</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_item"><a href="#" title="#" class="nav_link"><span>Крепления</span></a>
+                <div class="nav_submenu_hold">
+                  <div class="nav_s_h_item mod_1">
+                    <h3 class="nav_s_title">Пол</h3>
+                    <ul class="nav_submenu">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Мужской</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Женский</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav_s_h_item mod_2">
+                    <h3 class="nav_s_title">Бренд</h3>
+                    <ul class="nav_submenu mod_3_col">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Atom</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">GNU</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rome</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Backhill</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Lib Tech</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rossignol</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Burton</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Never Summer</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Roxy</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">DC</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Niche</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">K2</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Ride</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_item"><a href="#" title="#" class="nav_link"><span>Одежда</span></a>
+                <div class="nav_submenu_hold">
+                  <div class="nav_s_h_item mod_1">
+                    <h3 class="nav_s_title">Пол</h3>
+                    <ul class="nav_submenu">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Мужской</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Женский</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav_s_h_item mod_2">
+                    <h3 class="nav_s_title">Бренд</h3>
+                    <ul class="nav_submenu mod_3_col">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Atom</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">GNU</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rome</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Backhill</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Lib Tech</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rossignol</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Burton</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Never Summer</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Roxy</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">DC</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Niche</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">K2</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Ride</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav_item"><a href="#" title="#" class="nav_link"><span>Аксессуары</span></a>
+                <div class="nav_submenu_hold">
+                  <div class="nav_s_h_item mod_1">
+                    <h3 class="nav_s_title">Пол</h3>
+                    <ul class="nav_submenu">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Мужской</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Женский</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav_s_h_item mod_2">
+                    <h3 class="nav_s_title">Бренд</h3>
+                    <ul class="nav_submenu mod_3_col">
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Atom</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">GNU</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rome</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Backhill</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Lib Tech</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Rossignol</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Burton</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Never Summer</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Roxy</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">DC</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Niche</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">K2</a></li>
+                      <li class="nav_s_item"><a href="#" title="#" class="nav_s_i_link">Ride</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="main_row">
+          <div class="section">
+            <div class="primary_row">
+              <div class="filter_block_hold">
+                <h2 class="filter_hline">Фильтр товаров</h2>
+                <dl class="filter_block">
+                  <dt class="filter_title active">Сноуборды</dt>
+                  <dd class="filter_content active">
+                    <div class="form_block">
+                      <form action="#" method="post">
+                        <div class="form_item_v1 mod_half">
+                          <div class="form_i_title_v1">Пол:</div>
+                          <ul class="check_list">
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="1" value="1" id="check_1" class="form_f_check_v1">
+                              <label for="check_1" class="form_lbl_check_v1">Женский<span class="num_v1">(5)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="2" value="2" id="check_2" class="form_f_check_v1">
+                              <label for="check_2" class="form_lbl_check_v1">Мужской<span class="num_v1">(17)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="form_item_v1 mod_half">
+                          <div class="form_i_title_v1">Сезон:</div>
+                          <ul class="check_list list_multi_v1">
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="3" value="3" id="check_3" class="form_f_check_v1">
+                              <label for="check_3" class="form_lbl_check_v1">2011<span class="num_v1">(1)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="4" value="4" id="check_4" class="form_f_check_v1">
+                              <label for="check_4" class="form_lbl_check_v1">2012<span class="num_v1">(4)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="5" value="5" id="check_5" class="form_f_check_v1">
+                              <label for="check_5" class="form_lbl_check_v1">2013<span class="num_v1">(4)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="6" value="6" id="check_6" class="form_f_check_v1">
+                              <label for="check_6" class="form_lbl_check_v1">2014<span class="num_v1">(8)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="form_item_wrap">
+                          <div class="form_item_v1 item_brand">
+                            <div class="form_i_title_v1 mod_1">Бренды:</div>
+                            <ul class="check_list list_multi_v4">
+                              <li class="check_item_v1">
+                                <input type="checkbox" name="7" value="7" id="check_7" class="form_f_check_v1">
+                                <label for="check_7" class="form_lbl_check_v1">Atom<span class="num_v1">(1)</span></label>
+                              </li>
+                              <li class="check_item_v1">
+                                <input type="checkbox" name="8" value="8" id="check_8" class="form_f_check_v1">
+                                <label for="check_8" class="form_lbl_check_v1">Burton<span class="num_v1">(4)</span></label>
+                              </li>
+                              <li class="check_item_v1">
+                                <input type="checkbox" name="9" value="9" id="check_9" class="form_f_check_v1">
+                                <label for="check_9" class="form_lbl_check_v1">Forum<span class="num_v1">(1)</span></label>
+                              </li>
+                              <li class="check_item_v1">
+                                <input type="checkbox" name="10" value="10" id="check_10" class="form_f_check_v1">
+                                <label for="check_10" class="form_lbl_check_v1">Lib Teach<span class="num_v1">(1)</span></label>
+                              </li>
+                              <li class="check_item_v1">
+                                <input type="checkbox" name="11" value="11" id="check_11" class="form_f_check_v1">
+                                <label for="check_11" class="form_lbl_check_v1">Niche<span class="num_v1">(1)</span></label>
+                              </li>
+                              <li class="check_item_v1">
+                                <input type="checkbox" name="12" value="12" id="check_12" class="form_f_check_v1">
+                                <label for="check_12" class="form_lbl_check_v1">Ride<span class="num_v1">(4)</span></label>
+                              </li>
+                              <li class="check_item_v1">
+                                <input type="checkbox" name="13" value="13" id="check_13" class="form_f_check_v1">
+                                <label for="check_13" class="form_lbl_check_v1">Rome<span class="num_v1">(1)</span></label>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="form_item_v1 item_size">
+                            <div class="form_i_title_v1">Размер:</div>
+                            <div class="range_wrap">
+                              <div class="range_begin"><i class="range_text">от:</i>
+                                <input type="text" value="150" name="range_begin" readonly="readonly" class="range_field mod_1 inpMin_1">
+                              </div>
+                              <div class="range_end"><i class="range_text">до:</i>
+                                <input type="text" name="range_end" value="169" readonly="readonly" class="range_field mod_1 inpMax_1">
+                              </div>
+                              <input id="amount_1" type="text" readonly="" name="money_man" class="range_inp">
+                            </div>
+                            <div class="slider-range_w">
+                              <div id="slider"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form_item_v1">
+                          <div class="form_i_title_v1">Цена:</div>
+                          <div class="range_wrap">
+                            <div class="range_begin"><i class="range_text">от:</i>
+                              <input type="text" value="4000" name="range_begin" readonly="readonly" class="range_field inpMin_2">
+                            </div>
+                            <div class="range_end"><i class="range_text">до:</i>
+                              <input type="text" name="range_end" value="23000" readonly="readonly" class="range_field inpMax_2">
+                            </div>
+                            <input id="amount_2" type="text" readonly="" name="money_man" class="range_inp">
+                          </div>
+                          <div class="slider-range_w">
+                            <div id="slider_2"></div>
+                          </div>
+                        </div>
+                        <div class="form_foot"><span class="form_submit_v1 js_submit_1 st_1">Показать</span><span class="form_reset_v1 js_reset_1">Сбросить фильтр</span></div>
+                      </form>
+                    </div>
+                  </dd>
+                  <dt class="filter_title">Ботинки</dt>
+                  <dd class="filter_content">
+                    <div class="form_block">
+                      <form action="#" method="post">
+                        <div class="form_item_v1 mod_half">
+                          <div class="form_i_title_v1">Пол:</div>
+                          <ul class="check_list">
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="14" value="14" id="check_14" class="form_f_check_v1">
+                              <label for="check_14" class="form_lbl_check_v1">Женский<span class="num_v1">(5)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="15" value="15" id="check_15" class="form_f_check_v1">
+                              <label for="check_15" class="form_lbl_check_v1">Мужской<span class="num_v1">(17)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="form_foot"><span class="form_submit_v1 js_submit_1 st_1">Показать</span><span class="form_reset_v1 js_reset_1">Сбросить фильтр</span></div>
+                      </form>
+                    </div>
+                  </dd>
+                  <dt class="filter_title">Крепления</dt>
+                  <dd class="filter_content">
+                    <div class="form_block">
+                      <form action="#" method="post">
+                        <div class="form_item_v1 mod_half">
+                          <div class="form_i_title_v1">Пол:</div>
+                          <ul class="check_list">
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="16" value="16" id="check_16" class="form_f_check_v1">
+                              <label for="check_16" class="form_lbl_check_v1">Женский<span class="num_v1">(5)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="17" value="17" id="check_17" class="form_f_check_v1">
+                              <label for="check_17" class="form_lbl_check_v1">Мужской<span class="num_v1">(17)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="form_foot"><span class="form_submit_v1 js_submit_1 st_1">Показать</span><span class="form_reset_v1 js_reset_1">Сбросить фильтр</span></div>
+                      </form>
+                    </div>
+                  </dd>
+                  <dt class="filter_title">Одежда</dt>
+                  <dd class="filter_content">
+                    <div class="form_block">
+                      <form action="#" method="post">
+                        <div class="form_item_v1 mod_half">
+                          <div class="form_i_title_v1">Пол:</div>
+                          <ul class="check_list">
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="18" value="18" id="check_18" class="form_f_check_v1">
+                              <label for="check_18" class="form_lbl_check_v1">Женский<span class="num_v1">(5)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="19" value="19" id="check_19" class="form_f_check_v1">
+                              <label for="check_19" class="form_lbl_check_v1">Мужской<span class="num_v1">(17)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="form_foot"><span class="form_submit_v1 js_submit_1 st_1">Показать</span><span class="form_reset_v1 js_reset_1">Сбросить фильтр</span></div>
+                      </form>
+                    </div>
+                  </dd>
+                  <dt class="filter_title">Аксессуары</dt>
+                  <dd class="filter_content">
+                    <div class="form_block">
+                      <form action="#" method="post">
+                        <div class="form_item_v1 mod_half">
+                          <div class="form_i_title_v1">Пол:</div>
+                          <ul class="check_list">
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="20" value="20" id="check_20" class="form_f_check_v1">
+                              <label for="check_20" class="form_lbl_check_v1">Женский<span class="num_v1">(5)</span></label>
+                            </li>
+                            <li class="check_item_v1">
+                              <input type="checkbox" name="21" value="21" id="check_21" class="form_f_check_v1">
+                              <label for="check_21" class="form_lbl_check_v1">Мужской<span class="num_v1">(17)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="form_foot"><span class="form_submit_v1 js_submit_1 st_1">Показать</span><span class="form_reset_v1 js_reset_1">Сбросить фильтр</span></div>
+                      </form>
+                    </div>
+                  </dd>
+                </dl>
+              </div>
+            </div>
+            <div class="content_row">
+              <ul class="bread_crumbs">
+                <li class="bread_c__item"><a href="#" title="Главная" class="bread_c_i__link"><span class="bread_c_i__title">Главная</span></a></li>
+                <li class="bread_c__item"><span class="bread_c_i__title">О нас</span></li>
+              </ul>
+              <div class="content static">
+                <h1>О магазине</h1>
+                <p>BoardShop — это магазины, где Вы сможете приобрести сноуборды и все что с ними связано. В наших магазинах представлена продукция ведущих сноубордических производителей со всего мира. Ассортимент подобран таким образом, чтобы удовлетворить потребности большинства покупателей. У нас Вы никогда не найдете низкокачественную продукцию или сомнительные бренды, но при этом, покупки в наших магазинах смогут совершить, как профессионалы, привыкшие к оборудованию высшего класса, так и начинающие сноубордисты, которые ищут недорогую продукцию высокого качества.</p>
+                <p>Так же предлагаем Вашему вниманию магазины с одеждой и аксессуарами, где Вы сможете найти широчайший ассортимент всего самого необходимого для катания на доске и продукции, которая поможет Вам и Вашим друзьям еще больше погрузиться в соответствующую атмосферу, даже когда Вы не на склоне. Для тех, кто не гонится за новыми коллекциями, мы стараемся собирать максимальное количество стоков, которые продаем по очень привлекательным ценам. Помимо этого постоянные акции и спецпредложения и дисконтная система помогут Вам совершить максимально выгодную покупку. Мы настолько уверены в своих ценах, что готовы сделать еще более выгодное предложение, если где-то Вы найдете дешевле.</p>
+                <p>Территориально наши магазины находятся недалеко от ТТК, в непосредственной близости от метро Авиамоторная, в ТЦ СпорТЕХ, современном спортивном торговом центре с развитой инфраструктурой. Здесь Ваш ждут, рестораны, парковка, бесплатный Wi-Fi и сотни других спортивных магазинов.</p>
+                <h2>Описание - h2</h2>
+                <h3>Выберите размер - H3</h3>
+                <h4>Смотрите также - h4,h5,h6</h4>
+                <ul>
+                  <li><a href="#" title="#">Гарантия</a></li>
+                  <li><a href="#" title="#"> Контакты</a></li>
+                  <li><a href="#" title="#"> Наши партнеры</a></li>
+                  <li><a href="#" title="#"> Новости</a></li>
+                  <li><a href="#" title="#"> Оплата и доставка</a></li>
+                  <li><a href="#" title="#"> Подбор размера</a></li>
+                  <li><a href="#" title="#"> Правила конкурса</a></li>
+                  <li><a href="#" title="#"> Правила конкурса</a></li>
+                  <li><a href="#" title="#"> Скидки</a></li>
+                  <li><a href="#" title="#"> Статьи</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer_head">
+            <div class="follow_title_hold"><span class="follow_title">Присоединяйтесь к нам</span>
+              <ul class="follow_list">
+                <li class="follow_l_item"><a href="#" title="#" class="follow_l_i_link mod_1"></a></li>
+                <li class="follow_l_item"><a href="#" title="#" class="follow_l_i_link mod_2"></a></li>
+                <li class="follow_l_item"><a href="#" title="#" class="follow_l_i_link mod_3"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_main">
+            <div class="footer_m_item mod_1">
+              <div class="logo_box">
+                © 2011-2014. BOARDSHOP.RU
+                магазин сноубордов и
+                снаряжений в Москве
+              </div>
+              <div class="contacts_block mod_foot">
+                <ul class="contacts_list mod_foot">
+                  <li class="contacts_l_item mod_fwb st_1">+7 (495) 988 25 00</li>
+                  <li class="contacts_l_item mod_fwb st_1">8 (800) 333 82 10</li>
+                  <li class="contacts_l_item">Бесплатный звонок по России</li>
+                  <li class="contacts_l_item">пн-сб 10:00 - 18:00</li>
+                </ul>
+                <ul class="contacts_list mod_foot">
+                  <li class="contacts_l_item">г. Москва, м. Авиамоторная, ул. 5-я Кабельная, д. 2, &nbsp;<span class="nbr">стр. 1</span>&nbsp;ТРК СпортЕХ</li>
+                  <li class="contacts_l_item"><a href="#" title="#" class="contacts_l_i_link link_st_3">Схема проезда</a></li>
+                  <li class="contacts_l_item">пн-вс 10:00 - 22:00</li>
+                </ul>
+              </div>
+              <ul class="method_pays blocks_wrap">
+                <li class="method_p_item mod_1"></li>
+                <li class="method_p_item mod_2"></li>
+                <li class="method_p_item mod_3"></li>
+                <li class="method_p_item mod_4"></li>
+                <li class="method_p_item mod_5"></li>
+              </ul>
+            </div>
+            <div class="footer_m_item mod_2">
+              <h3 class="foot_title">Интернет-магазин</h3>
+              <div class="blocks_wrap">
+                <ul class="list_v1 mod_1">
+                  <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Сноуборды</a></li>
+                  <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Ботинки</a></li>
+                  <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Крепления</a></li>
+                  <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Одежда</a></li>
+                  <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Аксессуары</a></li>
+                </ul>
+                <ul class="list_v1 mod_1 st_1">
+                  <li class="list_item_v1"><a href="#" class="list_i_link_v1">Распродажа</a></li>
+                  <li class="list_item_v1"><a href="#" class="list_i_link_v1">Сток-50%</a></li>
+                </ul>
+              </div>
+              <h3 class="foot_title">Бренды</h3>
+              <ul class="list_v1 mod_3_col">
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Burton</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Anon</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rehall</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Forum</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Atom</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Ride</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Foursquare</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Backhill</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rome</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Burton</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Anon</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rehall</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Forum</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Atom</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Ride</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Foursquare</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Backhill</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rome</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Burton</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Anon</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rehall</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Forum</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Atom</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Ride</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Foursquare</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Backhill</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rome</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Burton</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Anon</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rehall</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Forum</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Atom</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Ride</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Foursquare</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Backhill</a></li>
+                <li class="list_item_v1"><a href="#" title="#" class="list_i_link_v1">Rome</a></li>
+              </ul>
+            </div>
+            <div class="footer_m_item mod_3">
+              <div class="social_block">
+                <div id="vk_groups"></div>
+                <script type="text/javascript">VK.Widgets.Group("vk_groups", {mode: 0, width: "310", height: "350", color1: 'fff', color2: '414141', color3: '414141'}, 45714908);</script>
+              </div><a href="http://magmaidea.ru/" title="Magma" target="_blank" class="develop_link">Magma</a>
+            </div>
+          </div>
+          <nav class="footer_nav_hold">
+            <ul class="footer_nav">
+              <li class="footer_n_item"><a href="#" title="#" class="footer_n_i_link">О нас</a></li>
+              <li class="footer_n_item"><a href="#" title="#" class="footer_n_i_link">Скидки</a></li>
+              <li class="footer_n_item"><a href="#" title="#" class="footer_n_i_link">Оплата и доставка</a></li>
+              <li class="footer_n_item"><a href="#" title="#" class="footer_n_i_link">Помощь</a></li>
+              <li class="footer_n_item"><a href="#" title="#" class="footer_n_i_link">Контакты</a></li>
+            </ul>
+          </nav>
+        </footer>
+      </div>
+    </div><span class="global_to_top"><span class="global_t_text">Наверх</span></span>
+    <div class="modal_wrap item_1">
+      <div class="modal_1 modal_box"><span class="modal_close"></span>
+        <div class="form_box mod_modal">
+          <div class="form_row">
+            <div class="form_item_v2">
+              <label for="name_4" class="hide">Имя:</label>
+              <input id="name_11" type="text" placeholder="Введите имя" class="form_field_v2">
+            </div>
+            <div class="form_item_v2">
+              <label for="tel_4" class="hide">Телефон:</label>
+              <input id="tel_12" type="text" placeholder="И номер телефона" class="form_field_v2">
+            </div>
+          </div>
+          <div class="form_row">
+            <input type="submit" value="Заказать звонок" class="form_submit_v2">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal_wrap">
+      <div class="modal_2 modal_box"><span class="modal_close"></span>
+        <div class="goods_modal_wrap">
+          <div class="goods_b_view mod_modal">
+            <div class="goods_img_hold mod_1"><img src="i/goods_big_1.jpg" alt=""></div>
+            <ul class="goods_b_v_thumbs mod_1">
+              <li data-source="i/goods_big_2.jpg" class="goods_thumbs_item active"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_3.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_1.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_2.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_3.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+            </ul>
+          </div>
+          <div class="goods_data_v2 mod_modal">
+            <div class="brand mod_1">Бренд: Burton</div>
+            <h3 class="goods_title"><a href="#" title="">Сноуборд Burton Blunt (13-14)</a></h3>
+            <div class="goods_price_hold_v2 mod_1">
+              <div class="goods_price_w"><span class="goods_p_current mod_1">13 388</span><span class="goods_p_old mod_1">17 850</span>
+                <div class="btn_w mod_modal_1"><a href="#" class="btn_v2 st_2">Купить</a></div>
+              </div>
+            </div>
+            <div class="buy_details"><span class="buy_d_item mod_enable">В наличие</span><span class="buy_d_item mod_delivery">Доставка бесплатно</span>
+              <div class="btn_w mod_modal_1"><a href="#" class="link_control_v1 js_control_v4">Купить в 1 клик</a></div>
+            </div>
+            <div class="size_block">
+              <h3 class="title_v2">Выберите размер</h3>
+              <ul class="size_list">
+                <li class="size_l_item">
+                  <input id="size_1" type="radio" value="1" name="size" checked="checked" class="inp_rad">
+                  <label for="size_1" class="size_lbl checked">156 W</label>
+                </li>
+                <li class="size_l_item">
+                  <input id="size_2" type="radio" value="1" name="size" class="inp_rad">
+                  <label for="size_2" class="size_lbl">158 W</label>
+                </li>
+                <li class="size_l_item">
+                  <input id="size_3" type="radio" value="1" name="size" class="inp_rad">
+                  <label for="size_3" class="size_lbl">160 W</label>
+                </li>
+              </ul>
+              <h3 class="title_v2">Спецификация burton ripcord</h3>
+              <div class="table_w">
+                <table class="data_table">
+                  <tr>
+                    <td>Пол</td>
+                    <td>мужской</td>
+                  </tr>
+                  <tr>
+                    <td>Сезон</td>
+                    <td>13-14</td>
+                  </tr>
+                  <tr>
+                    <td>Стиль</td>
+                    <td>Универсальный</td>
+                  </tr>
+                  <tr>
+                    <td>Уровень</td>
+                    <td>Новичок</td>
+                  </tr>
+                  <tr>
+                    <td>Прогиб</td>
+                    <td>Banana</td>
+                  </tr>
+                  <tr>
+                    <td>Геометрия</td>
+                    <td>Directional</td>
+                  </tr>
+                  <tr>
+                    <td>Жесткость</td>
+                    <td>3</td>
+                  </tr>
+                  <tr>
+                    <td>Сердечник</td>
+                    <td>Fly</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div><a class="control_v1 control_prev"></a><a class="control_v1 control_next"></a>
+        </div>
+      </div>
+    </div>
+    <div class="modal_wrap">
+      <div class="modal_3 modal_box"><span class="modal_close"></span>
+        <div class="goods_modal_wrap">
+          <div class="goods_b_view mod_modal">
+            <div class="goods_img_hold mod_1"><img src="i/goods_big_1.jpg" alt=""></div>
+            <ul class="goods_b_v_thumbs mod_1">
+              <li data-source="i/goods_big_2.jpg" class="goods_thumbs_item active"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_3.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_1.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_2.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+              <li data-source="i/goods_big_3.jpg" class="goods_thumbs_item"><img src="i/thumbs_1.jpg" alt=""></li>
+            </ul>
+          </div>
+          <div class="goods_data_v2 mod_modal">
+            <div class="brand mod_1">Бренд: Burton</div>
+            <h3 class="goods_title"><a href="#" title="">Сноуборд Burton Blunt (13-14)</a></h3>
+            <div class="goods_price_hold_v2">
+              <div class="goods_price_w"><span class="goods_p_current mod_1">13 388</span><span class="goods_p_old mod_1">17 850</span></div>
+            </div>
+            <div class="buy_details"><span class="buy_d_item mod_disable">Нет в наличии</span></div>
+            <div class="form_notice">
+              Товара нет в наличии, но мы можем попробовать найти альтернативу. Для этого заполните поля из формы
+              ниже:
+            </div>
+            <div class="form_box mod_modal">
+              <div class="form_row">
+                <label for="name_4" class="hide">Имя:</label>
+                <input id="name_4" type="text" placeholder="Введите имя" class="form_field_v2">
+              </div>
+              <div class="form_row">
+                <label for="tel_4" class="hide">Телефон:</label>
+                <input id="tel_4" type="text" placeholder="Введите номер телефона" class="form_field_v2">
+              </div>
+              <div class="form_row">
+                <input type="submit" value="Подобрать альтернативу" class="form_submit_v2">
+              </div>
+            </div>
+          </div><a class="control_v1 control_prev"></a><a class="control_v1 control_next"></a>
+        </div>
+      </div>
+    </div>
+    <div class="modal_wrap">
+      <div class="modal_4 modal_box"><span class="modal_close"></span>
+        <div class="goods_modal_wrap">
+          <div class="goods_b_view mod_modal mod_1">
+            <div class="goods_img_hold mod_1 size_1"><img src="i/goods_click.jpg" alt=""></div>
+          </div>
+          <div class="goods_data_v2 mod_modal">
+            <h3 class="goods_title"><a href="#" title="">Сноуборд Burton Blunt (13-14)</a></h3>
+            <div class="form_box mod_modal">
+              <div class="form_row">
+                <label for="name_4" class="hide">Имя:</label>
+                <input id="name_13" type="text" placeholder="Введите имя" class="form_field_v2">
+              </div>
+              <div class="form_row">
+                <label for="tel_4" class="hide">Телефон:</label>
+                <input id="tel_13" type="text" placeholder="Введите номер телефона" class="form_field_v2">
+              </div>
+              <div class="form_row">
+                <input type="submit" value="Купить сейчас" class="form_submit_v2">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="side_panel">
+      <div class="goods_side">
+        <ul class="goods_list">
+                  <li class="goods_item">
+                    <div class="goods_i_box">
+                      <h3 class="goods_name_v1"><a href="#" title="#">Сноуборд Burton Clash (13 - 14) </a></h3><a href="#" class="goods_img_v1"><img src="i/content/goods_1.jpg" alt=""><span class="goods_view js_control_v2"></span></a>
+                      <div class="goods_price_hold">
+                        <div class="goods_p_w"><span class="goods_p_current">4 690</span><span class="rbl">c</span></div>
+                        <div class="goods_p_w"><span class="goods_p_old">6 255</span><span class="rbl st_2">a</span></div><span class="percent">%</span>
+                      </div><a href="#" title="#" class="btn_v1 st_1">Купить</a>
+                      <div class="btn_hold tac mod_buy"><a href="#" title="#" class="link_control_v1 js_control_v4 btn_one">Купить в 1 клик</a></div>
+                      <dl class="goods_aux_info blocks_wrap">
+                        <dt>Бренд:</dt>
+                        <dd>Burton</dd>
+                        <dt>Пол:</dt>
+                        <dd>мужской</dd>
+                        <dt>Размер:</dt>
+                        <dd>157 W</dd>
+                      </dl>
+                    </div>
+                  </li>
+                  <li class="goods_item">
+                    <div class="goods_i_box">
+                      <h3 class="goods_name_v1"><a href="#" title="#">Ботинки Forum Fastplant (12-13)</a></h3><a href="#" class="goods_img_v1"><img src="i/content/goods_1.jpg" alt=""><span class="goods_view js_control_v2"></span></a>
+                      <div class="goods_price_hold">
+                        <div class="goods_p_w"><span class="goods_p_current">4 690</span><span class="rbl">c</span></div>
+                        <div class="goods_p_w"><span class="goods_p_old">6 255</span><span class="rbl st_2">a</span></div><span class="percent">%</span>
+                      </div><a href="#" title="#" class="btn_v1 st_1">Купить</a>
+                      <div class="btn_hold tac mod_buy"><a href="#" title="#" class="link_control_v1 js_control_v4 btn_one">Купить в 1 клик</a></div>
+                      <dl class="goods_aux_info blocks_wrap">
+                        <dt>Бренд:</dt>
+                        <dd>Burton</dd>
+                        <dt>Пол:</dt>
+                        <dd>мужской</dd>
+                        <dt>Размер:</dt>
+                        <dd>157 W</dd>
+                      </dl>
+                    </div>
+                  </li>
+                  <li class="goods_item">
+                    <div class="goods_i_box">
+                      <h3 class="goods_name_v1"><a href="#" title="#">Ботинки Forum Fastplant (12-13)</a></h3><a href="#" class="goods_img_v1"><img src="i/content/goods_1.jpg" alt=""><span class="goods_view js_control_v2"></span></a>
+                      <div class="goods_price_hold">
+                        <div class="goods_p_w"><span class="goods_p_current">4 690</span><span class="rbl">c</span></div>
+                        <div class="goods_p_w"><span class="goods_p_old">6 255</span><span class="rbl st_2">a</span></div><span class="percent">%</span>
+                      </div><a href="#" title="#" class="btn_v1 st_1">Купить</a>
+                      <div class="btn_hold tac mod_buy"><a href="#" title="#" class="link_control_v1 js_control_v4 btn_one">Купить в 1 клик</a></div>
+                      <dl class="goods_aux_info blocks_wrap">
+                        <dt>Бренд:</dt>
+                        <dd>Burton</dd>
+                        <dt>Пол:</dt>
+                        <dd>мужской</dd>
+                        <dt>Размер:</dt>
+                        <dd>157 W</dd>
+                      </dl>
+                    </div>
+                  </li>
+                  <li class="goods_item">
+                    <div class="goods_i_box">
+                      <h3 class="goods_name_v1"><a href="#" title="#">Ботинки Forum Fastplant (12-13)</a></h3><a href="#" class="goods_img_v1"><img src="i/content/goods_1.jpg" alt=""><span class="goods_view js_control_v2"></span></a>
+                      <div class="goods_price_hold">
+                        <div class="goods_p_w"><span class="goods_p_current">4 690</span><span class="rbl">c</span></div>
+                        <div class="goods_p_w"><span class="goods_p_old">6 255</span><span class="rbl st_2">a</span></div><span class="percent">%</span>
+                      </div><a href="#" title="#" class="btn_v1 st_1">Купить</a>
+                      <div class="btn_hold tac mod_buy"><a href="#" title="#" class="link_control_v1 js_control_v4 btn_one">Купить в 1 клик</a></div>
+                      <dl class="goods_aux_info blocks_wrap">
+                        <dt>Бренд:</dt>
+                        <dd>Burton</dd>
+                        <dt>Пол:</dt>
+                        <dd>мужской</dd>
+                        <dt>Размер:</dt>
+                        <dd>157 W</dd>
+                      </dl>
+                    </div>
+                  </li>
+        </ul>
+      </div>
+      <h3 class="btn_side">Недавно смотрели:</h3>
+    </div>
+    <div class="side_panel_background"></div>
+  </body>
+</html>

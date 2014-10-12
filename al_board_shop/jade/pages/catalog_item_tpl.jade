@@ -1,0 +1,144 @@
+include ../templates/mixins
+.main_row
+		.section
+				include ../templates/primary_row
+				.content_row
+						ul.bread_crumbs
+								li.bread_c__item
+										a.bread_c_i__link(href='#', title='Главная')
+												span.bread_c_i__title Главная
+								li.bread_c__item
+										a.bread_c_i__link(href='#', title='Сноуборды')
+												span.bread_c_i__title Сноуборды
+								li.bread_c__item
+										a.bread_c_i__link(href='#', title='Burton')
+												span.bread_c_i__title Burton
+								li.bread_c__item
+										span.bread_c_i__title Blunt
+						.goods_block
+								.goods_b_head
+										h1.goods_name_v2 Сноуборд Burton Blunt (13-14)
+										.brand Бренд: Burton
+								.goods_b_view
+										.goods_img_hold
+												img(src='i/goods_big_1.jpg')
+										ul.goods_b_v_thumbs
+												li.goods_thumbs_item.active(data-source='i/goods_big_2.jpg')
+														img(src='i/thumbs_1.jpg')
+												li.goods_thumbs_item(data-source='i/goods_big_3.jpg')
+														img(src='i/thumbs_1.jpg')
+												li.goods_thumbs_item(data-source='i/goods_big_1.jpg')
+														img(src='i/thumbs_1.jpg')
+												li.goods_thumbs_item(data-source='i/goods_big_2.jpg')
+														img(src='i/thumbs_1.jpg')
+												li.goods_thumbs_item(data-source='i/goods_big_3.jpg')
+														img(src='i/thumbs_1.jpg')
+												li.goods_thumbs_item(data-source='i/goods_big_1.jpg')
+														img(src='i/thumbs_1.jpg')
+												li.goods_thumbs_item(data-source='i/goods_big_2.jpg')
+														img(src='i/thumbs_1.jpg')
+												li.goods_thumbs_item(data-source='i/goods_big_3.jpg')
+														img(src='i/thumbs_1.jpg')
+								.goods_data_v2
+										.goods_price_hold_v2
+												.goods_price_w
+														span.goods_p_current.mod_1
+																| 13 388
+																span.rbl.st_3 a
+														span.goods_p_old.mod_1 17 850
+														span.rbl.st_4 a
+												span.percent %
+										.buy_details
+												span.buy_d_item.mod_enable В наличие
+												span.buy_d_item.mod_delivery Доставка бесплатно
+										.size_block
+												h3.title_v2 Выберите размер
+												ul.size_list
+														li.size_l_item
+																input(type='radio', value='1', id='size_1', class='inp_rad', name='size', checked)
+																label.size_lbl.checked(for='size_1') 156 W
+														li.size_l_item
+																input(type='radio', value='1', id='size_2', class='inp_rad',name='size')
+																label.size_lbl(for='size_2') 158 W
+														li.size_l_item
+																input(type='radio', value='1', id='size_3', class='inp_rad',name='size')
+																label.size_lbl(for='size_3') 160 W
+												.btn_hold.mod_1
+														.btn_w.size_50
+																a.btn_v2.st_1.js_control_v4.btn_one(href='#') Купить в 1 клик
+														.btn_w.size_50
+																a.btn_v2.st_2.mod_full(href='#') Купить
+
+						.goods_data_v3
+								.tabs_block
+										ul.tabs
+												li.tabs_item.selected(data-tab='1') Описание
+												li.tabs_item(data-tab='2') Характеристики
+										ul.tabs_contents
+												li.tabs_c_item.selected(data-content='1')
+														.text_v2
+																p Burton Blunt - это отличная парковая доска, ориентированная, преимущественно на джиббинг. Но на ней можно спокойно начинать свой путь в сноубординге новичкам. Ведь доска сама по себе мягкая и податливая, что позитивно сказывается на прогрессе в катании.  Графика - Jeff Fried.
+																p Система закладных ICS. Форма Twin. Сердечник - Fly Core. Scoop, Jumper Cables, Frostbite Edges,  Pro-Tip.
+												li.tabs_c_item(data-content='2')
+														.text_v2
+																h3.title_v2 Спецификация burton ripcord
+																.table_w
+																		table.data_table
+																				tr
+																						td Пол
+																						td мужской
+																				tr
+																						td Сезон
+																						td 13-14
+																				tr
+																						td Стиль
+																						td Универсальный
+																				tr
+																						td Уровень
+																						td Новичок
+																				tr
+																						td Прогиб
+																						td Banana
+																				tr
+																						td Геометрия
+																						td Directional
+																				tr
+																						td Жесткость
+																						td 3
+																				tr
+																						td Сердечник
+																						td Fly
+								.aux_information.static_v2
+										h4 Смотреть:
+										ul
+												li
+														a(href="#" title="#") Все сноуборды бренда
+												li
+														a(href="#" title="#") Все товары бренда
+												li
+														a(href="#" title="#") Все товары
+						.shares_block
+								dl.shares_box
+										dt Поделиться в соцсетях:
+										dd
+												img(src='i/shares_block.jpg')
+						.reviews_block
+								h2.title_v3 Отзывы
+								.reviews_hold
+										img(src='i/vk_reviews.jpg')
+						.goods_wrapper.mod_3.mb_1
+								h2.title_row
+										span С этим покупают
+								ul.goods_list.slider_1
+										+goods('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+
+
+
+
+
+
+
+

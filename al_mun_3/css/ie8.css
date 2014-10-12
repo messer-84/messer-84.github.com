@@ -1,0 +1,35 @@
+.content_row {
+  background: #fff;
+}
+
+.inp_check {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.form_file {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.event_block:before {
+  background: #f1f4f0;
+}
+
+.nav_hold:before {
+  background: #4a6f1d;
+}
+
+.menu_link:hover, .menu_link.active {
+  background: #7ba12c;
+}
+
+.submenu {
+  background: #7ba12c;
+}
+
+.item_v1.child_3 ~ .item_v1 {
+  display: none;
+}
+
+.modal_docs {
+  outline: 4px solid #ccc;
+}

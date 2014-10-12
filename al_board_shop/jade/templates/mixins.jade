@@ -1,0 +1,103 @@
+mixin goods(name, img_src, price_current, price_old)
+		li.goods_item
+				.goods_i_box
+						h3.goods_name_v1
+								a(href="#" title="#") #{name}
+						a(href='#').goods_img_v1
+								img(src='#{img_src}', alt='')
+								span.goods_view.js_control_v2
+
+						.goods_price_hold
+								.goods_p_w
+										span.goods_p_current #{price_current}
+										span.rbl c
+								.goods_p_w
+										span.goods_p_old #{price_old}
+										span.rbl.st_2 a
+								span.percent %
+						a.btn_v1.st_1(href="#" title="#") Купить
+						.btn_hold.tac.mod_buy
+								a.link_control_v1.js_control_v4.btn_one(href="#" title="#") Купить в 1 клик
+						dl.goods_aux_info.blocks_wrap
+								dt Бренд:
+								dd Burton
+								dt Пол:
+								dd мужской
+								dt Размер:
+								dd 157 W
+
+mixin goods_one_price(name, img_src, price_current, price_old)
+		li.goods_item
+				.goods_i_box
+						h3.goods_name_v1
+								a(href="#" title="#") #{name}
+						a(href='#').goods_img_v1
+								img(src='#{img_src}', alt='')
+								span.goods_view.js_control_v2
+						.goods_price_hold.one_price
+								.goods_p_w
+										span.goods_p_current #{price_current}
+										span.rbl c
+						a.btn_v1.st_1(href="#" title="#") Купить
+						.btn_hold.tac.mod_buy
+								a.link_control_v1.js_control_v4.btn_one(href="#" title="#") Купить в 1 клик
+						dl.goods_aux_info.blocks_wrap
+								dt Бренд:
+								dd Burton
+								dt Пол:
+								dd мужской
+								dt Размер:
+								dd 157 W
+
+mixin goods_full(name, img_src, price_current, price_old)
+		li.goods_item.mod_1
+				.goods_i_box.mod_1
+						h3.goods_name_v1.mod_1
+								a(href="#" title="#") #{name}
+						a(href='#').goods_img_v1.mod_1
+								img(src='#{img_src}', alt='')
+								span.goods_view.mod_1.js_control_v3
+						.goods_data_v1
+								.goods_price_hold.mod_1
+										.goods_p_w
+												span.goods_p_current #{price_current}
+												span.rbl c
+										.goods_p_w
+												span.goods_p_old #{price_old}
+												span.rbl.st_2 a
+										span.percent %
+								a.btn_v1.st_1(href="#" title="#") Купить
+								.btn_hold.tac.mod_buy.mod_1
+										a.link_control_v1.js_control_v4.btn_one(href="#" title="#") Купить в 1 клик
+						dl.goods_aux_info.blocks_wrap.mod_1
+								dt Бренд:
+								dd Burton
+								dt Пол:
+								dd мужской
+								dt Размер:
+								dd 157 W
+						.goods_desc Шикарная доска во всех смыслах этого слова. Она действительно универсальная, на ней вы будите себя уютно чувствовать, как и на склоне для обычного катания, так и в горах где-нибудь высоко! Шикарная доска во всех смыслах этого слова. Она действительно универсальная, на ней вы будите себя уютно чувствовать, как и на склоне для обычного катания, так и в горах где-нибудь высоко!
+mixin goods_full_one_price(name, img_src, price_current, price_old)
+		li.goods_item.mod_1
+				.goods_i_box.mod_1
+						h3.goods_name_v1.mod_1
+								a(href="#" title="#") #{name}
+						a(href='#').goods_img_v1.mod_1
+								img(src='#{img_src}', alt='')
+								span.goods_view.mod_1.js_control_v3
+						.goods_data_v1
+								.goods_price_hold.mod_1.one_price
+										.goods_p_w
+												span.goods_p_current #{price_current}
+												span.rbl c
+								a.btn_v1.st_1(href="#" title="#") Купить
+								.btn_hold.tac.mod_buy.mod_1
+										a.link_control_v1.js_control_v4.btn_one(href="#" title="#") Купить в 1 клик
+						dl.goods_aux_info.blocks_wrap.mod_1
+								dt Бренд:
+								dd Burton
+								dt Пол:
+								dd мужской
+								dt Размер:
+								dd 157 W
+						.goods_desc Шикарная доска во всех смыслах этого слова. Она действительно универсальная, на ней вы будите себя уютно чувствовать, как и на склоне для обычного катания, так и в горах где-нибудь высоко! Шикарная доска во всех смыслах этого слова. Она действительно универсальная, на ней вы будите себя уютно чувствовать, как и на склоне для обычного катания, так и в горах где-нибудь высоко!

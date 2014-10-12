@@ -1,0 +1,72 @@
+include ../templates/mixins
+.main_row
+		.section
+				include ../templates/primary_row_text
+				.content_row
+						ul.bread_crumbs
+								li.bread_c__item
+										a.bread_c_i__link(href='#', title='Главная')
+												span.bread_c_i__title Главная
+								li.bread_c__item
+										span.bread_c_i__title Сноубордов
+						.content
+								h1 Каталог сноубордов
+								.sort_block
+										.sort_box.mod_1
+												dl.sort_item
+														dt Сортировать по:
+														dd.sort_sub_item
+																span.sort_name цене
+																span.sort_up.active
+																span.sort_down
+														dd.sort_sub_item
+																span.sort_name названию
+																span.sort_up
+																span.sort_down
+										.sort_box.mod_2
+												dl.sort_item
+														dt Выводить по:
+														dd.sort_link_w.active
+																a.sort_link(href='#') 20
+														dd.sort_link_w
+																a.sort_link(href='#') 32
+														dd.sort_link_w
+																a.sort_link(href='#') 40
+														dd.sort_link_w
+																a.sort_link(href='#') Все
+										.sort_box.mod_3
+												dl.sort_item.mod_1
+														dt Вид:
+														dd.type.type_1
+														dd.type.type_2.active
+								ul.goods_list.mod_1
+										+goods_full('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods_full('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods_full_one_price('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods_full('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods_full('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										+goods_full('Ботинки Forum Fastplant (12-13)','i/content/goods_1.jpg','4 690','6 255')
+										li.goods_view_more
+												a.goods_v_m_link(href='#') Показать еще 20 товаров (всего 50)
+								a.butt_view_more(href='#') Показать еще 20 товаров (всего 58)
+								.pagination
+										ul.pages_list
+												li.pages__item.mod_begin
+														a.pages__link(href='#', title='')
+												li.pages__item.mod_prev
+														a.pages__link(href='#', title='')
+												li.pages__item.active
+														a.pages__link(href='#', title='') 1
+												li.pages__item
+														a.pages__link(href='#', title='') 2
+												li.pages__item
+														a.pages__link(href='#', title='') 3
+												li.pages__item
+														a.pages__link(href='#', title='') 4
+												li.pages__item
+														a.pages__link(href='#', title='') 5
+												li.pages__item.mod_next
+														a.pages__link(href='#', title='')
+												li.pages__item.mod_end
+														a.pages__link(href='#', title='')
+

@@ -1,0 +1,72 @@
+$develop: false;
+$production: true;
+$all: false;
+$ie9: false;
+$ie8: true;
+$ie7: false;
+$doc: false;
+$local_var: global;
+
+@import "includes_ie_8";
+
+.header{
+	background: #181818;
+}
+
+.price_block,
+.price_box{
+	background: #282828;
+}
+
+.price_table,
+.price_table_v2{
+	td{
+		background: #222;
+	}
+}
+
+.works_g_i_link{
+	&:hover,
+	&:focus{
+		&:after{
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		}
+	}
+}
+
+
+.works_g_title_v2{
+	background: #fff;
+}
+
+.works_data{
+	background: #fff;
+}
+
+.copyrights_box{
+	&:before{
+		background: #24fe51;
+	}
+}
+.nav_item{
+	&.child_3{
+		right: -24px;
+	}
+	&.child_4{
+		margin: 0 0 0 420px;
+		right: -9px;
+	}
+}
+.pages__item.mod_prev{
+	.pages__link:before{
+		top: 5px;
+		right: 12px;
+	}
+}
+
+.pages__item.mod_next{
+	.pages__link:before{
+		left: 12px;
+		top: 5px;
+	}
+}

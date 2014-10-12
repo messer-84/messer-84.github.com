@@ -1,0 +1,145 @@
+include ../templates/mixins
+.main_row
+		.section
+				.content_row.mod_full
+						ul.bread_crumbs
+								li.bread_c__item
+										a.bread_c_i__link(href='#', title='Главная')
+												span.bread_c_i__title Главная
+								li.bread_c__item
+										span.bread_c_i__title Корзина
+						.content
+								h1 Ваша корзина
+								.ribbon_row
+										.ribbon_title Список товаров
+								.order_head
+										.order_h_row
+												.order_th.mod_1 Товар
+												.order_th.mod_2
+												.order_th.mod_3 Цена
+												.order_th.mod_4 Кол-во
+												.order_th.mod_5 Итого
+												.order_th.mod_6
+								.order_main
+										.box
+												.img_box.box_td.mod_1
+														a(href='#')
+																img(src='i/goods_order_1.jpg', alt='')
+												.name_box.box_td.mod_2
+														a.name_title(href='#') Крепления для сноубордов Burton Freestyle (13-14)
+														dl.name_b_details
+																dt Размер:
+																dd L
+												.price_box.box_td.mod_3
+														span.price_b_sum 5 100
+																span.rbl.st_5 a
+												.amt_box.box_td.mod_4
+														.amt_fw
+																span.mns –
+																input.form_field(type='text', value='1')
+																span.pls +
+												.total_box.box_td.mod_5
+														span.price_b_sum.mod_1 5 100
+																span.rbl.st_5 c
+												.del_box.box_td.mod_6
+														span.del_btn
+										.box
+												.img_box.box_td.mod_1
+														a(href='#')
+																img(src='i/goods_order_1.jpg', alt='')
+												.name_box.box_td.mod_2
+														a.name_title(href='#') Крепления для сноубордов Burton Freestyle (13-14)
+														dl.name_b_details
+																dt Размер:
+																dd L
+												.price_box.box_td.mod_3
+														span.price_b_sum 5 100
+																span.rbl.st_5 a
+												.amt_box.box_td.mod_4
+														.amt_fw
+																span.mns –
+																input.form_field(type='text', value='1')
+																span.pls +
+												.total_box.box_td.mod_5
+														span.price_b_sum.mod_1 5 100
+																span.rbl.st_5 c
+												.del_box.box_td.mod_6
+														span.del_btn
+										.box
+												.img_box.box_td.mod_1
+														a(href='#')
+																img(src='i/goods_order_1.jpg', alt='')
+												.name_box.box_td.mod_2
+														a.name_title(href='#') Крепления для сноубордов Burton Freestyle (13-14)
+														dl.name_b_details
+																dt Размер:
+																dd L
+												.price_box.box_td.mod_3
+														span.price_b_sum 5 100
+																span.rbl.st_5 a
+												.amt_box.box_td.mod_4
+														.amt_fw
+																span.mns –
+																input.form_field(type='text', value='1')
+																span.pls +
+												.total_box.box_td.mod_5
+														span.price_b_sum.mod_1 5 100
+																span.rbl.st_5 c
+												.del_box.box_td.mod_6
+														span.del_btn
+
+								.order_foot
+										.field_w
+												input.form_field.mod_1(type='text', placeholder='Введите промо-код или номер карты')
+										dl.order_f_data
+												dt.order_f_dt Итого:
+												dd.order_f_dd 18 121
+								.ribbon_row
+										.ribbon_title Оформление заказа
+								.form_order_block
+										ul.form_list
+												li.form_item
+														label.form_lbl(for='user_name')
+																span.form_l_text.st_1 Фамилия, Имя *
+																span.form_l_text.st_2 Так мы будем к Вам обращаться
+														input#user_name.form_field(type='text', name='user_name', placeholder='Фамилия, Имя *')
+												li.form_item
+														label.form_lbl(for='telephone')
+																span.form_l_text.st_1 Телефон *
+																span.form_l_text.st_2 Позвоним для подтверждения заказа
+														input#telephone.form_field(type='text', name='telephone', placeholder='Телефон *')
+												li.form_item
+														label.form_lbl(for='email')
+																span.form_l_text.st_1 E-mail *
+																span.form_l_text.st_2 На электронный адрес вам будет отправлена информация о Вашем заказе.
+														input#email.form_field(type='email', name='email', placeholder='E-mail')
+												li.form_item
+														label.form_lbl(for='address')
+																span.form_l_text.st_1 Адрес
+																span.form_l_text.st_2 Куда будет доставлен товар
+														textarea#address.form_field.ta_1(type='text', name='address', placeholder="Адрес")
+												li.form_item
+														label.form_lbl(for='method_delivery')
+																span.form_l_text.st_1 Способ доставки
+																span.form_l_text.st_2 Выберите удобный способ доставки
+														.field_fw.mod_sel
+																select(name="reg_field_16", id="method_delivery", class="form_select w54")
+																		option(value="0") Способ доставки
+																		option(value="1") Курьером по Москве бесплатно
+																		option(value="2") Доставка по России бесплатно при заказе от 5000 руб.
+																		option(value="3") Самовывоз, ул. 5-ая Кабельная
+												li.form_item
+														label.form_lbl(for='method_pay')
+																span.form_l_text.st_1 Способ оплаты
+																span.form_l_text.st_2 Выберите способ оплаты
+														.field_fw.mod_sel
+																select(name="reg_field_16", id="method_pay", class="form_select")
+																		option(value="", disabled,selected) Способ оплаты
+																		option(value="1") Наличными при получении
+																		option(value="2") Вы можете оформить кредит сейчас
+																		option(value="3") Оплата картой при получении
+																		option(value="4") Электронные платежи
+										.btn_hold.tar.mod_submit
+												input.btn_v2.st_2.mod_1.mod_full(type="submit", value="Оформить заказ")
+
+
