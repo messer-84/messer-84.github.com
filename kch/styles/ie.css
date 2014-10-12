@@ -1,0 +1,124 @@
+@import "main.css";
+
+.item_5n,
+.item_4n,
+.collections_item:first-child,
+.gallery_v1_item:first-child {
+	margin: 0;
+}
+.nav_lv{
+	display: inline;
+}
+.add_cart{
+	margin: 0 12px 0 0;
+	background-position: 0 8px;
+}
+
+.item_5n_mod {
+	margin: 0 0 8px 8px;
+}
+
+.gallery_v1_i_hidden_block,
+.collections_i_hidden_block,
+.product_hidden_block {
+	display: none;
+}
+
+.gallery_v1_i_link:hover .gallery_v1_i_hidden_block,
+.collections_i_link:hover .collections_i_hidden_block,
+.product_w:hover .product_hidden_block {
+	background: url(../i/black_50.png) 0 0 repeat;
+	display: block;
+}
+
+.hidden_block_after{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	top: 50%;
+	left: 50%;
+	background: url(../i/loupe.png) 0 0 no-repeat;
+	margin: -14px 0 0 -14px;
+}
+
+.cart,
+.back,
+.products_count {
+	behavior: url(styles/PIE.htc);
+}
+
+
+.products_count {
+	border: 2px solid #fff;
+}
+.cart_after {
+	z-index: 1;
+	position: absolute;
+	bottom: 1px;
+	left: -10px;
+	width: 140px;
+	height: 50px;
+	background: #fff;
+	border-radius: 0 0 50% 50%;
+	cursor: pointer;
+}
+
+.hline_v3_before,
+.hline_v3_after{
+	position: absolute;
+	top: 0;
+	width: 40px;
+	height: 53px;
+	background-image: url(../i/hline_v3_all.png);
+	background-repeat: no-repeat;
+	background-color: #fff;
+}
+.hline_v3_before{
+	left: -40px;
+	background-position: 0 0;
+}
+
+.hline_v3_after{
+	right: -40px;
+	background-position: 100% 0;
+}
+.hline_v3_line{
+	position: absolute;
+	top: 46px;
+	height: 1px;
+	width: 100%;
+	left: 0;
+	border-top:1px solid #999;
+}
+
+.hline_v4_after{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 250px;
+	height: 9px;
+	margin: 0 0 0 -125px;
+	background-image: url(../i/hline_v4.png);
+}
+.collections_list{
+	padding: 10px;
+}
+.scroll-content {
+	margin: 0 0 16px;
+}
+
+.scroll_before,
+.scroll_after{
+	z-index: 100;
+	position: absolute;
+	top: 10px;
+	width: 10px;
+	height: 246px;
+	background: #fff;
+}
+.scroll_before{
+	left: 0;
+}
+.scroll_after{
+	right: 0;
+}
