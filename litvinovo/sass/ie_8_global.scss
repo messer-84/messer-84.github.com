@@ -1,0 +1,73 @@
+$develop: false;
+$production: true;
+$all: false;
+$ie9: false;
+$ie8: true;
+$ie7: false;
+$doc: false;
+$local_var: global;
+
+@import "includes_ie_8";
+
+.main_page .wrapper:before,
+.main_title{
+	background: url(../i/black_60.png) 0 0 repeat;
+}
+
+
+
+.form_box.mod_contacts{
+	background: #636363;
+}
+.gallery_date{
+	display: none;
+}
+.gallery_item:hover{
+	.gallery_date{
+		display: block;
+	}
+}
+
+
+
+.inp_rad,
+.inp_check{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.type_lbl{
+	&.checked{
+		color: #fff;
+		background: #31c84c;
+	}
+}
+
+
+.form_lbl_v1.checked:before{
+	display: block;
+}
+
+.works_g_i_link{
+	&:hover,
+	&:focus{
+		&:after{
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+		}
+	}
+}
+.bx-pager-link{
+	background: #fff;
+}
+.btn_look{
+	border:4px solid #ddd;
+	background: #fff  url(../i/icon_loc_2.png) 50% 43px no-repeat;
+}
+
+
+.obj_v_row{
+	border-top: 1px solid #ddd;
+	&:first-child{
+		border-top: none;
+	}
+}
+
