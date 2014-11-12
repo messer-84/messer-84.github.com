@@ -1,0 +1,165 @@
+mixin object_item
+	li.objects_item
+		.objects_box
+			a.obj_img(href="#" title="#")
+				img(src="i/content/face.jpg", alt="")
+			.obj_desc
+				.obj_d_item.mod_1
+					a(href="#").obj_name
+						span.st_1 Иванов
+						span.st_2 Порфирий Петрович
+				.obj_d_item.mod_2 Врач-офтальмолог
+				.obj_d_item.mod_3 Стаж работы: 25 лет
+				.obj_d_item.mod_4
+					a.obj_btn.btn_v1.st_2.js_order(href="#" title="#") Записаться на прием
+			.obj_footer
+				a.obj_link.mod_1(href="#" title="#")
+					span.obj_l_text.st_1 Подробнее
+				a.obj_link.mod_1(href="#" title="#")
+					span.obj_l_text.st_2 Расписание
+
+mixin object_item_v2
+	li.objects_item
+		.objects_box.mod_h_1
+			a.obj_img.mod_1(href="#" title="#")
+				img(src="i/content/mrt.jpg", alt="")
+			.obj_desc.mod_h_1
+				.obj_d_item.mod_5
+					a(href="#" title="#") Тамограф Phillips Pfl 90033 z
+			.obj_footer
+				a.obj_link.mod_1.w_full(href="#" title="#")
+					span.obj_l_text.st_1 Подробнее
+
+
+
+mixin nav_item(text)
+	li.nav_item
+		a.nav_link(href="#" title="#") #{text}
+
+mixin nav_item_active(text)
+	li.nav_item.active
+		a.nav_link(href="#" title="#") #{text}
+
+
+mixin note(note_text)
+	.note
+		span.note_link
+		span.note_text #{note_text}
+mixin note_field(note_text)
+	.note.note_field
+		span.note_link
+		span.note_text #{note_text}
+
+mixin form_cell_lbl_left(dl_class, lbl_text)
+	dl(class='form_cell_v1 mod_lbl_left #{dl_class}')
+		dt.form_hline_v1
+			label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+		dd.form_f_w_v1
+			input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_email_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='email',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='email',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_textarea_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				textarea.f_field_v1.mod_ta.size_ta_1(type='textarea',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				textarea.f_field_v1.mod_ta.size_ta_1(type='textarea',id='field_#{n}', name='field_#{n}')
+
+mixin check_item(lbl_mod_class, lbl_text)
+	if lbl_mod_class == false
+		li.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label.form_lbl_check_v1(for="check_#{check_id}") #{lbl_text}
+	else
+		li.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label(class='form_lbl_check_v1 #{lbl_mod_class}', for="check_#{check_id}") #{lbl_text}
+
+mixin check_block(lbl_mod_class, lbl_text)
+	if lbl_mod_class == false
+		.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label.form_lbl_check_v1(for="check_#{check_id}") #{lbl_text}
+	else
+		.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label(class='form_lbl_check_v1 #{lbl_mod_class}', for="check_#{check_id}") #{lbl_text}
+
+
+mixin price_item
+	li.price_item
+		.price_head.js_price_ctrl
+			h2.price_ctg_name Общая диагностика
+			span.price_control развернуть
+		.price_main
+			table.price_table
+				tr
+					td
+						span.price_name_serv Осмотр полости рта
+					td
+						span.price_cost_serv
+							span.num_v2 800
+							span.eq руб.
+					td
+						a.price_order_btn.js_order(href="#" title="#") Записаться
+				tr
+					td
+						span.price_name_serv Осмотр полости рта
+					td
+						span.price_cost_serv
+							span.num_v2 180 000
+							span.eq руб.
+					td
+						a.price_order_btn.js_order(href="#" title="#") Записаться
+				tr
+					td
+						span.price_name_serv Осмотр полости рта
+					td
+						span.price_cost_serv
+							span.num_v2 800
+							span.eq руб.
+					td
+						a.price_order_btn.js_order(href="#" title="#") Записаться
+				tr
+					td
+						span.price_name_serv Осмотр полости рта
+					td
+						span.price_cost_serv
+							span.num_v2 800
+							span.eq руб.
+					td
+						a.price_order_btn.js_order(href="#" title="#") Записаться

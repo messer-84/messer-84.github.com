@@ -1,0 +1,121 @@
+doctype html
+html(lang="en")
+	head
+		include templates/head
+	body
+		.wrapper
+			.base
+				include templates/header
+				.main_row
+					include templates/bread_crumbs
+					.section_hold
+						.content_row
+							h1.title_v1 Робинович Аарон Маркович
+							.object_item_full
+								.obj_i_view
+									.obj_img.mod_full
+										img(src="i/content/face_full.jpg", alt="")
+									.btn_hold.mod_1
+										a.obj_btn.btn_v1.st_2.js_order(href="#" title="#") Записаться на прием
+								.obj_i_content
+									ul.obj_details
+										li.obj_det_item.mod_occupation Врач-офтальмолог
+										li.obj_det_item.mod_exp
+											span.dt Стаж работы:
+											span.dd 25 лет
+										li.obj_det_item.mod_org
+											span.dt Место работы:
+											span.dd
+												a(href="#" title="#") клиника Проспект Вернадсокого, д. 25
+										li.obj_det_item.mod_educ
+											span.dt Образование:
+											span.dd Московский Медицинский институт №1
+										li.obj_det_item.mod_exp_desc
+											span.dt Опыт работы:
+											span.dd Все виды анализов, диагностика, консультации специалистов, индивидуально подобранное лечение. Клиника оснащена современным, качественным оборудованием, которое позволяет с наибольшей точностью определить диагноз заболевания и провести лечение эффективно.
+								.obj_footer_v2
+									a.obj_link.mod_2(href="#" title="#")
+										span.obj_l_text.st_3 Оставить отзыв
+									a.obj_link.mod_2(href="#" title="#")
+										span.obj_l_text.st_2 Расписание
+							.work_mode_block
+								h2.title_v2 Расписание работы:
+								table.table_v1
+									tr
+										th
+										th Пн
+										th Вт
+										th Ср
+										th Чт
+										th Пт
+										th СБ
+										th.th_sunday Вск
+
+									tr
+										td с
+										td
+											| 9
+											sup 00
+										td
+											| 10
+											sup 00
+										td
+											| 14
+											sup 30
+										td
+											| 9
+											sup 00
+										td
+											| 10
+											sup 00
+										td
+											| 14
+											sup 30
+										td
+											span.sunday
+									tr
+										td по
+										td
+											| 13
+											sup 00
+										td
+											| 18
+											sup 00
+										td
+											| 17
+											sup 30
+										td
+											| 18
+											sup 00
+										td
+											| 13
+											sup 00
+										td
+											| 18
+											sup 30
+										td
+											span.sunday
+								.btn_hold.mod_tac
+									a.btn_v1.mod_1.st_2.js_order(href="#", title="") Записаться на прием
+
+						.primary_row
+							.menu_block
+								h2.menu_title Врачи клиники:
+								ul.menu
+									li.menu_item
+										a.menu_link(href="#" title="#") Иванов Иван Иванович
+									li.menu_item
+										a.menu_link(href="#" title="#") Иванов Иван Иванович
+									li.menu_item
+										a.menu_link(href="#" title="#") Иванов Иван Иванович
+									li.menu_item
+										a.menu_link(href="#" title="#") Иванов Иван Иванович
+									li.menu_item
+										a.menu_link(href="#" title="#") Иванов Иван Иванович
+									li.menu_item
+										a.menu_link(href="#" title="#") Иванов Иван Иванович
+
+					.section
+						include templates/services_block
+				include templates/footer
+		include templates/modal_block

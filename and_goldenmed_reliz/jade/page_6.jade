@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+	head
+		include templates/head
+	body
+		.wrapper
+			.base
+				include templates/header
+				.main_row
+					include templates/bread_crumbs
+					.section_hold
+						.content_row
+							h1.title_v1 Наша аппаратура
+							ul.objects
+								+object_item_v2
+								+object_item_v2
+								+object_item_v2
+								+object_item_v2
+								+object_item_v2
+								+object_item_v2
+
+						.primary_row
+							.note_block_v2 В наших клиниках используется только современное медицинское оборудование импортного производства
+
+
+							include templates/note_block
+
+					.section
+						include templates/services_block
+				include templates/footer
+		include templates/modal_block

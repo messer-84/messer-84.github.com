@@ -1,0 +1,22 @@
+.circle_a.mod_2
+	span.circle_a_wrap.mod_2
+		svg.circle_img.mod_2(version='1.1', baseprofile='full', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', xmlns:ev='http://www.w3.org/2001/xml-events', height='131px', width='85px')
+			defs
+				filter#Filter_0(filterunits='userSpaceOnUse', x='1154px', y='417px', width='90px', height='136px')
+					feoffset(in='SourceAlpha', dx='0', dy='0')
+					fegaussianblur(result='blurOut', stddeviation='1.732')
+					feflood(flood-color='rgb( 0, 0, 0 )', result='floodOut')
+					fecomposite(operator='atop', in='floodOut', in2='blurOut')
+					fecomponenttransfer
+						fefunca(type='linear', slope='0.2')
+					femerge
+						femergenode
+						femergenode(in='SourceGraphic')
+				lineargradient#PSgrad_0(x1='0%', x2='0%', y1='100%', y2='0%')
+					stop(offset='0%', stop-color='rgb(0,0,0)', stop-opacity='0.06')
+					stop(offset='100%', stop-color='rgb(255,255,255)', stop-opacity='0.06')
+			a(xlink:href='/svg/index.html', target='_top')
+				path(fill='rgb( 255, 255, 255 )', d='M31.856,120.603 C31.856,124.083 31.7059999999999,127.528 31.4259999999999,130.936 C31.4259999999999,130.936 84.549,130.936 84.549,130.936 C84.7460000000001,127.516 84.856,124.072 84.856,120.603 C84.856,74.134 66.932,31.777 37.643,0.06299999999999 C37.643,0.06299999999999 0.14300000000003,37.563 0.14300000000003,37.563 C19.855,59.643 31.856,88.746 31.856,120.603 Z ')
+				path(fill='url(#PSgrad_0)', d='M31.856,120.603 C31.856,124.083 31.7059999999999,127.528 31.4259999999999,130.936 C31.4259999999999,130.936 84.549,130.936 84.549,130.936 C84.7460000000001,127.516 84.856,124.072 84.856,120.603 C84.856,74.134 66.932,31.777 37.643,0.06299999999999 C37.643,0.06299999999999 0.14300000000003,37.563 0.14300000000003,37.563 C19.855,59.643 31.856,88.746 31.856,120.603 Z ')
+		span.circle_text_block.mod_2
+			a.circle_text.mod_2(href='#') Оформление мед. справок

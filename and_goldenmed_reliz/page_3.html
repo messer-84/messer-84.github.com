@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>GOLDEN MED</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"><!--[if gt IE 9]><!--><link rel="stylesheet" media="all" href="styles/main_global.css"><!--<![endif]--><!--[if IE 9]><link rel="stylesheet" media="all" href="styles/ie_9_global.css"><![endif]-->
+    <script src="js/frontend.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="base">
+        <header class="header">
+          <div class="header_hold">
+            <div class="contacts_bar mod_header"><a href="#" title="" class="logo">Golden Med</a>
+              <ul class="contacts_box mod_header">
+                <li class="contacts_item mod_email"><span class="dt">e-mail: &nbsp;</span><a href="mailto:info@mail.com" title="#" class="dd">info@mail.com</a></li>
+                <li class="contacts_item mod_tel">+7 495<span class="num_v1">&nbsp;125 34 33</span></li>
+                <li class="contacts_item mod_func_1"><a href="#" title="#" class="func_link btn_v1 st_1">Задать вопрос online</a></li>
+                <li class="contacts_item mod_func_2"><a href="#" title="#" class="func_link review_btn">Оставить отзыв</a></li>
+              </ul>
+            </div>
+            <nav role="navigation" class="nav_hold mod_header">
+              <ul class="nav">
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Наши клиники</a></li>
+                        <li class="nav_item active"><a href="#" title="#" class="nav_link">Врачи</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Аппаратура</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Услуги и цены</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Для организаций</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">О нас</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Контакты</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <div class="main_row">
+          <ul class="bread_crumbs">
+            <li class="bread_item"><a href="#" title="Главная" class="bread_link"><span class="bread_title">Главная</span></a></li>
+            <li class="bread_item"><span class="bread_title">Наши врачи</span></li>
+          </ul>
+          <div class="section">
+            <div class="map_block mod_sidebar">
+              <div class="map_head mod_sidebar">
+                <h2 class="title_v3">Наши Клиники</h2>
+                <div class="notice_v3">Кликните на значок, чтобы узнать точный адрес и телефон клиники*</div>
+              </div>
+              <div class="map_wrap mod_sidebar">
+                <div id="map_hold" class="map_hold mod_2"></div>
+                <div class="map_sidebar_hold">
+                  <div id="sidebar" class="map_sidebar">
+                    <h2 class="menu_title mod_1">Выберите клинику</h2>
+                  </div>
+                  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+                  <script src="js/mapInitSidebar.js"></script>
+                  <div class="note_block mod_dark">
+                    <h2 class="note_title st_1">Запишитесь на прием онлайн</h2>
+                    <div class="note_text mod_1">Вы можете записаться на прием через сайт, указав клинику, врача, дату и время приема</div><a href="#" title="#" class="note_btn btn_v1 st_2 mod_2 js_order">Записаться на прием</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer_hold">
+            <nav role="navigation" class="nav_hold mod_footer">
+              <ul class="nav">
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Наши клиники</a></li>
+                        <li class="nav_item active"><a href="#" title="#" class="nav_link">Врачи</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Аппаратура</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Услуги и цены</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Для организаций</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">О нас</a></li>
+                        <li class="nav_item"><a href="#" title="#" class="nav_link">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="contacts_bar mod_footer">
+              <div class="copyrights"><span>©2014 ООО «Голденмед».</span><span>Сеть профессиональных медицинских клиник</span></div>
+              <ul class="contacts_box_v2">
+                <li class="contacts_item_v2 mod_email"><span class="dt">e-mail: &nbsp;</span><a href="mailto:info@mail.com" title="#" class="dd">info@mail.com</a></li>
+                <li class="contacts_item_v2 mod_tel">+7 495<span class="num_v1">&nbsp;125 34 33</span></li>
+              </ul>
+              <dl class="developers">
+                <dt>Сайт разработан в студии дизайна:</dt>
+                <dd><a href="#" title="" class="developer_link">OpenColour</a></dd>
+              </dl>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="modal_wrap item_1">
+      <div class="modal_1 modal_box"><span class="modal_close"></span>
+        <div class="form_box mod_modal">
+          <div class="form_title">Запишитесь<br>к нам на прием</div>
+          <ul class="form_list">
+            <li class="form_row">
+              <div class="form_item mod_name">
+                <label for="f_1" class="hide">Как вас зовут?:</label>
+                <input id="f_1" type="text" placeholder="Как вас зовут?" class="form_field_v1">
+              </div>
+            </li>
+            <li class="form_row mod_hold">
+              <div class="form_item mod_date">
+                <label for="f_2" class="hide">Дата приема:</label>
+                <input id="f_2" type="text" placeholder="Дата приема" class="form_field_v1">
+              </div>
+              <div class="form_item mod_time">
+                <label for="f_3" class="hide">Время:</label>
+                <input id="f_3" type="text" placeholder="Время" class="form_field_v1">
+              </div>
+            </li>
+            <li class="form_row">
+              <div class="form_item mod_local">
+                <label for="f_4" class="hide">Клиника:</label>
+                <input id="f_4" type="text" placeholder="Клиника" class="form_field_v1">
+              </div>
+            </li>
+            <li class="form_row">
+              <div class="form_item mod_person">
+                <label for="f_5" class="hide">Врач:</label>
+                <input id="f_5" type="text" placeholder="Врач" class="form_field_v1">
+              </div>
+            </li>
+            <li class="form_row mod_tel">
+              <div class="form_item mod_tel">
+                <label for="f_6" class="hide">Ваш контактный телефон:</label>
+                <input id="f_6" type="text" placeholder="Ваш контактный телефон" class="form_field_v1">
+              </div>
+            </li>
+            <li class="form_row">
+              <input type="submit" value="Записаться на прием" class="form_submit_v1">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

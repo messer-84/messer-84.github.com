@@ -1,0 +1,18 @@
+include mixins
+header.header
+	.header_hold
+		.contacts_bar.mod_header
+			a.logo(href='#',title='') Golden Med
+			ul.contacts_box.mod_header
+				li.contacts_item.mod_email
+					span.dt e-mail: &nbsp;
+					a.dd(href="mailto:info@mail.com" title="#") info@mail.com
+				li.contacts_item.mod_tel
+					| +7 495
+					span.num_v1 &nbsp;125 34 33
+				li.contacts_item.mod_func_1
+					a.func_link.btn_v1.st_1(href="#" title="#") Задать вопрос online
+				li.contacts_item.mod_func_2
+					a.func_link.review_btn(href="#" title="#") Оставить отзыв
+		nav.nav_hold.mod_header(role="navigation")
+			include navigation

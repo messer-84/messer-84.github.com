@@ -1,0 +1,25 @@
+.circle_a.mod_4
+	span.circle_a_wrap.mod_4
+		span.circle_a_sub_wrap
+
+			svg.circle_img.mod_4(version='1.1', baseprofile='full', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', xmlns:ev='http://www.w3.org/2001/xml-events', height='85px', width='123px')
+				defs
+					filter#Filter_0(filterunits='userSpaceOnUse', x='1059px', y='630px', width='128px', height='90px')
+						feoffset(in='SourceAlpha', dx='0', dy='0')
+						fegaussianblur(result='blurOut', stddeviation='1.732')
+						feflood(flood-color='rgb( 0, 0, 0 )', result='floodOut')
+						fecomposite(operator='atop', in='floodOut', in2='blurOut')
+						fecomponenttransfer
+							fefunca(type='linear', slope='0.2')
+						femerge
+							femergenode
+							femergenode(in='SourceGraphic')
+					lineargradient#PSgrad_0(x1='0%', x2='0%', y1='100%', y2='0%')
+						stop(offset='0%', stop-color='rgb(0,0,0)', stop-opacity='0.06')
+						stop(offset='100%', stop-color='rgb(255,255,255)', stop-opacity='0.06')
+				a(xlink:href='/svg/index.html', target='_top')
+					path(fill='rgb( 255, 255, 255 )', d='M2.15000000000009,31.778 C1.59300000000007,31.778 1.03899999999999,31.764 0.48299999999995,31.756 C0.48299999999995,31.756 0.48299999999995,84.756 0.48299999999995,84.756 C1.03899999999999,84.7619999999999 1.59300000000007,84.778 2.15000000000009,84.778 C48.5350000000001,84.778 90.8230000000001,66.919 122.517,37.726 C122.517,37.726 85.0129999999999,0.22199999999998 85.0129999999999,0.22199999999998 C62.954,19.8390000000001 33.922,31.778 2.15000000000009,31.778 Z ')
+					path(fill='url(#PSgrad_0)', d='M2.15000000000009,31.778 C1.59300000000007,31.778 1.03899999999999,31.764 0.48299999999995,31.756 C0.48299999999995,31.756 0.48299999999995,84.756 0.48299999999995,84.756 C1.03899999999999,84.7619999999999 1.59300000000007,84.778 2.15000000000009,84.778 C48.5350000000001,84.778 90.8230000000001,66.919 122.517,37.726 C122.517,37.726 85.0129999999999,0.22199999999998 85.0129999999999,0.22199999999998 C62.954,19.8390000000001 33.922,31.778 2.15000000000009,31.778 Z ')
+
+			span.circle_text_block.mod_4
+				a.circle_text.mod_4(href='#') Флюорография

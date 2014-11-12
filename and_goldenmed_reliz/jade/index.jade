@@ -1,0 +1,35 @@
+doctype html
+html(lang="ru")
+	head
+		include templates/head
+
+	body.main_page
+		.wrapper
+			.base
+				include templates/header
+				.main_row
+					.intro_block
+						.intro_summary
+							h1.intro_title GoldenMed
+							h2.intro_subtitle Cеть высококачественных клиник
+							.intro_text В нашем центре уже 19 лет работает профессионально подготовленный персонал: профессора, доктора и кандидаты медицинских наук, врачи высшей категории.
+							a.intro_btn(href="#" title="#") Подробнее о нас
+						.intro_navigation
+							.circle_info
+								a.circle_logo(href="#" title="#") Golden Med
+								a.circle_btn.js_order(href="#" title="#") Записаться на прием
+
+							.circle
+								include templates/circle_item_1
+								include templates/circle_item_2
+								include templates/circle_item_3
+								include templates/circle_item_4
+								include templates/circle_item_5
+								include templates/circle_item_6
+								include templates/circle_item_7
+					.section
+						include templates/services_block
+					.section.mod_map
+						include templates/map_block
+				include templates/footer
+		include templates/modal_block

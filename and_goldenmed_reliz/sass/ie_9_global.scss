@@ -1,0 +1,15 @@
+$develop: false;
+$production: true;
+$all: false;
+$ie9: true;
+$ie8: false;
+$ie7: false;
+$doc: false;
+$local_var: global;
+
+@import "includes";
+
+.menu, .map_sidebar, .services_item,
+.menu_link, .sidebar_item{
+	background: #68bbf1;
+}

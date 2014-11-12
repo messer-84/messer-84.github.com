@@ -1,0 +1,94 @@
+/*------------------------------------------------------fonts*/
+
+@font-face{
+	font-family: 'samo_sans_pro_light';
+	src: url('../fonts/samosanspro-light.eot');
+	src: url('../fonts/samosanspro-light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/samosanspro-light.woff') format('woff'),
+	url('../fonts/samosanspro-light.ttf') format('truetype'),
+	url('../fonts/samosanspro-light.svg#samo_sans_prolight') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face{
+	font-family: 'samo_sans_pro_bold';
+	src: url('../fonts/samosanspro-bold.eot');
+	src: url('../fonts/samosanspro-bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/samosanspro-bold.woff') format('woff'),
+	url('../fonts/samosanspro-bold.ttf') format('truetype'),
+	url('../fonts/samosanspro-bold.svg#samo_sans_pro_rgbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+@font-face{
+	font-family: 'samo_sans_pro_reg';
+	src: url('../fonts/samosanspro-regular.eot');
+	src: url('../fonts/samosanspro-regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/samosanspro-regular.woff') format('woff'),
+	url('../fonts/samosanspro-regular.ttf') format('truetype'),
+	url('../fonts/samosanspro-regular.svg#samo_sans_pro_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+//@font-face{
+//	font-family: 'samo_sans_pro_black';
+//	src: url('../fonts/samosanspro-black.eot');
+//	src: url('../fonts/samosanspro-black.eot?#iefix') format('embedded-opentype'),
+//	url('../fonts/samosanspro-black.woff') format('woff'),
+//	url('../fonts/samosanspro-black.ttf') format('truetype'),
+//	url('../fonts/samosanspro-black.svg#samo_sans_problack') format('svg');
+//	font-weight: normal;
+//	font-style: normal;
+//
+//}
+
+@font-face{
+	font-family: 'samo_sans_pro_med';
+	src: url('../fonts/samosanspro-medium.eot');
+	src: url('../fonts/samosanspro-medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/samosanspro-medium.woff') format('woff'),
+	url('../fonts/samosanspro-medium.ttf') format('truetype'),
+	url('../fonts/samosanspro-medium.svg#samo_sans_promedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face{
+	font-family: 'waldorf_tl_pro_med_ital';
+	src: url('../fonts/waldorftlpro-mediumitalic.eot');
+	src: url('../fonts/waldorftlpro-mediumitalic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/waldorftlpro-mediumitalic.woff') format('woff'),
+	url('../fonts/waldorftlpro-mediumitalic.ttf') format('truetype'),
+	url('../fonts/waldorftlpro-mediumitalic.svg#waldorf_tl_promedium_italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+
+}
+
+@font-face{
+	font-family: 'waldorf_tl_pro_ital';
+	src: url('../fonts/waldorftlpro-italic.eot');
+	src: url('../fonts/waldorftlpro-italic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/waldorftlpro-italic.woff') format('woff'),
+	url('../fonts/waldorftlpro-italic.ttf') format('truetype'),
+	url('../fonts/waldorftlpro-italic.svg#waldorf_tl_proitalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	@font-face{
+		src: url('../fonts/samosanspro-medium.svg#samo_sans_promedium') format('svg');
+	}
+}
+
+/*------------------------------------------------------fonts###*/

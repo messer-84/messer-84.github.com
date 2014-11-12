@@ -1,0 +1,34 @@
+.modal_wrap.item_1
+	.modal_1.modal_box
+		span.modal_close
+		.form_box.mod_modal
+			.form_title
+				| Запишитесь
+				br
+				| к нам на прием
+			ul.form_list
+				li.form_row
+					.form_item.mod_name
+						label.hide(for='f_1') Как вас зовут?:
+						input#f_1.form_field_v1(type='text', placeholder='Как вас зовут?')
+				li.form_row.mod_hold
+					.form_item.mod_date
+						label.hide(for='f_2') Дата приема:
+						input#f_2.form_field_v1(type='text', placeholder='Дата приема')
+					.form_item.mod_time
+						label.hide(for='f_3') Время:
+						input#f_3.form_field_v1(type='text', placeholder='Время')
+				li.form_row
+					.form_item.mod_local
+						label.hide(for='f_4') Клиника:
+						input#f_4.form_field_v1(type='text', placeholder='Клиника')
+				li.form_row
+					.form_item.mod_person
+						label.hide(for='f_5') Врач:
+						input#f_5.form_field_v1(type='text', placeholder='Врач')
+				li.form_row.mod_tel
+					.form_item.mod_tel
+						label.hide(for='f_6') Ваш контактный телефон:
+						input#f_6.form_field_v1(type='text', placeholder='Ваш контактный телефон')
+				li.form_row
+					input.form_submit_v1(type='submit', value='Записаться на прием')

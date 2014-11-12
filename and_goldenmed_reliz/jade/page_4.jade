@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+	head
+		include templates/head
+	body
+		.wrapper
+			.base
+				include templates/header
+				.main_row
+					include templates/bread_crumbs
+					.section_hold
+						.content_row
+							h1.title_v1 Наши врачи
+							ul.objects
+								+object_item
+								+object_item
+								+object_item
+								+object_item
+								+object_item
+								+object_item
+
+						.primary_row
+							.menu_block
+								h2.menu_title Выберите клинику:
+								ul.menu
+									li.menu_item
+										a.menu_link(href="#" title="#") Проспект Вернадского д. 32
+									li.menu_item
+										a.menu_link(href="#" title="#") Улица Вавилова, д. 13
+									li.menu_item
+										a.menu_link(href="#" title="#") Пролетарский проспект д. 23
+									li.menu_item
+										a.menu_link(href="#" title="#") Проспект Вернадского д. 32
+									li.menu_item
+										a.menu_link(href="#" title="#") Улица Вавилова, д. 13
+									li.menu_item
+										a.menu_link(href="#" title="#") Пролетарский проспект д. 23
+									li.menu_item
+										a.menu_link(href="#" title="#") Пролетарский проспект д. 23
+							include templates/note_block
+
+					.section
+						include templates/services_block
+				include templates/footer
+		include templates/modal_block
