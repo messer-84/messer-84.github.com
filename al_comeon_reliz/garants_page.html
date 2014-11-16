@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Comeon</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/frontend.min.js"></script>
+    <link rel="stylesheet" media="all" href="styles/main_global.css">
+    <script src="js/all_functions.js"></script>
+  </head>
+  <body ontouchstart>
+    <div class="wrapper">
+      <header class="header">
+        <div class="hidden_header">
+          <div class="section"><span class="nav_ctrl js_nav_ctrl"><span class="nav_ctrl_in"></span></span><a href="#" class="logo"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIxMjZweCIgaGVpZ2h0PSIyNnB4IiB2aWV3Qm94PSIwIDAgMTI2IDI2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAxMjYgMjYiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIGQ9Ik0yOS42MTcsMTIuOTU2YzAtMS4wNC0wLjE5OS0yLjAyMy0wLjU5Ni0yLjk1MWMtMC4zOTktMC45MjgtMC45NC0xLjczNS0xLjYyNS0yLjQyYy0wLjY4Ny0wLjY4Ni0xLjQ5My0xLjIyNi0yLjQyLTEuNjI0Yy0wLjkyOC0wLjM5Ny0xLjkxMS0wLjU5Ny0yLjk1LTAuNTk3Yy0xLjAzOSwwLTIuMDIyLDAuMi0yLjk1LDAuNTk3Yy0wLjkyOSwwLjM5OC0xLjczNCwwLjkzOC0yLjQyLDEuNjI0Yy0wLjY4NiwwLjY4NS0xLjIyNiwxLjQ5Mi0xLjYyMywyLjQyYy0wLjM5OCwwLjkyNy0wLjU5NywxLjkxMS0wLjU5NywyLjk1MWMwLDEuMDM4LDAuMTk5LDIuMDIxLDAuNTk3LDIuOTQ5YzAuMzk3LDAuOTI5LDAuOTM4LDEuNzM2LDEuNjIzLDIuNDJjMC42ODYsMC42ODYsMS40OTEsMS4yMjcsMi40MiwxLjYyNWMwLjkyOCwwLjM5NiwxLjkxMiwwLjU5NiwyLjk1LDAuNTk2YzEuMDM5LDAsMi4wMjItMC4xOTksMi45NS0wLjU5NmMwLjkyNy0wLjM5OCwxLjczMy0wLjkzOSwyLjQyLTEuNjI1YzAuNjg0LTAuNjg0LDEuMjI2LTEuNDkxLDEuNjI1LTIuNDJDMjkuNDE4LDE0Ljk3NywyOS42MTcsMTMuOTk0LDI5LjYxNywxMi45NTYgTTI1LjYzOSwxMi45NTZjMCwwLjU1Mi0wLjA4MiwxLjA3LTAuMjQ5LDEuNTU2Yy0wLjE2NSwwLjQ4Ni0wLjQwMywwLjkxNC0wLjcxMywxLjI3NmMtMC4zMDksMC4zNjQtMC42ODQsMC42NTEtMS4xMjcsMC44NjJjLTAuNDQsMC4yMS0wLjk0OSwwLjMxNC0xLjUyNCwwLjMxNHMtMS4wODMtMC4xMDQtMS41MjUtMC4zMTRjLTAuNDQyLTAuMjExLTAuODE3LTAuNDk4LTEuMTI3LTAuODYyYy0wLjMwOS0wLjM2Mi0wLjU0Mi0wLjc5LTAuNjk2LTEuMjc2Yy0wLjE1NC0wLjQ4Ni0wLjIzMS0xLjAwNC0wLjIzMS0xLjU1NmMwLTAuNTUzLDAuMDc3LTEuMDcyLDAuMjMxLTEuNTU5YzAuMTU1LTAuNDg2LDAuMzg4LTAuOTEyLDAuNjk2LTEuMjc2YzAuMzEtMC4zNjUsMC42ODYtMC42NTEsMS4xMjctMC44NjJjMC40NDEtMC4yMSwwLjk1LTAuMzE1LDEuNTI1LTAuMzE1czEuMDgzLDAuMTA1LDEuNTI0LDAuMzE1YzAuNDQzLDAuMjExLDAuODE4LDAuNDk3LDEuMTI3LDAuODYyYzAuMzEsMC4zNjQsMC41NDgsMC43OSwwLjcxMywxLjI3NkMyNS41NTcsMTEuODgzLDI1LjYzOSwxMi40MDMsMjUuNjM5LDEyLjk1NnoiLz48cGF0aCBkPSJNNjYuNDE4LDIwLjUzN2g1LjI3NWMxLjA0NSwwLDEuNjgtMC43NzEsMS42OC0xLjcwN2MwLTAuOTM5LTAuNzQxLTEuNjgtMS42OC0xLjY4aC01LjM0NnYwLjAxMmwtMC4wNzQsMC4wMDJjLTAuOTk1LDAtMS44MTMtMC4yNzEtMi40NTMtMC44MTNjLTAuNjQxLTAuNTQxLTEuMDE3LTEuMjQyLTEuMTI3LTIuMTA0aDkuMjQ4YzAuMzc1LDAsMC43MDctMC4xMiwwLjk5NC0wLjM2NWMwLjI4Ny0wLjI0MiwwLjQzLTAuNTUzLDAuNDMtMC45MjdjMC0xLjEwNS0wLjE4Mi0yLjEyMi0wLjU0NS0zLjA1MWMtMC4zNjYtMC45MjgtMC44NzQtMS43MjktMS41MjUtMi40MDNjLTAuNjUyLTAuNjc0LTEuNDI1LTEuMTk5LTIuMzIxLTEuNTc1Yy0wLjg5NC0wLjM3Ni0xLjg2LTAuNTYzLTIuODk5LTAuNTYzcy0yLjAxNiwwLjItMi45MzQsMC41OThjLTAuOTE3LDAuMzk3LTEuNzE4LDAuOTM4LTIuNDA0LDEuNjI0Yy0wLjY4NSwwLjY4NS0xLjIxOSwxLjQ5Mi0xLjYwNywyLjQyYy0wLjM4NSwwLjkyNy0wLjU3OSwxLjkxMS0wLjU3OSwyLjk1YzAsMS4wMzcsMC4xOTksMi4wMjEsMC41OTYsMi45NDljMC4zOTgsMC45MjksMC45MzgsMS43MzUsMS42MjUsMi40MmMwLjY4NSwwLjY4NiwxLjQ4NiwxLjIyNywyLjQwMywxLjYyNWMwLjkxOCwwLjM5NiwxLjg5NSwwLjU5NiwyLjkzNCwwLjU5NmMwLjEwMiwwLDAuMjA3LTAuMDAyLDAuMzExLTAuMDA1VjIwLjUzN3ogTTY5LjQyMiwxMS40MzJoLTYuNjYzYzAuMTc3LTAuODQyLDAuNTUyLTEuNDk5LDEuMTI4LTEuOTc2YzAuNTc0LTAuNDc0LDEuMzA0LTAuNzEsMi4xODgtMC43MWMwLjg4NSwwLDEuNjE5LDAuMjUzLDIuMjAzLDAuNzYzQzY4Ljg2MywxMC4wMTYsNjkuMjQ0LDEwLjY1Niw2OS40MjIsMTEuNDMyeiIvPjxwYXRoIGQ9Ik0xMTguMjUyLDE4LjQyNHYtNi4wMzJjMC0wLjk3My0wLjE4Mi0xLjg5LTAuNTQ1LTIuNzUzYy0wLjM2Ni0wLjg2MS0wLjg2OC0xLjYwNi0xLjUwOS0yLjIzN2MtMC42NDMtMC42MjktMS4zOTMtMS4xMjctMi4yNTQtMS40OTJjLTAuODYzLTAuMzY0LTEuNzc4LTAuNTQ3LTIuNzUxLTAuNTQ3Yy0wLjk3NCwwLTEuODkxLDAuMTgzLTIuNzUyLDAuNTQ3Yy0wLjg2LDAuMzY1LTEuNjEzLDAuODYzLTIuMjUzLDEuNDkyYy0wLjY0MiwwLjYzMS0xLjE0OSwxLjM3Ni0xLjUyNiwyLjIzN2MtMC4zNzQsMC44NjMtMC41NjMsMS43OC0wLjU2MywyLjc1M3Y2LjAzMmMwLDAuNTUzLDAuMTk5LDEuMDIyLDAuNTk4LDEuNDA4YzAuMzk2LDAuMzg3LDAuODcxLDAuNTgsMS40MjUsMC41OGMwLjU1MSwwLDEuMDIxLTAuMTkzLDEuNDA4LTAuNThjMC4zODYtMC4zODYsMC41NzgtMC44NTUsMC41NzgtMS40MDh2LTYuNDMxYzAtMC44MzgsMC4yODgtMS41NTcsMC44NjQtMi4xNTRjMC41NzMtMC41OTcsMS4zMTMtMC44OTYsMi4yMjEtMC44OTZjMC45MjYsMCwxLjY3LDAuMjk5LDIuMjIxLDAuODk2YzAuNTU1LDAuNTk3LDAuODI4LDEuMzE2LDAuODI4LDIuMTU0djYuNDMxYzAsMC41NTMsMC4xOTksMS4wMjIsMC41OTcsMS40MDhjMC4zOTcsMC4zODcsMC44NzIsMC41OCwxLjQyNSwwLjU4YzAuNTU1LDAsMS4wMjMtMC4xOTMsMS40MS0wLjU4QzExOC4wNTksMTkuNDQ2LDExOC4yNTIsMTguOTc3LDExOC4yNTIsMTguNDI0Ii8+PHBhdGggZD0iTTQ2LjAwMiwxOC40MjR2LTYuMDMyYzAtMC4xOTQtMC4wMDctMC4zODUtMC4wMi0wLjU3M2MwLjAzNy0wLjc2NSwwLjMyMy0xLjQyNSwwLjg1Ni0xLjk4YzAuNTc2LTAuNTk3LDEuMzE1LTAuODk2LDIuMjIxLTAuODk2YzAuOTI3LDAsMS42NjgsMC4yOTksMi4yMjEsMC44OTZjMC41NTIsMC41OTcsMC44MjksMS4zMTYsMC44MjksMi4xNTR2Ni40MzFjMCwwLjU1MywwLjIsMS4wMjIsMC41OTYsMS40MDhjMC4zOTgsMC4zODcsMC44NzQsMC41OCwxLjQyNiwwLjU4YzAuNTU0LDAsMS4wMjItMC4xOTMsMS40MDktMC41OGMwLjM4Ny0wLjM4NiwwLjU4LTAuODU1LDAuNTgtMS40MDh2LTYuMDMyYzAtMC45NzMtMC4xODMtMS44OS0wLjU0Ni0yLjc1M2MtMC4zNjUtMC44NjEtMC44NjgtMS42MDYtMS41MDktMi4yMzdjLTAuNjQtMC42MjktMS4zOTMtMS4xMjctMi4yNTUtMS40OTJjLTAuODYxLTAuMzY0LTEuNzc4LTAuNTQ3LTIuNzUtMC41NDdjLTAuOTczLDAtMS44OSwwLjE4My0yLjc1MiwwLjU0N2MtMC44NjIsMC4zNjUtMS42MTIsMC44NjMtMi4yNTQsMS40OTJsLTAuMDUzLDAuMDUzbC0wLjA1My0wLjA1M2MtMC42NDEtMC42MjktMS4zOTMtMS4xMjctMi4yNTUtMS40OTJjLTAuODYyLTAuMzY0LTEuNzgtMC41NDctMi43NS0wLjU0N2MtMC45NzMsMC0xLjg4OSwwLjE4My0yLjc1MSwwLjU0N2MtMC44NjIsMC4zNjUtMS42MTMsMC44NjMtMi4yNTQsMS40OTJjLTAuNjQxLDAuNjMxLTEuMTQ4LDEuMzc2LTEuNTI0LDIuMjM3Yy0wLjM3NiwwLjg2My0wLjU2NCwxLjc4LTAuNTY0LDIuNzUzdjYuMDMyYzAsMC41NTMsMC4yLDEuMDIyLDAuNTk3LDEuNDA4YzAuMzk3LDAuMzg3LDAuODczLDAuNTgsMS40MjQsMC41OGMwLjU1MywwLDEuMDIyLTAuMTkzLDEuNDA5LTAuNThjMC4zODctMC4zODYsMC41ODEtMC44NTUsMC41ODEtMS40MDh2LTYuNDMxYzAtMC44MzgsMC4yODctMS41NTcsMC44NjItMi4xNTRjMC41NzQtMC41OTcsMS4zMTUtMC44OTYsMi4yMjEtMC44OTZjMC45MjcsMCwxLjY2OCwwLjI5OSwyLjIyMSwwLjg5NmMwLjUxNSwwLjU1NiwwLjc4OSwxLjIxNywwLjgyNSwxLjk4M2MtMC4wMTYsMC4xODctMC4wMjMsMC4zNzgtMC4wMjMsMC41N3Y2LjAzMmMwLDAuNTUzLDAuMiwxLjAyMiwwLjU5NywxLjQwOGMwLjM5NywwLjM4NywwLjg3NCwwLjU4LDEuNDI2LDAuNThoMC4wMjVjMC41NTMsMCwxLjAyMi0wLjE5MywxLjQwOC0wLjU4QzQ1LjgwOSwxOS40NDYsNDYuMDAyLDE4Ljk3Nyw0Ni4wMDIsMTguNDI0Ii8+PHBhdGggZD0iTTcuNTk1LDE3LjAzMUg3LjU5Yy0wLjU3NSwwLTEuMDgzLTAuMTA5LTEuNTI1LTAuMzNjLTAuNDQzLTAuMjIyLTAuODE4LTAuNTE0LTEuMTI3LTAuODhjLTAuMzEtMC4zNjQtMC41NDctMC43OTUtMC43MTMtMS4yOTNjLTAuMTY1LTAuNDk2LTAuMjUtMS4wMjEtMC4yNS0xLjU3M2MwLTAuNTUzLDAuMDg0LTEuMDc4LDAuMjUtMS41NzVjMC4xNjYtMC40OTcsMC40MDMtMC45MjgsMC43MTMtMS4yOTNDNS4yNDgsOS43MjMsNS42MjMsOS40Myw2LjA2NSw5LjIxYzAuNDQyLTAuMjIzLDAuOTUtMC4zMzMsMS41MjUtMC4zMzNoMC4wMDRWOC44OGgzLjY5MmMxLjA4NCwwLDEuNzQzLTAuOCwxLjc0My0xLjc3MWMwLTAuOTc0LTAuNzY4LTEuNzQxLTEuNzQzLTEuNzQxSDcuNjRWNS4zNjRINy41OWMtMS4wMzksMC0yLjAyMiwwLjItMi45NSwwLjU5N0MzLjcxMSw2LjM1OSwyLjkwNSw2LjksMi4yMjIsNy41ODVDMS41MzYsOC4yNywwLjk5NSw5LjA3NywwLjU5NywxMC4wMDVDMC4xOTksMTAuOTMyLDAsMTEuOTE2LDAsMTIuOTU2YzAsMS4wMzgsMC4xOTksMi4wMjEsMC41OTcsMi45NDljMC4zOTgsMC45MjksMC45MzksMS43MzQsMS42MjUsMi40MmMwLjY4NCwwLjY4NiwxLjQ5LDEuMjI3LDIuNDE4LDEuNjI1YzAuOTI4LDAuMzk2LDEuOTEyLDAuNTk2LDIuOTUsMC41OTZINy42NFYyMC41NGgzLjY0N2MxLjA4NCwwLDEuNzQzLTAuOCwxLjc0My0xLjc3MWMwLTAuOTc1LTAuNzY4LTEuNzQyLTEuNzQzLTEuNzQySDcuNTk1VjE3LjAzMXoiLz48cGF0aCBkPSJNMTIzLjk5MywxNi40MTJjMS4xMDQsMCwxLjk5NywwLjg5MywxLjk5NywxLjk5NXMtMC44OTQsMS45OTUtMS45OTcsMS45OTVjLTEuMTAxLDAtMS45OTMtMC44OTMtMS45OTMtMS45OTVTMTIyLjg5MywxNi40MTIsMTIzLjk5MywxNi40MTIgTTEyMS45OSwxMi42NThjMCwwLjU1MiwwLjE5NiwxLjAyMSwwLjU5NywxLjQxYzAuMzk3LDAuMzg1LDAuODcyLDAuNTc5LDEuNDI0LDAuNTc5czEuMDIxLTAuMTk0LDEuNDA4LTAuNTc5YzAuMzg4LTAuMzg5LDAuNTgxLTAuODU4LDAuNTgxLTEuNDFWMi4wMzVjMC0wLjM4Ny0wLjA5NS0wLjczMS0wLjI4My0xLjAzNmMtMC4wODQtMC4xNDItMC4xODktMC4yNzYtMC4zMTQtMC4zOTljLTAuMzg3LTAuMzg3LTAuODU0LTAuNTgyLTEuNDA5LTAuNTgyYy0wLjU1MSwwLTEuMDE5LDAuMTk1LTEuNDA2LDAuNTgyYy0wLjE4NywwLjE4NS0wLjMyOSwwLjM5MS0wLjQyNiwwLjYxNWMtMC4xMTUsMC4yNTEtMC4xNzEsMC41MjMtMC4xNzEsMC44MlYxMi42NTh6Ii8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNGRjU0MDAiIGQ9Ik04OC43MzIsMGM3LjE1NCwwLDEyLjk1Myw1LjgsMTIuOTUzLDEyLjk1NmMwLDcuMTU0LTUuNzk5LDEyLjk1My0xMi45NTMsMTIuOTUzcy0xMi45NTUtNS43OTktMTIuOTU1LTEyLjk1M0M3NS43NzcsNS44LDgxLjU3OCwwLDg4LjczMiwwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGZpbGw9IiNGRkZGRkYiIGQ9Ik05Mi43MzIsNi42NzJjMS4wMDgsMCwxLjgyNSwwLjgxNiwxLjgyNSwxLjgyNHMtMC44MTcsMS44MjctMS44MjUsMS44MjdzLTEuODI2LTAuODE5LTEuODI2LTEuODI3UzkxLjcyNSw2LjY3Miw5Mi43MzIsNi42NzIgTTg0LjczMiw2LjY3MmMxLjAwNywwLDEuODI0LDAuODE2LDEuODI0LDEuODI0cy0wLjgxNywxLjgyNy0xLjgyNCwxLjgyN2MtMS4wMDgsMC0xLjgyNS0wLjgxOS0xLjgyNS0xLjgyN1M4My43MjUsNi42NzIsODQuNzMyLDYuNjcyeiBNOTYuNzM2LDE0LjA4MWMwLjEwOS0wLjQ1My0wLjE2Ni0wLjkxMi0wLjYxOS0xLjAyM2MtMC4xMTEtMC4wMjctMC4yMjEtMC4wMzEtMC4zMjgtMC4wMTVIODEuNjc2Yy0wLjEwNS0wLjAxNy0wLjIxNy0wLjAxMy0wLjMyOCwwLjAxNGMtMC40NTEsMC4xMTItMC43MywwLjU3LTAuNjE5LDEuMDIzYzAuMzc5LDEuNTQsMS4xMjEsMi45MTMsMi4xMjMsNC4wMDhjMS4wMSwxLjEwMSwyLjI4NiwxLjkxNywzLjcyLDIuMzM4YzAuMTI2LDAuMDM0LDAuMjM2LDAuMDY0LDAuMzMxLDAuMDg5YzIuMTA5LDAuNTE4LDQuMjI2LDAuMTEyLDUuOTc2LTAuOThjMS43My0xLjA4NCwzLjEwNC0yLjg0NCwzLjc0OC01LjA1Qzk2LjY3LDE0LjMzNiw5Ni43MDUsMTQuMiw5Ni43MzYsMTQuMDgxeiIvPjwvZz48L3N2Zz4=" alt=""></a><a href="#" class="cart_link"></a></div>
+        </div>
+        <div class="side_block">
+          <ul class="nav">
+            <li class="nav_item mod_loc"><a href="#" title="#" class="nav_link">Россия, Санкт-Петербург</a></li>
+                <li class="nav_item active"><a href="#" title="#" class="nav_link">Каталог</a></li>
+                <li class="nav_item"><a href="#" title="#" class="nav_link">Гарантии</a></li>
+                <li class="nav_item"><a href="#" title="#" class="nav_link">Доставка</a></li>
+                <li class="nav_item"><a href="#" title="#" class="nav_link">Безопасная оплата</a></li>
+                <li class="nav_item"><a href="#" title="#" class="nav_link">Скидки и Бонусы</a></li>
+                <li class="nav_item"><a href="#" title="#" class="nav_link">Контакты</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="main_hold">
+        <div class="main_content">
+          <div class="section">
+            <div class="garants_block">
+              <h1 class="title_v1">Гарантии</h1>
+              <ul class="garants_list static">
+                <li class="garants_item mod_1">
+                  <div class="img_hold tac"><img src="i/garant_1.png" alt=""></div>
+                  <h2 class="garants_title mod_1">РОСТЕСТ</h2>
+                  <p>
+                    Наш магазин занимается продажей исключительно официальной РосТест техники. Вся продаваемая нами техника, в зависимости
+                    от класса, имеет официальную гарантию
+                    от производителя минимум 1 год, распространяющуюся на территории России! Поэтому мы с уверенностью несем ответственность за продаваемый нами товар.
+                    На всю технику Apple действует официальная годовая гарантия с бесплатным сервисом
+                    в России.
+                  </p>
+                </li>
+                <li class="garants_item mod_2">
+                  <div class="img_hold tac"><img src="i/garant_2.svg" alt=""></div>
+                  <h2 class="garants_title">Правила обмена и возврата</h2>
+                  <p><strong>В соответствии с правилом «Обмен без затруднений» можно обменять или вернуть товар надлежащего качества в течение 14 дней с момента покупки в том случае, если:</strong></p>
+                  <ul>
+                    <li> сохранён кассовый чек;</li>
+                    <li> товар не имеет следов использования;</li>
+                    <li> сохранены заводские пломбы (если товар был опломбирован, как правило, это системные блоки);</li>
+                    <li> не производилась установка товара;</li>
+                    <li> товар имеет полную оригинальную упаковку (при условии, что товар был продан в оригинальной упаковке);</li>
+                    <li> сохранены аксессуары, расходные материалы из комплекта товара, компоненты, ярлыки, сопроводительная документация и программное обеспечение, входящие в состав товара, и не повреждена их упаковка.</li>
+                  </ul>
+                  <p><strong>Товары, не подлежащие обмену и возврату согласно «Закону о защите прав потребителей», а именно:</strong></p>
+                  <ul>
+                    <li>предметы санитарии и гигиены;</li>
+                    <li>эпиляторы, электробритвы, машинки для стрижки волос, фены и фен-щётки, щипцы для волос.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="section"><a class="btn_to_top"><span>Наверх</span></a>
+          <nav class="f_nav_hold">
+            <ul class="f_nav">
+                  <li class="f_nav_item"><a href="#" title="#" class="f_nav_link">Каталог</a></li>
+                  <li class="f_nav_item"><a href="#" title="#" class="f_nav_link">Гарантии</a></li>
+                  <li class="f_nav_item"><a href="#" title="#" class="f_nav_link">Доставка</a></li>
+                  <li class="f_nav_item"><a href="#" title="#" class="f_nav_link">Безопасная оплата</a></li>
+                  <li class="f_nav_item"><a href="#" title="#" class="f_nav_link">Скидки и бонусы</a></li>
+                  <li class="f_nav_item"><a href="#" title="#" class="f_nav_link">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="contacts_block">
+            <div class="cont_item mod_tel"><span class="telephone">8-800-890-90-00</span></div>
+            <div class="cont_item mod_soc">
+              <ul class="socials">
+                <li class="soc_item mod_facebook"><a href="#" title="#"></a></li>
+                <li class="soc_item mod_vk"><a href="#" title="#"></a></li>
+                <li class="soc_item mod_youtube"><a href="#" title="#"></a></li>
+                <li class="soc_item mod_instagram"><a href="#" title="#"></a></li>
+              </ul>
+            </div>
+            <div class="cont_item"><a href="#" title="#" class="privacy_link">Политика конфиденциальности</a></div>
+          </div><a href="#" class="link_main_version">Перейти на основную версию сайта</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

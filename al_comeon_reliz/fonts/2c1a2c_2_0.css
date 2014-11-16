@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '2C1A2C_2_0';
+    src: url('2c1a2c_2_0.eot');
+    src: url('2c1a2c_2_0.eot') format('embedded-opentype'),
+         url('2c1a2c_2_0.woff2') format('woff2'),
+         url('2c1a2c_2_0.woff') format('woff'),
+         url('2c1a2c_2_0.ttf') format('truetype'),
+         url('2c1a2c_2_0.svg#2C1A2C_2_0') format('svg');
+}
