@@ -8,8 +8,7 @@
     <script src="js/jquery.bxSlider.min.js"></script>
     <script src="js/modernizr.2.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,600,300&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" media="all" href="styles/main_global.css"><!--[if IE 9]><link rel="stylesheet" media="all" href="styles/ie_9_global.css"><![endif]-->
-    <!--[if IE 8]><link rel="stylesheet" media="all" href="styles/ie_8_global.css"><![endif]-->
+    <link rel="stylesheet" media="all" href="styles/main_global.css">
     <script src="js/frontend.js"></script>
   </head>
   <body class="main_page">
@@ -20,14 +19,8 @@
             <div class="func_box">
               <div class="func_hold"><a href="#" title="#" class="func_link mod_enter">Вход</a><a href="#" title="#" class="func_link mod_register">Регистрация</a></div><a href="#" class="ask_btn btn_v1 js_call">Задать вопрос</a>
             </div>
-                    <div role="search" class="search_box">
-                      <form action="#" method="post">
-                        <label for="search_site" class="hide">Введите текст поиска</label>
-                        <input type="text" name="search_site" placeholder="Введите текст поиска" id="search_site" class="form_f_search"><a href="#" class="btn_close"></a>
-                      </form>
-                    </div>
             <nav role="navigation" class="nav_hold">
-              <ul role="navigation" class="nav">
+              <ul class="nav">
                         <li class="nav_item active"><a href="#" title="#">Главная </a></li>
                         <li class="nav_item"><a href="#" title="#">О нас</a></li>
                         <li class="nav_item"><a href="#" title="#">НЭС</a></li>
@@ -41,6 +34,14 @@
               </ul><a href="#" class="search_control"></a>
             </nav>
           </div>
+                  <div role="search" class="search_box">
+                    <div class="search_hold">
+                      <form action="#" method="post">
+                        <label for="search_site" class="hide">Введите текст поиска</label>
+                        <input type="text" name="search_site" placeholder="Введите текст поиска" id="search_site" class="form_f_search"><a href="#" class="btn_close"></a>
+                      </form>
+                    </div>
+                  </div>
         </header>
         <div class="main_row">
           <div class="main_slider_wrap">
@@ -141,16 +142,16 @@
                 </div>
               </div>
             </section>
-            <section role="complementary" class="aside_block">
+            <div class="aside_block">
               <div class="blocks_hold pad_20">
                 <div class="b_block mod_1"><img src="i/bblock.jpg" alt=""></div>
                 <div class="b_block mod_1"><img src="i/bblock.jpg" alt=""></div>
                 <div class="b_block mod_1"><img src="i/bblock.jpg" alt=""></div>
               </div>
-            </section>
+            </div>
           </div>
         </div>
-        <footer role="contentinfo" class="footer">
+        <footer class="footer">
           <div class="footer_hold"><a class="logo_box_v2"><span class="st_1">Центр Энергоресурсосбережения</span><span class="st_2">Областное Государственное Казенное Учреждение</span></a>
             <div class="copyrights"><span>© 2001-2014 «Центр Энергоресурсорбережения»</span><span>Россия, 664007, г. Иркутск, ул. Партизанская 1, оф. 29</span></div>
             <div class="func_box mod_footer">

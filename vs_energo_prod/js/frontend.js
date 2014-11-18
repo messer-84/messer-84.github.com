@@ -41,13 +41,22 @@ function initSlider_v2(slider_class) {
 
 }
 
+
 function showSearchBox() {
 	$('.search_control').on('click', function (e) {
-		$('.search_box').fadeIn();
-		e.preventDefault();
+		$('body,html').stop(true, true).animate({
+			scrollTop: 0
+
+		}, 500, function(){
+					$('.search_box').stop(true,true).slideDown(400);
+					$('.form_f_search').focus();
+					e.preventDefault();
+				});
+
+
 	});
 	$('.btn_close').on('click', function(e){
-		$('.search_box').fadeOut();
+		$('.search_box').slideUp();
 		e.preventDefault();
 	})
 }
