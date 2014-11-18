@@ -7,7 +7,7 @@ $(function () {
 		initSlider_v2('.events_slider');
 	}
 	close_modal();
-	show_modal('.js_call','.modal_1')
+	show_modal('.js_call', '.modal_1')
 	emulPlaceholder();
 
 });
@@ -47,15 +47,15 @@ function showSearchBox() {
 		$('body,html').stop(true, true).animate({
 			scrollTop: 0
 
-		}, 500, function(){
-					$('.search_box').stop(true,true).slideDown(400);
-					$('.form_f_search').focus();
-					e.preventDefault();
-				});
+		}, 500, function () {
+			$('.search_box').stop(true, true).slideDown(400);
+			$('.form_f_search').focus();
+		});
+		e.preventDefault();
 
 
 	});
-	$('.btn_close').on('click', function(e){
+	$('.btn_close').on('click', function (e) {
 		$('.search_box').slideUp();
 		e.preventDefault();
 	})
