@@ -1,13 +1,16 @@
 $(function () {
 	getDeviceName();
 	emulPlaceholder();
-
+	showRegisterFields('.form_lbl_check','.enter_hidden_block');
 	nav_open();
 
 	move_top();
 
 	if ($('.acc_title').length) {
 		collapsingBlocks();
+	}
+	if($('.acc_title_v3').length){
+		collapsingBlocksNotAccordeon()
 	}
 
 	if ($('.object_slider_list').length) {
@@ -50,7 +53,29 @@ function nav_open() {
 	$('.js_nav_ctrl').on('click', function () {
 		$('body').toggleClass('menu_open');
 	});
+
 }
+
+$(document).on('click', function (event) {
+	if($('.menu_open').length){
+		var cond_1 = $(event.target).closest(".header").length;
+		if (cond_1) {
+
+		}
+		else {
+			$('body').removeClass('menu_open');
+
+			//$(event.target).closest('.modal_box').removeClass('active');
+			//$(event.target).closest('.modal_wrap').fadeOut(100);
+			//$('body').removeClass('show_modal');
+			event.stopPropagation();
+		}
+	}
+
+
+
+});
+
 
 //----------------------- Аккордеон товаров
 function collapsingBlocks() {
@@ -63,6 +88,22 @@ function collapsingBlocks() {
 		else {
 			$('.acc_title').removeClass('acc_title_open');
 			$('.acc_content').stop().slideUp();
+			$(this).addClass('acc_title_open');
+			$(this).next('.acc_content').stop().slideDown();
+		}
+		return false;
+	});
+}
+
+function collapsingBlocksNotAccordeon() {
+	var $ctrl = $('.acc_title_v3');
+	$ctrl.on('click', function () {
+		if ($(this).hasClass('acc_title_open')) {
+			$(this).removeClass('acc_title_open');
+			$(this).next('.acc_content').stop().slideUp();
+		}
+		else {
+			$('.acc_title').removeClass('acc_title_open');
 			$(this).addClass('acc_title_open');
 			$(this).next('.acc_content').stop().slideDown();
 		}
@@ -129,8 +170,13 @@ function initModalBox(modal_box, control) {
 
 //---------------смена блоков товара в корзине
 function slidingInCart() {
-	$('.obj_control').on('click', function () {
+	$('.js_obj_control').on('click', function () {
 		$(this).closest('.obj_cart_hold').toggleClass('open_count');
+		$(this).toggleClass('transition');
+	});
+	$('.js_obj_control_v2').on('click', function () {
+		$(this).toggleClass('transition');
+		$(this).closest('.obj_cart_hold').toggleClass('open_delete');
 	})
 }
 
@@ -187,5 +233,20 @@ function initPasswordMask() {
 		showGenerate: false,
 		showWarn: false,
 		showTip: false
+	});
+}
+function showRegisterFields(control, show_item) {
+	$(control).on('click', function () {
+		var $parent = $(this).closest('.radio_item'),
+			$check_input = $parent.find('.js_hidden_toggle');
+
+		if ($check_input.is(':checked')) {
+			$(show_item).removeClass('show');
+
+		}
+		else {
+			$(show_item).addClass('show');
+		}
+
 	});
 }
