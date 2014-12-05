@@ -3,7 +3,9 @@
   <head>
     <title>Comeon</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width"><meta name="format-detection" content="telephone=no" />
+
+	<meta name="format-detection" content="telephone=no" />
     <script src="js/frontend.min.js"></script>
     <script src="js/jquery.mask.js"></script>
     <link rel="stylesheet" media="all" href="styles/main_global.css">
@@ -30,39 +32,66 @@
       <div class="main_hold">
         <div class="main_content">
           <div class="order_block mod_2">
-            <h1 class="title_v1 st_3">Оформление заказа(юл)!</h1>
+            <h1 class="title_v1 st_3">Оформление заказа!</h1>
             <div class="accord_block mod_order">
               <ul class="accord_menu">
                     <li class="accord_item">
                       <div class="acc_title"><span class="num">1.</span><span>Добро пожаловать, Костя!</span></div>
-                      <div class="acc_content">
-                        <div class="order_data pb_18 mod_5">
-                          <h2 class="title_v4">Пожалуйста введи свой e-mail адрес</h2>
-                          <div class="cart_note_v2 mb_5">Мы вышлем тебе подтверждение заказа</div>
-                          <div class="form_item mb_38">
-                            <div class="form_hline_v1">
-                              <label for="field_1" class="form_lbl_v1 st_1">e-mail</label>
-                            </div>
-                            <div class="form_fw_v1">
-                              <input id="field_1" name="field_1" type="email" class="form_f_v1">
-                            </div>
-                          </div>
-                          <div class="btn_hold tac mb_30"><a href="#" title="#" class="btn_v2 size_40 mod_1">Войти</a></div>
-                          <h2 class="title_v4 mb_16">Оформлю заказ как</h2>
-                          <div class="form_item">
-                            <div class="radio_item mb_9">
-                              <input id="rad_3_1" type="radio" name="rad_3" value="1" class="inp_radio">
-                              <label for="rad_3_1" class="form_lbl_rad">Физическое лицо</label>
-                            </div>
-                          </div>
-                          <div class="form_item">
-                            <div class="radio_item">
-                              <input id="rad_3_2" type="radio" name="rad_3" value="2" checked class="inp_radio">
-                              <label for="rad_3_2" class="form_lbl_rad">Юридическое лицо</label>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+	                    <div class="acc_content">
+	             								<div class="order_data pb_18 mod_5">
+	             									<h2 class="title_v4">Пожалуйста введи свой e-mail адрес</h2>
+
+	             									<div class="cart_note_v2 mb_5">Мы вышлем тебе подтверждение заказа</div>
+	             									<div class="form_item mb_13">
+	             										<div class="form_hline_v1">
+	             											<label for="field_1" class="form_lbl_v1 st_1">e-mail</label>
+	             										</div>
+	             										<div class="form_fw_v1">
+	             											<input id="field_1" name="field_1" type="email" class="form_f_v1">
+	             										</div>
+	             									</div>
+	             									<div class="form_item mb_20">
+	             										<div class="radio_item mb_9">
+	             											<input id="check_1" type="checkbox" name="check_1" value="1"
+	             											       class="inp_checkbox js_hidden_toggle">
+	             											<label for="check_1" class="form_lbl_check">Я уже зарегистрирован</label>
+	             										</div>
+	             									</div>
+	             									<div class="enter_hidden_block">
+	             										<div class="form_item mb_38">
+	             											<div class="form_hline_v1">
+	             												<label for="field_1" class="form_lbl_v1 st_1">Пароль</label>
+	             											</div>
+	             											<div class="form_fw_v1">
+	             												<input id="field_1" name="field_1" type="password" class="form_f_v1">
+	             											</div>
+	             										</div>
+
+	             										<div class="btn_hold tac mb_30"><a href="#" title="#"
+	             										                                   class="btn_v2 size_40 mod_1">Войти</a>
+	             										</div>
+	             									</div>
+
+	             									<h2 class="title_v4 mb_16">Оформлю заказ как</h2>
+
+	             									<div class="form_item">
+	             										<div class="radio_item mb_9">
+	             											<input id="rad_3_1" type="radio" name="rad_3" value="1" class="inp_radio">
+	             											<label for="rad_3_1" class="form_lbl_rad">Физическое лицо</label>
+	             										</div>
+	             									</div>
+	             									<div class="form_item">
+	             										<div class="radio_item">
+	             											<input id="rad_3_2" type="radio" name="rad_3" value="2" checked
+	             											       class="inp_radio">
+	             											<label for="rad_3_2" class="form_lbl_rad">Юридическое лицо</label>
+	             										</div>
+	             									</div>
+	             								</div>
+	             								<div class="data_row mb_38"><a href="#" title="#" class="btn_v5 mod_1 st_1">Следующий
+	             									шаг</a></div>
+	             							</div>
+
                     </li>
                     <li class="accord_item">
                       <div class="acc_title"><span class="num">2.</span><span>Способ доставки</span></div>
@@ -219,7 +248,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="form_item mb_9">
+                      <div class="form_item mb_16">
                         <div class="form_hline_v1">
                           <label for="field_12" class="form_lbl_v1 st_1">Комментарии к заказу</label>
                         </div>
@@ -237,7 +266,7 @@
         </div>
       </div>
       <footer class="footer">
-        <div class="section"><a class="btn_to_top"><span>Наверх</span></a>
+        <div class="section footer_section"><a class="btn_to_top"><span>Наверх</span></a>
           <nav class="f_nav_hold">
             <ul class="f_nav">
                   <li class="f_nav_item"><a href="#" title="#" class="f_nav_link">Каталог</a></li>
