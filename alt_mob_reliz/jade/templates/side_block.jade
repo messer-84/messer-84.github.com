@@ -1,0 +1,13 @@
+.side_block
+	h2.category_title Categories
+	ul.category_list
+		- var j = 0
+		while j < 8
+			-j++
+			+category_item('Windows')
+			+category_item('Mac OS X')
+			+category_item('Linux')
+			+category_item('BSD')
+			+category_item('Chrome OS')
+			+category_item('Haiku')
+			+category_item('Windows')

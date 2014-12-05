@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+	head
+		include templates/head
+	body(ontouchstart)
+		.wrapper
+			header.header
+				include templates/header
+				include templates/side_block
+			.main_hold
+					.main_content
+						include contents/app_content
+			include templates/footer

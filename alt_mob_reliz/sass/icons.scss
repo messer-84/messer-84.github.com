@@ -1,0 +1,128 @@
+$postfix: '';
+
+.logo{
+	background-image: inline-image("../i/icons/logo#{$postfix}.png");
+}
+
+.form_submit_search{
+	background: #fff inline-image("../i/icons/search_mob_icon#{$postfix}.png") 50% no-repeat;
+
+}
+.socials_link{
+	&.st_1{
+		background-image: inline-image("../i/icons/facebook_2#{$postfix}.png");
+	}
+	&.st_2{
+		background-image: inline-image("../i/icons/twitter_2#{$postfix}.png");
+	}
+	&.st_3{
+		background-image: inline-image("../i/icons/gPlus_2#{$postfix}.png");
+	}
+}
+.search_control{
+	background: inline-image("../i/icons/mobSearch.png") 50% no-repeat;
+}
+
+
+.app_func_dl_dt{
+	&.st_dev{
+		&:before{
+			background-image: inline-image("../i/icons/developer#{$postfix}.png");
+		}
+	}
+	&.st_screen{
+		&:before{
+			background-image: inline-image("../i/icons/photo#{$postfix}.png");
+		}
+	}
+
+	&.st_lang{
+		&:before{
+			background-image: inline-image("../i/icons/lang#{$postfix}.png");
+		}
+	}
+}
+.screen_l_i_link{
+	&.mod_next{
+		&:before{
+			background: inline-image("../i/icons/more#{$postfix}.png") 0 0 no-repeat;
+		}
+		&:hover{
+			&:before{
+				background-image: inline-image("../i/icons/moreHover_2#{$postfix}.png");
+			}
+		}
+	}
+	&:before{
+		background: inline-image("../i/icons/screen_corner#{$postfix}.png") 0 0 no-repeat;
+	}
+}
+
+.socials_link_v2{
+	&.st_tw{
+		&:before{
+			background-image: inline-image("../i/icons/twitter#{$postfix}.png");
+		}
+	}
+	&.st_fb{
+		&:before{
+			background-image: inline-image("../i/icons/facebook#{$postfix}.png");
+		}
+	}
+	&.st_gl{
+		&:before{
+			background-image: inline-image("../i/icons/gPlus#{$postfix}.png");
+		}
+	}
+}
+
+.link_clear{
+	&:before{
+		background: inline-image("../i/icons/closeCtg#{$postfix}.png") 0 0 no-repeat;
+	}
+}
+
+.app_b_t_item{
+	&.st_device{
+		&:before{
+			background-image: inline-image("../i/icons/pc#{$postfix}.png");
+		}
+	}
+	&.st_price{
+		&:before{
+			background-image: inline-image("../i/icons/license#{$postfix}.png");
+		}
+	}
+	&.st_ctg{
+		&:before{
+			background: inline-image("../i/icons/folder#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+}
+.app_b_d_item{
+	&.st_device{
+		&:before{
+			background-image: inline-image("../i/icons/pc#{$postfix}.png");
+		}
+	}
+	&.st_ctg{
+		&:before{
+			background: inline-image("../i/icons/folder#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+}
+.app_dev_link{
+	&:before{
+		background: inline-image("../i/icons/developer#{$postfix}.png") 0 0 no-repeat;
+	}
+}
+.tags_l_i_link{
+	&:before{
+		background: inline-image("../i/icons/tag#{$postfix}.png") 0 0 no-repeat;
+	}
+}
+
+
+.f_logo{
+	background: inline-image("../i/icons/logo_footer.png") 0 0 no-repeat;
+}

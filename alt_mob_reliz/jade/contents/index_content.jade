@@ -1,0 +1,21 @@
+.section.section_filter
+	ul.select_list
+		li.select_hold
+			select.form_sel_v1
+				option(value="1") All Platforms
+				option(value="2") Windows
+				option(value="3") Mac
+				option(value="3") Linux
+		li.select_hold
+			select.form_sel_v1
+				option(value="1") All Licenses
+				option(value="2") License-1
+				option(value="3") License-2
+.search_results
+		h2.title_v1 Recently updated alternatives
+		ul.app_list
+			- var j = 0
+			while j < 6
+				-j++
+				+app_l_item('i/content/vlc.png')
+		a.show_more_btn(href="#" title="#") SHOW MORE

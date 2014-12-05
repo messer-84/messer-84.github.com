@@ -1,0 +1,60 @@
+- var radio_id = 0
+.modal_wrap
+	.modal_1.modal_box
+		span.modal_close
+		.form_box_modal.mod_modal
+			h2.title_v1.mod_modal Форма заказа
+			.client_data_wrap
+				.client_d_item.mod_1
+					dl.client_data
+						dt.client_d_dt Ваши данные:
+						dd.client_d_dd
+							.row ООО «Ааша»
+							.row Адрес: г. Москва, ул. Сталеваров, д. 54, оф. 517
+				.client_d_item.mod_2
+					.client_notice Если реквизиты не точны, отправьте запрос на изменение реквизитов
+					.client_link_w
+						a(href="#" title="#") Отправить запрос на изменение реквизитов
+			.type_delivery_block
+				ul.radio_list.mod_modal
+					li.radio_item.mod_fl
+						input.form_f_rad_v1(type='radio', name='rad_1', value='1', id='radio_#{++radio_id}', checked)
+						label.form_lbl_rad_v1.delivery_control_1(for='radio_#{radio_id}') Самовывоз
+					li.radio_item.mod_fl
+						input.form_f_rad_v1(type='radio', name='rad_1', value='2', id='radio_#{++radio_id}')
+						label.form_lbl_rad_v1.delivery_control_2(for='radio_#{radio_id}') Доставка
+			.block_delivery_v1.show
+				h2.title_v1.mb_18 Самовывоз
+				.delivery_address Адрес: г. Москва, ул. Героев Панфиловцев, д. 54, к. 1
+				.delivery_notice Предварительно позвоните по телефону +7 (495) 123-45-67, для уточнения времени самовывоза
+			.block_delivery_v2
+				h2.title_v1.mb_27 Транспортаная компания
+				.form_item.mod_modal
+					select(class="form_select_v1")
+						option(value='1') Технотранс
+						option(value='2') Раздел 1
+						option(value='3') Раздел 2
+						option(value='4') Раздел 3
+
+			.total_info_block.mod_modal
+				.total_info_hold.mod_modal
+					.total_i_row
+						| Всего наименований:
+						span.st_1 10
+						| , общее количество товаров:
+						span.st_1 43
+						| ,
+						span.st_2_1 На сумму:
+						span.st_2_2 10000
+						span.st_2_3 р.
+
+					.total_i_row
+						.discount_box
+							span.st_3_1 ваша скидка:
+							span.st_3_2 10%
+					.total_i_row.mod_last
+						span.st_4_1 итого:
+						span.st_4_2 9000 р.
+				.total_btn_hold
+					a.btn_v4.mod_total(href="#" title="#") Оформить заказ
+

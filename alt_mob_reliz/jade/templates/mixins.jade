@@ -1,0 +1,199 @@
+mixin object_item
+	li.objects_item.size_33
+		a.obj_img(href="")
+			img(src="i/goods_2.jpg", alt="")
+		h3.obj_name.mod_one
+			a(href="#" title="#") Комплекс против выпадения волос AASHA
+
+mixin object_item_min_text
+	li.objects_item.size_33
+		a.obj_img(href="")
+			img(src="i/goods_2.jpg", alt="")
+		h3.obj_name.mod_one
+			a(href="#" title="#") Комплекс
+
+
+
+mixin object_item_mod_four
+	li.objects_item.mod_four
+		a.obj_img.mod_four(href="")
+			img(src="i/kit_v3.jpg", alt="")
+		h3.obj_name.st_1
+			a(href="#" title="#") Комплекс против выпадения волос AASHA
+
+mixin object_item_mod_four_v2
+	li.objects_item.mod_four
+		a.obj_img.mod_four(href="")
+			img(src="i/kit_v3.jpg", alt="")
+		h3.obj_name.st_2
+			a(href="#" title="#") Комплекс против выпадения волос AASHA
+
+mixin object_item_v2
+	li.objects_item
+		.objects_box.mod_h_1
+			a.obj_img.mod_1(href="#" title="#")
+				img(src="i/content/mrt.jpg", alt="")
+			.obj_desc.mod_h_1
+				.obj_d_item.mod_5
+					a(href="#" title="#") Тамограф Phillips Pfl 90033 z
+			.obj_footer
+				a.obj_link.mod_1.w_full(href="#" title="#")
+					span.obj_l_text.st_1 Подробнее
+
+
+mixin item_link(item_class, link_class, text)
+	li(class="#{item_class}")
+		a(href="#" title="#", class="#{link_class}") #{text}
+
+mixin item_link_v2(item_class, link_class, text)
+	li(class="#{item_class}")
+		a(href="#" title="#", class="#{link_class}")
+			span #{text}
+
+mixin item_link_v3(item_class, text)
+	li(class="#{item_class}")
+		a(href="#" title="#") #{text}
+
+
+mixin nav_item(text)
+	li.nav_item
+		a.nav_link(href="#" title="#") #{text}
+
+mixin nav_item_active(text)
+	li.nav_item.active
+		a.nav_link(href="#" title="#") #{text}
+
+
+mixin note(note_text)
+	.note
+		span.note_link
+		span.note_text #{note_text}
+mixin note_field(note_text)
+	.note.note_field
+		span.note_link
+		span.note_text #{note_text}
+
+mixin form_cell_lbl_left(dl_class, lbl_text)
+	dl(class='form_cell_v1 mod_lbl_left #{dl_class}')
+		dt.form_hline_v1
+			label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+		dd.form_f_w_v1
+			input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_email_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='email',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='email',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_textarea_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				textarea.f_field_v1.mod_ta.size_ta_1(type='textarea',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				textarea.f_field_v1.mod_ta.size_ta_1(type='textarea',id='field_#{n}', name='field_#{n}')
+
+mixin check_item(lbl_mod_class, lbl_text)
+	if lbl_mod_class == false
+		li.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label.form_lbl_check_v1(for="check_#{check_id}") #{lbl_text}
+	else
+		li.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label(class='form_lbl_check_v1 #{lbl_mod_class}', for="check_#{check_id}") #{lbl_text}
+
+mixin check_block(lbl_mod_class, lbl_text)
+	if lbl_mod_class == false
+		.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label.form_lbl_check_v1(for="check_#{check_id}") #{lbl_text}
+	else
+		.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label(class='form_lbl_check_v1 #{lbl_mod_class}', for="check_#{check_id}") #{lbl_text}
+
+mixin search_box
+	.search_box
+		form(action="#", method="post")
+			label.hide(for='search_site') Найти
+			input.form_f_search(type='text', name='search_site', placeholder='Найти',id='search_site')
+			input.form_submit_search(type='submit', value='')
+
+
+//--------------------------------alt_tools
+
+mixin app_l_item(img_src)
+	li.app_l_item
+		a.app_view(href="#", title="#")
+			img.app_img(src="#{img_src}")
+		.app_like_box
+			span.like_b_count 1051
+			span.like_b_num likes
+		.app_main
+			h3.app_name
+				a(href="#", title="#") Freshdesk
+			.app_row
+				.app_r_item.mod_dev
+					a(href="#" title="#") Google
+				.app_r_item.mod_lic
+					a(href="#" title="#") Freemium
+			.app_row
+				.app_r_item
+					a(href="#" title="#") Image Editing
+
+
+mixin app_l_item_v2(img_src)
+	li.app_l_item
+		.app_vote_box
+			span.vote_b_count 1051
+			span.vote_b_num votes
+		a.app_view(href="#", title="#")
+			img.app_img(src="#{img_src}")
+		.app_main
+			h3.app_name
+				a(href="#", title="#") Freshdesk
+			.app_row
+				.app_r_item.mod_dev Google
+				.app_r_item.mod_lic Freemium
+			.app_row
+				.app_r_item.mod_ctg Image Editing
+
+
+
+
+mixin category_item(title)
+	li.category_item
+		a.category_row(href="#", title="")
+			span.dt #{title}
+			span.dd 516
+

@@ -1,0 +1,44 @@
+/*------------------------------------------------------fonts*/
+@font-face{
+	font-family: 'harmonia_black';
+	src: url('../fonts/harmoniasansprocyr-black.eot');
+	src: url('../fonts/harmoniasansprocyr-black.eot') format('embedded-opentype'),
+	url('../fonts/harmoniasansprocyr-black.woff') format('woff'),
+	url('../fonts/harmoniasansprocyr-black.ttf') format('truetype'),
+	url('../fonts/harmoniasansprocyr-black.svg#HarmoniaSansProCyrBlack') format('svg');
+}
+
+@font-face{
+	font-family: 'harmonia_bold';
+	src: url('../fonts/harmoniasansprocyr-bold.eot');
+	src: url('../fonts/harmoniasansprocyr-bold.eot') format('embedded-opentype'),
+	url('../fonts/harmoniasansprocyr-bold.woff') format('woff'),
+	url('../fonts/harmoniasansprocyr-bold.ttf') format('truetype'),
+	url('../fonts/harmoniasansprocyr-bold.svg#HarmoniaSansProCyrBold') format('svg');
+}
+
+@font-face{
+	font-family: 'harmonia_light';
+	src: url('../fonts/harmoniasansprocyr-light.eot');
+	src: url('../fonts/harmoniasansprocyr-light.eot') format('embedded-opentype'),
+	url('../fonts/harmoniasansprocyr-light.woff') format('woff'),
+	url('../fonts/harmoniasansprocyr-light.ttf') format('truetype'),
+	url('../fonts/harmoniasansprocyr-light.svg#HarmoniaSansProCyrLight') format('svg');
+}
+
+@font-face{
+	font-family: 'harmonia_regular';
+	src: url('../fonts/harmoniasansprocyr-regular.eot');
+	src: url('../fonts/harmoniasansprocyr-regular.eot') format('embedded-opentype'),
+	url('../fonts/harmoniasansprocyr-regular.woff') format('woff'),
+	url('../fonts/harmoniasansprocyr-regular.ttf') format('truetype'),
+	url('../fonts/harmoniasansprocyr-regular.svg#HarmoniaSansProCyrRegular') format('svg');
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	@font-face{
+//		src: url('../fonts/samosanspro-medium.svg#samo_sans_promedium') format('svg');
+	}
+}
+
+/*------------------------------------------------------fonts###*/

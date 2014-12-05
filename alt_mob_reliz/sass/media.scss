@@ -1,0 +1,14 @@
+$breakpoint_1: 976px;
+
+$breakpoint_2: 1200px;
+
+
+@media only screen and (max-width: $breakpoint_2),
+only screen and (max-device-width: $breakpoint_2) {
+
+}
+
+@media only screen and (max-width: $breakpoint_1),
+only screen and (max-device-width: $breakpoint_1) {
+
+}
