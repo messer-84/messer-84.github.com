@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Товары для детей</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/modernizr.2.js"></script><link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,700&subset=cyrillic-ext,latin' rel='stylesheet'type='text/css'>
+    <link rel="stylesheet" media="all" href="styles/main_global.css">
+    <!--[if IE 9]><link rel="stylesheet" media="all" href="styles/ie_9_global.css"><![endif]--><!--[if IE 8]><link rel="stylesheet" media="all" href="styles/ie_8_global.css"><![endif]-->
+    <script src="js/selectordie.min.js"></script>
+    <script src="js/frontend.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="base">
+        <header class="header">
+          <div class="header_hold"><a href="#" title="" class="logo"><span class="st_1">Товары для детей</span><span class="st_2">доска объявлений</span></a><a href="#" title="#" class="locality js_locality"><span>Иркутск</span></a>
+            <ul class="func_box">
+              <li class="func_item mod_forum"><a href="#" class="func_link">Форум</a></li>
+              <li class="func_item mod_search">
+                <div class="search_box">
+                  <label for="search_site" class="hide">Поиск по объявлениям</label>
+                  <input type="text" name="search_site" placeholder="Поиск по объявлениям" id="search_site" class="form_f_search">
+                  <input type="submit" value="" class="form_submit_search">
+                </div>
+              </li>
+              <li class="func_item mod_enter"><a href="#" title="#" class="enter_link js_enter">Вход</a><a href="#" title="#" class="enter_link js_register">Регистрация</a></li>
+            </ul>
+          </div>
+        </header>
+        <div class="main_row">
+          <div class="content_row">
+            <div class="filter_block">
+              <div class="filter_row">
+                <div class="filter_item mod_1">
+                  <div class="form_hline_v1">
+                    <label for="field_1">Продавец:</label>
+                  </div>
+                  <ul class="checkbox_list">
+                    <li class="checkbox_item">
+                      <input type="checkbox" name="ch_1" id="ch_1" class="inp_check">
+                      <label for="ch_1" class="form_lbl_check">компания</label>
+                    </li>
+                    <li class="checkbox_item">
+                      <input type="checkbox" name="ch_2" id="ch_2" class="inp_check">
+                      <label for="ch_2" class="form_lbl_check">физ.лицо</label>
+                    </li>
+                  </ul>
+                </div>
+                <div class="filter_item mod_1">
+                  <div class="form_hline_v1">
+                    <label for="field_1">Состояние:</label>
+                  </div>
+                  <div class="form_f_w_v1">
+                    <ul class="checkbox_list">
+                      <li class="checkbox_item">
+                        <input type="checkbox" name="ch_3" id="ch_3" class="inp_check">
+                        <label for="ch_3" class="form_lbl_check">новое</label>
+                      </li>
+                      <li class="checkbox_item">
+                        <input type="checkbox" name="ch_4" id="ch_4" class="inp_check">
+                        <label for="ch_4" class="form_lbl_check">б/у</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="filter_row">
+                <div class="filter_item">
+                  <div class="form_hline_v1 mod_1">
+                    <label for="field_1">Цена:</label>
+                  </div>
+                  <div class="form_hold_v1">
+                    <div class="form_f_w_v1 mod_1">
+                      <input type="text" name="field_1" id="field_1" placeholder="от" class="f_field_v1">
+                    </div><span class="form_separ">—</span>
+                    <div class="form_f_w_v1 mod_1">
+                      <input type="text" name="field_2" id="field_2" placeholder="до" class="f_field_v1">
+                    </div><span class="form_eq">Р.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="filter_row">
+                <div class="filter_item mod_select">
+                              <select class="form_select_v1">
+                                <option value="1">Уровень-1</option>
+                                <option value="2">Уровень-10</option>
+                                <option value="3">Уровень-11</option>
+                                <option value="4">Уровень-12</option>
+                              </select>
+                </div>
+                <div class="filter_item mod_select">
+                              <select class="form_select_v1">
+                                <option value="1">Уровень-1</option>
+                                <option value="2">Уровень-10</option>
+                                <option value="3">Уровень-11</option>
+                                <option value="4">Уровень-12</option>
+                              </select>
+                </div>
+                <div class="filter_item mod_select">
+                              <select class="form_select_v1">
+                                <option value="1">Уровень-1</option>
+                                <option value="2">Уровень-10</option>
+                                <option value="3">Уровень-11</option>
+                                <option value="4">Уровень-12</option>
+                              </select>
+                </div>
+              </div>
+              <div class="filter_row mod_submit">
+                <div class="form_submit_w">
+                  <input type="submit" value="Показать" class="form_submit_v2">
+                </div>
+              </div>
+            </div>
+            <ul class="objects_list">
+                          <li class="objects_item">
+                            <div class="objects_box"><a href="#" title="#" class="obj_img"><img src="i/content/face.jpg" alt=""></a>
+                              <div class="obj_desc">
+                                <h2 class="obj_d_name"><a href="#">Набор пустышек Avent</a></h2>
+                                <div class="obj_d_price">9 999 999<span class="eq">Р.</span></div>
+                                <div class="obj_d_text">Силиконовая пустышка "Классика" от компании Avent</div>
+                                <div class="obj_d_date">26 ноября 2014 г.</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="objects_item">
+                            <div class="objects_box"><a href="#" title="#" class="obj_img"><img src="i/content/face.jpg" alt=""></a>
+                              <div class="obj_desc">
+                                <h2 class="obj_d_name"><a href="#">Набор пустышек Avent</a></h2>
+                                <div class="obj_d_price">9 999 999<span class="eq">Р.</span></div>
+                                <div class="obj_d_text">Силиконовая пустышка "Классика" от компании Avent</div>
+                                <div class="obj_d_date">26 ноября 2014 г.</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="objects_item">
+                            <div class="objects_box"><a href="#" title="#" class="obj_img"><img src="i/content/face.jpg" alt=""></a>
+                              <div class="obj_desc">
+                                <h2 class="obj_d_name"><a href="#">Набор пустышек Avent</a></h2>
+                                <div class="obj_d_price">9 999 999<span class="eq">Р.</span></div>
+                                <div class="obj_d_text">Силиконовая пустышка "Классика" от компании Avent</div>
+                                <div class="obj_d_date">26 ноября 2014 г.</div>
+                              </div>
+                            </div>
+                          </li>
+                          <li class="objects_item">
+                            <div class="objects_box"><a href="#" title="#" class="obj_img"><img src="i/content/face.jpg" alt=""></a>
+                              <div class="obj_desc">
+                                <h2 class="obj_d_name"><a href="#">Набор пустышек Avent</a></h2>
+                                <div class="obj_d_price">9 999 999<span class="eq">Р.</span></div>
+                                <div class="obj_d_text">Силиконовая пустышка "Классика" от компании Avent</div>
+                                <div class="obj_d_date">26 ноября 2014 г.</div>
+                              </div>
+                            </div>
+                          </li>
+              <li class="objects_item">
+                <div class="objects_box"><a href="#" title="#" class="obj_img"><img src="i/content/face.jpg" alt=""></a>
+                  <div class="obj_desc">
+                    <h2 class="obj_d_name"><a href="#">Набор пустышек Avent Набор пустышек Avent Набор пустышек Avent Набор пустышек Avent</a></h2>
+                    <div class="obj_d_price">9 999 999 р.</div>
+                    <div class="obj_d_text">Силиконовая пустышка "Классика" от компании Avent Силиконовая пустышка "Классика" от компании Avent Силиконовая пустышка "Классика" от компании Avent</div>
+                    <div class="obj_d_date">26 ноября 2014 г.</div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="pagination">
+              <ul class="pages_list">
+                <li class="pages_l_item"><a href="#" class="pages_l_link active">1</a></li>
+                <li class="pages_l_item"><a href="#" class="pages_l_link">2</a></li>
+                <li class="pages_l_item"><a href="#" class="pages_l_link">3</a></li>
+                <li class="pages_l_item"><span class="pages_l_dots">...</span></li>
+                <li class="pages_l_item"><a class="pages_l_link">238</a></li>
+                <li class="pages_l_item"><a href="#" class="pages_l_link mod_next">Следующая</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="primary_row">
+            <div class="add_block"><a href="#" class="add_btn">Подать объявление</a></div>
+            <div class="categories_menu_block">
+              <ul class="categories_menu">
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title">Авто и мото</a></li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title mod_parent">Красота и здоровье</a>
+                  <div class="ctg_i_content">
+                    <ul class="ctg_submenu">
+                      <li class="ctg_s_item"><a href="#" title="#" class="ctg_s_link active">Авто и мото</a></li>
+                      <li class="ctg_s_item"><a href="#" title="#" class="ctg_s_link">Красота и здоровье</a></li>
+                      <li class="ctg_s_item"><a href="#" title="#" class="ctg_s_link">Мебель и интерьер</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title">Мебель и интерьер</a></li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title mod_parent">Недвижимость</a>
+                  <div class="ctg_i_content">
+                    <ul class="ctg_submenu">
+                      <li class="ctg_s_item"><a href="#" title="#" class="ctg_s_link">Авто и мото</a></li>
+                      <li class="ctg_s_item"><a href="#" title="#" class="ctg_s_link">Красота и здоровье</a></li>
+                      <li class="ctg_s_item"><a href="#" title="#" class="ctg_s_link">Мебель и интерьер</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title">Аренда недвижимости</a></li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title">Оборудование и производство</a></li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title">Разное</a></li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title">Строительство и ремонт</a></li>
+                <li class="ctg_m_item"><a href="#" class="ctg_item_title">Услуги и деятельность</a></li>
+              </ul>
+            </div>
+            <div class="b_block b_block_v1"><a href="#" title="#" class="b_block_link"><img src="i/b_block.jpg" alt=""></a></div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="footer_hold">
+            <div class="copyrights">© 2014 Товары для детей</div>
+            <dl class="developers">
+              <dt>Разработка сайта —</dt>
+              <dd><a href="#" title="" class="developer_link">Деловой сайт</a></dd>
+            </dl>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <div class="modal_wrap">
+      <div class="modal_1 modal_box"><span class="modal_close"></span>
+        <div class="modal_content">
+          <h2 class="form_title">Регистрация</h2>
+          <ul class="form_list">
+            <li class="form_item_v2 mod_1">
+              <ul class="checkbox_list mod_1">
+                <li class="checkbox_item">
+                  <input type="radio" name="type_user" id="rad_1" value="1" checked class="inp_radio">
+                  <label for="rad_1" class="form_lbl_radio js_control_person">Частное лицо</label>
+                </li>
+                <li class="checkbox_item">
+                  <input type="radio" name="type_user" id="rad_2" value="2" class="inp_radio">
+                  <label for="rad_2" class="form_lbl_radio js_control_org">Компания</label>
+                </li>
+              </ul>
+            </li>
+            <li class="form_item_v2 form_item_person show">
+              <label for="f_1" class="hide">Ваше имя</label>
+              <input id="f_1" type="text" placeholder="Ваше имя" class="f_field_v1">
+            </li>
+            <li class="form_item_v2 form_item_org">
+              <label for="f_1" class="hide">Название компании</label>
+              <input id="f_1" type="text" placeholder="Название компании" class="f_field_v1">
+            </li>
+            <li class="form_item_v2 form_item_org">
+              <label for="f_1" class="hide">Контактное лицо</label>
+              <input id="f_1" type="text" placeholder="Контактное лицо" class="f_field_v1">
+            </li>
+            <li class="form_item_v2">
+              <label for="f_1" class="hide">Электронная почта</label>
+              <input id="f_1" type="email" placeholder="Электронная почта" class="f_field_v1">
+            </li>
+            <li class="form_item_v2">
+              <label for="f_1" class="hide">Номер телефона</label>
+              <input id="f_1" type="tel" placeholder="Номер телефона" class="f_field_v1">
+            </li>
+            <li class="form_item_v2 mod_3">
+              <label for="f_1" class="hide">Пароль</label>
+              <input id="f_1" type="password" placeholder="Пароль" class="f_field_v1">
+            </li>
+            <li class="form_item_v2 mod_2">
+              <input type="checkbox" name="ch_agree" id="ch_agree" checked class="inp_check">
+              <label for="ch_agree" class="form_lbl_check mod_agree">Я подтверждаю своё согласие с условиями &nbsp;<a href="#" title="test.html" target="_blank">пользовательского соглашения</a></label>
+            </li>
+            <li class="form_item_v2 mod_3">
+              <input type="submit" value="Зарегистрироваться" class="form_submit_v2 mod_1">
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="modal_wrap">
+      <div class="modal_2 modal_box"><span class="modal_close"></span>
+        <div class="modal_content">
+          <h2 class="form_title">Выбор города</h2>
+          <div class="lists_wrap">
+            <ul class="locality_list">
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Москва</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Санкт-Петербург</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Архангельск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Владивосток</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Волгоград</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Воронеж</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Екатеринбург</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Ижевск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link active">Иркутск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Казань</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Кемерово</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Краснодар</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Красноярск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Мурманск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Набережные Челны</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Нижний Новгород</a>
+              </li>
+            </ul>
+            <ul class="locality_list">
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Новосибирск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Омск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Пермь</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Ростов-на-Дону</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Саратов</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Самара</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Сургут</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Тверь</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Тольятти</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Тула</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Тюмень</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Ульяновск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Уфа</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Хабаровск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Челябинск</a>
+              </li>
+              <li class="loc_item"><a href="#" title="undefined" class="loc_i_link">Ярославль</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

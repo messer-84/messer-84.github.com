@@ -1,0 +1,22 @@
+.inp_radio,
+.inp_check {
+  top: 3px;
+}
+
+.form_lbl_check:before, .form_lbl_check:after,
+.form_lbl_radio:before,
+.form_lbl_radio:after {
+  display: none;
+}
+
+.ctg_item_title {
+  background: #fdfdfd;
+  border-bottom: 1px solid #ddd;
+}
+.ctg_item_title.active {
+  background: #f6a534;
+}
+
+.modal_wrap {
+  background: url(../i/back_white_ie.png) 0 0 repeat;
+}
