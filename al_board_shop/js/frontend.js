@@ -11,7 +11,7 @@ $(function () {
 	sliders_init_3();
 	sliders_init_1();
 	show_modal(".js_control_v1", ".modal_1");
-	show_modal(".js_control_v2", ".modal_2");
+	show_modal_inner();
 	show_modal(".js_control_v3", ".modal_3");
 	show_modal(".js_control_v4", ".modal_4");
 
@@ -195,13 +195,36 @@ function sliders_init_3() {
 
 }
 
+function fadeOutModalWrap(){
+	$('.modal_wrap').fadeOut(100);
+
+}
+
+function show_modal_inner() {
+	var $m_trigger = $('.js_control_v2');
+
+	$m_trigger.on('click', function () {
+		var $modal_wrap = $(this).closest('.goods_i_box').find('.modal_wrap');
+		var $modal_box = $modal_wrap.find('.modal_box');
+
+		$(this).closest('.goods_item').addClass('item_active');
+		fadeOutModalWrap();
+		$modal_wrap.fadeIn();
+		$modal_box.addClass('active');
+		$('body').addClass('show_modal');
+		return false;
+	});
+
+}
+
 function show_modal(m_trigger, m_modal) {
 	m_trigger = $(m_trigger);
 	m_modal = $(m_modal);
 	var $modal_wrap = m_modal.closest('.modal_wrap');
 
 	m_trigger.on('click', function () {
-		$('.modal_wrap').fadeOut();
+		fadeOutModalWrap();
+
 		$modal_wrap.fadeIn();
 		m_modal.addClass('active');
 		return false;
@@ -216,7 +239,9 @@ $(document).on('click', function (event) {
 	}
 	else {
 		$(event.target).closest('.modal_box').removeClass('active');
-		$(event.target).closest('.modal_wrap').fadeOut(700);
+		$(event.target).closest('.modal_wrap').fadeOut(100);
+		$('body').removeClass('show_modal');
+		$('.goods_item').removeClass('item_active');
 
 		event.stopPropagation();
 	}
@@ -227,7 +252,10 @@ $(document).on('click', function (event) {
 function close_modal() {
 	$('.modal_close').on('click', function () {
 		$(this).closest(".modal_box").removeClass('active');
-		$(this).closest(".modal_wrap").fadeOut(700);
+		$(this).closest(".modal_wrap").fadeOut(100);
+
+		$('.goods_item').removeClass('item_active');
+		$('body').removeClass('show_modal');
 		return false;
 	});
 }
@@ -241,6 +269,9 @@ function side_box() {
 		else {
 			$(this).closest('.side_panel').addClass('active');
 			$('.side_panel_background').fadeIn(700);
+			$(".modal_box").removeClass('active');
+			fadeOutModalWrap();
+
 
 		}
 
