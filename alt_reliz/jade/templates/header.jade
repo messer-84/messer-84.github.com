@@ -1,0 +1,33 @@
+include mixins
+header.header
+	.header_hold
+		a.logo(href='#', title='') Alt Tools
+		.langs_box
+			#polyglotLanguageSwitcher.langs_hold
+				form(action='#')
+					select#polyglot-language-options
+						option#en(value='en', selected='') English
+						option#fr(value='fr') Francais
+						option#de(value='de') Deutsch
+						option#it(value='it') Italiano
+						option#es(value='es') Espanol
+		ul.func_box
+			li.func_b_item
+				a.func_b_link.st_1(href="#" title="#") Login
+			li.func_b_item
+				a.func_b_link.st_2(href="#" title="#") Add App
+			li.func_b_item
+				a.func_b_link.st_3(href="#" title="#") Settings
+		.search_box
+			form
+				.search_field_wrap
+					label.hide(for='search_site') Найти
+					input.form_f_search(type='text', name='search_site', placeholder='I want...',id='search_site')
+					input.form_submit_search(type='submit', value='')
+				.search_select_wrap
+					select(multiple='multiple', class="form_multiselect")
+						option(value='1') Windows
+						option(value='2') Mac
+						option(value='3') Linux
+
+

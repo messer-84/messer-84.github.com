@@ -1,0 +1,185 @@
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ */
+
+.ms-parent {
+	display: block;
+	position: relative;
+	height: 40px;
+	width: 129px !important;
+}
+
+.ms-choice {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 26px;
+    color: #444;
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.ms-choice.disabled {
+    background-color: #f4f4f4;
+    background-image: none;
+    cursor: default;
+}
+
+.ms-choice > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 20px;
+	height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    padding: 8px 9px;
+}
+
+.ms-choice > span.placeholder {
+    color: #999;
+}
+
+.ms-choice > div {
+    position: absolute;
+	position: absolute;
+ top: 18px;
+ right: 14px;
+ text-indent: -9999px;
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 4px 4px 0 4px;
+ border-color: #7f7f7f transparent transparent transparent;
+//    background: url('multiple-select.png') left top no-repeat;
+}
+
+.ms-choice > div.open {
+//    background: url('multiple-select.png') right top no-repeat;
+}
+
+.ms-drop {
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+    color: #686868;
+    border: 1px solid #ededed;
+	border-top: none;
+    border-radius: 0 0 4px 4px;
+}
+
+.ms-drop.bottom {
+    top: 100%;
+
+}
+
+.ms-drop.top {
+    bottom: 100%;
+}
+
+.ms-search {
+    display: inline-block;
+    margin: 0;
+    min-height: 26px;
+    padding: 4px;
+    position: relative;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 10000;
+}
+
+.ms-search input {
+    width: 100%;
+    height: auto !important;
+    min-height: 24px;
+    padding: 0 20px 0 5px;
+    margin: 0;
+    outline: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    border: 1px solid #aaa;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	background: #fff;
+}
+
+.ms-search, .ms-search input {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ms-drop ul {
+    overflow: auto;
+    margin: 0;
+}
+
+.ms-drop ul > li {
+	display: block;
+}
+
+.ms-drop ul > li .disabled {
+    opacity: .35;
+}
+
+.ms-drop ul > li.multiple {
+    display: block;
+    float: left;
+}
+
+.ms-drop ul > li.group {
+    clear: both;
+}
+
+.ms-drop ul > li.multiple label {
+    width: 100%;
+    display: block;
+	height: 32px;
+	border-top: 1px solid #e6e6e6;
+    white-space: nowrap;
+    overflow: hidden;
+	cursor: pointer;
+    text-overflow: ellipsis;
+
+}
+
+.ms-drop ul > li label {
+    font-weight: normal;
+    display: block;
+	padding: 7px 9px 7px;
+    white-space: nowrap;
+	height: 32px;
+	cursor: pointer;
+	border-top: 1px solid #e6e6e6;
+	&:hover{
+		background: #f8f8f8;
+		color: #484848;
+	}
+}
+
+.ms-drop ul > li label.optgroup {
+    font-weight: bold;
+}
+
+.ms-drop input[type="checkbox"] {
+	position: relative;
+	top: -1px;
+    vertical-align: middle;
+}
+
+.ms-drop .ms-no-results {
+    display: none;
+}

@@ -1,0 +1,117 @@
+.info_block
+	h1.title_v1 About US
+	.info_text.text_v1 Nullam dictum neque eu tortor laoreet tristique. Pellentesque nec cursus justo. Pellentesque luctus lacus puru`s, at dictum dolor porttitor ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque odio metus, interdum vitae velit in, gravida congue urna.
+	.socials_hold
+		include ../templates/socials_list
+.choose_device_block
+	h2.title_v2 Choose your device
+	ul.choose_dev_list
+		li.choose_d_item.num_1
+			a.choose_d_link.st_1(href="#" title="#") Any
+		li.choose_d_item.num_2
+			.choose_d_type.st_1
+			ul.choose_d_submenu
+				li.choose_d_s_item
+					a.choose_d_s_link.st_1.active(href="#" title="#") Windows
+				li.choose_d_s_item
+					a.choose_d_s_link.st_2(href="#" title="#") Mac OS
+				li.choose_d_s_item
+					a.choose_d_s_link.st_3(href="#" title="#") Linux
+		li.choose_d_item.num_3
+			.choose_d_type.st_2
+			ul.choose_d_submenu
+				li.choose_d_s_item
+					a.choose_d_s_link.st_4(href="#" title="#") iPhone
+				li.choose_d_s_item
+					a.choose_d_s_link.st_5(href="#" title="#") Android
+				li.choose_d_s_item
+					a.choose_d_s_link.st_6(href="#" title="#") Windows Phone
+		li.choose_d_item.num_4
+			.choose_d_type.st_3
+			ul.choose_d_submenu
+				li.choose_d_s_item
+					a.choose_d_s_link.st_7(href="#" title="#") iPad
+				li.choose_d_s_item
+					a.choose_d_s_link.st_8(href="#" title="#") Android Tablet
+		li.choose_d_item.num_5
+			a.choose_d_link.st_2(href="#" title="#") Online Services
+			span.helper_1
+.search_results
+	.search_res_head
+		h2.title_v2.mod_arrow
+			| We have more than 35040 apps in different categories
+			a.btn_v1.js_ctg_show(href="#" title="#")
+		ul.filter_menu
+			li.filter_m_item
+				a.filter_m_link.active(href="#" title="#") Any
+			li.filter_m_item
+				a.filter_m_link(href="#" title="#") iPad
+			li.filter_m_item
+				a.filter_m_link(href="#" title="#") Free
+			li.filter_m_item
+				a.filter_m_link(href="#" title="#") Open Source
+	.search_res_category
+		h2.category_title Categories
+		a.link_clear(href="#" title="#") Clear Selection
+		ul.category_list
+			- var j = 0
+			while j < 5
+				-j++
+				+category_item('Windows')
+				+category_item('Mac OS X')
+				+category_item('Linux')
+				+category_item('BSD')
+				+category_item('Chrome OS')
+				+category_item('Haiku')
+				+category_item('Windows')
+
+	.search_res_main.block_st_1
+		h2.title_v1.mod_1 Recently Updated
+		a.link_more_v1(href="#" title="#") See More Popular Apps
+		ul.app_list.ml-40
+			+app_l_item('i/content/vlc.png')
+			+app_l_item('i/content/torrent.png')
+			+app_l_item('i/content/vlc.png')
+			+app_l_item('i/content/torrent.png')
+			+app_l_item('i/content/firefox.png')
+			+app_l_item('i/content/roomorama.png')
+			+app_l_item('i/content/firefox.png')
+			+app_l_item('i/content/roomorama.png')
+			+app_l_item('i/content/chrome.png')
+			+app_l_item('i/content/citysearch.png')
+			+app_l_item('i/content/chrome.png')
+			+app_l_item('i/content/citysearch.png')
+			+app_l_item('i/content/seven_zip.png')
+			+app_l_item('i/content/zipcar.png')
+			+app_l_item('i/content/seven_zip.png')
+			+app_l_item('i/content/zipcar.png')
+.section.block_wrap.ml-28
+	.block_half.pl_28
+		.reviews_block.block_st_1
+			h2.title_v1.mod_1 Users Activity
+			ul.reviews_list
+				+reviews_item("i/content/photo_1.jpg")
+				+reviews_item("i/content/photo_1.jpg")
+				+reviews_item("i/content/photo_2.jpg")
+				+reviews_item("i/content/photo_2.jpg")
+				+reviews_item("i/content/photo_3.jpg")
+				+reviews_item("i/content/photo_3.jpg")
+				+reviews_item("i/content/photo_4.jpg")
+				+reviews_item("i/content/photo_4.jpg")
+	.block_half.pl_28
+		.visited_block.block_st_1
+			h2.title_v1.mod_2 Recently Visited
+			ul.app_list.mod_recently.ml-40
+				- var k = 0
+				while k < 8
+					-k++
+					+app_l_item('i/content/vlc.png')
+
+.latest_searches_block.block_st_1
+	h2.title_v1 Latest Searches on our site
+	ul.latest_searches_list
+		- var i = 0
+		while i < 48
+			-i++
+			+latest_search_item
+

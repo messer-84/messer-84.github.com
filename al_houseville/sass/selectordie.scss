@@ -1,0 +1,245 @@
+
+.sod_select,
+.sod_select *{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+/* The SoD - Please keep this first three lines intact, otherwise all hell will break looooooose */
+.sod_select{
+	position: relative;
+	display: block;
+	width: 100%;
+	background: #fff;
+	border: none;
+	box-sizing: border-box;
+	outline: 0;
+	cursor: pointer;
+	/* When the entire SoD is disabled, go crazy! */
+	/* The "label", or whatever we should call it. Keep the first three lines for truncating. */
+	/* Options list wrapper */
+	/* Shows the option list (don't edit) */
+	/* Don't display the options when  */
+	/* When the option list is displayed above the SoD */
+	/* Options list container */
+	/* All the options. Keep the first three lines for truncating... */
+	/* Optgroups */
+	/* Children of an optgroup */
+	/* Disabled option */
+	/* Hover state for options, also used when a user uses his/hers up/down keys */
+	/*Make room for the check mark */
+	/* Displays a check mark for the selected option */
+	/* Add a .no_highlight class to you SoD to hide the check mark and don't bold the option */
+	/* Hide native select */
+	/* The native select in touch mode. Keep this first line. Sorry, keep everything. */
+}
+
+.sod_select.myClass-1{
+	height: 16px;
+	border-radius: 2px;
+	font-size: 12px;
+	width: 100%;
+	color: #363636;
+	&:focus{
+		outline: none;
+	}
+	&:before{
+		position: absolute;
+		content: "";
+		right: 5px;
+		top: 7px;
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAADCAQAAADxPw1zAAAAFUlEQVQYV2Ng+P+fAQShBAxDOf8ZAPknDvL/fn+ZAAAAAElFTkSuQmCC) 0 0 no-repeat;
+		width: 5px;
+		height: 3px;
+	}
+}
+
+.sod_select.table_row_edit_mod{
+	width: 50px;
+}
+
+//.sod_select:before, .sod_select:after{
+//	position: absolute;
+//	width: 1px;
+//	height: 6px;
+//	top: 50%;
+//	margin: -3px 0 0 0;
+//	content: "";
+//	background: #616467;
+//}
+//
+//.sod_select:before{
+//	right: 13px;
+//	-webkit-transform: rotate(45deg);
+//	-moz-transform: rotate(45deg);
+//	-ms-transform: rotate(45deg);
+//	transform: rotate(45deg);
+//}
+//
+//.sod_select:after{
+//	right: 17px;
+//	-webkit-transform: rotate(-45deg);
+//	-moz-transform: rotate(-45deg);
+//	-ms-transform: rotate(-45deg);
+//	transform: rotate(-45deg);
+//}
+
+.sod_select.disabled{
+	cursor: not-allowed;
+}
+
+.sod_select .sod_label{
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #404141;
+	line-height: 1.33;
+	padding-right: 15px;
+}
+
+.sod_select .sod_prefix{
+	/* Use this if you're using a prefix and want to style it */
+}
+
+.sod_select .sod_placeholder{
+	/* Use this if you're using a placeholder and want to style it */
+}
+
+.sod_select .sod_list_wrapper{
+	position: absolute;
+	display: none;
+	width: auto;
+	min-width: 100%;
+	height: auto;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: inset 0 0 0 1px #cfd5e1;
+}
+
+.sod_select.open .sod_list_wrapper{
+	display: block;
+}
+
+.sod_select.disabled.open .sod_list_wrapper{
+	display: none;
+}
+
+.sod_select.above .sod_list_wrapper{
+	top: auto;
+	bottom: 100%;
+}
+
+.sod_select .sod_list{
+	display: block;
+	overflow-y: auto;
+	padding: 0;
+	margin: 0;
+}
+
+.sod_select .sod_option{
+	display: block;
+	margin: 0 1px;
+	overflow: hidden;
+	white-space: nowrap;
+	color: black;
+	position: relative;
+	line-height: 1.33;
+	padding: 10px 10px;
+	list-style-type: none;
+}
+
+.sod_select .sod_option:last-of-type{
+	border-radius: 0 0 4px 4px;
+	margin: 0 1px 1px;
+}
+
+.sod_select .sod_option:first-of-type{
+	border-radius: 4px 4px 0 0;
+	margin: 1px 1px 0;
+}
+
+.sod_select .sod_option.optgroup,
+.sod_select .sod_option.optgroup.disabled{
+	background: inherit;
+	color: #939393;
+	font-size: 10px;
+	font-style: italic;
+}
+
+.sod_select .sod_option.groupchild{
+	padding-left: 20px;
+}
+
+.sod_select .sod_option.disabled{
+	background: inherit;
+	color: #ccc;
+}
+
+.sod_select .sod_option.active{
+	background: #f7f7f7;
+	color: #333;
+}
+
+.sod_select .sod_option.selected{
+	font-weight: 700;
+	padding-right: 25px;
+}
+
+.sod_select .sod_option.selected:before{
+	content: "";
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: inline-block;
+	color: #808080;
+	height: 9px;
+	width: 10px;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTAgOSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAgOSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBmaWxsPSIjRDlEOUQ4IiBkPSJNNCw2LjdDMy42LDYuMywzLjUsNi4xLDMuMSw1LjdDMi42LDUuMiwyLDQuNiwxLjUsNC4xYy0wLjgtMC44LTIsMC40LTEuMiwxLjJjMC45LDAuOSwxLjksMS45LDIuOCwyLjgNCgkJYzAuNywwLjcsMS4zLDEsMiwwQzYuNyw2LDguMywzLjcsOS44LDEuNUMxMC41LDAuNSw5LTAuMyw4LjMsMC42bDAsMEM2LjcsMi45LDUuNyw0LjQsNCw2LjciLz4NCjwvZz4NCjwvc3ZnPg0K);
+}
+
+.sod_select.no_highlight .sod_option.selected{
+	font-weight: 300;
+}
+
+.sod_select.no_highlight .sod_option.selected:before{
+	display: none;
+}
+
+.sod_select .sod_option.link{
+	/* If data-link is set on a specific option */
+}
+
+.sod_select .sod_option.linkexternal{
+	/* If data-link-external is set on a specific option */
+}
+
+.sod_select select{
+	display: none !important;
+}
+
+.sod_select.touch select{
+	-webkit-appearance: menulist-button;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block !important;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	z-index: 1;
+}
+
+
+
+
+
+
+

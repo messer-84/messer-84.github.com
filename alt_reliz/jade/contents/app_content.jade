@@ -1,0 +1,212 @@
+.filter_block
+	ul.filter_menu_v2
+		li.filter_m_item_v2
+			a.filter_m_link_v2(href="#") Home
+		li.filter_m_item_v2
+			a.filter_m_link_v2.mod_control(href="#") Graphic Redactors
+		li.filter_m_item_v2
+			a.filter_m_link_v2.mod_control(href="#") Paid License
+	.socials_hold.mod_2
+		include ../templates/socials_list
+.app_block
+	h1.app_b_title.mod_main Freshdesk
+	.app_b_main
+		.app_b_m_info.app_b_m_info_1
+			.app_b_view.mod_main
+				img.app_b_img(src="i/content/firefox.png")
+			ul.app_b_func_list
+				li.app_b_f_l_item
+					a.app_like_btn(href="#" title="#")
+						span You like it
+				li.app_b_f_l_item
+					a.app_edit_btn(href="#" title="#")
+						span
+							| Edit
+							br
+							| Information
+				li.app_b_f_l_item
+					a.app_suggest_btn(href="#" title="#")
+						span
+							| Suggest
+							br
+							| Alternative
+		.app_b_m_info.app_b_m_info_2
+			ul.app_b_types
+				li.app_b_t_item.st_ctg Photos & Graphics, Travel & Location, Social
+				li.app_b_t_item.st_device Windows, Mac OS, iPhone
+				li.app_b_t_item.st_price Free
+			.app_b_desc.mod_main
+				p Picasa is a photo editing and management program that also lets you take advantage of Google+ integration to back up your photos automatically. With a nice array of editing functions and other features, this program is a good photo management alternative for users of varying experience levels.
+				p Picasa can transfer, find, organize, edit, print, and share images, all with this easy-to-use product. Watch Picasa automatically organize all your pictures into elegant albums by date.
+			.app_b_translate_block
+				.trans_row
+					.trans_title Это автоматический перевод отзыва с английского.
+					a.trans_edit_btn(href="#" title="#") Редактировать
+				.trans_row
+					dl.trans_rating
+						dt.trans_r_dt Оцените данный перевод:
+						dd.trans_r_dd
+							a.btn_rat.btn_rat_1(href="#" title="#") Отлично!
+						dd.trans_r_dd
+							a.btn_rat.btn_rat_2(href="#" title="#") Нормально
+						dd.trans_r_dd
+							a.btn_rat.btn_rat_3(href="#" title="#") Плохо
+				.trans_row
+					a.not_trans_link(href="#" title="#") Больше не переводить
+			include ../templates/tags_list
+		.app_b_m_info.app_b_m_info_3
+			ul.app_func_list
+				li.app_f_l_item.mod_dev
+					dl.app_func_dl
+						dt.app_func_dl_dt.st_dev Developer:
+						dd.app_func_dl_dd.st_dev
+							a.link_dev(href="#" title="#") Google inc.
+							a.link_site(href="#" title="#") Go to Website
+				li.app_f_l_item.mod_socials
+					ul.socials_v2
+						li.socials_item_v2
+							a.socials_link_v2.st_tw(href="#" title="#") Twitter
+						li.socials_item_v2
+							a.socials_link_v2.st_fb(href="#" title="#") Facebook
+						li.socials_item_v2
+							a.socials_link_v2.st_gl(href="#" title="#") Google +
+				li.app_f_l_item.mod_screen
+					dl.app_func_dl
+						dt.app_func_dl_dt.st_screen Screenshots:
+						dd.app_func_dl_dd.st_screen
+							ul.screen_list
+								+screen_item('1')
+								+screen_item('2')
+								+screen_item('3')
+								+screen_item('4')
+								+screen_item('5')
+								li.screen_l_item
+									a.screen_l_i_link.mod_next(href="#" title="#")
+				li.app_f_l_item.mod_down
+					dl.app_func_dl
+						dt.app_func_dl_dt.st_down Download:
+						dd.app_func_dl_dd.st_down
+							select.form_sel_v1
+								option(value="1") AppStore
+								option(value="1") AppStore-2
+								option(value="1") AppStore-3
+				li.app_f_l_item.mod_lang
+					dl.app_func_dl
+						dt.app_func_dl_dt.st_lang German Language?
+						dd.app_func_dl_dd.st_lang Yes
+				li.app_f_l_item
+					.app_b_like_hold.mod_main 1051 Likes
+.alternatives_block
+	.alternatives_head
+		h2.title_v2.mod_alt We have 28 alternatives for Freshdesk
+		.alternatives_h_filter
+			dl.alternatives_f_item
+				dt.dt Filter:
+				dd.dd
+					.select_hold
+						select.form_sel_v1
+							option(value="1") Devices
+							option(value="2") Devices-2
+							option(value="3") Devices-3
+					.select_hold
+						select.form_sel_v1
+							option(value="1") License
+							option(value="2") License-2
+							option(value="3") License-3
+			dl.alternatives_f_item
+				dt.dt Sort by:
+				dd.dd
+					.select_hold
+						select.form_sel_v1
+							option(value="1") Popularity
+							option(value="2") Popularity-2
+							option(value="3") Popularity-3
+			.alternatives_f_item
+				.form_f_w_v1.mod_check
+					input(type="checkbox", class="inp_check", id="check_1")
+					label.form_lbl_check_v1(for="check_1") Only Apps in German
+
+	.alternatives_main
+		ul.alternatives_list
+			+alternatives_item
+			+alternatives_item
+			+alternatives_item
+			+alternatives_item
+		a.show_more_btn(href="#" title="#") SHOW MORE
+
+.alternatives_block
+	.alternatives_head.mod_1
+		h2.title_v2 Posible alternatives, please help us to decide
+	.alternatives_main
+		ul.alternatives_list
+			+alternative_item_v2
+			+alternative_item_v2
+			+alternative_item_v2
+			li.alternatives_item_v2
+				.author_block
+						.author_photo_w
+				.alt_main_col.mod_1
+					.alt_main_c_row.mod_1
+						a.author_suggest_name(href="#" title="#") Arhitector
+					.author_suggest_title_v2 Suggests:
+					.author_suggest_text Picasa is a photo editing and management program that also lets you take advantage of Google+ integration to back up your ...
+
+				.alt_func_col.mod_1
+					a.app_suggest_btn.mod_1(href="#" title="#")
+											span
+												| Suggest
+												br
+												| Alternative
+
+.comments_block
+	.comments_head
+		h2.title_v2 Comments
+	.comments_hold
+		.comments_add_block
+			.author_block
+				.author_photo_w
+
+			.comments_form_block
+				.form_hold
+					.form_hline_v1.mod_comment
+						label.form_lbl_v1(for="com_text") You are signed in as Arhitector
+					.form_row.mod_comment
+						.form_f_w_v1.mod_comment
+							input(type="text", placeholder="Leave a comment Arhitector", id="com_text", class="f_field_v1 mod_comment")
+						.form_submit_w.mod_comment
+							input(type="submit", value="Send", class="form_submit_v1 mod_comment")
+
+		ul.comments_list
+			li.comments_item
+				.author_block
+					a.author_photo_w(href="#")
+						img.author_photo(src="i/content/photo_1_2.jpg")
+					a.author_name(href="#") Nadejda Kadisheva
+					dl.author_rating
+						dt.author_r_dt Rating:
+						dd.author_r_dd 6516
+				.comments_main_col
+					.comments_date 20.08.2014
+					.comments_text Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
+				.comments_rate_col
+					.comments_rate_w
+						span.comments_r_count.mod_up 5151
+					.link_hold.mod_tar
+						a.comments_r_link(href="#") rate comment
+			li.comments_item
+				.author_block
+					a.author_photo_w(href="#")
+						img.author_photo(src="i/content/photo_1_2.jpg")
+					a.author_name(href="#") Nadejda Kadisheva
+					dl.author_rating
+						dt.author_r_dt Rating:
+						dd.author_r_dd 6516
+				.comments_main_col
+					.comments_date 20.08.2014
+					.comments_text Magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem
+				.comments_rate_col
+					.comments_rate_w
+						span.comments_r_count.mod_up 5151
+					.link_hold.mod_tar
+						a.comments_r_link(href="#") rate comment
+

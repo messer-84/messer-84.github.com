@@ -1,0 +1,28 @@
+@include all_ie9_check{
+	@include respond-to-max($width_max){
+
+
+	}
+
+}
+
+@include ie_8_check {
+	.inp_rad,
+	.inp_check {
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	}
+
+	.lbl_rad,
+	.lbl_check {
+		&.checked:after {
+			display: block;
+		}
+	}
+
+	.bx-pager-link {
+		background: #000;
+	}
+
+
+
+}

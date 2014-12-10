@@ -1,0 +1,283 @@
+$postfix: 'Retina';
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+
+	.logo{
+		background-image: inline-image("../i/icons/logo#{$postfix}.png");
+	}
+
+	.func_b_link{
+		&.st_1{
+			&:before{
+				background: inline-image("../i/icons/loginTop#{$postfix}.png") 0 0 no-repeat;
+			}
+			&:hover:before{
+				background: inline-image("../i/icons/loginTop#{$postfix}Hover.png") 0 0 no-repeat;
+			}
+		}
+		&.st_2{
+			&:before{
+				background: inline-image("../i/icons/addApp#{$postfix}.png") 0 0 no-repeat;
+			}
+			&:hover:before{
+//				background-image: inline-image("../i/icons/addApp#{$postfix}Hover.png");
+			}
+		}
+		&.st_3{
+			&:before{
+				background: inline-image("../i/icons/settingsTop#{$postfix}.png") 0 0 no-repeat;
+			}
+			&:hover:before{
+				background-image: inline-image("../i/icons/settingsTop#{$postfix}Hover.png");
+			}
+		}
+	}
+	.form_submit_search{
+		background: #fff inline-image("../i/icons/searchIcon#{$postfix}.png") 50% no-repeat;
+
+	}
+	.socials_link{
+		&.st_1{
+//			background-image: inline-image("../i/icons/facebook_2#{$postfix}.png");
+		}
+		&.st_2{
+//			background-image: inline-image("../i/icons/twitter_2#{$postfix}.png");
+		}
+		&.st_3{
+//			background-image: inline-image("../i/icons/gPlus_2#{$postfix}.png");
+		}
+	}
+
+	.choose_d_link{
+		&.st_1{
+			&:before{
+				background-image: inline-image("../i/icons/anyDev#{$postfix}.png");
+			}
+			&.active:before{
+				background-image: inline-image("../i/icons/anyDev#{$postfix}Active.png");
+			}
+		}
+		&.st_2{
+			&:before{
+				background-image: inline-image("../i/icons/onlineDev#{$postfix}.png");
+			}
+			&.active:before{
+				background-image: inline-image("../i/icons/onlineDev#{$postfix}Active.png");
+			}
+		}
+	}
+
+	.choose_d_s_link{
+		&.st_1,
+		&.st_6{
+			&:before{
+				background-image: inline-image("../i/icons/windowsDev#{$postfix}.png");
+			}
+			&.active:before{
+				background-image: inline-image("../i/icons/windowsDev#{$postfix}Active.png");
+			}
+		}
+		&.st_2,
+		&.st_4,
+		&.st_7{
+			&:before{
+				background-image: inline-image("../i/icons/appleDev#{$postfix}.png");
+			}
+			&.active:before{
+				background-image: inline-image("../i/icons/appleDev#{$postfix}Active.png");
+			}
+		}
+		&.st_3{
+			&:before{
+				background-image: inline-image("../i/icons/linuxDev#{$postfix}.png");
+			}
+			&.active:before{
+				background-image: inline-image("../i/icons/linuxDev#{$postfix}Active.png");
+			}
+		}
+		&.st_5,
+		&.st_8{
+			&:before{
+				background-image: inline-image("../i/icons/androidDev#{$postfix}.png");
+			}
+			&.active:before{
+				background-image: inline-image("../i/icons/androidDev#{$postfix}Active.png");
+			}
+		}
+	}
+
+	.choose_d_type{
+		&.st_1{
+			background: inline-image("../i/icons/pcDev#{$postfix}.png") 50% 2px no-repeat;
+		}
+		&.st_2{
+			background: inline-image("../i/icons/mobileDev#{$postfix}.png") 50% no-repeat;
+		}
+		&.st_3{
+			background: inline-image("../i/icons/tabletDev#{$postfix}.png") 50% no-repeat;
+		}
+	}
+	.btn_v1{
+		background: #e9e9e9 inline-image("../i/icons/catArrow#{$postfix}.png") 50% no-repeat;
+	}
+
+	.link_more_v1{
+		&:before{
+			background: inline-image("../i/icons/more#{$postfix}.png") 0 0 no-repeat;
+		}
+		&:hover{
+			&:before{
+//				background-image: inline-image("../i/icons/more#{$postfix}Hover.png");
+			}
+		}
+	}
+	.filter_m_link_v2{
+		&.mod_control{
+			&:before{
+				background: inline-image("../i/icons/catArrow#{$postfix}.png") 0 0 no-repeat;
+			}
+		}
+	}
+	.app_like_btn{
+		span:before{
+			background: inline-image("../i/icons/like#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+
+	.app_edit_btn{
+		span:before{
+			background-image: inline-image("../i/icons/editInfo#{$postfix}.png");
+		}
+	}
+	.app_suggest_btn{
+		span:before{
+			background-image: inline-image("../i/icons/suggest#{$postfix}.png");
+		}
+	}
+	.trans_edit_btn{
+		&:before{
+			background: inline-image("../i/icons/edit#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+
+	.btn_rat{
+		&.btn_rat_1:before{
+			background-image: inline-image("../i/icons/good#{$postfix}.png");
+		}
+		&.btn_rat_2:before{
+			background-image: inline-image("../i/icons/normal#{$postfix}.png");
+		}
+		&.btn_rat_3:before{
+			background-image: inline-image("../i/icons/bad#{$postfix}.png");
+		}
+	}
+
+
+	.app_func_dl_dt{
+		&.st_dev{
+			&:before{
+				background-image: inline-image("../i/icons/developer#{$postfix}.png");
+			}
+		}
+		&.st_screen{
+			&:before{
+				background-image: inline-image("../i/icons/photo#{$postfix}.png");
+			}
+		}
+		&.st_down{
+			&:before{
+				background-image: inline-image("../i/icons/download#{$postfix}.png");
+			}
+		}
+		&.st_lang{
+			&:before{
+				background-image: inline-image("../i/icons/lang#{$postfix}.png");
+			}
+		}
+	}
+	.screen_l_i_link{
+		&.mod_next{
+			&:before{
+				background: inline-image("../i/icons/more#{$postfix}.png") 0 0 no-repeat;
+			}
+			&:hover{
+				&:before{
+//					background-image: inline-image("../i/icons/moreHover_2#{$postfix}.png");
+				}
+			}
+		}
+		&:before{
+//			background: inline-image("../i/icons/screen_corner#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+
+	.socials_link_v2{
+		&.st_tw{
+			&:before{
+				background-image: inline-image("../i/icons/twitter#{$postfix}.png");
+			}
+		}
+		&.st_fb{
+			&:before{
+				background-image: inline-image("../i/icons/facebook#{$postfix}.png");
+			}
+		}
+		&.st_gl{
+			&:before{
+				background-image: inline-image("../i/icons/gPlus#{$postfix}.png");
+			}
+		}
+	}
+
+	.link_clear{
+		&:before{
+//			background: inline-image("../i/icons/closeCtg#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+
+	.app_b_t_item{
+		&.st_device{
+			&:before{
+				background-image: inline-image("../i/icons/pc#{$postfix}.png");
+			}
+		}
+		&.st_price{
+			&:before{
+				background-image: inline-image("../i/icons/license#{$postfix}.png");
+			}
+		}
+		&.st_ctg{
+			&:before{
+				background: inline-image("../i/icons/folder#{$postfix}.png") 0 0 no-repeat;
+			}
+		}
+	}
+	.app_dev_link{
+		&:before{
+			background: inline-image("../i/icons/developer#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+	.tags_l_i_link{
+		&:before{
+			background: inline-image("../i/icons/tag#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+
+
+	.author_photo_w{
+		&:before{
+			background: inline-image("../i/icons/noavatar#{$postfix}.png") 0 0 no-repeat;
+		}
+	}
+	.f_logo{
+		background: inline-image("../i/icons/logoBottomMob#{$postfix}.png") 0 0 no-repeat;
+	}
+
+}

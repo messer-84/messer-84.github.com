@@ -1,0 +1,485 @@
+mixin object_item
+	li.objects_item.size_33
+		a.obj_img(href="")
+			img(src="i/goods_2.jpg", alt="")
+		h3.obj_name.mod_one
+			a(href="#" title="#") Комплекс против выпадения волос AASHA
+
+mixin object_item_min_text
+	li.objects_item.size_33
+		a.obj_img(href="")
+			img(src="i/goods_2.jpg", alt="")
+		h3.obj_name.mod_one
+			a(href="#" title="#") Комплекс
+
+
+
+mixin object_item_mod_four
+	li.objects_item.mod_four
+		a.obj_img.mod_four(href="")
+			img(src="i/kit_v3.jpg", alt="")
+		h3.obj_name.st_1
+			a(href="#" title="#") Комплекс против выпадения волос AASHA
+
+mixin object_item_mod_four_v2
+	li.objects_item.mod_four
+		a.obj_img.mod_four(href="")
+			img(src="i/kit_v3.jpg", alt="")
+		h3.obj_name.st_2
+			a(href="#" title="#") Комплекс против выпадения волос AASHA
+
+mixin object_item_v2
+	li.objects_item
+		.objects_box.mod_h_1
+			a.obj_img.mod_1(href="#" title="#")
+				img(src="i/content/mrt.jpg", alt="")
+			.obj_desc.mod_h_1
+				.obj_d_item.mod_5
+					a(href="#" title="#") Тамограф Phillips Pfl 90033 z
+			.obj_footer
+				a.obj_link.mod_1.w_full(href="#" title="#")
+					span.obj_l_text.st_1 Подробнее
+
+
+mixin item_link(item_class, link_class, text)
+	li(class="#{item_class}")
+		a(href="#" title="#", class="#{link_class}") #{text}
+
+mixin item_link_v2(item_class, link_class, text)
+	li(class="#{item_class}")
+		a(href="#" title="#", class="#{link_class}")
+			span #{text}
+
+mixin item_link_v3(item_class, text)
+	li(class="#{item_class}")
+		a(href="#" title="#") #{text}
+
+
+mixin nav_item(text)
+	li.nav_item
+		a.nav_link(href="#" title="#") #{text}
+
+mixin nav_item_active(text)
+	li.nav_item.active
+		a.nav_link(href="#" title="#") #{text}
+
+
+mixin note(note_text)
+	.note
+		span.note_link
+		span.note_text #{note_text}
+mixin note_field(note_text)
+	.note.note_field
+		span.note_link
+		span.note_text #{note_text}
+
+mixin form_cell_lbl_left(dl_class, lbl_text)
+	dl(class='form_cell_v1 mod_lbl_left #{dl_class}')
+		dt.form_hline_v1
+			label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+		dd.form_f_w_v1
+			input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='text',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_email_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='email',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				input.f_field_v1(type='email',id='field_#{n}', name='field_#{n}')
+
+mixin form_cell_textarea_lbl_top(dl_class, lbl_text)
+	if dl_class == false
+		dl(class='form_cell_v1 mod_lbl_top')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				textarea.f_field_v1.mod_ta.size_ta_1(type='textarea',id='field_#{n}', name='field_#{n}')
+	else
+		dl(class='form_cell_v1 mod_lbl_top #{dl_class}')
+			dt.form_hline_v1
+				label.form_lbl_v1(for="field_#{++n}") #{lbl_text}
+			dd.form_f_w_v1
+				textarea.f_field_v1.mod_ta.size_ta_1(type='textarea',id='field_#{n}', name='field_#{n}')
+
+mixin check_item(lbl_mod_class, lbl_text)
+	if lbl_mod_class == false
+		li.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label.form_lbl_check_v1(for="check_#{check_id}") #{lbl_text}
+	else
+		li.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label(class='form_lbl_check_v1 #{lbl_mod_class}', for="check_#{check_id}") #{lbl_text}
+
+mixin check_block(lbl_mod_class, lbl_text)
+	if lbl_mod_class == false
+		.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label.form_lbl_check_v1(for="check_#{check_id}") #{lbl_text}
+	else
+		.check_item_v1
+			input.form_f_check_v1(type='checkbox', name='#{++check_name}', id='check_#{++check_id}')
+			label(class='form_lbl_check_v1 #{lbl_mod_class}', for="check_#{check_id}") #{lbl_text}
+
+mixin search_box
+	.search_box
+		form(action="#", method="post")
+			label.hide(for='search_site') Найти
+			input.form_f_search(type='text', name='search_site', placeholder='Найти',id='search_site')
+			input.form_submit_search(type='submit', value='')
+
+mixin more_box
+	.more_box
+		a.more_b_link(href="#" title="#")
+			span.st_1 Все товары
+			span.st_2 (5)
+
+mixin letter_a
+	ul.letter_submenu
+		+item_link_v3('letter_s_item','Абрикосовых косточек масло (prunus armeniaca)')
+		+item_link_v3('letter_s_item','Абрус молитвенный (abrus precatorius)')
+		+item_link_v3('letter_s_item','Агнимантхи (premna mucrunata)')
+		+item_link_v3('letter_s_item','Ажгон (trachyspermum ammi)')
+		+item_link_v3('letter_s_item','Аир болотный (acorus calamus)')
+		+item_link_v3('letter_s_item','Акация катеху (acacia catechu)')
+
+mixin letter_b
+	ul.letter_submenu
+		+item_link_v3('letter_s_item','Бабул (acacia nilotica)')
+		+item_link_v3('letter_s_item','Бала (sida cordifolia)')
+		+item_link_v3('letter_s_item','Баньян (ficus benghalensis)')
+		+item_link_v3('letter_s_item','Бархатцы (tagetes minuta)')
+		+item_link_v3('letter_s_item','Бибхитаки (terminalia belerica)')
+		+item_link_v3('letter_s_item','Бильва (aegle marmelos)')
+
+mixin filter_submenu
+	ul.filter_submenu
+		li.filter_s_item
+			a.filter_s_link(href="#" title="#") Валериана (valeriana officinalis)
+		li.filter_s_item
+			a.filter_s_link(href="#" title="#") Ветивер (vetiveria zizamonides)
+		li.filter_s_item
+			a.filter_s_link(href="#" title="#") Виноградных косточек масло (vitis vinifera oleum)
+		li.filter_s_item
+			a.filter_s_link(href="#" title="#") Вишня гималайская (prunus cerasoides)
+		li.filter_s_item
+			a.filter_s_link(href="#" title="#") Врашавалли (ipomoea paniculata)
+
+mixin filter_item(title)
+	li.filter_col_item
+		a.filter_c_link(href="#" title="#") #{title}
+		+filter_submenu
+
+mixin files_box
+	li.files_item
+		.files_i_box
+			a.files_img(href="#")
+				img(src="i/logo_min.png", alt="")
+			.files_content
+				h2.files_title
+					a(href="#" title="#") Косметика Aasha Herbals. Описание
+				.files_desc Промо-материалы, включая руководство по использованию логотипа и т. п.
+				a.files_btn.btn_v3(href="#" title="#") Скачать (PDF, 4MB)
+
+mixin table_history_row
+	tr
+		td
+			.td_num_order Заказ #1231-44
+		td
+			.td_date_order 12 января 2014
+		td
+			.td_all_orders
+				span.dt Всего заказано:
+				span.dd 94
+		td
+			.td_all_sum
+				span.st_1 =29800
+				span.st_2 р.
+		td
+			.td_btn_hold
+				a.btn_v6(href="#" title="#") Подробно
+
+mixin table_order_row
+	tr
+		td
+			.td_name
+				.object_block.mod_1.mod_table
+					.object_b_img.mod_table
+						.img_hold_v2.mod_table
+							img(src="i/table_img.jpg", alt="")
+					.object_b_title.mod_table
+						a(href="#" title="#") Натуральное Кокосовое масло с лимоном Ааша Хербалс
+		td
+			.td_field_w
+				input.f_field_v2(type="text", value="1")
+		td
+			.td_value
+				| 100
+				span г.
+		td
+			.td_value 100/5
+		td
+			.td_price
+				| 510
+				span р.
+		td
+			.td_value 10/14
+		td
+			.td_barcode 252452532525563
+		td
+			.td_summ
+				| 2800
+				span р.
+
+mixin nav_submenu
+	ul.nav_submenu_v2
+		+nav_submenu_item('Для лица')
+		+nav_submenu_item('Для рук')
+		+nav_submenu_item('Для ног')
+		+nav_submenu_item('Для лица')
+		+nav_submenu_item('Для рук')
+		+nav_submenu_item('Для ног')
+		+nav_submenu_item('Для лица')
+		+nav_submenu_item('Для рук')
+		+nav_submenu_item('Для ног')
+
+mixin nav_submenu_item(name)
+	li.nav_s_item_v2
+		a.nav_s_link_v2(href="#" title="#") #{name}
+		ul.nav_submenu_v3
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для лица
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для рук
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для ног
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для лица
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для рук
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для ног
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для лица
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для рук
+			li.nav_s_item_v3
+				a.nav_s_link_v3(href="#" title="#") Для ног
+mixin brands_submenu_wrap
+	.brands_submenu_wrap
+		ul.br_submenu
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Шампунь
+				ul.br_submenu_v2
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Для лица
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") От выпадения волос
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Для ног
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Краска для волос
+				ul.br_submenu_v2
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Для лица
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Для рук
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Для ног
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Шампуни
+				ul.br_submenu_v2
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Для лица
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") От выпадения волос
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Для ног
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Хна
+				ul.br_submenu_v2
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Сухой шампунь
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") От перхоти
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Хна
+				ul.br_submenu_v2
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Сухой шампунь
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") От перхоти
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Хна
+				ul.br_submenu_v2
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Сухой шампунь
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") От перхоти
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Хна
+				ul.br_submenu_v2
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") Сухой шампунь
+					li.br_s_item_v2
+						a.br_s_link_v2(href="#" title="#") От перхоти
+			li.br_s_item
+				h2.br_s_item_title
+					a(href="#" title="#") Маска для волос
+//--------------------------------alt_tools
+
+mixin app_l_item(img_src)
+	li.app_l_item.pl_40
+		a.app_view(href="#", title="#")
+			img.app_img(src="#{img_src}")
+		.app_main
+			h3.app_name
+				a(href="#", title="#") 8x8 Virtual Contact Center
+			.app_row
+				.app_r_item
+					a.app_rating(href="#", title="#") 4315 likes
+				.app_r_item
+					a.app_alternatives(href="#", title="#") 178 Alternatives
+			.app_row
+				.app_r_item
+					.app_author by Google
+				.app_r_item.st_1
+					.app_time_upd 2 min. ago
+
+mixin reviews_item(user_photo)
+	li.reviews_l_item
+		a.rev_photo_w(href="#", title="#")
+			img.rev_photo(src="#{user_photo}")
+		.rev_main
+			.rev_title
+				| Fernando Labastida
+				span reviewed
+			.rev_author
+				a.rev_a_link(href="#", title="#") Fernando Labastida
+			.rev_text "Spabooker - Sole Practitioner"
+
+mixin latest_search_item
+	li.latest_s_item
+		dl.latest_s_i_hold
+			dt.dt
+				a.latest_s_link(href="#", title="#") 8x8 Virtual Contact Center
+			dd.dd
+				.latest_s_data 45345
+
+mixin category_item(title)
+	li.category_item
+		a.category_row(href="#", title="")
+			span.dt #{title}
+			span.dd 516
+
+mixin screen_item(num)
+	li.screen_l_item
+		a.screen_l_i_link(href="#" title="#") #{num}
+			.screen_hold
+				img.screen_img(src="i/content/screen_1.jpg")
+
+mixin alternatives_item
+	li.alternatives_item
+		.alt_vote_col
+			.vote_block
+				.vote_count
+					span.vote_c_num 1051
+					span.vote_c_text votes
+				.vote_func
+					a.vote_f_btn(href="#") vote
+					.vote_func_hidden
+						ul.vote_f_list
+							li.vote_f_l_item
+								a.vote_i_link(href="#") 1 vote
+							li.vote_f_l_item
+								a.vote_i_link(href="#") 2 votes
+							li.vote_f_l_item
+								a.vote_i_link.active(href="#") 3 votes
+							li.vote_f_l_item
+								a.remove_btn(href="#") Remove votes
+						.vote_f_notice You have 7 votes left (?)
+		.alt_main_col
+			.alt_main_c_row
+				.app_b_view.size_min
+					img.app_b_img(src="i/content/firefox.png")
+				.alt_main_c_hold
+					h1.app_b_title.mod_1
+						a(href="#" title="#") Freshdesk
+					.app_b_desc.mod_1 Picasa is a photo editing and management program that also lets you take advantage of Google+ integration to back up your Picasa is a photo editing and management program that also lets you take advantage of Google+ integration to back up your
+					ul.app_b_types
+						li.app_b_t_item.st_device Windows, Mac OS, iPhone
+						li.app_b_t_item.st_price Free
+			.alt_main_c_row
+				.app_developer
+					a.app_dev_link(href="#" title="#") Google inc.
+				.app_tags_list_hold
+					include ../templates/tags_list
+		.alt_likes_col
+			.app_b_like_hold.mod_1 1051 Likes
+			.link_hold.mod_tac
+				a.link_v1(href="#" title="#") Report error
+
+mixin alternative_item_v2
+	li.alternatives_item
+		.alt_author_col
+			.author_block
+				.author_photo_w
+					img.author_photo(src="i/content/photo_1_2.jpg")
+				a.author_name(href="#") Nadejda Kadisheva
+				dl.author_rating
+					dt.author_r_dt Rating:
+					dd.author_r_dd 6516
+				.author_suggest_title Suggests:
+		.alt_main_col
+			.alt_main_c_row
+				.app_b_view.size_min
+						img.app_b_img(src="i/content/firefox.png")
+				.alt_main_c_hold
+					h1.app_b_title.mod_1
+						a(href="#" title="#") Freshdesk
+					.app_b_desc.mod_1
+						p Picasa is a photo editing and management program that also lets you take advantage of Google+ integration to back up your ...
+					ul.app_b_types
+						li.app_b_t_item.st_device Windows, Mac OS, iPhone
+						li.app_b_t_item.st_price Free
+			.alt_main_c_row
+				.app_developer
+					a.app_dev_link(href="#" title="#") Google inc.
+				.app_b_like_hold.mod_3
+					.app_likes_box 1051 Likes
+				.app_tags_list_hold
+					include ../templates/tags_list
+
+		.alt_func_col
+			.alt_func_row
+				a.alt_f_btn_v1.st_1(href="#" title="#") Good Alternatives
+			.alt_func_row
+				a.alt_f_btn_v1.st_2(href="#" title="#") Wrong Alternatives
