@@ -1,0 +1,254 @@
+$arial: Arial, sans-serif;
+$verdana: Verdana, sans-serif;
+
+$open_sans: 'Open Sans', $arial;
+
+$gotham_pro_bold: 'GothamProBold', $arial;
+
+$roboto: 'Roboto', $arial;
+
+$pf_din_text_cond_pro_italic: 'pf_din_text_cond_pro_italic', $arial;
+
+$default_font: $arial, sans-serif;
+//--------------------colors
+
+$ph_color: #666;
+
+$default_color: #545b65;
+
+//--------------------colors
+
+//--------------------variable
+$content_block_width: 950px;
+$content_block_max_width: 1600px;
+
+$header_h: 155px;
+$footer_h: 211px;
+
+$indent_1: 25px;
+
+$cyan: #32a6cc;
+
+$green: #03ae4c;
+$green_2: #04a548;
+
+$red: #e31e24;
+//--------------------variable
+//-------------------------------------------------------responsive
+
+//-------------------------------------------------------responsive
+
+@mixin img_replace{
+	position: relative;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+@mixin clearfix{
+	&:after{
+		position: static;
+		display: block;
+		height: 0;
+		clear: both;
+		content: "";
+		visibility: hidden;
+	}
+}
+
+@mixin transform_translate($x: 0, $y: 0) {
+	-webkit-transform: translate3d($x, $y, 0);
+	-moz-transform: translate($x, $y);
+	-o-transform: translate($x, $y);
+	transform: translate($x, $y);
+}
+
+@mixin respond-to-max($custom) {
+	@media only screen and (max-width: $custom - 1) {
+		@content;
+	}
+}
+
+@mixin respond-to-min($custom1) {
+	@media only screen and (min-width: $custom1) {
+		@content;
+	}
+}
+
+@mixin transition($val: 0.2) {
+	-webkit-transition: all $val+s ease-in-out;
+	-moz-transition: all $val+s ease-in-out;
+	-o-transition: all $val+s ease-in-out;
+	transition: all $val+s ease-in-out;
+}
+
+@mixin user-select-none{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+@mixin border_box{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin content_box{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+@mixin vert_grad($color_one: #000, $color_two: #fff, $color_bg: false) {
+	background-image: -moz-linear-gradient(top, $color_one 0%, $color_two 100%);
+	background-image: -webkit-linear-gradient(top, $color_one 0%, $color_two 100%);
+	background-image: -o-linear-gradient(top, $color_one 0%, $color_two 100%);
+	background-image: -ms-linear-gradient(top, $color_one 0%, $color_two 100%);
+	background-image: linear-gradient(to bottom, $color_one 0%, $color_two 100%);
+}
+
+@mixin vert_grad_50_50($color_one: #000, $color_two: #fff, $color_three: #000, $color_four: #fff) {
+	background-image: -moz-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, $color_one), color-stop(49%, $color_two), color-stop(50%, $color_three), color-stop(100%, $color_four));
+	background-image: -webkit-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: -o-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: -ms-linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+	background-image: linear-gradient(top, $color_one 0%, $color_two 49%, $color_three 50%, $color_four 100%);
+}
+
+@mixin box-shadow($shadows...) {
+	-moz-box-shadow: $shadows;
+	-webkit-box-shadow: $shadows;
+	box-shadow: $shadows;
+}
+
+@mixin box-shadow-none() {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+@mixin transform($transform...) {
+	-moz-transform: $transform;
+	-webkit-transform: $transform;
+	-o-transform: $transform;
+	-ms-transform: $transform;
+	transform: $transform;
+}
+
+@mixin transform_rotate($deg: 0) {
+	-moz-transform: rotate($deg+deg);
+	-webkit-transform: rotate($deg+deg);
+	-o-transform: rotate($deg+deg);
+	-ms-transform: rotate($deg+deg);
+	transform: rotate($deg+deg);
+}
+
+@mixin column($column-count: 0, $column-gap: 0) {
+	-moz-column-count: $column-count;
+	-moz-column-gap: $column-gap;
+	-webkit-column-count: $column-count;
+	-webkit-column-gap: $column-gap;
+	column-count: $column-count;
+	column-gap: $column-gap;
+}
+
+//
+//@include triangle within a pseudo element and add positioning properties (ie. top, left)
+//$direction: up, down, left, right
+//
+
+@mixin triangle($direction, $size: 6px, $color: #222) {
+	&:before{
+		content: '';
+		display: block;
+		position: absolute;
+		height: 0;
+		width: 0;
+		@if ($direction == 'up'){
+			border-bottom: $size solid $color;
+			border-left: $size solid transparent;
+			border-right: $size solid transparent;
+		} @else if ($direction == 'down'){
+			border-top: $size solid $color;
+			border-left: $size solid transparent;
+			border-right: $size solid transparent;
+		} @else if ($direction == 'left'){
+			border-top: $size solid transparent;
+			border-bottom: $size solid transparent;
+			border-right: $size solid $color;
+		} @else if ($direction == 'right'){
+			border-top: $size solid transparent;
+			border-bottom: $size solid transparent;
+			border-left: $size solid $color;
+		}
+	}
+
+}
+
+@mixin corner_left() {
+	&:before,
+	&:after{
+		position: absolute;
+		content: "";
+		background: #fff;
+	}
+	&:before{
+		z-index: 1;
+		width: 10px;
+		height: 10px;
+		border-radius: 3px;
+		left: -5px;
+		top: 8px;
+		@include transform_rotate(45);
+		border: 1px solid rgba(185, 196, 212, .62);
+	}
+	&:after{
+		z-index: 2;
+		width: 11px;
+		height: 27px;
+		left: 0;
+		top: 0;
+		border-radius: 4px;
+	}
+}
+
+@mixin corner_top() {
+	&:before,
+	&:after{
+		position: absolute;
+		content: "";
+		background: #fff;
+	}
+
+	&:before{
+		z-index: 1;
+		width: 10px;
+		height: 10px;
+		border-radius: 3px;
+		left: 50%;
+		top: -7px;
+		border: 1px solid rgba(185, 196, 212, .62);
+		margin: 0 0 0 -5px;
+		@include transform_rotate(45);
+	}
+	&:after{
+		z-index: 2;
+		top: 0;
+		border-radius: 4px;
+
+		width: 27px;
+		height: 6px;
+		left: 50%;
+		margin: 0 0 0 -15px;
+	}
+}
+
+@mixin border($color){
+	border:1px solid $color;
+}
+
+

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'GothamProBold';
+    src: url('fonts/GothamPro-Bold.ttf');
+    src: url('fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GothamPro-Bold.woff') format('woff'),
+         url('fonts/GothamPro-Bold.ttf') format('truetype'),
+         url('fonts/GothamPro-Bold.svg#GothamProBold') format('svg');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_text_cond_pro_italic';
+    src: url('fonts/pfdintextcondpro-italic-webfont.eot');
+    src: url('fonts/pfdintextcondpro-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/pfdintextcondpro-italic-webfont.woff') format('woff'),
+         url('fonts/pfdintextcondpro-italic-webfont.ttf') format('truetype'),
+         url('fonts/pfdintextcondpro-italic-webfont.svg#pf_din_text_cond_proitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
