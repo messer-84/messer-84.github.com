@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Starflot</title>
+	<meta charset="UTF-8">
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/modernizr.2.js"></script>
+	<script src="js/jquery.bxSlider.min.js"></script>
+	<script src="js/chosen.jquery.min.js"></script>
+	<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" media="all" href="styles/main_global.css">
+	<!--<![endif]-->
+	<!--[if IE 8]>
+	<script src="js/ie8.js"></script>
+	<link rel="stylesheet" media="all" href="styles/ie_8_global.css">
+	<![endif]-->
+	<script src="js/frontend.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<div class="base">
+<header class="header">
+	<div class="header_hold">
+		<a class="logo" href="#" title="">
+			<span class="logo_title">Star-flot</span>
+			<span class="logo_desc">Круизы по рекам и озерам России</span>
+		</a>
+
+		<div class="label_box">
+			<div class="label_title">
+				<span class="label_t_1">5 лет</span>
+				<span class="label_t_2">успешной работы!</span>
+
+			</div>
+			<a class="label_b_link" href="#" title="">подробнее</a>
+		</div>
+
+		<ul class="connection_box">
+			<li class="conn_item">
+				<div class="conn_tel">
+						<span class="conn_t_num">
+							<span class="t_code">+7(495)</span> 989-63-53</span>
+
+					<div class="cont_t_desc">многоканальный</div>
+				</div>
+			</li>
+			<li class="conn_item"><a class="conn_callback btn_v1 mod_red" href="#" title="">обратный звонок</a>
+			</li>
+
+			<li class="conn_item"><a class="conn_mail" href="#" title="">star-flot@mail.ru</a></li>
+		</ul>
+
+
+	</div>
+</header>
+<div class="main_row">
+<div class="primary_row">
+	<nav class="nav_hold">
+		<ul class="nav">
+			<li class="nav_item active"><a class="nav_link" href="#" title="Главная">Главная</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Все круизы">Все круизы</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="О компании">О компании</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Агентствам">Агентствам</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Наши партнеры">Наши партнеры</a>
+			</li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Полезная информация">Полезная
+				информация</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Отзывы">Отзывы</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Контакты">Контакты</a></li>
+		</ul>
+	</nav>
+	<div class="form_block">
+		<h2 class="form_title">Бесплатно проконсультируем и подберем для Вас круиз!</h2>
+		<dl class="form_box">
+			<dt class="form_hline_v1"><label class="hide" for="field_1">Как Вас зовут?</label></dt>
+			<dd class="form_fw_v1"><input class="form_f_v1" type="text" name="field_1" id="field_1"
+			                              placeholder="как Вас зовут?"></dd>
+			<dt class="form_hline_v1"><label class="hide" for="field_2">Номер телефона:</label></dt>
+			<dd class="form_fw_v1"><input class="form_f_v1" type="text" name="field_2" id="field_2"
+			                              placeholder="телефон"></dd>
+
+			<dt class="form_hline_v1"><label class="hide" for="field_3">Комментарии:</label></dt>
+			<dd class="form_fw_v1"><textarea class="form_f_v1 ta_1" name="field_3" id="field_3"
+			                                 placeholder="Пожелания по круизу, датам, длительности"></textarea>
+			</dd>
+			<dd class="form_submit_w">
+				<input class="btn_v1 mod_red form_submit" type="submit" value="Отправить заявку">
+			</dd>
+
+
+		</dl>
+	</div>
+	<div class="page_notice fixed_box">
+		<div class="page_n_head">
+			<h3 class="page_n_title">Круизы</h3>
+			<dl class="page_units_row">
+				<dt class="page_un_term mod_1">Всего найдено:</dt>
+				<dd class="page_un_desc">254</dd>
+			</dl>
+		</div>
+		<div class="page_n_text">
+			Трудно искать? Позвоните нам и Мы подберем круиз под Ваши требования
+		</div>
+		<div class="page_n_tel">+7(495) 152-12-22</div>
+		<span class="arrow_v1"></span>
+	</div>
+</div>
+<div class="content_row mod_no_bg">
+<div class="content_block">
+	<ul class="bread_crumbs">
+		<li class="bread_c_item">
+			<a class="bread_c_i__link" href="#" title="Главная">
+				<span class="bread_c_i_title">Главная</span>
+			</a>
+		</li>
+		<li class="bread_c_item">
+			<a class="bread_c_i__link" href="#" title="Статьи">
+				<span class="bread_c_i_title">Речные круизы</span>
+			</a>
+
+		</li>
+	</ul>
+	<div class="cruise_info_block">
+		<dl class="cruise_title">
+			<dt class="cruise_t_type">
+				Речной круиз
+			</dt>
+			<dd class="cruise_t_local">
+				Москва (СРВ) - Лесное - Углич - Ярославль - Кострома - Мышкин - Москва (СРВ)
+			</dd>
+		</dl>
+		<ul class="menu_v1">
+			<li class="menu_item active"><a class="menu_link" href="#" title="">Цены</a></li>
+			<li class="menu_item"><a class="menu_link" href="#" title="">Отзывы о теплоходе (15)</a></li>
+			<li class="menu_item"><a class="menu_link" href="#" title="">Схема теплохода</a></li>
+			<li class="menu_item"><a class="menu_link" href="#" title="">Описание круиза/экскурсионная
+				программа</a></li>
+		</ul>
+		<div class="cruise_info_wrap">
+			<div class="cruise_i_box">
+				<dl class="cruise_i_data">
+					<dt class="cruise_i_d_type"><span>Круиз средней дальности</span>
+					</dt>
+					<dd class="cruise_i_d_time">
+						<div class="cruise_time_title">в пути</div>
+						<dl class="cruise_time_num">
+							<dt>14</dt>
+							<dd>дн</dd>
+						</dl>
+					</dd>
+				</dl>
+				<dl class="cruise_i_data">
+					<dt class="cruise_i_d_term">Теплоход:</dt>
+					<dd class="cruise_i_d_desc">
+						<span class="title_v1">Александр Радищев 301</span>
+						<a class="details_v1" href="#" title="">подробнее →</a>
+					</dd>
+					<dt class="cruise_i_d_term">Отправление:</dt>
+					<dd class="cruise_i_d_desc">
+						<span class="title_v1">Нижний Новгород/</span>
+						<span class="date_v1">25 июн 2014  в 12:30</span>
+					</dd>
+					<dt class="cruise_i_d_term">Прибытие:</dt>
+					<dd class="cruise_i_d_desc">
+						<span class="title_v1">Нижний Новгород/</span>
+						<span class="date_v1">25 июн 2014  в 12:30</span>
+					</dd>
+				</dl>
+			</div>
+			<div class="reviews_box_v2">
+				<h2 class="rev_b_title">Отзывы путешественников о теплоходе</h2>
+
+				<div class="rev_list_wrap">
+					<div class="rev_photo_hold_v2">
+						<img class="rev_photo" src="i/slider_v2/photo_1.png" alt=""/>
+					</div>
+					<div class="rev_hold">
+						<ul class="rev_list slider_reviews">
+							<li class="rev_item">
+								<h3 class="rev_title">Иванов Иван</h3>
+
+								<div class="rev_cruise_data">круиз: 15 мая 2013 - 2 июн 2013</div>
+								<div class="rev_text_v2">Отдыхала на теплоходе с 1 августа по 7 августа. Господа, это -
+									сказка! Поезжайте, не пожалеете. Очень доброжелательная, вежливая воспитанная
+									команда. Замечательная директор круиза Инесса
+								</div>
+								<div class="link_wrap"><a class="rev_more" href="#" title="">читать полный текст отзыва
+									→</a></div>
+							</li>
+							<li class="rev_item">
+								<h3 class="rev_title">Петрова Марина</h3>
+
+								<div class="rev_cruise_data">круиз: 15 мая 2013 - 2 июн 2013</div>
+								<div class="rev_text_v2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus blanditiis doloremque eligendi excepturi iusto nihil reprehenderit voluptate. Aperiam architecto atque culpa deserunt doloribus explicabo, impedit inventore magnam minima nemo nulla odio optio provident quasi quis quos rerum saepe, vitae. Deleniti dicta distinctio ducimus earum enim exercitationem facere harum impedit minima nobis nulla numquam optio possimus reiciendis reprehenderit, repudiandae vitae, voluptate. Asperiores assumenda blanditiis eveniet iure modi numquam quasi qui quos ratione repellendus? Assumenda culpa debitis dicta est facilis rem, voluptate. Dolorum et fugiat impedit laborum numquam possimus quos soluta vel! Possimus, velit voluptates? Dolorum iste magni omnis perferendis reiciendis, veritatis?
+								</div>
+								<div class="link_wrap"><a class="rev_more" href="#" title="">читать полный текст отзыва
+									→</a></div>
+							</li>
+							<li class="rev_item">
+								<h3 class="rev_title">Петров Петр</h3>
+
+								<div class="rev_cruise_data">круиз: 15 мая 2013 - 2 июн 2013</div>
+								<div class="rev_text_v2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid asperiores assumenda at blanditiis commodi error facilis fugit ipsum iste laboriosam libero optio, quae quaerat quas quasi quos sequi similique sunt suscipit ullam unde, vel! At commodi consequuntur cum impedit iste odit quas quis totam vel vero? Culpa, recusandae, totam.</div>
+								<div class="link_wrap"><a class="rev_more" href="#" title="">читать полный текст отзыва
+									→</a></div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="link_wrap tar"><a class="rev_full mod_red btn_v1" href="#" title="">Все отзывы (15)</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+<div class="event_block_wrap">
+<div class="event_head">
+	<h2 class="event_hline">Цены. Забронировать каюту. (Цена указана за одного человека)</h2>
+
+	<div class="event_thead">
+		<div class="event_th ev_th_1">Тип каюты</div>
+		<div class="event_th ev_th_2">Номера кают</div>
+		<div class="event_th ev_th_3">Взрослый билет</div>
+		<div class="event_th ev_th_4">Детский билет</div>
+		<div class="event_th ev_th_5"></div>
+	</div>
+</div>
+<div class="event_block">
+<ul class="event_list mod_prices">
+<li class="event_item">
+
+	<div class="event_data ev_d_cabin_class">
+		<div class="ev_d_hold">
+			<span class="cabin_link">Люкс</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local mod_1">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+		</div>
+	</div>
+</li>
+<li class="event_item">
+
+	<div class="event_data ev_d_cabin_class">
+		<div class="ev_d_hold">
+			<span class="cabin_link">ПЛ</span>
+		</div>
+	</div>
+	<div class="event_data ev_d_local mod_1">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+		</div>
+	</div>
+</li>
+
+<li class="event_item">
+
+	<div class="event_data ev_d_cabin_class">
+		<div class="ev_d_hold">
+			<span class="cabin_link">Люкс</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local mod_1">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+		</div>
+	</div>
+</li>
+
+<li class="event_item mod_action">
+
+	<div class="event_data ev_d_cabin_class">
+		<div class="ev_d_hold">
+			<span class="cabin_link">А2+(I)</span>
+		</div>
+	</div>
+	<div class="event_data ev_d_local mod_1">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+		</div>
+	</div>
+</li>
+
+<li class="event_item">
+
+	<div class="event_data ev_d_cabin_class">
+		<div class="ev_d_hold">
+			<span class="cabin_link">Люкс</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local mod_1">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401,</li>
+				<li class="ev_l_item">501,</li>
+				<li class="ev_l_item">502,</li>
+				<li class="ev_l_item">503,</li>
+				<li class="ev_l_item">402,</li>
+				<li class="ev_l_item">401</li>
+			</ul>
+		</div>
+
+	</div>
+
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_cost mod_1">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
+</div>
+
+<div class="content static">
+	<h2>Полное описание круиза/экскурсионная программа</h2>
+
+	<p>Компания «Стар-Флот» приглашает Вас в увлекательные речные круизы на теплоходе по городам России! Может
+		ли быть что-нибудь более романтичным и волнующим, чем взойти на борт белоснежного лайнера и поплыть
+		навстречу горизонту, в бескрайние водные просторы, вслед за закатным солнцем? У Вас появится отличная
+		возможность оценить в полной мере сказочную и незабываемую красоту родных просторов.</p>
+
+	<h3>Особенности речных круизов по рекам России</h3>
+
+	<p>речные круизыРечные круизы – очаровательный в своем роде вид отдыха. Являясь пассажиром речного
+		теплохода, Вы получаете отличную возможность посетить множество старинных русских городов и просто
+		качественно отдохнуть.</p>
+	<img src="i/content/001.jpg" alt=""/>
+
+	<p>Россия знаменита своим судоходством и наличием множества рек, озер и каналов. Благодаря этому можно с
+		легкостью планировать свой отпуск по рекам России. В отличие от моря, до которого чтобы только доехать
+		требуется до двух суток в одну сторону, круизы на теплоходе по реке доступны всем и каждому. Мы
+		предлагаем речные круизы из Москвы, Санкт-Петербурга, а также теплоходные круизы из Нижнего Новгорода и
+		ряда других крупных российских городов.</p>
+
+	<p>Речные круизы хороши еще и тем, что Вы имеете возможность путешествовать сразу по нескольким местам.
+		Такой альтернативы не сможет предложить вам ни один другой вид отдыха. Подобную возможность
+		предоставляют только речные круизы по России. Вы сможете начать свой отдых, выехав из ближайшего к вам
+		города, имеющего речной вокзал и за неделю-две, не потратив своего времени или дополнительных денег, Вы
+		сможете посетить множество уникальных мест. По маршруту теплохода будут встречаться и крупные, и
+		небольшие города, в которых будут совершаться остановки на несколько часов. У вас будет возможность
+		осмотреть достопримечательности города самостоятельно или пойти на экскурсию, которая зачастую включена
+		в стоимость речного круиза.</p>
+
+	<p>В то же время это прекрасный шанс как побыть наедине с собой и со своими мыслями, так и напротив, в
+		окружении своих близких людей или новых знакомых. Особенно круизы на теплоходе хороши для семейного
+		отдыха. Детям на теплоходе предлагается своя программа отдыха, а экскурсии во время остановок теплохода
+		помогут существенно расширить их кругозор. Дневная жизнь речного круиза - это посещение старинных
+		городов России, развлекательные мероприятия или игры. В вечернее время Вам будут предложены
+		торжественные ужины, капитанские приемы, дискотеки и живая музыка.</p>
+
+
+	<h3>Пару слов о речных теплоходах</h3>
+
+	<p>круизы на теплоходеРоссийские речные теплоходы в общем случае отличаются друг от друга количеством палуб
+		и особенностями внутренней отделки. Чем больше палуб – тем больше пассажировместимость теплохода, а
+		значит и большее количество развлечений на борту. Чем меньше палуб у теплохода – тем меньше Вас будет
+		окружать людей, тем самым превращая отдых в уютное и размеренное путешествие по основным водным артериям
+		России. Стоимость путешествия очень часто зависит от того, как давно производился ремонт теплохода,
+		какое качество и дизайн внутренней отделки. Независимо от конструктивных особенностей, каждый теплоход
+		гарантирует сервис ничуть не хуже сервиса европейских круизных компаний, а это значит, что отличный
+		отдых и незабываемые впечатления Вам обеспечены.</p>
+
+	<p></p>
+
+	<p>Отдельно стоит отметить кухню речных теплоходов. Шеф-повора теплоходов порадуют вас изысканными блюдами,
+		которые невозможно попробовать ни в одном ресторане города. Обслуживающий персонал предлагает пассажирам
+		лучший спектр услуг, обслуживание и качество питания высочайшего уровня, обеспечивая тем самым роскошный
+		и незабываемый круизный отдых.</p>
+
+</div>
+
+</div>
+		<span class="shadow_v1">
+			<span class="primary_em"></span><span class="content_em"></span>
+		</span>
+</div>
+<footer class="footer">
+	<div class="footer_hold">
+		<nav class="foot_nav_w">
+			<ul class="foot_nav">
+				<li class="foot_n_item active"><a class="foot_n_link" href="#" title="">Главная</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Все круизы</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">О компании</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Агенствам</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Наши партнеры</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Отзывы</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Контакты</a></li>
+
+			</ul>
+		</nav>
+		<div class="footer_info">
+			<div class="foot_i_item">
+				<div class="foot_org_d_item copyrights">©2008-2013. ООО “Стар-флот”</div>
+				<div class="foot_org_d_item org_desc">Речные круизы по рекам и озерам России.</div>
+			</div>
+
+			<div class="foot_i_item mod_wide">
+				<ul class="foot_org_data">
+					<li class="foot_org_d_item">127023, Москва, площадь Журавлева,
+
+					</li>
+					<li class="foot_org_d_item"> д. 2, стр. 1., офис 512 (посмотреть на карте)
+					</li>
+				</ul>
+				<ul class="foot_org_data">
+					<li class="foot_org_d_item mod_wsn">
+						+7(495) 865-66-57 (многоканальный)
+					</li>
+					<li class="foot_org_d_item">
+						<a href="#" title="">star-flot@mail.ru</a>
+					</li>
+				</ul>
+
+			</div>
+
+
+			<div class="foot_i_item mod_abs">
+				<ul class="foot_org_data">
+					<li class="foot_org_d_item mod_wsn">
+						сайт разработан в студии дизайна
+					</li>
+					<li class="foot_org_d_item mod_tar">
+						<a class="develop" href="#" title="">OPENCOLOUR</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+</footer>
+</div>
+</div>
+</body>
+</html>

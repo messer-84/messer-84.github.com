@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BlissProRegular';
+    src: url('blisspro-regular.eot');
+    src: url('blisspro-regular.eot') format('embedded-opentype'),
+         url('blisspro-regular.woff') format('woff'),
+         url('blisspro-regular.ttf') format('truetype'),
+         url('blisspro-regular.svg#BlissProRegular') format('svg');
+}

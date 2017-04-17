@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'BlissProLightItalic';
+    src: url('blisspro-lightitalic.eot');
+    src: url('blisspro-lightitalic.eot') format('embedded-opentype'),
+         url('blisspro-lightitalic.woff') format('woff'),
+         url('blisspro-lightitalic.ttf') format('truetype'),
+         url('blisspro-lightitalic.svg#BlissProLightItalic') format('svg');
+}

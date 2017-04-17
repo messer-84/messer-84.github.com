@@ -1,0 +1,213 @@
+$develop: false;
+$production: true;
+$all: false;
+$ie9: false;
+$ie8: true;
+$ie7: false;
+$doc: false;
+$local_var: global;
+
+@import "includes_ie_8";
+
+.nav_hold,
+.slide_info,
+.cruises_block,
+.event_block_wrap{
+	background: #fff;
+}
+
+.rev_text:before{
+	background: #f23e56;
+}
+
+.wrapper_min{
+
+	.conn_t_num{
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.foot_i_item{
+		padding: 0 0 0 68px;
+	}
+	.foot_i_item.mod_wide{
+		.foot_org_data{
+			float: none;
+			width: 100%;
+			padding: 0;
+		}
+	}
+
+	.articles_list{
+		position: relative;
+		padding: 18px 20px 5px 12px;
+	}
+	.form_block{
+		padding: 13px 10px 20px;
+	}
+	.form_title{
+		padding: 13px 10px 0 0;
+		margin: 0 0 35px;
+	}
+	.reviews_block{
+		height: 245px;
+	}
+	.reviews_full_block{
+		padding: 10px;
+	}
+	.reviews_b_title{
+		padding: 16px 0 10px 20px;
+		font-size: 18px;
+	}
+
+	.info_box{
+		display: none;
+		&.mod_visible{
+			display: block;
+			.info_b_text{
+				font-size: 14px;
+				line-height: 16px;
+			}
+		}
+	}
+
+	.section_content.mod_clear{
+		clear: both;
+		width: 100%;
+		float: none;
+	}
+	.nav_item,
+	.form_title,
+	.rev_text,
+	.cruises_item,
+	.articles_item{
+		font-size: 14px;
+	}
+	.filter_title,
+	.filter_title.mod_2,
+	.page_n_tel{
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.filter_block{
+		padding: 13px 8px 2px 0;
+		&.mod_pr{
+			padding: 13px 9px 12px;
+		}
+		&.mod_full{
+			padding: 16px 10px 1px;
+		}
+	}
+	.form_item{
+		padding: 0 0 0 14px;
+		&:first-child{
+			padding: 0 14px 0 0;
+		}
+		&.mod_1{
+			padding: 0 5px 0 0;
+		}
+		&.mod_2{
+			padding: 0 0 0 5px;
+		}
+		&.mod_period_v2{
+			padding: 0 !important;
+		}
+		&.span_3{
+			padding: 0 0 0 8px;
+			&:first-child{
+				padding: 0;
+			}
+		}
+	}
+	.form_lbl{
+		&.mod_1{
+			left: 13px;
+		}
+		&.mod_pr{
+			position: relative;
+			display: block;
+			height: 30px;
+		}
+	}
+	.filter_title.mod_1{
+		padding: 0 68px 0 0;
+	}
+	.static h1,
+	.cabin_link,
+	.cruise_i_d_type span,
+	.cabin_link,
+	.hline_v1,
+	.headline_v2{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.tags_block{
+		padding: 20px 10px 0;
+		&.mod_1{
+			padding: 5px 10px 0;
+		}
+	}
+	.event_hline,
+	.ship_desc_hold{
+		padding: 0 10px;
+	}
+	.ev_d_cr_type,
+	.rev_photo_hold{
+		display: none;
+	}
+	.ev_l_item,
+	.title_v1,
+	.ev_d_cost.mod_1,
+	.event_th{
+		font-size: 14px;
+	}
+	.ev_d_local.mod_1 .ev_l_item,
+	.total_units.mod_1{
+		font-size: 12px;
+	}
+	.event_hline,
+	.t_code{
+		font-size: 18px;
+	}
+	.event_list.mod_cruises{
+		.ev_d_cr_type{
+			width: 23.02%;
+		}
+		.ev_d_local{
+			width: 43.62%;
+		}
+		.ev_d_cost{
+			width: 24.04%;
+		}
+		.ev_d_func{
+			width: 15.93%;
+		}
+	}
+	.cruise_i_d_type{
+		padding: 0 20px;
+	}
+	.cruise_time_num dt{
+		font-size: 24px;
+	}
+	.event_th{
+		white-space: normal;
+	}
+	.ev_h_item.cruise_type{
+		display: block !important;
+	}
+	.hline_v2{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.total_units{
+		right: 10px;
+	}
+	.section_content.mod_filter{
+		width: 74.1453%;
+	}
+
+}
+.user_data{
+	background: #fff;
+}
+

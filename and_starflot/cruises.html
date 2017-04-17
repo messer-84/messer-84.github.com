@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Starflot</title>
+	<meta charset="UTF-8">
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/modernizr.2.js"></script>
+	<script src="js/jquery.bxSlider.min.js"></script>
+	<script src="js/chosen.jquery.min.js"></script>
+	<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" media="all" href="styles/main_global.css">
+	<!--<![endif]-->
+	<!--[if IE 8]>
+	<script src="js/ie8.js"></script>
+	<link rel="stylesheet" media="all" href="styles/ie_8_global.css">
+	<![endif]-->
+	<script src="js/frontend.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<div class="base">
+<header class="header">
+	<div class="header_hold">
+		<a class="logo" href="#" title="">
+			<span class="logo_title">Star-flot</span>
+			<span class="logo_desc">Круизы по рекам и озерам России</span>
+		</a>
+
+		<div class="label_box">
+			<div class="label_title">
+				<span class="label_t_1">5 лет</span>
+				<span class="label_t_2">успешной работы!</span>
+
+			</div>
+			<a class="label_b_link" href="#" title="">подробнее</a>
+		</div>
+
+		<ul class="connection_box">
+			<li class="conn_item">
+				<div class="conn_tel">
+						<span class="conn_t_num">
+							<span class="t_code">+7(495)</span> 989-63-53</span>
+
+					<div class="cont_t_desc">многоканальный</div>
+				</div>
+			</li>
+			<li class="conn_item"><a class="conn_callback btn_v1 mod_red" href="#" title="">обратный звонок</a>
+			</li>
+
+			<li class="conn_item"><a class="conn_mail" href="#" title="">star-flot@mail.ru</a></li>
+		</ul>
+
+
+	</div>
+</header>
+<div class="main_row">
+<div class="primary_row">
+	<nav class="nav_hold">
+		<ul class="nav">
+			<li class="nav_item active"><a class="nav_link" href="#" title="Главная">Главная</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Все круизы">Все круизы</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="О компании">О компании</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Агентствам">Агентствам</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Наши партнеры">Наши партнеры</a>
+			</li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Полезная информация">Полезная
+				информация</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Отзывы">Отзывы</a></li>
+			<li class="nav_item"><a class="nav_link" href="#" title="Контакты">Контакты</a></li>
+		</ul>
+	</nav>
+	<div class="form_block">
+		<h2 class="form_title">Бесплатно проконсультируем и подберем для Вас круиз!</h2>
+		<dl class="form_box">
+			<dt class="form_hline_v1"><label class="hide" for="field_1">Как Вас зовут?</label></dt>
+			<dd class="form_fw_v1"><input class="form_f_v1" type="text" name="field_1" id="field_1"
+			                              placeholder="как Вас зовут?"></dd>
+			<dt class="form_hline_v1"><label class="hide" for="field_2">Номер телефона:</label></dt>
+			<dd class="form_fw_v1"><input class="form_f_v1" type="text" name="field_2" id="field_2"
+			                              placeholder="телефон"></dd>
+
+			<dt class="form_hline_v1"><label class="hide" for="field_3">Комментарии:</label></dt>
+			<dd class="form_fw_v1"><textarea class="form_f_v1 ta_1" name="field_3" id="field_3"
+			                                 placeholder="Пожелания по круизу, датам, длительности"></textarea>
+			</dd>
+			<dd class="form_submit_w">
+				<input class="btn_v1 mod_red form_submit" type="submit" value="Отправить заявку">
+			</dd>
+
+
+		</dl>
+	</div>
+	<div class="page_notice fixed_box">
+		<div class="page_n_head">
+			<h3 class="page_n_title">Круизы</h3>
+			<dl class="page_units_row">
+				<dt class="page_un_term mod_1">Всего найдено:</dt>
+				<dd class="page_un_desc">254</dd>
+			</dl>
+		</div>
+		<div class="page_n_text">
+			Трудно искать? Позвоните нам и Мы подберем круиз под Ваши требования
+		</div>
+		<div class="page_n_tel">+7(495) 152-12-22</div>
+<span class="arrow_v1"></span>
+	</div>
+
+</div>
+<div class="content_row">
+<ul class="bread_crumbs">
+	<li class="bread_c_item">
+		<a class="bread_c_i__link" href="#" title="Главная">
+			<span class="bread_c_i_title">Главная</span>
+		</a>
+	</li>
+	<li class="bread_c_item">
+		<a class="bread_c_i__link" href="#" title="Статьи">
+			<span class="bread_c_i_title">Речные круизы</span>
+		</a>
+
+	</li>
+</ul>
+<h1 class="headline">Речные круизы от компании “Стар-флот”</h1>
+
+<div class="filter_block mod_full">
+	<div class="filter_box">
+		<h2 class="filter_title mod_2">Найти подходящий круиз при помощи фильтра</h2>
+
+		<div class="form_box">
+			<div class="form_item_row">
+				<div class="form_item span_3">
+					<label class="hide" for="f2_field_1">Город отправления:</label>
+					<select class="form_select_v1" name="f2_field_1" id="f2_field_1">
+						<option value="1">Город отправления (любой)</option>
+						<option value="2">Город 2</option>
+						<option value="3">Город 3</option>
+					</select>
+				</div>
+				<div class="form_item span_3">
+					<label class="hide" for="f2_field_2">Город прибытия:</label>
+					<select class="form_select_v1" name="f2_field_2" id="f2_field_2">
+						<option value="1">Город прибытия (любой)</option>
+						<option value="2">Город 2</option>
+						<option value="3">Город 3</option>
+					</select>
+				</div>
+				<div class="form_item span_3">
+					<label class="hide" for="f2_field_5">Стоимость круиза:</label>
+					<select class="form_select_v1" name="f2_field_5" id="f2_field_5">
+						<option value="1">Любая стоимость</option>
+						<option value="2">Стоимость 1</option>
+						<option value="3">Стоимость 2</option>
+					</select>
+				</div>
+
+			</div>
+			<div class="form_item_row">
+				<div class="form_item span_3">
+					<label class="hide" for="f2_field_3">Дата круиза:</label>
+					<select class="form_select_v1" name="f2_field_3" id="f2_field_3">
+						<option value="1">В августе</option>
+						<option value="2">В сентябре</option>
+						<option value="3">В октябре</option>
+					</select>
+				</div>
+				<div class="form_item span_3">
+					<label class="hide" for="f2_field_4">Название теплохода:</label>
+					<select class="form_select_v1" name="f2_field_4" id="f2_field_4">
+						<option value="1">"Александр Радищев" (301)</option>
+						<option value="2">"Александр Радищев" (301)</option>
+						<option value="3">"Александр Радищев" (301)</option>
+					</select>
+				</div>
+				<div class="form_item mod_period span_3">
+					<label class="form_lbl mod_2" for="f2_field_6">В пути:</label>
+
+					<div class="form_item mod_1">
+						<select class="form_select_v1" name="f2_field_6" id="f2_field_6">
+							<option value="1">От 5 дней</option>
+							<option value="2">От 10 дней</option>
+							<option value="3">От 15 дней</option>
+						</select>
+					</div>
+					<div class="form_item mod_2">
+						<select class="form_select_v1" name="f2_field_7" id="f2_field_7">
+							<option value="1">До 5 дней</option>
+							<option value="2">До 10 дней</option>
+							<option value="3">До 15 дней</option>
+						</select>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="form_item_row">
+				<dl class="total_units_row">
+					<dt class="total_un_term">Всего в базе круизов:</dt>
+					<dd class="total_un_desc">254</dd>
+				</dl>
+				<div class="form_item mod_submit">
+					<input class="btn_v1 mod_red form_submit_v2" type="submit" value="Найти"/>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="tags_block">
+	<ul class="tags_list">
+		<li class="tags_item active"><a class="tags_link" href="#" title="">Все круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы выходного дня</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Длительные круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Недорогие круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы средней длительности</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы в мае</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Все круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы выходного дня</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Длительные круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Недорогие круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы средней длительности</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы в мае</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Все круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы выходного дня</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Длительные круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Недорогие круизы</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы средней длительности</a></li>
+		<li class="tags_item"><a class="tags_link" href="#" title="">Круизы в мае</a></li>
+
+	</ul>
+</div>
+<div class="event_block">
+<ul class="event_list mod_cruises">
+<li class="event_item">
+	<div class="event_i_head">
+		<div class="ev_h_item ship_title"><a href="#" title="">т/х “Александр Радищев 301”</a></div>
+		<div class="ev_h_item cruise_type">Круиз средней длительности</div>
+	</div>
+	<div class="event_data ev_d_start">
+		<div class="ev_d_hold"><span class="day_v2">15</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_end">
+		<div class="ev_d_hold"><span class="day_v2">25</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">Москва-</li>
+				<li class="ev_l_item">Углич-</li>
+				<li class="ev_l_item">Кострома-</li>
+				<li class="ev_l_item">Плёс-</li>
+				<li class="ev_l_item">Н.Новгород-</li>
+				<li class="ev_l_item">Казянь-</li>
+				<li class="ev_l_item">Самара-</li>
+				<li class="ev_l_item">Ульяовск-</li>
+				<li class="ev_l_item">Нижнекамск-</li>
+				<li class="ev_l_item">Елабуга-</li>
+				<li class="ev_l_item">Чебоксары-</li>
+				<li class="ev_l_item">Городец-</li>
+				<li class="ev_l_item">Ярославль-</li>
+				<li class="ev_l_item">Калязин-</li>
+				<li class="ev_l_item">Москва</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_cr_type">
+		<div class="ev_d_hold">Средняя длительность</div>
+	</div>
+	<div class="event_data ev_d_cost">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+			<a class="ev_btn mod_1" href="#" title="">все цены</a>
+		</div>
+	</div>
+</li>
+<li class="event_item mod_action">
+	<div class="event_i_head">
+		<div class="ev_h_item ship_title"><a href="#" title="">т/х “Александр Радищев 301”</a></div>
+		<div class="ev_h_item cruise_type">Цена снижена</div>
+	</div>
+	<div class="event_data ev_d_start">
+		<div class="ev_d_hold"><span class="day_v2">15</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_end">
+		<div class="ev_d_hold"><span class="day_v2">25</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">Москва-</li>
+				<li class="ev_l_item">Углич-</li>
+				<li class="ev_l_item">Кострома-</li>
+				<li class="ev_l_item">Плёс-</li>
+				<li class="ev_l_item">Н.Новгород-</li>
+				<li class="ev_l_item">Казянь-</li>
+				<li class="ev_l_item">Самара-</li>
+				<li class="ev_l_item">Ульяовск-</li>
+				<li class="ev_l_item">Нижнекамск-</li>
+				<li class="ev_l_item">Елабуга-</li>
+				<li class="ev_l_item">Чебоксары-</li>
+				<li class="ev_l_item">Городец-</li>
+				<li class="ev_l_item">Ярославль-</li>
+				<li class="ev_l_item">Калязин-</li>
+				<li class="ev_l_item">Москва</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_cr_type">
+		<div class="ev_d_hold">Цена снижена</div>
+	</div>
+	<div class="event_data ev_d_cost">
+		<div class="ev_d_hold">
+			<span class="old_cost">от 15000р</span>
+			<span class="new_cost">от 12000р</span>
+
+		</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+			<a class="ev_btn mod_1" href="#" title="">все цены</a>
+		</div>
+	</div>
+</li>
+
+<li class="event_item">
+	<div class="event_i_head">
+		<div class="ev_h_item ship_title"><a href="#" title="">т/х “Александр Радищев 301”</a></div>
+		<div class="ev_h_item cruise_type">Круиз средней длительности</div>
+	</div>
+	<div class="event_data ev_d_start">
+		<div class="ev_d_hold"><span class="day_v2">15</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_end">
+		<div class="ev_d_hold"><span class="day_v2">25</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">Москва-</li>
+				<li class="ev_l_item">Углич-</li>
+				<li class="ev_l_item">Кострома-</li>
+				<li class="ev_l_item">Плёс-</li>
+				<li class="ev_l_item">Н.Новгород-</li>
+				<li class="ev_l_item">Казянь-</li>
+				<li class="ev_l_item">Самара-</li>
+				<li class="ev_l_item">Ульяовск-</li>
+				<li class="ev_l_item">Нижнекамск-</li>
+				<li class="ev_l_item">Елабуга-</li>
+				<li class="ev_l_item">Чебоксары-</li>
+				<li class="ev_l_item">Городец-</li>
+				<li class="ev_l_item">Ярославль-</li>
+				<li class="ev_l_item">Калязин-</li>
+				<li class="ev_l_item">Москва</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_cr_type">
+		<div class="ev_d_hold">Средняя длительность</div>
+	</div>
+	<div class="event_data ev_d_cost">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+			<a class="ev_btn mod_1" href="#" title="">все цены</a>
+		</div>
+	</div>
+</li>
+
+<li class="event_item">
+	<div class="event_i_head">
+		<div class="ev_h_item ship_title"><a href="#" title="">т/х “Александр Радищев 301”</a></div>
+		<div class="ev_h_item cruise_type">Круиз средней длительности</div>
+	</div>
+	<div class="event_data ev_d_start">
+		<div class="ev_d_hold"><span class="day_v2">15</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_end">
+		<div class="ev_d_hold"><span class="day_v2">25</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">Москва-</li>
+				<li class="ev_l_item">Углич-</li>
+				<li class="ev_l_item">Кострома-</li>
+				<li class="ev_l_item">Плёс-</li>
+				<li class="ev_l_item">Н.Новгород-</li>
+				<li class="ev_l_item">Казянь-</li>
+				<li class="ev_l_item">Самара-</li>
+				<li class="ev_l_item">Ульяовск-</li>
+				<li class="ev_l_item">Нижнекамск-</li>
+				<li class="ev_l_item">Елабуга-</li>
+				<li class="ev_l_item">Чебоксары-</li>
+				<li class="ev_l_item">Городец-</li>
+				<li class="ev_l_item">Ярославль-</li>
+				<li class="ev_l_item">Калязин-</li>
+				<li class="ev_l_item">Москва</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_cr_type">
+		<div class="ev_d_hold">Средняя длительность</div>
+	</div>
+	<div class="event_data ev_d_cost">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+			<a class="ev_btn mod_1" href="#" title="">все цены</a>
+		</div>
+	</div>
+</li>
+
+<li class="event_item">
+	<div class="event_i_head">
+		<div class="ev_h_item ship_title"><a href="#" title="">т/х “Александр Радищев 301”</a></div>
+		<div class="ev_h_item cruise_type">Круиз средней длительности</div>
+	</div>
+	<div class="event_data ev_d_start">
+		<div class="ev_d_hold"><span class="day_v2">15</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_end">
+		<div class="ev_d_hold"><span class="day_v2">25</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">Москва-</li>
+				<li class="ev_l_item">Углич-</li>
+				<li class="ev_l_item">Кострома-</li>
+				<li class="ev_l_item">Плёс-</li>
+				<li class="ev_l_item">Н.Новгород-</li>
+				<li class="ev_l_item">Казянь-</li>
+				<li class="ev_l_item">Самара-</li>
+				<li class="ev_l_item">Ульяовск-</li>
+				<li class="ev_l_item">Нижнекамск-</li>
+				<li class="ev_l_item">Елабуга-</li>
+				<li class="ev_l_item">Чебоксары-</li>
+				<li class="ev_l_item">Городец-</li>
+				<li class="ev_l_item">Ярославль-</li>
+				<li class="ev_l_item">Калязин-</li>
+				<li class="ev_l_item">Москва</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_cr_type">
+		<div class="ev_d_hold">Средняя длительность</div>
+	</div>
+	<div class="event_data ev_d_cost">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+			<a class="ev_btn mod_1" href="#" title="">все цены</a>
+		</div>
+	</div>
+</li>
+<li class="event_item">
+	<div class="event_i_head">
+		<div class="ev_h_item ship_title"><a href="#" title="">т/х “Александр Радищев 301”</a></div>
+		<div class="ev_h_item cruise_type">Круиз средней длительности</div>
+	</div>
+	<div class="event_data ev_d_start">
+		<div class="ev_d_hold"><span class="day_v2">15</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_end">
+		<div class="ev_d_hold"><span class="day_v2">25</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">Москва-</li>
+				<li class="ev_l_item">Углич-</li>
+				<li class="ev_l_item">Кострома-</li>
+				<li class="ev_l_item">Плёс-</li>
+				<li class="ev_l_item">Н.Новгород-</li>
+				<li class="ev_l_item">Казянь-</li>
+				<li class="ev_l_item">Самара-</li>
+				<li class="ev_l_item">Ульяовск-</li>
+				<li class="ev_l_item">Нижнекамск-</li>
+				<li class="ev_l_item">Елабуга-</li>
+				<li class="ev_l_item">Чебоксары-</li>
+				<li class="ev_l_item">Городец-</li>
+				<li class="ev_l_item">Ярославль-</li>
+				<li class="ev_l_item">Калязин-</li>
+				<li class="ev_l_item">Москва</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_cr_type">
+		<div class="ev_d_hold">Средняя длительность</div>
+	</div>
+	<div class="event_data ev_d_cost">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+			<a class="ev_btn mod_1" href="#" title="">все цены</a>
+		</div>
+	</div>
+</li>
+
+<li class="event_item">
+	<div class="event_i_head">
+		<div class="ev_h_item ship_title"><a href="#" title="">т/х “Александр Радищев 301”</a></div>
+		<div class="ev_h_item cruise_type">Круиз средней длительности</div>
+	</div>
+	<div class="event_data ev_d_start">
+		<div class="ev_d_hold"><span class="day_v2">15</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_end">
+		<div class="ev_d_hold"><span class="day_v2">25</span><span class="month_v2">мая</span><span
+				class="year_v2">2013</span>
+		</div>
+
+
+	</div>
+	<div class="event_data ev_d_local">
+		<div class="ev_d_hold">
+			<ul class="ev_local_list">
+				<li class="ev_l_item">Москва-</li>
+				<li class="ev_l_item">Углич-</li>
+				<li class="ev_l_item">Кострома-</li>
+				<li class="ev_l_item">Плёс-</li>
+				<li class="ev_l_item">Н.Новгород-</li>
+				<li class="ev_l_item">Казянь-</li>
+				<li class="ev_l_item">Самара-</li>
+				<li class="ev_l_item">Ульяовск-</li>
+				<li class="ev_l_item">Нижнекамск-</li>
+				<li class="ev_l_item">Елабуга-</li>
+				<li class="ev_l_item">Чебоксары-</li>
+				<li class="ev_l_item">Городец-</li>
+				<li class="ev_l_item">Ярославль-</li>
+				<li class="ev_l_item">Калязин-</li>
+				<li class="ev_l_item">Москва</li>
+			</ul>
+		</div>
+
+	</div>
+	<div class="event_data ev_d_cr_type">
+		<div class="ev_d_hold">Средняя длительность</div>
+	</div>
+	<div class="event_data ev_d_cost">
+		<div class="ev_d_hold">от 15000р</div>
+	</div>
+	<div class="event_data ev_d_func">
+		<div class="ev_d_hold">
+			<a class="ev_btn" href="#" title="">бронировать</a>
+			<a class="ev_btn mod_1" href="#" title="">все цены</a>
+		</div>
+	</div>
+</li>
+
+</ul>
+</div>
+</div>
+		<span class="shadow_v1">
+			<span class="primary_em"></span><span class="content_em"></span>
+		</span>
+</div>
+<footer class="footer">
+	<div class="footer_hold">
+		<nav class="foot_nav_w">
+			<ul class="foot_nav">
+				<li class="foot_n_item active"><a class="foot_n_link" href="#" title="">Главная</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Все круизы</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">О компании</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Агенствам</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Наши партнеры</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Отзывы</a></li>
+				<li class="foot_n_item"><a class="foot_n_link" href="#" title="">Контакты</a></li>
+
+			</ul>
+		</nav>
+		<div class="footer_info">
+			<div class="foot_i_item">
+				<div class="foot_org_d_item copyrights">©2008-2013. ООО “Стар-флот”</div>
+				<div class="foot_org_d_item org_desc">Речные круизы по рекам и озерам России.</div>
+			</div>
+
+			<div class="foot_i_item mod_wide">
+				<ul class="foot_org_data">
+					<li class="foot_org_d_item">127023, Москва, площадь Журавлева,
+
+					</li>
+					<li class="foot_org_d_item"> д. 2, стр. 1., офис 512 (посмотреть на карте)
+					</li>
+				</ul>
+				<ul class="foot_org_data">
+					<li class="foot_org_d_item mod_wsn">
+						+7(495) 865-66-57 (многоканальный)
+					</li>
+					<li class="foot_org_d_item">
+						<a href="#" title="">star-flot@mail.ru</a>
+					</li>
+				</ul>
+
+			</div>
+
+
+			<div class="foot_i_item mod_abs">
+				<ul class="foot_org_data">
+					<li class="foot_org_d_item mod_wsn">
+						сайт разработан в студии дизайна
+					</li>
+					<li class="foot_org_d_item mod_tar">
+						<a class="develop" href="#" title="">OPENCOLOUR</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+</footer>
+</div>
+</div>
+</body>
+</html>
