@@ -1,0 +1,4 @@
+.DS_Store
+### Except git ignore file
+!/.gitignore
+.idea/
