@@ -7680,8 +7680,7 @@ body.admin-bar .tm-site {
   margin: 10px 10px 0;
   min-height: 335px;
   padding: 15px;
-  background: orange;
-  background: url("http://localhost/sunnylands.org/wp-content/themes/sunnylands/styles/images/nait-cat.jpg") 50% 50% no-repeat;
+  background: url("nait-cat.jpg") 50% 50% no-repeat;
 }
 .o__newsletter_module:before {
   z-index: 5;
