@@ -6134,7 +6134,7 @@ p {
   font-family: 'work-sans';
   color: #4A4A4A;
 }
-body {
+body,html {
   /*overflow-y: visible;*/
   /*overflow-x: hidden;*/
   overflow: hidden;
