@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/1x1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/fab9717ecfff95a7b249a07ceb2a059a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/fab9717ecfff95a7b249a07ceb2a059a(1)" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/ad99743-e6c806c.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/admin-bar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/admin-bar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/dashicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/jquery-migrate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/wp-embed.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/www-widgetapi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny.htm" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/92a8279-470d8b0.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/admin-bar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/admin-bar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/dashicons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/fab9717ecfff95a7b249a07ceb2a059a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/fab9717ecfff95a7b249a07ceb2a059a(1)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/jquery-migrate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/wp-embed.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/www-widgetapi.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" afterPath="$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +18,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -56,7 +28,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="5a5ae1d-105a4ed.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="6139" column="19" lean-forward="true" selection-start-line="6139" selection-start-column="19" selection-end-line="6139" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>modal</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +53,7 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css" />
+        <option value="$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" />
       </list>
     </option>
   </component>
@@ -120,6 +108,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test_ie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_ie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news – sunny_files" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -211,7 +217,7 @@
       <updated>1496331757344</updated>
       <workItem from="1496331758551" duration="685000" />
       <workItem from="1496332679841" duration="230000" />
-      <workItem from="1497544151546" duration="21000" />
+      <workItem from="1497544151546" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -234,18 +240,25 @@
       <option name="project" value="LOCAL" />
       <updated>1496332808255</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="-add">
+      <created>1497544325821</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1497544325821</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="936000" />
+    <option name="totallyTimeSpent" value="1664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="218" y="230" width="1549" height="759" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25613803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31254148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -313,5 +326,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css" />
+    <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="6139" column="19" lean-forward="true" selection-start-line="6139" selection-start-column="19" selection-end-line="6139" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

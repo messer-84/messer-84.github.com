@@ -6135,8 +6135,10 @@ p {
   color: #4A4A4A;
 }
 body {
-  overflow-y: visible;
-  overflow-x: hidden;
+  /*overflow-y: visible;*/
+  /*overflow-x: hidden;*/
+  overflow: hidden;
+
 }
 body.modal {
   overflow: hidden;
