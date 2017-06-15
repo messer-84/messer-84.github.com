@@ -11680,10 +11680,12 @@ table {
   width: 100%;
   bottom: 60px;
   opacity: 0;
+  visibility: hidden;
 }
 @media screen and (min-width: 768px) {
   .o__two_hero_cards .card .card_info {
     opacity: 1;
+    visibility: visible;
   }
 }
 @media screen and (min-width: 1025px) {
