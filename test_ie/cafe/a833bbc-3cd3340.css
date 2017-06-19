@@ -7739,9 +7739,12 @@ table {
 }
 .o__cafe_page .menu_main_list {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  display: block;
+
+
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*align-items: stretch;*/
 }
 @media screen and (min-width: 1024px) {
   .o__cafe_page .menu_main_list {
