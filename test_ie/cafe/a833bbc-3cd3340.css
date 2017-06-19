@@ -7748,6 +7748,10 @@ table {
 }
 @media screen and (min-width: 1024px) {
   .o__cafe_page .menu_main_list {
+    display: flex;
+
+
+
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;

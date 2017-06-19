@@ -87,8 +87,8 @@
       <file leaf-file-name="a833bbc-3cd3340.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="7747" column="1" lean-forward="true" selection-start-line="7747" selection-start-column="1" selection-end-line="7747" selection-end-column="1" />
+            <state relative-caret-position="267">
+              <caret line="7751" column="4" lean-forward="false" selection-start-line="7751" selection-start-column="4" selection-end-line="7751" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -289,7 +289,7 @@
       <workItem from="1496331758551" duration="685000" />
       <workItem from="1496332679841" duration="230000" />
       <workItem from="1497544151546" duration="2400000" />
-      <workItem from="1497888654157" duration="486000" />
+      <workItem from="1497888654157" duration="685000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -375,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497889169552</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="-add">
+      <created>1497889366394</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1497889366394</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3801000" />
+    <option name="totallyTimeSpent" value="4000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="165" y="151" width="1549" height="759" extended-state="0" />
@@ -517,8 +524,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="7747" column="1" lean-forward="true" selection-start-line="7747" selection-start-column="1" selection-end-line="7747" selection-end-column="1" />
+        <state relative-caret-position="267">
+          <caret line="7751" column="4" lean-forward="false" selection-start-line="7751" selection-start-column="4" selection-end-line="7751" selection-end-column="4" />
           <folding />
         </state>
       </provider>
