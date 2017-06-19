@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/1x1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/a833bbc-3cd3340.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/admin-bar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/admin-bar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/browsers.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/dashicons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/fab9717ecfff95a7b249a07ceb2a059a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/fab9717ecfff95a7b249a07ceb2a059a(1)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/fc65bca-6a6e81f.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/formreset.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/formsmain.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/gravityforms.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/jquery-migrate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/jquery.json.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/one.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/one_640x360_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/output.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/placeholders.jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/readyclass.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/saved_resource.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/sunnylands_svg.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/three.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/two_640x360_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/video_1280x720_acf_cropped_640x360_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/visit-the-gardens@2x_717x864_acf_cropped_640x360_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/wp-embed.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/www-widgetapi.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_ie/cafe.html" afterPath="$PROJECT_DIR$/test_ie/cafe2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/cafe.html" afterPath="$PROJECT_DIR$/test_ie/cafe.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,16 +48,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cafe.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_ie/cafe.html">
+      <file leaf-file-name="cafe2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_ie/cafe2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21162">
-              <caret line="1161" column="212" lean-forward="false" selection-start-line="1161" selection-start-column="212" selection-end-line="1161" selection-end-column="212" />
+            <state relative-caret-position="450">
+              <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8143#8148#0" expanded="true" />
+                <element signature="e#8163#8168#0" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,7 +67,7 @@
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#30039#30044#0" expanded="true" />
+                <element signature="e#30195#30200#0" expanded="true" />
                 <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -106,7 +78,7 @@
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1497888857000" expanded="true" signature="47357:47498" ph="..." />
+                <marker date="1497888933000" expanded="true" signature="47573:47714" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,6 +107,7 @@
         <option value="$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" />
         <option value="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css" />
         <option value="$PROJECT_DIR$/test_ie/cafe.html" />
+        <option value="$PROJECT_DIR$/test_ie/cafe2.html" />
       </list>
     </option>
   </component>
@@ -281,7 +254,7 @@
       <workItem from="1496331758551" duration="685000" />
       <workItem from="1496332679841" duration="230000" />
       <workItem from="1497544151546" duration="2400000" />
-      <workItem from="1497888654157" duration="213000" />
+      <workItem from="1497888654157" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -346,18 +319,25 @@
       <option name="project" value="LOCAL" />
       <updated>1497888687289</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="-add">
+      <created>1497888878917</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1497888878917</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3528000" />
+    <option name="totallyTimeSpent" value="3593000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="165" y="151" width="1549" height="759" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3165229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3165229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -460,15 +440,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_ie/cafe.html">
+    <entry file="file://$PROJECT_DIR$/test_ie/cafe2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21162">
-          <caret line="1161" column="212" lean-forward="false" selection-start-line="1161" selection-start-column="212" selection-end-line="1161" selection-end-column="212" />
+        <state relative-caret-position="450">
+          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8143#8148#0" expanded="true" />
+            <element signature="e#8163#8168#0" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -478,7 +458,7 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#30039#30044#0" expanded="true" />
+            <element signature="e#30195#30200#0" expanded="true" />
             <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -489,7 +469,7 @@
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1497888857000" expanded="true" signature="47357:47498" ph="..." />
+            <marker date="1497888933000" expanded="true" signature="47573:47714" ph="..." />
           </folding>
         </state>
       </provider>
