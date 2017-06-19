@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_ie/cafe.html" afterPath="$PROJECT_DIR$/test_ie/cafe2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/1x1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/fab9717ecfff95a7b249a07ceb2a059a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/fab9717ecfff95a7b249a07ceb2a059a(1)" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/one_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/three.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/two_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/video_1280x720_acf_cropped_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/visit-the-gardens@2x_717x864_acf_cropped_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/admin-bar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/admin-bar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/browsers.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/dashicons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/fc65bca-6a6e81f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/formreset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/formsmain.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/gravityforms.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/jquery-migrate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/jquery.json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/output.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/placeholders.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/readyclass.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/saved_resource.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/sunnylands_svg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/wp-embed.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe/www-widgetapi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -166,6 +193,24 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_ie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cafe" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -254,7 +299,7 @@
       <workItem from="1496331758551" duration="685000" />
       <workItem from="1496332679841" duration="230000" />
       <workItem from="1497544151546" duration="2400000" />
-      <workItem from="1497888654157" duration="278000" />
+      <workItem from="1497888654157" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -326,11 +371,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497888878917</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="-add">
+      <created>1497888936678</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1497888936678</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3593000" />
+    <option name="totallyTimeSpent" value="3687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="165" y="151" width="1549" height="759" extended-state="0" />
