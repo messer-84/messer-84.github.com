@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/1x1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/fab9717ecfff95a7b249a07ceb2a059a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/fab9717ecfff95a7b249a07ceb2a059a(1)" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/one.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/one_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/three.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/two_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/video_1280x720_acf_cropped_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/visit-the-gardens@2x_717x864_acf_cropped_640x360_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/a833bbc-3cd3340.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/admin-bar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/admin-bar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/browsers.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/dashicons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/fc65bca-6a6e81f.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/formreset.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/formsmain.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/gravityforms.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/jquery-migrate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/jquery.json.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/output.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/placeholders.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/readyclass.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/saved_resource.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/sunnylands_svg.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/wp-embed.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/Café (SPACING DONE) – Sunnylands_files/www-widgetapi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/cafe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css" afterPath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +59,7 @@
       <file leaf-file-name="5a5ae1d-105a4ed.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="110448">
               <caret line="6136" column="11" lean-forward="false" selection-start-line="6136" selection-start-column="11" selection-end-line="6136" selection-end-column="11" />
               <folding />
             </state>
@@ -81,8 +109,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
-    <option name="y" value="274" />
+    <option name="x" value="165" />
+    <option name="y" value="151" />
     <option name="width" value="1549" />
     <option name="height" value="759" />
   </component>
@@ -101,6 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -113,10 +142,23 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_ie" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,7 +243,8 @@
       <updated>1496331757344</updated>
       <workItem from="1496331758551" duration="685000" />
       <workItem from="1496332679841" duration="230000" />
-      <workItem from="1497544151546" duration="1781000" />
+      <workItem from="1497544151546" duration="2400000" />
+      <workItem from="1497888654157" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -252,22 +295,28 @@
       <option name="project" value="LOCAL" />
       <updated>1497547864237</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-add">
+      <created>1497548082217</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1497548082217</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2696000" />
+    <option name="totallyTimeSpent" value="3344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="274" width="1549" height="759" extended-state="0" />
-    <editor active="true" />
+    <frame x="165" y="151" width="1549" height="759" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31254148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3165229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27925116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -279,6 +328,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27925116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -308,14 +358,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css">
+    <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139572">
-          <caret line="7682" column="19" lean-forward="false" selection-start-line="7682" selection-start-column="19" selection-end-line="7682" selection-end-column="19" />
+        <state relative-caret-position="110448">
+          <caret line="6136" column="11" lean-forward="false" selection-start-line="6136" selection-start-column="11" selection-end-line="6136" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -335,7 +402,7 @@
     <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css" />
     <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="110448">
           <caret line="6136" column="11" lean-forward="false" selection-start-line="6136" selection-start-column="11" selection-end-line="6136" selection-end-column="11" />
           <folding />
         </state>
