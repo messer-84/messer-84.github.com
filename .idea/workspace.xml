@@ -2,8 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/1x1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-1_938x653_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-1_938x653_acf_cropped_483x483_acf_cropped_275x164_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-1_938x653_acf_cropped_805x483_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-2_938x653_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-2_938x653_acf_cropped_275x164_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-3_275x164_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-3_938x653_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/938x653-4-1_938x653_acf_cropped_275x164_acf_cropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/fab9717ecfff95a7b249a07ceb2a059a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/fab9717ecfff95a7b249a07ceb2a059a(1)" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped-3_275x164_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped_509x305_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_805x483_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped(1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped_805x483_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped_805x483_acf_cropped_275x164_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped_275x164_acf_cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/admin-bar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/admin-bar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-515034c.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/dashicons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/ef32679-6118e8a.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/ef32679-afe2227.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/jquery-migrate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/wp-embed.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/www-widgetapi.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/1x1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/admin-bar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/admin-bar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/browsers.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/dashicons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/fab9717ecfff95a7b249a07ceb2a059a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/fab9717ecfff95a7b249a07ceb2a059a(1)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/fc65bca-806df06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/formreset.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/formsmain.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/gravityforms.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/jquery.json.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/one_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/output.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/placeholders.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/readyclass.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/saved_resource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/sunnylands_svg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/td.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/three.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/two.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/two_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/video_1280x720_acf_cropped_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/visit-the-gardens@2x_717x864_acf_cropped_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/wp-embed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/www-widgetapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/1x1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/admin-bar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/admin-bar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/browsers.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/dashicons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/fab9717ecfff95a7b249a07ceb2a059a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/fab9717ecfff95a7b249a07ceb2a059a(1)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/fc65bca-6a6e81f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/formreset.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/formsmain.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/gravityforms.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/jquery.json.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/one.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/one_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/output.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/placeholders.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/readyclass.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/saved_resource.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/sunnylands_svg.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/three.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/two_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/video_1280x720_acf_cropped_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/visit-the-gardens@2x_717x864_acf_cropped_640x360_acf_cropped.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/wp-embed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe/www-widgetapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/cafe2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/1x1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/ad99743-e6c806c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/admin-bar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/admin-bar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/dashicons.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/fab9717ecfff95a7b249a07ceb2a059a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/fab9717ecfff95a7b249a07ceb2a059a(1)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/wp-embed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/news – sunny_files/www-widgetapi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny2.htm" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css" afterPath="$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,77 +123,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5a5ae1d-105a4ed.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110448">
-              <caret line="6136" column="11" lean-forward="false" selection-start-line="6136" selection-start-column="11" selection-end-line="6136" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="a833bbc-974a991.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1467">
-              <caret line="11685" column="39" lean-forward="false" selection-start-line="11685" selection-start-column="39" selection-end-line="11685" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cafe2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_ie/cafe2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8163#8168#0" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#5;n#div#2;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#30195#30200#0" expanded="true" />
-                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1497888933000" expanded="true" signature="47573:47714" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="a833bbc-3cd3340.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="7751" column="4" lean-forward="false" selection-start-line="7751" selection-start-column="4" selection-end-line="7751" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -136,9 +175,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="165" />
+    <option name="x" value="311" />
     <option name="y" value="151" />
-    <option name="width" value="1549" />
+    <option name="width" value="1403" />
     <option name="height" value="759" />
   </component>
   <component name="ProjectView">
@@ -180,24 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test_ie" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_ie" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cafe" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,7 +310,8 @@
       <workItem from="1496331758551" duration="685000" />
       <workItem from="1496332679841" duration="230000" />
       <workItem from="1497544151546" duration="2400000" />
-      <workItem from="1497888654157" duration="685000" />
+      <workItem from="1497888654157" duration="827000" />
+      <workItem from="1499363180343" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -382,22 +404,28 @@
       <option name="project" value="LOCAL" />
       <updated>1497889366394</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="-add">
+      <created>1497889797066</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1497889797066</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4000000" />
+    <option name="totallyTimeSpent" value="4173000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="151" width="1549" height="759" extended-state="0" />
-    <editor active="true" />
+    <frame x="311" y="151" width="1403" height="759" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3165229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35782513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24804991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -409,6 +437,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24804991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -430,22 +459,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110448">
-          <caret line="6136" column="11" lean-forward="false" selection-start-line="6136" selection-start-column="11" selection-end-line="6136" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" />
+    <entry file="file://$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -472,63 +487,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css" />
-    <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110448">
-          <caret line="6136" column="11" lean-forward="false" selection-start-line="6136" selection-start-column="11" selection-end-line="6136" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1467">
-          <caret line="11685" column="39" lean-forward="false" selection-start-line="11685" selection-start-column="39" selection-end-line="11685" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ie/cafe2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="83" column="11" lean-forward="false" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8163#8168#0" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#2;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#30195#30200#0" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#0;n#div#8;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#li#7;n#ul#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1497888933000" expanded="true" signature="47573:47714" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="7751" column="4" lean-forward="false" selection-start-line="7751" selection-start-column="4" selection-end-line="7751" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ie/news – sunny_files/5a5ae1d-105a4ed.css" />
+    <entry file="file://$PROJECT_DIR$/test_ie/Sunnylands – Just another WordPress site_files/a833bbc-974a991.css" />
+    <entry file="file://$PROJECT_DIR$/test_ie/cafe2.html" />
+    <entry file="file://$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css" />
   </component>
 </project>
