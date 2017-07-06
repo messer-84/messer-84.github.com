@@ -7703,7 +7703,7 @@ function initTwoCards() {
   }
 
   (function is_touch_device() {
-    if ('ontouchstart' in window) {
+    if ('ontouchstart' in window || window.DocumentTouch && document instanceof DocumentTouch) {
       console.log('touch init');
 
       $body.addClass('touchDevice');
