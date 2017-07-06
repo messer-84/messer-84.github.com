@@ -13261,7 +13261,7 @@ function initTwoCards() {
       console.log(deviceAgent);
 
 
-      $body.addClass('touchDevice');
+      $('body').addClass('touchDevice');
     } else {
       console.log('not touch');
 
