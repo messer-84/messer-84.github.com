@@ -13246,7 +13246,7 @@ function initTwoCards() {
 
     var deviceAgent = navigator.userAgent.toLowerCase();
 
-    var isTouchDevice = Modernizr.touch ||
+    var isTouchDevice =
         (deviceAgent.match(/(iphone|ipod|ipad)/) ||
         deviceAgent.match(/(android)/) ||
         deviceAgent.match(/(iemobile)/) ||
@@ -13258,6 +13258,8 @@ function initTwoCards() {
 
     if (isTouchDevice) {
       console.log('touch init');
+      console.log(deviceAgent);
+
 
       $body.addClass('touchDevice');
     } else {
