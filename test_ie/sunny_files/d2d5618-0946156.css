@@ -5850,6 +5850,9 @@ a.uk-badge:hover {
 .tm-main {
   word-wrap: break-word;
 }
+.touchDevice .tm-main{
+  background: #000 !important;
+}
 .tm-article-image {
   margin-top: 22.5px;
   margin-bottom: 22.5px;

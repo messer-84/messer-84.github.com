@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/sunny.html" afterPath="$PROJECT_DIR$/test_ie/sunny.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css" afterPath="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sunny.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sunny.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_ie/sunny.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
@@ -267,6 +267,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="d2d5618-0946156.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="5853" column="29" lean-forward="false" selection-start-line="5853" selection-start-column="29" selection-end-line="5853" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -277,6 +287,7 @@
       <find>main_list</find>
       <find>Café (SPACING DONE) – Sunnylands_files</find>
       <find>touchDevice</find>
+      <find>tm-main</find>
     </findStrings>
     <replaceStrings>
       <replace>cafe</replace>
@@ -284,6 +295,7 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/test_ie/cafe</dir>
       <dir>$PROJECT_DIR$/test_ie</dir>
+      <dir>$PROJECT_DIR$/test_ie/sunny_files</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -300,6 +312,7 @@
         <option value="$PROJECT_DIR$/test_ie/cafe2.html" />
         <option value="$PROJECT_DIR$/test_ie/cafe/a833bbc-3cd3340.css" />
         <option value="$PROJECT_DIR$/test_ie/sunny.html" />
+        <option value="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css" />
       </list>
     </option>
   </component>
@@ -465,7 +478,7 @@
       <workItem from="1496332679841" duration="230000" />
       <workItem from="1497544151546" duration="2400000" />
       <workItem from="1497888654157" duration="827000" />
-      <workItem from="1499363180343" duration="422000" />
+      <workItem from="1499363180343" duration="516000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -572,11 +585,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499363222184</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="-add">
+      <created>1499363665688</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1499363665688</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4564000" />
+    <option name="totallyTimeSpent" value="4658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="311" y="151" width="1403" height="759" extended-state="0" />
@@ -587,7 +607,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10920437" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53666145" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -620,7 +640,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/b445170-27b3bcf.css" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -872,6 +891,14 @@
             <element signature="n#ul#0;n#div#0;n#li#1;n#ul#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <marker date="1499363661000" expanded="false" signature="29874:30021" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="5853" column="29" lean-forward="false" selection-start-line="5853" selection-start-column="29" selection-end-line="5853" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
