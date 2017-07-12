@@ -5738,6 +5738,7 @@ $(document).ready(function() {
   initEventsPages();
   initDirectionsMap();
   initPrintDirections();
+  initLanguageMenu();
   initHistorySlider();
   initContentOverlay();
   initHeroAnim();
@@ -5841,37 +5842,37 @@ function initHeroAnim() {
 		return;
 	}
 
-	$m__hero_overlay.each(function () {
-		var $this = $(this);
-		var initial_op = 0;
-		if($this.hasClass('opacity_mod')){
-			initial_op = .4;
-		}
-
-		var tl = TweenMax.fromTo($this, 2, {
-					opacity: initial_op,
-					ease: $easeOut_1,
-					paused: true
-				},
-				{
-					opacity: .8,
-					ease: $easeOut_1,
-					paused: true
-				});
-
-		var sub_array = {
-			overlay: $this,
-			height: $this.height(),
-			position: $this.offset().top,
-			animation: tl
-		};
-
-		m__hero_array.push(sub_array);
-	});
-
 	$window.on('load', load);
 
 	function load() {
+		$m__hero_overlay.each(function () {
+			var $this = $(this);
+			var initial_op = 0;
+			if ($this.hasClass('opacity_mod')) {
+				initial_op = 0;
+			}
+
+			var tl = TweenMax.fromTo($this, 2, {
+						opacity: initial_op,
+						ease: $easeOut_1,
+						paused: true
+					},
+					{
+						opacity: .8,
+						ease: $easeOut_1,
+						paused: true
+					});
+
+			var sub_array = {
+				overlay: $this,
+				height: $this.height(),
+				position: $this.offset().top,
+				animation: tl
+			};
+
+			m__hero_array.push(sub_array);
+		});
+
 		$window.on('resize', $.throttle(250, resize));
 
 		TweenLite.ticker.addEventListener("tick", anim_f);
@@ -5879,9 +5880,7 @@ function initHeroAnim() {
 
 	function resize() {
 		$.each(m__hero_array, function (key, value) {
-			console.log('position1', value.position);
 			value.position = value.overlay.offset().top;
-			console.log('position2', value.position);
 		});
 	}
 
@@ -5911,7 +5910,6 @@ function initHeroAnim() {
 					else {
 						value.animation.progress($progress);
 					}
-					console.log('$progress', $progress, $scrollTopGl);
 				}
 
 			});
@@ -5929,6 +5927,11 @@ function initHeroAnim() {
 
 function isMobile() {
   return window_w < 768;
+}
+
+function isTabletPortrait(){
+  return window_w <= 768;
+
 }
 
 /**
@@ -6539,13 +6542,17 @@ function initContactOverlay() {
 	}
 
 	var $overlay = $('.o__contact_overlay');
+	var input_array = [];
 	var $close = $('.close_contact');
 	var $backBtn = $('.backButton');
 	var $body = $('body');
 	var $html = $('html');
-
-	checkInput();
-	inputFocus();
+	var $contactMainBlock = $('.contact_main_block');
+	var $contactDoneMessage = $('.contact_done');
+	var btn = $('.gform_button.button');
+	var parent = $('.contact_main_block');
+	var findCls = $('.contact_field.gfield_contains_required');
+	var filled = false;
 
 	function toggleContactOverlay() {
 		$overlay.toggleClass('active');
@@ -6556,59 +6563,49 @@ function initContactOverlay() {
 		return false;
 	}
 
-	function checkInput() {
-		$fieldFocus.blur(function () {
-			var $fieldLabel = $(this).closest('.ginput_container').siblings('label');
-			$fieldLabel.removeClass('focus_on');
-
-			if (!this.value) {
-				$(this).removeClass('not_empty');
-				$fieldLabel.removeClass('not_empty');
+	$('.contact_field input, .contact_field textarea').each(function () {
+		if ($(this).attr('aria-required') === 'true') {
+			var sub_array = {
+				input: $(this),
+				value_test: false
 			}
-			else {
-				$(this).addClass('not_empty');
-				$fieldLabel.addClass('not_empty');
-			}
-		});
-	}
+			input_array.push(sub_array);
+		}
+	});
 
-	function inputFocus() {
-		$fieldFocus.on('focus', function () {
-			$(this).closest('.ginput_container').siblings('label').addClass('focus_on');
-		});
-	}
+	$body.on('keyup', '.contact_field input, .contact_field textarea', function () {
+		check();
+		sub_check();
 
-	$contact.click(toggleContactOverlay);
-	$close.click(toggleContactOverlay);
-	$backBtn.click(toggleContactOverlay);
-}
+		if (!filled) {
+			btn.removeClass('notEmpty');
+			parent.removeClass('notEmpty');
+			console.log('empty');
+		}
+		else{
+			btn.addClass('notEmpty');
+			parent.addClass('notEmpty');
 
-$(function () {
-	var btn = $('.gform_button.button');
-	var parent = $('.contact_main_block');
-	var findCls = $('.contact_field.gfield_contains_required');
-	var message = findCls.find('textarea').eq(0);
-	var name = findCls.find('input').eq(0);
-	var email = findCls.find('input').eq(1);
+			console.log('not empty');
+		}
+	});
 
-	checkFill(name, email, message);
-	checkFill(email, name, message);
-	checkFill(message, name, email);
+	$body.on('blur', '.contact_field input, .contact_field textarea', function () {
+		var $fieldLabel = $(this).closest('.ginput_container').siblings('label');
+		$fieldLabel.removeClass('focus_on');
 
-	function checkFill(elem, name, email) {
-		elem.on('keyup', function () {
-			checkFields(elem, name, email);
-		});
-		elem.on('blur', function () {
-			checkFields(elem, name, email);
-		});
-	}
+		if (!this.value) {
+			$(this).removeClass('not_empty');
+			$fieldLabel.removeClass('not_empty');
+		}
+		else {
+			$(this).addClass('not_empty');
+			$fieldLabel.addClass('not_empty');
+		}
 
-	function checkFields(elem, name, email) {
-		var fieldsOneValue = $(name).val();
-		var fieldsTwoValue = $(email).val();
-
-		if (fieldsOneValue === '' || fieldsTwoValue === '' || elem.val() === '') {
+		check();
+		sub_check();
+		if (!filled) {
 			btn.removeClass('notEmpty');
 			parent.removeClass('notEmpty');
 			console.log('empty');
@@ -6619,18 +6616,70 @@ $(function () {
 
 			console.log('not empty');
 		}
-	}
-
-	$(document).on('gform_post_render', function (e, form_id) {
-		checkNotEmpty();
-		checkFill(name, email, message);
-		checkFill(email, name, message);
-		checkFill(message, name, email);
 	});
 
-});
+	function check() {
+		$.each(input_array, function (key, value) {
+			if (value.input.val() !== '') {
+				value.value_test = true;
+			} else {
+				value.value_test = false;
+			}
+			console.log(value.input.val());
+		});
+	}
 
-// if fields required not empty - add class not empty for label
+	function sub_check() {
+		$.each(input_array, function (key, value) {
+			if (!value.value_test) {
+				filled = false;
+			} else if(filled && value.value_test) {
+				filled = true;
+			}else if(key === 0 && value.value_test){
+				filled = true;
+			}
+		});
+	}
+
+	$body.on('focus', '.contact_field input, .contact_field textarea', function () {
+		// console.log('focus')
+		$(this).closest('.ginput_container').siblings('label').addClass('focus_on');
+	});
+
+	function toggleFormState() {
+		$contactMainBlock.toggleClass('hidden_mod');
+		$contactDoneMessage.toggleClass('active_mod');
+	}
+
+	$contact.click(toggleContactOverlay);
+	$close.click(toggleContactOverlay);
+
+	$backBtn.on('click', function () {
+		toggleContactOverlay();
+	});
+
+	$(document).on("gform_confirmation_loaded", function (e, form_id) {
+		toggleFormState();
+	});
+
+	$(document).on('gform_post_render', function (e, form_id) {
+		check();
+		sub_check();
+		if (!filled) {
+			btn.removeClass('notEmpty');
+			parent.removeClass('notEmpty');
+			console.log('empty');
+		}
+		else {
+			btn.addClass('notEmpty');
+			parent.addClass('notEmpty');
+
+			console.log('not empty');
+		}
+		checkNotEmpty()
+	});
+}
+
 function checkNotEmpty() {
 
 	var li = $('.contact_field');
@@ -6789,6 +6838,7 @@ function initDocuments() {
 }
 
 function initEventsPages() {
+  var $body = $('body');
   var mobile_point = 768;
   var buttonsBlock = $('.m__buttons_block_fixed');
   if (buttonsBlock.length) {
@@ -7015,7 +7065,7 @@ function initGridSlider() {
 						dots: true,
 						infinite: true,
 						arrows: false,
-						centerPadding: '25px',
+						centerPadding: '30px',
 						speed: 300,
 						centerMode: true,
 						slidesToShow: 1
@@ -7038,7 +7088,7 @@ function initGridSlider() {
 							dots: true,
 							infinite: true,
 							arrows: false,
-							centerPadding: '25px',
+							centerPadding: '30px',
 							speed: 300,
 							centerMode: true,
 							slidesToShow: 1
@@ -7332,16 +7382,15 @@ function initNewsPages() {
   }
 
   function renderNews(data) {
-    return ('<div class="m__content_thumb vertical_mod content_thumb_b" style="opacity: 1">' +
+    return ('<div class="m__content_thumb vertical_mod content_thumb_b animate-fadein" style="opacity: 1">' +
     '<div class="content_thumb_block">' +
       '<div class="content_t_img_hold" style="opacity: 1">' +
         '<img src="' + data.acf.thumbnail_list_image + '" alt="thumbnail" class="content_t_img">' +
         '</div>' +
         '<div class="content_t_desc" style="opacity: 1">' +
-          '<h2 class="content_t_title">' +
+          '<h2 class="content_t_title"><span class="content_t_title_sub">' +
             data.title.rendered +
-          '</h2>' +
-          '<div class="title_separator"></div>' +
+          '</span></h2>' +
             '<div class="content_t_date">' +
             data.date +
           '</div>' +
@@ -7655,6 +7704,7 @@ function initTwoCards() {
   var hero_cards_array = [];
   var padding = 38;
   var margin = 60;
+  isTouchDevice();
 
   $('.card').each(function () {
     var $this = $(this);
@@ -7667,25 +7717,34 @@ function initTwoCards() {
       'offset': ($('.card_info', $this).height() + margin + padding)
     };
     hero_cards_array.push(sub_array);
+
+    if(isTouchDevice() && !isTabletPortrait()){
+      var unitToTop = $('.card_info', $this).height() + margin +padding;
+      TweenLite.set($this, {className: '+=animate', delay: .15});
+      TweenLite.to($('.title', $this), .33, {y: -unitToTop, ease: $easeInOut_1});
+    }
   });
 
+
+
   $.each(hero_cards_array, function (key, value) {
-    value.card.on({
-      mouseenter: function () {
-        if (!isBelowTablet()) {
-          TweenLite.set(value.card, {className: '+=animate', delay: .15});
-          TweenLite.to(value.title, .33, {y: -value.offset, ease: $easeInOut_1});
-          TweenLite.to(value.card_image, .33, {scale: 1.1});
-        }
-      },
-      mouseleave: function () {
-        if (!isBelowTablet()) {
-          TweenLite.set(value.card, {className: '-=animate', delay: .33});
-          TweenLite.to(value.title, .33, {y: 0, ease: $easeInOut_1});
-          TweenLite.to(value.card_image, .33, {scale: 1});
-        }
-      }
-    });
+    value.card.on(
+        {
+          mouseenter: function () {
+            if (!isBelowTablet()) {
+              TweenLite.set(value.card, {className: '+=animate', delay: .15});
+              TweenLite.to(value.title, .33, {y: -value.offset, ease: $easeInOut_1});
+              TweenLite.to(value.card_image, .33, {scale: 1.1});
+            }
+          },
+          mouseleave: function () {
+            if (!isBelowTablet()) {
+              TweenLite.set(value.card, {className: '-=animate', delay: .33});
+              TweenLite.to(value.title, .33, {y: 0, ease: $easeInOut_1});
+              TweenLite.to(value.card_image, .33, {scale: 1});
+            }
+          }
+        });
   });
 
   $window.on('resize', $.throttle(250, TwoCardsResize));
@@ -7702,11 +7761,31 @@ function initTwoCards() {
     }
   }
 
-  (function is_touch_device() {
-    if ('ontouchstart' in window) {
-        $body.addClass('touchDevice');
+  function isTouchDevice() {
+
+
+    var deviceAgent = navigator.userAgent.toLowerCase();
+
+    var hasTouchDevise =
+        (deviceAgent.match(/(iphone|ipod|ipad)/) ||
+        deviceAgent.match(/(android)/) ||
+        deviceAgent.match(/(iemobile)/) ||
+        deviceAgent.match(/iphone/i) ||
+        deviceAgent.match(/ipad/i) ||
+        deviceAgent.match(/ipod/i) ||
+        deviceAgent.match(/blackberry/i) ||
+        deviceAgent.match(/bada/i));
+
+    if (hasTouchDevise) {
+      $('body').addClass('touchDevice');
+      return true;
+    } else {
+      return false;
     }
-  }())
+
+
+  }
+
 }
 
 
@@ -7823,7 +7902,7 @@ function initCalendar() {
    * @param info
    */
   function renderSingleEvent(info) {
-    return'<div class="event_block">' +
+    return'<div class="event_block animate-fadein">' +
     '<div class="event_start_info">' +
       '<div class="event_start_dt">starts at</div>' +
         '<div class="event_start_time">' +
@@ -8005,7 +8084,11 @@ function initContentThumbAnimation() {
 function initPrintDirections() {
   var $print = $('.print_directions').find('button');
   $print.on('click', function(e) {
-    var text = $(this).parent().parent().find('.direction_copy').html();
+    var $copy = $('.m__directions').clone();
+    $copy.find('.print_directions').each(function() {
+      $(this).remove();
+    });
+    var text = $copy.html();
     printElement(text);
   });
 }
@@ -8047,9 +8130,27 @@ function initHistorySlider() {
   
   $historySlider.flickity({
     cellAlign: 'left',
+    groupCells: 2,
+    wrapAround: true,
     contain: true,
-    pageDots: true
+    pageDots: true,
+    arrowShape: 'M35.45,49.57,63,18.5l1.51,1.33L38.11,49.59,64.55,80.23,63,81.5Z'
   })
+}
+
+function initLanguageMenu() {
+  var $menu = $('.m__language_menu');
+
+  if (!$menu.length) {
+    return;
+  }
+  var $caret = $('.language_caret');
+
+  $('.language_selector').on('click', function(e) {
+    e.preventDefault();
+    $menu.toggleClass('open');
+    $caret.toggleClass('open');
+  });
 }
 
 
@@ -8095,14 +8196,13 @@ function initSidebarFunctions() {
   var fixedFooterMod = false;
   var fixedMod = false;
 
+  initSidebarControl();
+
   function sidebarResize() {
     footer_h = footer.height();
     firstBlockHeight = firstBlock.height();
     site_h = site.height();
-
-    sidebarSwipe();
   }
-
 
   $(window).on('load', function () {
     sidebarResize();
@@ -8118,6 +8218,14 @@ function initSidebarFunctions() {
     sidebarResize();
     initSidebar();
     $body.addClass('noTransition');
+  });
+
+  // Add active to parents when it's a subpage.
+  $('.sub_sidebar_item').each(function() {
+    var $el = $(this);
+    if ($el.hasClass('active')) {
+      $el.parent().parent().addClass('active');
+    }
   });
 
   function initSidebarControl() {
@@ -8176,32 +8284,6 @@ function initSidebarFunctions() {
       fixedMod = false;
     }
   }
-
-
-  function sidebarSwipe() {
-    if (window_w > 1440 || window_w < 770) {
-      if ($carousel !== undefined) {
-        $carousel.flickity('destroy');
-        $carousel = undefined;
-
-      }
-    }
-    else {
-      if ($carousel === undefined) {
-        $carousel = $('.sidebar').flickity({
-          freeScroll: true,
-          contain: true,
-          prevNextButtons: false,
-          pageDots: false
-        });
-      }
-      if(sidebar.hasClass('open')){
-        sidebar.removeClass('open');
-        $('.sidebarControl').removeClass('open');
-      }
-    }
-  }
-
 }
 
 
