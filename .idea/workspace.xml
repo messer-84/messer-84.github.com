@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-1_938x653_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-1_938x653_acf_cropped_483x483_acf_cropped_275x164_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-1_938x653_acf_cropped_805x483_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-2_938x653_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-2_938x653_acf_cropped_275x164_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-3_275x164_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-3_938x653_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/938x653-4-1_938x653_acf_cropped_275x164_acf_cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-515034c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/ef32679-6118e8a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped-3_275x164_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_509x305_acf_cropped_509x305_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_805x483_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped(1).jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped_805x483_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped-1_938x653_acf_cropped_805x483_acf_cropped_275x164_acf_cropped.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/nait-cat_938x653_acf_cropped_275x164_acf_cropped.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css" afterPath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/ef32679-afe2227.js" afterPath="$PROJECT_DIR$/test_ie/sunny_files/fc1034d-2a9d27c.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-23f21b8.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/sunny.html" afterPath="$PROJECT_DIR$/test_ie/sunny.html" />
     </list>
@@ -254,7 +233,7 @@
       <workItem from="1497544151546" duration="2400000" />
       <workItem from="1497888654157" duration="827000" />
       <workItem from="1499363180343" duration="1607000" />
-      <workItem from="1499888876075" duration="197000" />
+      <workItem from="1499888876075" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -417,11 +396,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499364581857</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="-add">
+      <created>1499889078557</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1499889078557</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5946000" />
+    <option name="totallyTimeSpent" value="6469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="311" y="151" width="1403" height="885" extended-state="0" />
