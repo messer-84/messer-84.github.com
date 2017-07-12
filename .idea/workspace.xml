@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-e28c89b.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/sunny.html" afterPath="$PROJECT_DIR$/test_ie/sunny.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css" afterPath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,23 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sunny.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_ie/sunny.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="48" selection-end-column="7" />
-              <folding>
-                <marker date="1499891090000" expanded="true" signature="34525:34672" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2a3e4e3-1f171cf.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2a3e4e3-1f171cf.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="16810" column="4" lean-forward="false" selection-start-line="16810" selection-start-column="4" selection-end-line="16810" selection-end-column="4" />
+            <state relative-caret-position="-52">
+              <caret line="12135" column="19" lean-forward="true" selection-start-line="12135" selection-start-column="19" selection-end-line="12135" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -86,14 +76,16 @@
       <find>touchDe</find>
       <find>padding-top: 34</find>
       <find>html</find>
+      <find>z14</find>
+      <find>z-index: 14</find>
     </findStrings>
     <replaceStrings>
       <replace>cafe</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/test_ie/cafe</dir>
-      <dir>$PROJECT_DIR$/test_ie</dir>
       <dir>$PROJECT_DIR$/test_ie/sunny_files</dir>
+      <dir>$PROJECT_DIR$/test_ie</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -112,6 +104,7 @@
         <option value="$PROJECT_DIR$/test_ie/sunny_files/d2d5618-0946156.css" />
         <option value="$PROJECT_DIR$/test_ie/sunny_files/ef32679-6118e8a.js" />
         <option value="$PROJECT_DIR$/test_ie/sunny.html" />
+        <option value="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css" />
       </list>
     </option>
   </component>
@@ -278,7 +271,7 @@
       <workItem from="1497544151546" duration="2400000" />
       <workItem from="1497888654157" duration="827000" />
       <workItem from="1499363180343" duration="1607000" />
-      <workItem from="1499888876075" duration="1390000" />
+      <workItem from="1499888876075" duration="2403000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -455,18 +448,25 @@
       <option name="project" value="LOCAL" />
       <updated>1499890208301</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="-add">
+      <created>1499891093978</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1499891093978</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7139000" />
+    <option name="totallyTimeSpent" value="8152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="311" y="151" width="1403" height="885" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36296842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36296842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -541,14 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="16810" column="4" lean-forward="false" selection-start-line="16810" selection-start-column="4" selection-end-line="16810" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-23f21b8.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -559,11 +551,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_ie/sunny.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="48" selection-end-column="7" />
-          <folding>
-            <marker date="1499891090000" expanded="true" signature="34525:34672" ph="..." />
-          </folding>
+        <state relative-caret-position="182">
+          <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="12135" column="19" lean-forward="true" selection-start-line="12135" selection-start-column="19" selection-end-line="12135" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

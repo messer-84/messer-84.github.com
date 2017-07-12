@@ -7464,6 +7464,7 @@ svg.arrow_right_mod {
   }
 }
 .o__header .hamburger {
+  z-index: 2;
   position: absolute;
   width: 3.4rem;
   height: 2rem;
@@ -7495,6 +7496,7 @@ svg.arrow_right_mod {
   opacity: 1;
 }
 .o__header .search {
+  z-index: 1;
   position: absolute;
   width: 25px;
   height: 25px;
@@ -7526,6 +7528,7 @@ svg.arrow_right_mod {
   opacity: 1;
 }
 .o__header .logo {
+  z-index: 1;
   position: absolute;
   width: 24rem;
   height: 4rem;
@@ -11605,7 +11608,7 @@ svg.arrow_right_mod {
 }
 .o__menu_overlay {
   top: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -11660,6 +11663,7 @@ svg.arrow_right_mod {
   top: 0;
   left: 0;
   opacity: 0;
+  visibility: hidden;
 }
 .o__menu_overlay .scrollable .close {
   position: absolute;
@@ -12108,6 +12112,7 @@ svg.arrow_right_mod {
 }
 .o__menu_overlay.active {
   z-index: 1000;
+  visibility: visible;
 }
 .o__menu_overlay.active .background {
   z-index: 14;
@@ -12135,6 +12140,7 @@ svg.arrow_right_mod {
   z-index: 20;
   overflow-y: auto;
   opacity: 1;
+  visibility: visible;
 }
 .o__menu_overlay.active .scrollable .close,
 .o__menu_overlay.active .scrollable .separator,
