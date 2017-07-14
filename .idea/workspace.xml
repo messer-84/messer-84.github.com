@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/fab9717ecfff95a7b249a07ceb2a059a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/fab9717ecfff95a7b249a07ceb2a059a(1)" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/nait-cat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/2a3e4e3-27e3f25.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/8f5e4f6-3feecd7.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/admin-bar.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/admin-bar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/comment-reply.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/dashicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/jquery-migrate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/wp-embed.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_ie/very very long title – sunny_files/www-widgetapi.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/1x1" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-23f21b8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-e28c89b.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/admin-bar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/admin-bar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/dashicons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/fab9717ecfff95a7b249a07ceb2a059a" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/fab9717ecfff95a7b249a07ceb2a059a(1)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/fc1034d-2a9d27c.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/jquery-migrate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/wp-embed.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_ie/sunny_files/www-widgetapi.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_ie/sunny.html" afterPath="$PROJECT_DIR$/test_ie/sunny6.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/sunny.html" afterPath="$PROJECT_DIR$/test_ie/sunny.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -265,7 +238,7 @@
       <workItem from="1497888654157" duration="827000" />
       <workItem from="1499363180343" duration="1607000" />
       <workItem from="1499888876075" duration="2498000" />
-      <workItem from="1500029730225" duration="18000" />
+      <workItem from="1500029730225" duration="121000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -456,11 +429,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499892536789</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="-add">
+      <created>1500029754707</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1500029754707</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8265000" />
+    <option name="totallyTimeSpent" value="8368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="311" y="151" width="1403" height="885" extended-state="0" />
@@ -512,10 +492,11 @@
     <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/ef32679-6118e8a.js" />
     <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/admin-bar.min.css" />
     <entry file="file://$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-23f21b8.css" />
-    <entry file="file://$PROJECT_DIR$/test_ie/sunny.html">
+    <entry file="file://$PROJECT_DIR$/test_ie/sunny6.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="47" column="48" lean-forward="false" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
