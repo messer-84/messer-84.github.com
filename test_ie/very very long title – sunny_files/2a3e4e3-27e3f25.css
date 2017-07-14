@@ -17676,6 +17676,13 @@ body {
   -o-transition: background-color 0.4s ease;
   transition: background-color 0.4s ease;
 }
+.post_image {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
 .a__button {
   position: relative;
   display: block;

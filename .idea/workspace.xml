@@ -31,8 +31,8 @@
       <file leaf-file-name="2a3e4e3-27e3f25.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_ie/very very long title – sunny_files/2a3e4e3-27e3f25.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="17655" column="15" lean-forward="false" selection-start-line="17655" selection-start-column="15" selection-end-line="17655" selection-end-column="15" />
+            <state relative-caret-position="499">
+              <caret line="17684" column="1" lean-forward="false" selection-start-line="17684" selection-start-column="1" selection-end-line="17684" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -250,7 +250,7 @@
       <workItem from="1497888654157" duration="827000" />
       <workItem from="1499363180343" duration="1607000" />
       <workItem from="1499888876075" duration="2498000" />
-      <workItem from="1500029730225" duration="691000" />
+      <workItem from="1500029730225" duration="1098000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -462,11 +462,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500030317699</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="-add">
+      <created>1500030866754</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1500030866754</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8938000" />
+    <option name="totallyTimeSpent" value="9345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="311" y="151" width="1403" height="885" extended-state="0" />
@@ -477,7 +484,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44850066" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19947849" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5928237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -536,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_ie/very very long title – sunny_files/2a3e4e3-27e3f25.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="17655" column="15" lean-forward="false" selection-start-line="17655" selection-start-column="15" selection-end-line="17655" selection-end-column="15" />
+        <state relative-caret-position="499">
+          <caret line="17684" column="1" lean-forward="false" selection-start-line="17684" selection-start-column="1" selection-end-line="17684" selection-end-column="1" />
           <folding />
         </state>
       </provider>
