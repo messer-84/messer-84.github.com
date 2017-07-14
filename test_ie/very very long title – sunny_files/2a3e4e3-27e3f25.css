@@ -17649,6 +17649,7 @@ body {
   letter-spacing: -0.6px;
 }
 .m__vertical_share {
+  position: relative;
   width: 30px;
 }
 .m__vertical_share a {
