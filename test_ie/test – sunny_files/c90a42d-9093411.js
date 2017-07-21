@@ -5720,17 +5720,16 @@ var window_h = $window.height();
 var $scrollTopGl = 0;
 
 function viewport() {
-    var e = window, a = 'inner';
-    if (!('innerWidth' in window )) {
-        a = 'client';
-        e = document.documentElement || document.body;
-    }
-    return { width : e[ a+'Width' ] , height : e[ a+'Height' ] };
+  var e = window, a = 'inner';
+  if (!('innerWidth' in window )) {
+    a = 'client';
+    e = document.documentElement || document.body;
+  }
+  return {width: e[a + 'Width'], height: e[a + 'Height']};
 }
 
 
-
-$(document).ready(function() {
+$(document).ready(function () {
 
   initTwoCards();
   initSingleVideo();
@@ -5758,6 +5757,8 @@ $(document).ready(function() {
   initNewsPages();
   initSearchReadMore();
   initFAQ();
+  isTouchDevice();
+
 
   if ($('.m__content_thumb').length) {
     initContentThumbAnimation();
@@ -5792,6 +5793,113 @@ function scroll_global() {
   $scrollTopGl = $(window).scrollTop();
 }
 
+function isTouchDevice() {
+
+
+  var deviceAgent = navigator.userAgent.toLowerCase();
+
+  var hasTouchDevise =
+      (deviceAgent.match(/(iphone|ipod|ipad)/) ||
+      deviceAgent.match(/(android)/) ||
+      deviceAgent.match(/(iemobile)/) ||
+      deviceAgent.match(/iphone/i) ||
+      deviceAgent.match(/ipad/i) ||
+      deviceAgent.match(/ipod/i) ||
+      deviceAgent.match(/blackberry/i) ||
+      deviceAgent.match(/bada/i));
+
+  if (hasTouchDevise) {
+    $('body').addClass('touchDevice');
+    return true;
+  } else {
+    return false;
+  }
+
+  var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+  if(iOS){
+    $('body').addClass('iosDevice');
+  }
+
+
+}
+
+
+
+/**
+ * File to render all the HTML code for the ajax calls (Read mores, filters, etc) for the
+ * CPTs. All these functions will be globally called, as we need to call them from different
+ * modules, and beans doesn't allow ES6 to import modules etc.
+ */
+
+
+function renderEventBlockHeader(date) {
+  return ('<div class="day_header stickem">' +
+  '<div class="day_header_hold">' +
+  '<div class="day_hold">' + date + '</div>' +
+  '</div>' +
+  '</div>')
+}
+
+/**
+ * Renders a full block on events within the same day in the $wrapper.
+ * @param $wrapper
+ * @param data
+ */
+function renderEventsBlock($wrapper, data) {
+  var events = '';
+  for (var i = 0; i < data.events.length; i++) {
+    events += renderSingleEvent(data.events[i]);
+  }
+  var html = '<li class="events_item stickem-container">';
+  html += renderEventBlockHeader(data['formatted_date']);
+  html += (
+  '<div class=day_block">' +
+  '<div class="event_b_list">' +
+    events +
+  '</div>' +
+  '</div>'
+  );
+  html += '</li>';
+  $wrapper.before(html);
+}
+
+/**
+ * Return HTML of an event with the info.
+ * @param info
+ */
+function renderSingleEvent(info) {
+  return ('<div class="event_block animate-fadein">' +
+  '<div class="event_start_info">' +
+  '<div class="event_start_dt">starts at</div>' +
+  '<div class="event_start_time">' +
+  '<div class="time_h">' + info.acf.hour  +  '</div>' +
+  '<div class="time_min_hold">' +
+  '<div class="time_m">' + info.acf.minutes +  '</div>' +
+  '<div class="time_mod">' + info.acf.format + '</div>' +
+  '</div>' +
+  '</div>' +
+  '</div>' +
+  '<div class="event_photo_hold">' +
+  '<a href="" title="">' +
+  '<img src="' + info.acf.featured_image +  ' " alt="Event image" class="event_photo">' +
+  '</a>' +
+  '<a href="' + info.acf.featured_image +  '" title="" class="event_info_link">i</a>' +
+  '</div>' +
+  '<div class="event_main">' +
+  '<a href="' + info.acf.featured_image +  '" title="">' +
+  '<h3 class="event_title">' + info.post_title +  '</h3>' +
+  '</a>' +
+  '<div class="event_desc">' +
+  '<div class="event_d_text">' + info.excerpt + '</div>' +
+  '</div>' +
+  '<div class="event_date_info">' +
+  '<div class="event_day">' + info.acf.recurrency + '</div>' +
+  '<div class="event_day" style="color: #ff6726;font-weight:600;">' + info.acf.additional +'</div>' +
+  '</div>' +
+  '</div>' +
+  '</div>');
+}
 
 /*!
  * VERSION: 0.2.1
@@ -5928,7 +6036,6 @@ function initHeroAnim() {
 				if ($progress <= 1) {
 					if($scrollTopGl === 0){
 						value.animation.progress(0);
-						console.log('null');
 					}
 					else {
 						value.animation.progress($progress);
@@ -5941,6 +6048,7 @@ function initHeroAnim() {
 		}
 	}
 }
+
 
 /**
  * Returns true if we are below Portrait Tablet breakpoint
@@ -6045,7 +6153,7 @@ function initSearchReadMore() {
     }
 
     for (var j = 0; j < (3 - data.length); j++) {
-      html += '<div class="m__content_thumb vertical_mod content_thumb_b" style="opacity: 1"></div>';
+      html += '<div class="blocks_item"><div class="m__content_thumb vertical_mod content_thumb_b" style="opacity: 1"></div></div>';
     }
 
     html +=  '</div></div>';
@@ -6054,7 +6162,7 @@ function initSearchReadMore() {
 
   function renderUniquePost(info) {
     return (
-      '<div class="m__content_thumb vertical_mod content_thumb_b" style="opacity: 1">' +
+      '<div class="blocks_item"><div class="m__content_thumb vertical_mod content_thumb_b" style="opacity: 1">' +
         '<a href="' + info.link +  '">' +
           '<div class="content_thumb_block">' +
           '<div class="content_t_img_hold" style="opacity: 1">' +
@@ -6075,7 +6183,7 @@ function initSearchReadMore() {
           '</div>' +
         '</div>' +
         '</a>' +
-      '</div>'
+      '</div></div>'
     );
   }
 
@@ -6221,6 +6329,7 @@ function photoVideoCarousel(carouselItem) {
   var direction;
   var nextSlide, prevSlide, indexCurrent;
   var carouselLen, indexLast;
+  var typeAnimation = Power1.easeInOut;
 
 
   hasSafari();
@@ -6316,26 +6425,26 @@ function photoVideoCarousel(carouselItem) {
 
       if (direction === 'right') {
 
-        TweenMax.fromTo(carouselLinkArray[nextSlide], .7, {xPercent: 100, opacity: 0, ease: Power2.easeIn}, {
+        TweenMax.fromTo(carouselLinkArray[nextSlide], .7, {xPercent: 100, opacity: 0, ease: typeAnimation}, {
           opacity: 1,
           xPercent: 0,
-          ease: Power2.easeIn
+          ease: typeAnimation
         });
-        TweenMax.fromTo(carouselLinkArray[currentSlide], .7, {xPercent: 0, opacity: 1, ease: Power2.easeIn, scale: 1}, {
+        TweenMax.fromTo(carouselLinkArray[currentSlide], .7, {xPercent: 0, opacity: 1, ease: typeAnimation, scale: 1}, {
           opacity: 0,
           xPercent: 100,
           scale: .7,
-          ease: Power2.easeIn
+          ease: typeAnimation
         });
 
-        TweenMax.fromTo(carouselImagesArray[nextSlide], .7, {xPercent: 100, ease: Power0.easeIn}, {
+        TweenMax.fromTo(carouselImagesArray[nextSlide], .7, {xPercent: 100, ease: typeAnimation}, {
           xPercent: 0,
-          ease: Power0.easeIn
+          ease: typeAnimation
         });
 
-        TweenMax.fromTo(carouselImagesArray[currentSlide], .7, {xPercent: 0, ease: Power0.easeIn}, {
+        TweenMax.fromTo(carouselImagesArray[currentSlide], .7, {xPercent: 0, ease: typeAnimation}, {
           xPercent: -100,
-          ease: Power0.easeIn
+          ease: typeAnimation
         });
 
         moveSlideToRight(carouselDescArray, nextSlide, currentSlide);
@@ -6343,25 +6452,25 @@ function photoVideoCarousel(carouselItem) {
 
       }
       else {
-        TweenMax.fromTo(carouselLinkArray[nextSlide], .7, {xPercent: 100, opacity: 0, ease: Power2.easeIn}, {
+        TweenMax.fromTo(carouselLinkArray[nextSlide], .7, {xPercent: 100, opacity: 0, ease: typeAnimation}, {
           opacity: 1,
           xPercent: 0,
-          ease: Power2.easeIn
+          ease: typeAnimation
         });
-        TweenMax.fromTo(carouselLinkArray[currentSlide], .7, {xPercent: 0, opacity: 1, ease: Power2.easeIn, scale: 1}, {
+        TweenMax.fromTo(carouselLinkArray[currentSlide], .7, {xPercent: 0, opacity: 1, ease: typeAnimation, scale: 1}, {
           opacity: 0,
           xPercent: 100,
           scale: 0,
-          ease: Power2.easeIn
+          ease: typeAnimation
         });
 
-        TweenMax.fromTo(carouselImagesArray[nextSlide], .7, {xPercent: -100, ease: Power0.easeIn}, {
+        TweenMax.fromTo(carouselImagesArray[nextSlide], .7, {xPercent: -100, ease: typeAnimation}, {
           xPercent: 0,
-          ease: Power0.easeIn
+          ease: typeAnimation
         });
-        TweenMax.fromTo(carouselImagesArray[currentSlide], .7, {xPercent: 0, ease: Power0.easeIn}, {
+        TweenMax.fromTo(carouselImagesArray[currentSlide], .7, {xPercent: 0, ease: typeAnimation}, {
           xPercent: 100,
-          ease: Power0.easeIn
+          ease: typeAnimation
         });
 
         moveSlideToLeft(carouselDescArray, nextSlide, currentSlide);
@@ -6468,23 +6577,23 @@ function photoVideoCarousel(carouselItem) {
   }
 
   function setStartPosition(elem) {
-    TweenMax.fromTo(elem, .7, {xPercent: 100, ease: Power2.easeIn, opacity: 0}, {
+    TweenMax.fromTo(elem, .7, {xPercent: 100, ease: typeAnimation, opacity: 0}, {
       xPercent: 0,
-      ease: Power2.easeIn,
+      ease: typeAnimation,
       opacity: 1
     });
   }
 
   function moveSlideToRight(array, nextSlide, currentSlide) {
     TweenMax.set(array[nextSlide], {yPercent: 3, opacity: 0});
-    TweenMax.to(array[currentSlide], .7, {yPercent: -3, opacity: 0, ease: Power2.easeIn});
-    TweenMax.to(array[nextSlide], .7, {yPercent: 0, opacity: 1, delay: .7, ease: Power2.easeOut});
+    TweenMax.to(array[currentSlide], .7, {yPercent: -3, opacity: 0, ease: typeAnimation});
+    TweenMax.to(array[nextSlide], .7, {yPercent: 0, opacity: 1, delay: .7, ease: typeAnimation});
   }
 
   function moveSlideToLeft(array, nextSlide, currentSlide) {
     TweenMax.set(array[nextSlide], {yPercent: -3, opacity: 0});
-    TweenMax.to(array[currentSlide], .7, {yPercent: 3, opacity: 0, ease: Power2.easeIn});
-    TweenMax.to(array[nextSlide], .7, {yPercent: 0, opacity: 1, delay: .7, ease: Power2.easeOut});
+    TweenMax.to(array[currentSlide], .7, {yPercent: 3, opacity: 0, ease: typeAnimation});
+    TweenMax.to(array[nextSlide], .7, {yPercent: 0, opacity: 1, delay: .7, ease: typeAnimation});
   }
 
   function initSlickSlider(obj) {
@@ -6496,7 +6605,7 @@ function photoVideoCarousel(carouselItem) {
       pauseOnFocus: false,
       pauseOnHover: false,
       fade: true,
-      cssEase: 'linear'
+      cssEase: 'ease-in-out'
     });
   }
 
@@ -6610,13 +6719,9 @@ function initContactOverlay() {
 		if (!filled) {
 			btn.removeClass('notEmpty');
 			parent.removeClass('notEmpty');
-			console.log('empty');
-		}
-		else{
+		} else {
 			btn.addClass('notEmpty');
 			parent.addClass('notEmpty');
-
-			console.log('not empty');
 		}
 	});
 
@@ -6638,13 +6743,9 @@ function initContactOverlay() {
 		if (!filled) {
 			btn.removeClass('notEmpty');
 			parent.removeClass('notEmpty');
-			console.log('empty');
-		}
-		else {
+		} else {
 			btn.addClass('notEmpty');
 			parent.addClass('notEmpty');
-
-			console.log('not empty');
 		}
 	});
 
@@ -6655,7 +6756,6 @@ function initContactOverlay() {
 			} else {
 				value.value_test = false;
 			}
-			console.log(value.input.val());
 		});
 	}
 
@@ -6672,7 +6772,6 @@ function initContactOverlay() {
 	}
 
 	$body.on('focus', '.contact_field input, .contact_field textarea', function () {
-		// console.log('focus')
 		$(this).closest('.ginput_container').siblings('label').addClass('focus_on');
 	});
 
@@ -6698,13 +6797,9 @@ function initContactOverlay() {
 		if (!filled) {
 			btn.removeClass('notEmpty');
 			parent.removeClass('notEmpty');
-			console.log('empty');
-		}
-		else {
+		} else {
 			btn.addClass('notEmpty');
 			parent.addClass('notEmpty');
-
-			console.log('not empty');
 		}
 		checkNotEmpty()
 	});
@@ -6732,6 +6827,7 @@ function checkNotEmpty() {
 
 }
 
+
 /**
  * The overlay is pre-set in all the pages of the site. All elements with the class
  * `open_overlay` will need at least 2 data-attr*. The CPT type (post, people, etc) and the
@@ -6745,6 +6841,7 @@ function initContentOverlay() {
   var $overlay = $('.o__content_overlay');
   var $body = $('body');
   var $close = $overlay.find('.close_overlay');
+  var old_share = null;
 
   $open.click(function(e) {
     e.preventDefault(); // We can't assure everything is a button, some items may be anchors.
@@ -6759,6 +6856,57 @@ function initContentOverlay() {
     });
   });
 
+  function strip(html) {
+    var tmp = document.createElement("DIV");
+    tmp.innerHTML = html;
+    return tmp.textContent || tmp.innerText || "";
+  }
+
+  /**
+   * Update share URL for the buttons inside the overlay (we want to share
+   * the Detail post page, not the actual one)
+   */
+  function renderShare(data) {
+    if (typeof addthis !== 'undefined') {
+      // Save current info for sharing and store it for when the overlay is closed.
+      old_share = JSON.parse(JSON.stringify(addthis_share));
+
+      addthis.update('share', 'url', data.link);
+      addthis.update('share', 'title', data.title.rendered);
+      addthis.update('share', 'image', get_image(data));
+      addthis.update('share', 'description', strip(get_description(data)));
+    }
+  }
+
+  /**
+   * Get the correct image depending on CPT
+   * @param data
+   * @returns {*}
+   */
+  function get_image(data) {
+    if ( 'post_image' in data.acf ) {
+      return data.acf.post_image
+    }
+
+    if ( 'featured_image_square' in data.acf ) {
+      return data.acf.featured_image_square
+    }
+
+    if ( 'image' in data.acf ) {
+      return data.acf.image
+    }
+  }
+
+  function get_description(data) {
+    if ('post' === data.type) {
+      return data.excerpt.rendered;
+    } else if ('sun_event' === data.type) {
+      return data.event_excerpt;
+    } else if ('sun_person' === data.type) {
+      return data.acf.description;
+    }
+  }
+
   $close.click(toggleOverlay);
 
   function fillData(data) {
@@ -6766,19 +6914,8 @@ function initContentOverlay() {
     var $right = $overlay.find('.right');
     var $image = $left.find('.post_image');
     var $content = $overlay.find('.right>.post_content');
-    $left.css('background-image', 'url(' + data.acf.post_image + ')');
-    var image_field = '';
-    if ( 'post_image' in data.acf ) {
-      image_field = data.acf.post_image
-    }
-
-    if ( 'featured_image_square' in data.acf ) {
-      image_field = data.acf.featured_image_square
-    }
-
-    if ( 'image' in data.acf ) {
-      image_field = data.acf.image
-    }
+    var image_field = get_image(data);
+    $left.css('background-image', 'url(' + get_image(data) + ')');
 
     $image.attr('src', image_field );
     $overlay.find('.left').find('.content_ov_bg').attr('src', image_field);
@@ -6822,11 +6959,21 @@ function initContentOverlay() {
     } else {
       $button.css('opacity', '0');
     }
+
+    renderShare(data);
   }
 
   function toggleOverlay() {
     $overlay.toggleClass('active');
     $body.toggleClass('modal');
+
+    if (!($overlay).hasClass('active')) {
+      // If we closed the Overlay.
+      addthis.update('share', 'url', old_share.url);
+      addthis.update('share', 'title', old_share.title);
+      addthis.update('share', 'image', old_share.image);
+      addthis.update('share', 'description', old_share.description);
+    }
   }
 }
 
@@ -6882,16 +7029,13 @@ function initEventsPages() {
   var objCloseControl = $('.obj_close_btn');
   var categoriesModule = $('.m__categories_accordion');
   var categoriesOpenControl = $('.fx_button_category');
+  var ENDPOINT = '//' + window.location.host + '/wp-json/events/v1/next/';
 
   $(window).on('resize', resize_f);
   $(window).on('scroll', scroll_f);
   headersStickyToggleShow();
 
   //------open-close-calendar-categories
-
-  initObjectFullPage(calendarOpenControl, calendarModule, objCloseControl, categoriesModule, categoriesOpenControl);
-  initObjectFullPage(categoriesOpenControl, categoriesModule, objCloseControl, calendarModule, calendarOpenControl);
-
 
   function resize_f() {
     headersStickyToggleShow();
@@ -6942,22 +7086,6 @@ function initEventsPages() {
     }
   }
 
-  function initObjectFullPage(openControl, openBlock, closeControl, siblingBlock, siblingOpenControl) {
-    openControl.on('click', function () {
-      var that = $(this);
-      if (that.hasClass('open')) {
-        closeObject(openBlock, openControl);
-      }
-      else {
-        closeSibling(siblingBlock, siblingOpenControl);
-        openObject(openBlock, openControl);
-      }
-    });
-    closeControl.on('click', function () {
-      closeObject(openBlock, openControl);
-    });
-  }
-
   function openObject(openBlock, openControl) {
     openBlock.addClass('open');
     openControl.addClass('open');
@@ -6974,9 +7102,55 @@ function initEventsPages() {
     siblingBlock.removeClass('open');
     siblingOpenControl.removeClass('open');
   }
+  
+  // Load more events.
+  var $loadMore = $('.get_next_events');
+  
+  $loadMore.on('click', function() {
+    get_next_events();
+  });
 
+  function hideButton() {
+    $loadMore.css('display', 'none');
+  }
+
+  var $eventsModule = $('.o__events_module');
+  function get_next_events() {
+    var cat = window.selectedCategoryEvents ? window.selectedCategoryEvents : 0;
+    var date = parseInt($eventsModule.attr('data-selected-day'));
+    if (window.selectedDateEvents) {
+      // This means we're filtering from the calendar instead of the LoadMore, so we remove the button.
+      date = window.selectedDateEvents;
+      hideButton();
+    }
+    url = ENDPOINT + date +'/' + cat;
+    $.ajax({
+      url: url
+    }).done(function(data) {
+      // Update attr
+      if (!data.events.length) {
+        hideButton();
+      } else {
+        renderEventsBlock($loadMore, data);
+        $eventsModule.attr('data-selected-day', data['next_timestamp']);
+      }
+    });
+  }
+
+  calendarOpenControl.on('click', function() {
+    calendarModule.addClass('open');
+    categoriesModule.removeClass('open');
+  });
+
+  categoriesOpenControl.on('click', function() {
+    categoriesModule.addClass('open');
+    calendarModule.removeClass('open');
+  });
+
+  objCloseControl.on('click', function() {
+    closeObject($(this), calendarModule);
+  });
 }
-
 
 
 function initGridSlider() {
@@ -7223,7 +7397,6 @@ function initHeroSlider() {
 
       if (isMobile()) {
         $controls_wrap.find('.mobile').each(function() {
-          console.log('?');
           var $mobile = $(this);
           nextSlide === $mobile.attr('data-slide') ? $mobile.addClass('active') :  $mobile.removeClass('active');
         })
@@ -7733,8 +7906,7 @@ function initRecirculationSlider() {
 function initTwoCards() {
   var hero_cards_array = [];
   var padding = 38;
-  var margin = 60;
-  isTouchDevice();
+  var indent = 11;
 
   $('.card').each(function () {
     var $this = $(this);
@@ -7744,18 +7916,17 @@ function initTwoCards() {
       'card_image': $('.card_image', $this),
       'title': $('.title', $this),
       'card_info': $('.card_info', $this),
-      'offset': ($('.card_info', $this).height() + margin + padding)
+      'offset': ($('.card_info', $this).height() + padding - indent)
     };
     hero_cards_array.push(sub_array);
 
     if(isTouchDevice() && !isTabletPortrait()){
-      var unitToTop = $('.card_info', $this).height() + margin +padding;
+      var unitToTop = $('.card_info', $this).height() + padding - indent;
+
       TweenLite.set($this, {className: '+=animate', delay: .15});
       TweenLite.to($('.title', $this), .33, {y: -unitToTop, ease: $easeInOut_1});
     }
   });
-
-
 
   $.each(hero_cards_array, function (key, value) {
     value.card.on(
@@ -7782,39 +7953,14 @@ function initTwoCards() {
   function TwoCardsResize() {
     if (window_w <= 1024 && window_w > 768) {
       padding = 38;
-      margin = 40;
     }
     if (window_w > 768) {
       $.each(hero_cards_array, function (key, value) {
-        value.offset = value.card_info.height() + margin + padding;
+        value.offset = value.card_info.height() + padding - indent;
       });
     }
   }
 
-  function isTouchDevice() {
-
-
-    var deviceAgent = navigator.userAgent.toLowerCase();
-
-    var hasTouchDevise =
-        (deviceAgent.match(/(iphone|ipod|ipad)/) ||
-        deviceAgent.match(/(android)/) ||
-        deviceAgent.match(/(iemobile)/) ||
-        deviceAgent.match(/iphone/i) ||
-        deviceAgent.match(/ipad/i) ||
-        deviceAgent.match(/ipod/i) ||
-        deviceAgent.match(/blackberry/i) ||
-        deviceAgent.match(/bada/i));
-
-    if (hasTouchDevise) {
-      $('body').addClass('touchDevice');
-      return true;
-    } else {
-      return false;
-    }
-
-
-  }
 
 }
 
@@ -7829,6 +7975,8 @@ function initCalendar() {
   var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   var selectedDate = 0;
   var selectedCategory = 0;
+  window.selectedCategoryEvents = 0;
+  window.selectedDateEvents = 0;
   var today = new Date();
   var $wrapper = $('.js_datepicker');
   var ENDPOINT = '//' + window.location.host + '/wp-json/events/v1/event/';
@@ -7839,6 +7987,7 @@ function initCalendar() {
   var first = true;
   var $closedDiv = $('.a__events_closed');
   var $categories = $('.categories_list');
+  var $loadmore = $('.get_next_events');
 
   if (!$wrapper.length) {
     return;
@@ -7868,6 +8017,7 @@ function initCalendar() {
       }
       var timestamp = new Date(formattedDate).getTime() / 1000;
       selectedDate = timestamp;
+      window.selectedDateEvents = timestamp;
 
       fetchEvents(timestamp);
     }
@@ -7881,6 +8031,7 @@ function initCalendar() {
       $cat.siblings().find('a').removeClass('active');
       $cat.find('a').addClass('active');
       selectedCategory = parseInt($cat.find('a').attr('data-id'));
+      window.selectedCategoryEvents = selectedCategory;
       fetchEvents(selectedDate, selectedCategory);
     });
   });
@@ -7892,6 +8043,7 @@ function initCalendar() {
 
   function fetchEvents(timestamp, category) {
     fetching = true;
+    $loadmore.css('display', 'none'); // Hide loadmore button if we use a different filter.
     var url = ENDPOINT + timestamp + '/';
     if (!category) {
       category = 0;
@@ -7922,47 +8074,12 @@ function initCalendar() {
       $closedDiv.css('display', 'none');
     } else {
       $closedDiv.css('display', 'block');
+      $eventsList.find('li:not(:first)').remove();
     }
 
     $events.html(html);
   }
 
-  /**
-   * Return HTML of an event with the info.
-   * @param info
-   */
-  function renderSingleEvent(info) {
-    return'<div class="event_block animate-fadein">' +
-    '<div class="event_start_info">' +
-      '<div class="event_start_dt">starts at</div>' +
-        '<div class="event_start_time">' +
-          '<div class="time_h">' + info.acf.hour  +  '</div>' +
-          '<div class="time_min_hold">' +
-            '<div class="time_m">' + info.acf.minutes +  '</div>' +
-            '<div class="time_mod">' + info.acf.format + '</div>' +
-        '</div>' +
-      '</div>' +
-      '</div>' +
-    '<div class="event_photo_hold">' +
-      '<a href="" title="">' +
-        '<img src="' + info.acf.featured_image +  ' " alt="Event image" class="event_photo">' +
-      '</a>' +
-      '<a href="' + info.acf.featured_image +  '" title="" class="event_info_link">i</a>' +
-    '</div>' +
-      '<div class="event_main">' +
-      '<a href="' + info.acf.featured_image +  '" title="">' +
-        '<h3 class="event_title">' + info.post_title +  '</h3>' +
-      '</a>' +
-    '<div class="event_desc">' +
-      '<div class="event_d_text">' + info.excerpt + '</div>' +
-    '</div>' +
-    '<div class="event_date_info">' +
-      '<div class="event_day">' + info.acf.recurrency + '</div>' +
-      '<div class="event_day" style="color: #ff6726;font-weight:600;">' + info.acf.additional +'</div>' +
-      '</div>' +
-    '</div>' +
-  '</div>'
-  }
 
   function getCurrentMonth() {
     var navTitle = $('.datepicker--nav-title').text();
@@ -7995,7 +8112,7 @@ function initCalendar() {
       navPrevCell.text(months[getCurrentMonthIndex - 1]);
     }
   }
-}
+};
 
 function initCategoriesList() {
   var categoryTitle = $('.js_category_title');
@@ -8016,6 +8133,8 @@ function initCategoriesList() {
 
 function initContentThumbAnimation() {
 	var thumbArray = [];
+	var OFFSET = 0.75;
+	var COLUMNS = 3;
 
 	$(window).on('load', function () {
 		$('.content_thumb_b').each(function (index, elem) {
@@ -8060,9 +8179,9 @@ function initContentThumbAnimation() {
 					isShown: false
 				};
 			}
-
 			thumbArray.push(sub_array);
 		});
+		page_load = true;
 		animation();
 	});
 
@@ -8079,7 +8198,10 @@ function initContentThumbAnimation() {
 	function animation() {
 		if (page_load) {
 			$.each(thumbArray, function (index, elem) {
-				if ($scrollTopGl + window_h * .6 > elem.position) {
+        if ( index < COLUMNS && ! elem.isShown ) {
+					anim_start(elem);
+					elem.isShown = true;
+        } else if ( ($scrollTopGl + window_h * OFFSET) > elem.position) {
 					// elem.position
 
 					if (!elem.isShown) {
@@ -8110,6 +8232,7 @@ function initContentThumbAnimation() {
 	}
 
 }
+
 
 function initPrintDirections() {
   var $print = $('.print_directions').find('button');
@@ -8164,8 +8287,7 @@ function initHistorySlider() {
 		wrapAround: true,
 		contain: true,
 		pageDots: true,
-		selectedAttraction: 0.015,
-		friction: 0.9,
+		freeScroll: true,
 		arrowShape: 'M35.45,49.57,63,18.5l1.51,1.33L38.11,49.59,64.55,80.23,63,81.5Z'
 	})
 }
@@ -8212,118 +8334,126 @@ function initDirectionsMap() {
 }
 
 function initSidebarFunctions() {
-	var sidebar = $('.m__sidebar');
-	var sidebar_hold = $('.sidebar_hold');
-	var sb_position;
-	var sidebarH = sidebar.height();
-	var footer = $('.tm-footer');
-	var site = $('.tm-site');
-	var firstBlock = $('.tm-primary > *:first-child');
-	var header_h = 120;
-	var topPadding = 100;
-	//stopPosition - отступ сверху чтоб сайдбар был по центру
-	var stopPosition = window_h / 2 - sidebarH / 2;
-	var footer_h;
-	var site_h;
-	var firstBlockHeight;
-	var sidebarTop;
-	var $carousel;
-	var sidebarState = false;
-	var fixedFooterMod = false;
-	var fixedMod = false;
-	var past_$scrollTopGl;
-	var sb_shift;
-	var breakpoint = 1250;
+  var FRAME = 16;
+  var $window = $(window);
+  var sidebar = $('.m__sidebar');
+  var $hero = $('.o__hero');
+  var heroHeight = $hero.height();
+  var $window = $(window);
+  var scrollPosition = $window.scrollTop();
+  var sidebar_hold = $('.sidebar_hold');
+  var sb_position;
+  var sidebarH = sidebar.height();
+  var footer = $('.tm-footer');
+  var site = $('.tm-site');
+  var firstBlock = $('.tm-primary > *:first-child');
+  var header_h = 120;
+  var topPadding = 100;
+  //stopPosition - отступ сверху чтоб сайдбар был по центру
+  var stopPosition = window_h / 2 - sidebarH / 2;
+  var footer_h;
+  var site_h;
+  var firstBlockHeight;
+  var sidebarTop;
+  var $carousel;
+  var sidebarState = false;
+  var fixedFooterMod = false;
+  var fixedMod = false;
+  var past_$scrollTopGl;
+  var sb_shift;
+  var breakpoint = 1250;
 
-	$window.on('load', function () {
-		if(sidebar.length) {
-			// Add active to parents when it's a subpage.
-			$('.sub_sidebar_item').each(function () {
-				var $el = $(this);
-				if ($el.hasClass('active')) {
-					$el.parent().parent().addClass('active');
-				}
-			});
+  $window.on('load', function () {
+    if(sidebar.length) {
+      // Add active to parents when it's a subpage.
+      $('.sub_sidebar_item').each(function () {
+        var $el = $(this);
+        if ($el.hasClass('active')) {
+          $el.parent().parent().addClass('active');
+        }
+      });
 
-			resize();
-			initSidebar();
-			initSidebarControl();
-			$window.on('resize', $.throttle(16, resize));
-		}
-	});
+      resize();
+      initSidebar();
+      initSidebarControl();
+      $window.on('resize', $.throttle(FRAME, resize));
+      $window.on('scroll', $.throttle(FRAME, onScroll)); }
+  });
+
+  function onScroll() {
+    scrollPosition = $window.scrollTop();
+  }
+
+  function resize() {
+    footer_h = footer.height();
+    firstBlockHeight = firstBlock.height();
+    site_h = site.height();
+    sb_position = sidebar_hold.position().top;
+    sidebarTop = firstBlockHeight + header_h + 60;
+    height = $window.height();
+    heroHeight = $hero.height();
+
+    past_$scrollTopGl = false;
+
+    if (window_w < breakpoint) {
+      TweenMax.set(sidebar, {clearProps: 'all'});
+    }
+    anim_f();
+  }
 
 
-	function resize() {
-		footer_h = footer.height();
-		firstBlockHeight = firstBlock.height();
-		site_h = site.height();
-		sb_position = sidebar_hold.position().top;
-		sidebarTop = firstBlockHeight + header_h + 60;
 
-		past_$scrollTopGl = false;
+  function initSidebarControl() {
+    if (sidebar.length) {
+      $('.tm-site').append('<div class="sidebarControl">' +
+        '<svg width="70" height="70">' +
+        '<circle r="35" cx="35" cy="35"' +
+        'fill="#FFD713" />' +
+        '</svg></div>');
+      $('.sidebarControl').on('click', function () {
+        var that = $(this);
+        if (sidebar.hasClass('open')) {
+          that.removeClass('open');
+          sidebar.removeClass('open');
+        }
+        else {
+          sidebar.addClass('open');
+          that.addClass('open');
+        }
+      });
+    }
+  }
 
-		if (window_w < breakpoint) {
-			TweenMax.set(sidebar, {clearProps: 'all'});
-		}
-		anim_f();
-		console.log(window_w);
-	}
+  function initSidebar() {
 
+    if (sidebar.length && window_w >= 1249) {
+      sidebarState = true;
+    } else if (sidebarState) {
+      sidebarState = false;
+    }
 
+    TweenLite.ticker.addEventListener("tick", anim_f);
+  }
 
-	function initSidebarControl() {
-		if (sidebar.length) {
-			$('.tm-site').append('<div class="sidebarControl">' +
-					'<svg width="70" height="70">' +
-					'<circle r="35" cx="35" cy="35"' +
-					'fill="#FFD713" />' +
-					'</svg></div>');
-			$('.sidebarControl').on('click', function () {
-				var that = $(this);
-				if (sidebar.hasClass('open')) {
-					that.removeClass('open');
-					sidebar.removeClass('open');
-				}
-				else {
-					sidebar.addClass('open');
-					that.addClass('open');
-				}
-			});
-		}
-	}
-
-	function initSidebar() {
-
-		if (sidebar.length && window_w >= 1249) {
-			sidebarState = true;
-		}
-		else if (sidebarState) {
-			sidebarState = false;
-		}
-
-		TweenLite.ticker.addEventListener("tick", anim_f);
-	}
-
-	function anim_f() {
-		if (
-				window_w >= breakpoint &&
-				past_$scrollTopGl !== $scrollTopGl &&
-				sidebarTop >= $scrollTopGl
-		) {
-
-			sb_shift = sidebarTop - sb_position - $scrollTopGl;
-
-			if (sb_shift < 0){
-				sb_shift = 0;
-			}
-
-			TweenMax.set(sidebar, {y: sb_shift, opacity: 1});
-
-			console.log(sb_shift, $scrollTopGl / ( window_h / sb_position));
-			past_$scrollTopGl = $scrollTopGl;
-
-		}
-	}
+  function anim_f() {
+    if ( window_w >= breakpoint && past_$scrollTopGl !== currentValue ) {
+      var currentValue = (heroHeight + header_h) - (scrollPosition);
+      var values = {
+        opacity: 1,
+        transform: ''
+      };
+      if ( (currentValue - header_h) > 0 ) {
+        values.y = currentValue;
+        if ( 'transform' in values ) {
+          delete values.transform;
+        }
+      } else {
+        values.clearProps = 'transform';
+      }
+      TweenMax.set(sidebar, values);
+      past_$scrollTopGl = currentValue;
+    }
+  }
 
 }
 
