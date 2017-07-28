@@ -5794,6 +5794,7 @@ function scroll_global() {
 }
 
 function isTouchDevice() {
+console.log('here');
 
 
   var deviceAgent = navigator.userAgent.toLowerCase();
@@ -5820,6 +5821,7 @@ function isTouchDevice() {
   if(iOS){
     $('body').addClass('iosDevice');
   }
+  $('.o__hero .title').text(deviceAgent);
 
 
 }
