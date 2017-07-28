@@ -4,7 +4,7 @@ class App {
     this.navData = options.navData;
     this.placeholderSearch = 'Search';
     this.theadData = options.theadData;
-    this.userFields = options.userFields;
+    this.userData = options.userData;
     this.app = document.querySelector('.app');
     this.url = 'https://easycode-js.herokuapp.com/test/users'
   }

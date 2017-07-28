@@ -3,8 +3,8 @@ class AddUser {
     this.navData = options.navData;
     this.headerLinks = options.headerLinks;
     this.userPhoto = options.userPhoto;
-    this.userMainFields = options.userMainFields;
-    this.userFields = options.userFields;
+    this.userMainData = options.userMainData;
+    this.userData = options.userData;
     this.app = document.querySelector('.app');
   }
 
@@ -56,7 +56,7 @@ class AddUser {
 
     const mainInfoHolder = this.createTag('div', addMainBlock, 'main-info-holder');
     var mainInfoItems = '';
-    this.userMainFields.forEach(elem => {
+    this.userMainData.forEach(elem => {
       mainInfoItems += `<div class="edit-field" contenteditable="true" id="${elem}">${elem}</div>`;
     });
     mainInfoHolder.innerHTML = mainInfoItems;
@@ -65,9 +65,9 @@ class AddUser {
   createInfo(parent) {
     const scrollHolder = this.createTag('div', parent, 'scroll-holder');
     const editInfo = this.createTag('div', scrollHolder, 'edit-info');
-    var obj = this.userFields;
+    var obj = this.userData;
     var editFields = '';
-    this.userFields.forEach(elem => {
+    this.userData.forEach(elem => {
       editFields += `<div class="edit-field" id="${elem}" contenteditable="true">add ${elem}</div>`;
     });
 

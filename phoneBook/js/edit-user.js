@@ -3,8 +3,8 @@ class EditUser {
     this.navData = options.navData;
     this.headerLinks = options.headerLinks;
     this.userPhotoPath = options.userPhotoPath;
-    this.userMainFields = options.userMainFields;
-    this.userFields = options.userFields;
+    this.userMainData = options.userMainData;
+    this.userData = options.userData;
     this.app = document.querySelector('.app');
   }
 
@@ -53,7 +53,7 @@ class EditUser {
 
     const mainInfoHolder = this.createTag('div', editMainBlock, 'main-info-holder');
     var mainInfoItems = '';
-    var obj = this.userMainFields;
+    var obj = this.userMainData;
     for(let key in obj){
       mainInfoItems += `<div class="edit-field" contenteditable="true"> ${obj[key]} </div>`
     }
@@ -62,7 +62,7 @@ class EditUser {
   createInfo(parent){
     const scrollHolder = this.createTag('div', parent, 'scroll-holder');
     const editInfo = this.createTag('div', scrollHolder, 'edit-info');
-    var obj = this.userFields;
+    var obj = this.userData;
     var editFields = '';
     for(let key in obj){
       var data = obj[key] ? obj[key] : key;
