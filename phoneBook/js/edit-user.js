@@ -141,7 +141,7 @@ const editUser = new EditUser({
       spanOneAttr: 'aria-hidden',
       spanOneAttrValue: 'true',
       spanTwoClass: 'tab-text'
-    },
+    }
   ]
 });
 editUser.render();
