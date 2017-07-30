@@ -206,6 +206,7 @@ const app = new App({
       spanTwoClass: 'tab-text'
     },
   ],
+
   theadData: ['Full name', 'Phone', 'Email'],
 });
 app.render();
