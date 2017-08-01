@@ -2,7 +2,7 @@ class App {
   constructor(options) {
     this.app = document.querySelector('.app');
     this.url = 'https://easycode-js.herokuapp.com/test/users'
-    this.state;
+    this.state = '';
   }
 
   createTag(tag, parent, mClass) {
@@ -107,8 +107,7 @@ class App {
 
   header() {
     const header = this.createTag('header', this.app, 'header');
-    const div = this.createTag('div', header, 'container top-radius');
-    div.innerHTML = `<h2>Contacts</h2>`;
+    header.innerHTML = `<div class="container top-radius"><h2>Contacts</h2></div>`;
   }
 
   main() {

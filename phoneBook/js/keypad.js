@@ -1,8 +1,5 @@
 class Keypad {
   constructor(options) {
-    this.pageName = options.pageName;
-    this.navData = options.navData;
-    this.arrayKeys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '*', '0', '#'];
     this.app = document.querySelector('.app');
   }
 
@@ -16,155 +13,102 @@ class Keypad {
     return myTag;
   }
 
-  createNav(parent) {
-    const myNav = this.createTag('nav', parent, 'main-nav');
-    let navStr = '';
-    this.navData.forEach(elem => {
-      let linkClassName = elem.linkActive ? 'tab active' : 'tab';
-      navStr += `<a href="${elem.href}" class="${linkClassName}">
-        <span class="${elem.spanOneClass}" ${elem.spanOneAttr}=${elem.spanOneAttrValue}></span>
-        <span class="${elem.spanTwoClass}">${elem.linkText}</span>
-      </a> `;
-    });
-    myNav.innerHTML = navStr;
-    return myNav;
-  }
-
   createFooter() {
     const footer = this.createTag('footer', this.app, 'footer');
     const div = this.createTag('div', footer, 'container bottom-radius');
-    this.createNav(div)
+    div.innerHTML = `<nav class="main-nav">
+    				<a href="index.html" class="tab active">
+    					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    					<span class="tab-text">Contacts</span>
+    				</a>
+    				<a href="keypad.html" class="tab">
+    					<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+    					<span class="tab-text">Keypad</span>
+    				</a>
+    				<a href="add-user.html" class="tab">
+    					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    					<span class="tab-text">Add user</span>
+    				</a></nav>`;
   }
 
   createNumberHolder(parent) {
-    const maskField = '(___)___-____';
-    const number = this.createTag('div', parent, 'number');
-    number.innerHTML = `<span id="addUser">+user </span><input class="numbers" value=${maskField}><button id="delete">del</button>`;
+    const keypadWrap = this.createTag('div', parent, 'keypad-holder');
+
+    keypadWrap.innerHTML = `<div class="number"><span id="addUser" class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+    				<span class="numbers"></span>
+    				<span id="deleteNumber" class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span></div>
+    				<div class="keypad-holder"><button class="key">1</button><button class="key">2</button><button class="key">3</button><button class="key">4</button><button class="key">5</button><button class="key">6</button><button class="key">7</button><button class="key">8</button><button class="key">9</button><button class="key">*</button><button class="key">0</button><button class="key">#</button><button class="key key-call"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></button></div>`;
   }
 
-  createKeypadData(parent) {
-    this.arrayKeys.forEach(elem => {
-      parent.innerHTML += `<button class="key">${elem}</button>`;
-    });
-    parent.innerHTML += `<button class="key key-call"><span class="glyphicon glyphicon-earphone" aria-hidden="true">CALL</span></button>`;
+  transformPhoneNumber(element, char) {
+    if (element.textContent.length < 14) {
+      if (!element.textContent) {
+        element.textContent += '(' + char;
+      } else if (element.textContent.length == 4) {
+        element.textContent += ') ' + char;
+      } else if (element.textContent.length == 9) {
+        element.textContent += '-' + char;
+      }
+      else {
+        element.textContent += char;
+      }
+    }
   }
 
-  funcCalling(numField) {
-    let numBlock = document.querySelector(numField);
+  funcCalling() {
+    let numBlock = document.querySelector('.numbers');
     let keypad = document.querySelector('.keypad-holder');
-
-
     keypad.addEventListener('click', e => {
       if (e.target.className === 'key') {
-        var matrix = numBlock.defaultValue,
-          i = 0,
-          def = matrix.replace(/\D/g, ""),
-          val = numBlock.value.replace(/\D/g, "");
-
-        def.length >= val.length && (val = def);
-        matrix = matrix.replace(/[_\d]/g, function (a) {
-          return val.charAt(i++) || "_";
-        });
-
-        numBlock.value = matrix;
-
-        i = matrix.lastIndexOf(val.substr(-1));
-        i < matrix.length && matrix != numBlock.defaultValue ? i++ : i = matrix.indexOf("_");
-
-        this.setCursorPosition(i, numBlock);
-
-        numBlock.value += e.target.textContent;
+        this.transformPhoneNumber(numBlock, e.target.textContent);
       }
     });
   }
 
-  funcKeyDown(numField) {
-    let numBlock = document.querySelector(numField);
+  funcKeyDown() {
+    let numBlock = document.querySelector('.numbers');
     const addNumberEvent = (e) => {
-      var matrix = numBlock.defaultValue,
-        i = 0,
-        def = matrix.replace(/\D/g, ""),
-        val = numBlock.value.replace(/\D/g, "");
-
-      def.length >= val.length && (val = def);
-      matrix = matrix.replace(/[_\d]/g, function (a) {
-        return val.charAt(i++) || "_"
-      });
-      numBlock.value = matrix;
-      i = matrix.lastIndexOf(val.substr(-1));
-      i < matrix.length && matrix != numBlock.defaultValue ? i++ : i = matrix.indexOf("_");
-      this.setCursorPosition(i, numBlock);
+      if (+e.key >= 0 || e.key === '*' || e.key === '#') {
+        this.transformPhoneNumber(numBlock, e.key);
+      }
+      if (e.key === 'Backspace') {
+        this.funcDeleteNumber();
+      }
     };
-    window.addEventListener('keydown', addNumberEvent);
+    window.addEventListener('keyup', addNumberEvent);
   }
 
-  funcDeleteNumber(numField) {
-    let numBlock = document.querySelector(numField);
-    var curData = numBlock.value;
+  funcDeleteNumber() {
+    let numBlock = document.querySelector('.numbers');
+    var curData = numBlock.textContent;
     var newData = curData.slice(0, curData.length - 1);
-    numBlock.value = newData;
+    numBlock.textContent = newData;
   }
 
-  funcDeleteNumberFromBtn(numField, deleteBtn) {
-    let deleteBTN = document.querySelector(deleteBtn);
+  funcDeleteNumberFromBtn() {
+    let deleteBTN = document.querySelector('#deleteNumber');
     deleteBTN.addEventListener('click', e => {
-      this.funcDeleteNumber(numField);
+      this.funcDeleteNumber();
     });
-  }
-
-  setCursorPosition(pos, elem) {
-    elem.focus();
-    if (elem.setSelectionRange) {
-      elem.setSelectionRange(pos, pos)
-    }
-    else if (elem.createTextRange) {
-      var range = elem.createTextRange();
-      range.collapse(true);
-      range.moveEnd("character", pos);
-      range.moveStart("character", pos);
-      range.select()
-    }
-  }
-
-  createMaskForNumber() {
-    var input = document.querySelector('.numbers');
-    const addNumberEvent = (e) => {
-      var matrix = e.target.defaultValue,
-        i = 0,
-        def = matrix.replace(/\D/g, ""),
-        val = e.target.value.replace(/\D/g, "");
-
-      def.length >= val.length && (val = def);
-      matrix = matrix.replace(/[_\d]/g, function (a) {
-        return val.charAt(i++) || "_"
-      });
-      e.target.value = matrix;
-      i = matrix.lastIndexOf(val.substr(-1));
-      i < matrix.length && matrix != e.target.defaultValue ? i++ : i = matrix.indexOf("_");
-      this.setCursorPosition(i, e.target);
-    };
-
-    input.addEventListener("input", addNumberEvent, false);
-
   }
 
   header() {
     const header = this.createTag('header', this.app, 'header');
-    const div = this.createTag('div', header, 'container top-radius');
-    div.innerHTML = `<h2>${this.pageName}</h2>`;
+    header.innerHTML = `<div class="container top-radius"><h2>Keypad</h2></div>`;
+  }
+
+  events(){
+    this.funcCalling();
+    this.funcDeleteNumberFromBtn();
+    this.funcKeyDown();
   }
 
   main() {
     const mainHtml = this.createTag('main', this.app);
     const div = this.createTag('div', mainHtml, 'container');
-    const numberHolder = this.createNumberHolder(div);
-    const keypadWrap = this.createTag('div', div, 'keypad-holder');
-    const keypadData = this.createKeypadData(keypadWrap);
-    const funcCallingInit = this.funcCalling('.numbers');
-    const funcDeleteNumbers = this.funcDeleteNumberFromBtn('.numbers', '#delete');
-    const funcKeypress = this.funcKeyDown('.numbers');
-    const footerHtml = this.createFooter();
-    this.createMaskForNumber();
+    this.createNumberHolder(div);
+    this.events();
+    this.createFooter();
 
   }
 
@@ -177,59 +121,6 @@ class Keypad {
 }
 
 const
-  keypad = new Keypad({
-    pageName: 'Keypad', navData: [
-      {
-        href: 'index.html',
-        linkClass: 'tab',
-        linkActive: true,
-        linkText: 'Contacts',
-        spanOneClass: 'glyphicon glyphicon-search',
-        spanOneAttr: 'aria-hidden',
-        spanOneAttrValue: 'true',
-        spanTwoClass: 'tab-text'
-      },
-      {
-        href: 'keypad.html',
-        linkClass: 'tab',
-        linkActive: false,
-        linkText: 'Keypad',
-        spanOneClass: 'glyphicon glyphicon-th',
-        spanOneAttr: 'aria-hidden',
-        spanOneAttrValue: 'true',
-        spanTwoClass: 'tab-text'
-      },
-      {
-        href: 'edit-user.html',
-        linkClass: 'tab',
-        linkActive: false,
-        linkText: 'Edit contact',
-        spanOneClass: 'glyphicon glyphicon-pencil',
-        spanOneAttr: 'aria-hidden',
-        spanOneAttrValue: 'true',
-        spanTwoClass: 'tab-text'
-      },
-      {
-        href: 'user.html',
-        linkClass: 'tab',
-        linkActive: false,
-        linkText: 'User',
-        spanOneClass: 'glyphicon glyphicon-user',
-        spanOneAttr: 'aria-hidden',
-        spanOneAttrValue: 'true',
-        spanTwoClass: 'tab-text'
-      },
-      {
-        href: 'add-user.html',
-        linkClass: 'tab',
-        linkActive: false,
-        linkText: 'Add user',
-        spanOneClass: 'glyphicon glyphicon-plus',
-        spanOneAttr: 'aria-hidden',
-        spanOneAttrValue: 'true',
-        spanTwoClass: 'tab-text'
-      },
-    ]
-  });
+    keypad = new Keypad();
 keypad
-  .render();
+    .render();
