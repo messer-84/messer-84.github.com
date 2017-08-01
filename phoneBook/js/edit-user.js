@@ -129,13 +129,13 @@ class EditUser {
       });
       console.log(userObj);
 
-      // fetch(this.url, {
-      //   method: 'post',
-      //   headers: {
-      //     'Content-Type': 'application/json'
-      //   },
-      //   body: JSON.stringify(userObj)
-      // });
+      fetch(this.url, {
+        method: 'post',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(userObj)
+      });
     });
   }
 

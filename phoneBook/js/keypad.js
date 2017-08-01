@@ -44,9 +44,9 @@ class Keypad {
     if (element.textContent.length < 14) {
       if (!element.textContent) {
         element.textContent += '(' + char;
-      } else if (element.textContent.length == 4) {
+      } else if (element.textContent.length === 4) {
         element.textContent += ') ' + char;
-      } else if (element.textContent.length == 9) {
+      } else if (element.textContent.length === 9) {
         element.textContent += '-' + char;
       }
       else {
@@ -120,7 +120,5 @@ class Keypad {
   }
 }
 
-const
-    keypad = new Keypad();
-keypad
-    .render();
+const keypad = new Keypad();
+keypad.render();
