@@ -1,11 +1,7 @@
 class AddUser {
-  constructor(options) {
-    this.navData = options.navData;
-    this.headerLinks = options.headerLinks;
-    this.userPhoto = options.userPhoto;
-    this.userMainData = options.userMainData;
-    this.userData = options.userData;
+  constructor() {
     this.app = document.querySelector('.app');
+    this.url = 'https://easycode-js.herokuapp.com/maksimVorobyov/users';
   }
 
   createTag(tag, parent, mClass) {
@@ -20,15 +16,19 @@ class AddUser {
 
   createNav(parent) {
     const myNav = this.createTag('nav', parent, 'main-nav');
-    let navStr = '';
-    this.navData.forEach(elem => {
-      let linkClassName = elem.linkActive ? 'tab active' : 'tab';
-      navStr += `<a href="${elem.href}" class="${linkClassName}">
-        <span class="${elem.spanOneClass}" ${elem.spanOneAttr}=${elem.spanOneAttrValue}></span>
-        <span class="${elem.spanTwoClass}">${elem.linkText}</span>
-      </a> `;
-    });
-    myNav.innerHTML = navStr;
+    myNav.innerHTML = `
+    				<a href="index.html" class="tab active">
+    					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    					<span class="tab-text">Contacts</span>
+    				</a>
+    				<a href="keypad.html" class="tab">
+    					<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+    					<span class="tab-text">Keypad</span>
+    				</a>
+    				<a href="add-user.html" class="tab">
+    					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    					<span class="tab-text">Add user</span>
+    				</a>`;
     return myNav;
   }
 
@@ -41,137 +41,166 @@ class AddUser {
   header() {
     const header = this.createTag('header', this.app, 'header');
     const div = this.createTag('div', header, 'container top-radius');
-    div.innerHTML = `<div class="user-top-line">
-            <a href="${this.headerLinks[0]}" id="cancel"> Cancel</a>
-            <button id="done">Done</button>
-        </div>`;
+    div.innerHTML = `<nav class="user-top-line">
+    				<a href="user.html" id="cancel">Cancel</a>
+    				<button class="done-btn" id="done">Done</button>
+    			</nav>`;
   }
 
   createMainInfo(parent) {
     const addMainBlock = this.createTag('div', parent, 'edit-main-info');
-    const imgWrap = this.createTag('div', addMainBlock, 'edit-foto');
-    imgWrap.innerHTML = `<button class="add-foto-btn"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-    						<span>add ${this.userPhoto}</span>
-    						</button>`;
-
-    const mainInfoHolder = this.createTag('div', addMainBlock, 'main-info-holder');
-    var mainInfoItems = '';
-    this.userMainData.forEach(elem => {
-      mainInfoItems += `<div class="edit-field" contenteditable="true" id="${elem}">${elem}</div>`;
-    });
-    mainInfoHolder.innerHTML = mainInfoItems;
+    addMainBlock.innerHTML = `<div class="edit-foto">
+    					<button class="add-foto-btn"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+    					  <input type="file" id="photo" class="file add-btn">
+    						<span>add foto</span></button>
+    				</div> 
+    				<div class="main-info-holder">
+    					<div class="edit-field">
+    						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+    						<label class="sr-only" for="name">First name</label>
+    						<input type="text" class="add-btn" id="fullName" placeholder="First Name">
+    					</div>
+    					<div class="edit-field">
+    						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+    						<label class="sr-only" for="lastname">Last name</label>
+    						<input type="text" class="add-btn" id="lastname" placeholder="Last Name">
+    					</div>
+    					<div class="edit-field">
+    						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+    						<label class="sr-only" for="company">Company</label>
+    						<input type="text" class="add-btn" id="company" placeholder="Company">
+    					</div>
+    				</div> `;
   }
 
   createInfo(parent) {
-    const scrollHolder = this.createTag('div', parent, 'scroll-holder');
-    const editInfo = this.createTag('div', scrollHolder, 'edit-info');
-    var obj = this.userData;
-    var editFields = '';
-    this.userData.forEach(elem => {
-      editFields += `<div class="edit-field" id="${elem}" contenteditable="true">add ${elem}</div>`;
-    });
-
-    editInfo.innerHTML = editFields;
-    const lastField = '<button href="#" class="delete-contact" id="clear">clear fields</button>';
-    scrollHolder.insertAdjacentHTML('beforeEnd', lastField);
+    const scrollHolder = this.createTag('div', parent, 'scroll-holder88');
+    scrollHolder.innerHTML = `<div class="edit-info"><div class="edit-field">
+      						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+      						<label class="sr-only" for="phone">Add phone</label>
+      						<input type="text" class="add-btn" id="phone" placeholder="add phone" value="add phone (___)___-____">
+      					</div><div class="edit-field">
+      			<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+      			<label class="sr-only" for="email">Add email</label>
+      			<input type="text" class="add-btn" id="email" placeholder="add email">
+      					</div>
+      			<div class="edit-field">
+      				<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+      				<label class="sr-only" for="address">Add address</label>
+      				<input type="text" class="add-btn" id="address" placeholder="add address">
+            </div>
+            <div class="edit-field">
+              <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+              <label class="sr-only" for="birthday">Add birthday</label>
+              <input type="text" class="add-btn" id="birthday" placeholder="add birthday">
+              </div>
+            <div class="edit-field">
+              <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+              <label class="sr-only" for="socialProfile">Add social profile</label>
+              <input type="text" class="add-btn" id="socialProfile" placeholder="add social profile">
+            </div>
+            <div class="edit-field">
+              <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+              <label class="sr-only" for="addField">Add field</label>
+              <input type="text" class="add-btn" id="addField" placeholder="add field">
+            </div>
+              <div class="edit-field">
+                <button href="#" class="delete-contact" id="clear">clear fields</button>
+              </div>
+            </div> `;
   }
-  getData(){
+
+  sendData(mod) {
     const doneBtn = document.querySelector('#done');
-    doneBtn.addEventListener('click', e =>{
-
+    doneBtn.addEventListener('click', e => {
       var userObj = {};
-      var fieldsElem = document.querySelectorAll('.edit-field');
+      var fieldsElem = document.querySelectorAll('.add-btn');
       [...fieldsElem].forEach(elem => {
-        var text = elem.textContent.replace('add', '');
-        userObj[elem.id] = text;
-      });
-
-      let xhrPOST = new XMLHttpRequest();
-
-      xhrPOST.addEventListener('readystatechange', () =>{
-        if(xhrPOST.readyState === 4){
-          console.log('response: ', JSON.parse(xhrPOST.response));
-          console.log('responseText: ', xhrPOST.responseText);
+        if(mod === 'edit'){
+          if (elem.id === 'phone') {
+            userObj[elem.id] = elem.value.slice(10);
+          }
+          else {
+            userObj[elem.id] = elem.value;
+          }
         }
+        else{
+          userObj[elem.id] = elem.value;
+
+        }
+
       });
-      xhrPOST.open('POST', 'https://easycode-js.herokuapp.com/maksimVorobyov/users');
-      xhrPOST.setRequestHeader('Content-Type', 'application/json');
-      xhrPOST.send(JSON.stringify(userObj));
+      // fetch(this.url, {
+      //   method: 'post',
+      //   headers: {
+      //     'Content-Type': 'application/json'
+      //   },
+      //   body: JSON.stringify(userObj)
+      // });
     });
+  }
+
+  clearData() {
+    const clearBtn = document.querySelector('#clear');
+    let fieldsElem = document.querySelectorAll('.add-btn');
+    clearBtn.addEventListener('click', e => {
+      [...fieldsElem].forEach(elem => {
+        elem.value = '';
+      });
+    });
+  }
+
+  phoneCheck(id) {
+    const phoneField = document.querySelector(id);
+
+    function setCursorPosition(pos, elem) {
+      elem.focus();
+      if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
+      else if (elem.createTextRange) {
+        var range = elem.createTextRange();
+        range.collapse(true);
+        range.moveEnd("character", pos);
+        range.moveStart("character", pos);
+        range.select()
+      }
+    }
+
+    function mask(event) {
+      var matrix = this.defaultValue,
+          i = 0,
+          def = matrix.replace(/\D/g, ""),
+          val = this.value.replace(/\D/g, "");
+      def.length >= val.length && (val = def);
+      matrix = matrix.replace(/[_\d]/g, function (a) {
+        return val.charAt(i++) || "_"
+      });
+      this.value = matrix;
+      i = matrix.lastIndexOf(val.substr(-1));
+      i < matrix.length && matrix != this.defaultValue ? i++ : i = matrix.indexOf("_");
+      setCursorPosition(i, this)
+    }
+
+    phoneField.addEventListener('input', mask, false);
+
   }
 
   main() {
     const mainHtml = this.createTag('main', this.app);
     const div = this.createTag('div', mainHtml, 'container');
-    const mainInfo = this.createMainInfo(div);
-    const info = this.createInfo(div);
+    this.createMainInfo(div);
+    this.createInfo(div);
     this.createFooter();
+    this.sendData('edit');
+    this.clearData();
+    this.phoneCheck('#phone');
   }
 
   render() {
     this.header();
     this.main();
-    this.getData();
   }
 }
 
-const addUser = new AddUser({
-  headerLinks: ['user.html', '#'],
-  userPhoto: 'photo',
-  userMainFields: ['fullName', 'Last Name', 'Company'],
-  userFields: ['phone', 'email', 'address', 'birthday', 'social profile', 'field'],
-  navData: [
-    {
-      href: 'index.html',
-      linkClass: 'tab',
-      linkActive: true,
-      linkText: 'Contacts',
-      spanOneClass: 'glyphicon glyphicon-search',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'keypad.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'Keypad',
-      spanOneClass: 'glyphicon glyphicon-th',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'edit-user.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'Edit contact',
-      spanOneClass: 'glyphicon glyphicon-pencil',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'user.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'User',
-      spanOneClass: 'glyphicon glyphicon-user',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'add-user.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'Add user',
-      spanOneClass: 'glyphicon glyphicon-plus',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-  ]
-});
+const addUser = new AddUser();
 addUser.render();
 

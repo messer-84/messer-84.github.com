@@ -1,12 +1,8 @@
 class App {
   constructor(options) {
-    this.pageName = options.pageName;
-    this.navData = options.navData;
-    this.placeholderSearch = 'Search';
-    this.theadData = options.theadData;
-    this.userData = options.userData;
     this.app = document.querySelector('.app');
     this.url = 'https://easycode-js.herokuapp.com/test/users'
+    this.state;
   }
 
   createTag(tag, parent, mClass) {
@@ -19,129 +15,107 @@ class App {
     return myTag;
   }
 
+  getUsers(parent) {
+    fetch(this.url)
+        .then(
+            response => {
+              if (response.status !== 200) {
+                console.log('Looks like there was a problem. Status Code: ' +
+                    response.status);
+                return;
+              }
+              response.json().then(data => {
+                this.createTR(parent, data);
 
-  getUsers() {
-    this.doRequest(this.url, function (err, response) {
-      if (err) {
-        return "";
-
-      } else {
-        console.log(response);
-
-        return response;
-      }
-    });
-  }
-
-  doRequest(url, callback) {
-    let xhr = new XMLHttpRequest();
-    var res;
-    xhr.open("GET", url, true); // for async
-    xhr.addEventListener('readystatechange', () => {
-      if (xhr.readyState == 4) {
-        if (xhr.status == 200) {
-          res = xhr.responseText;
-          callback(null, res);
-        } else {
-          callback(xhr.statusText);
-        }
-      }
-    });
-    xhr.send(null);
+                this.tableSort(data);
+              });
+            }
+        )
+        .catch(err => {
+          console.log('Fetch Error :-S', err);
+        });
   }
 
   createSearchBlock(parent) {
     const form = this.createTag('form', parent, 'form-inline search-form');
-    const formDiv = this.createTag('div', form, 'form-group');
-    formDiv.innerHTML = `<div class="form-group"><label class="sr-only" for="search">${this.placeholderSearch}</label><input class="form-control" type="text" id="search" placeholder="Search"></div>`;
+    form.innerHTML = `<div class="form-group">
+                <label class="sr-only" for="search">Search</label>
+                <input type="text" class="form-control" id="search" placeholder="Search">
+              </div>`;
   }
 
-  createTR(parent, objData, typeCell) {
-    if (typeCell === 'th') {
-      let trHtml = this.createTag('tr', parent);
-      objData.forEach(elem => {
-        trHtml.innerHTML += `<th>${elem}</th>`;
-      });
-    }
-    else if (typeCell === 'td') {
-      objData.forEach(elem => {
-        let trHtml = this.createTag('tr', parent);
-        console.log(elem.email);
-        trHtml.innerHTML = `<td>${elem.fullName}</td><td>${elem.phone}</td><td>${elem.email}</td>`;
-        // for (let key in elem) {
-        //   if (key === 'fullName' || key === 'phone' || key === 'email') {
-        //     trHtml.innerHTML += `<td>${elem[key]}</td>`;
-        //   }
-        // }
-      });
-    }
-  }
-
-  createNav(parent) {
-    const myNav = this.createTag('nav', parent, 'main-nav');
-    this.navData.forEach(elem => {
-      let linkClassName = elem.linkActive ? 'tab active' : 'tab';
-      myNav.innerHTML += `<a href="${elem.href}" class="${linkClassName}">
-        <span class="${elem.spanOneClass}" ${elem.spanOneAttr}=${elem.spanOneAttrValue}></span>
-        <span class="${elem.spanTwoClass}">${elem.linkText}</span>
-      </a>`;
+  createTR(parent, data) {
+    var trHtml = '';
+    data.forEach(elem => {
+      trHtml += `<tr></tr><td>${elem.fullName}</td><td>${elem.phone}</td><td>${elem.email}</td></tr>`;
     });
-    return myNav;
+    parent.innerHTML = trHtml;
+
+  }
+
+  createTable(parent) {
+    const table = this.createTag('table', parent, 'table table-hover contacts');
+    const thead = this.createTag('thead', table);
+    thead.innerHTML = `<tr><th>Full Name</th><th>Phone</th><th>Email</th></tr>`;
+    const tbody = this.createTag('tbody', table);
+    this.getUsers(tbody);
   }
 
   createFooter() {
     const footer = this.createTag('footer', this.app, 'footer');
     const div = this.createTag('div', footer, 'container bottom-radius');
-    this.createNav(div)
-
+    div.innerHTML = `<nav class="main-nav">
+    				<a href="index.html" class="tab active">
+    					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    					<span class="tab-text">Contacts</span>
+    				</a>
+    				<a href="keypad.html" class="tab">
+    					<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+    					<span class="tab-text">Keypad</span>
+    				</a>
+    				<a href="add-user.html" class="tab">
+    					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    					<span class="tab-text">Add user</span>
+    				</a></nav>`;
   }
 
   tableSort(userData) {
     let thCell = document.querySelectorAll('th');
+    var thead = document.querySelector('thead');
 
-    [...thCell].forEach(elem => {
-      elem.addEventListener('click', e => {
-        let control = e.target;
-        let field;
+    thead.addEventListener('click', e => {
+      let control = e.target;
+      let field;
 
-        if (control === thCell[0]) {
-          field = 'fullName';
-        }
-        if (control === thCell[1]) {
-          field = 'phone';
-        }
-        if (control === thCell[2]) {
-          field = 'email'
-        }
-        const curState = userData.sort((a, b) => {
-          return a[field] > b[field];
-        });
-        let tbodyHtml = document.querySelector('tbody');
-        tbodyHtml.innerHTML = '';
-        this.createTR(tbodyHtml, curState, 'td');
+      if (control === thCell[0]) {
+        field = 'fullName';
+      }
+      if (control === thCell[1]) {
+        field = 'phone';
+      }
+      if (control === thCell[2]) {
+        field = 'email'
+      }
+      this.state = userData.sort((a, b) => {
+        return a[field] > b[field];
       });
+      let tbodyHtml = document.querySelector('tbody');
+      tbodyHtml.innerHTML = '';
+      this.createTR(tbodyHtml, this.state);
     });
   }
 
   header() {
     const header = this.createTag('header', this.app, 'header');
     const div = this.createTag('div', header, 'container top-radius');
-    div.innerHTML = `<h2>${this.pageName}</h2>`;
+    div.innerHTML = `<h2>Contacts</h2>`;
   }
 
   main() {
     const mainHtml = this.createTag('main', this.app);
     const div = this.createTag('div', mainHtml, 'container');
-    const searchHtml = this.createSearchBlock(div);
-    const table = this.createTag('table', div, 'table table-hover contacts');
-    const thead = this.createTag('thead', table);
-    const theadData = this.createTR(thead, this.theadData, 'th');
-    const tbody = this.createTag('tbody', table);
-    this.doRequest(this.url, (err, response) => {
-      var data = err ? 'test' : JSON.parse(response);
-      this.createTR(tbody, data, 'td');
-      this.tableSort(data);
-    });
+    this.createSearchBlock(div);
+    this.createTable(div);
     this.createFooter();
   }
 
@@ -152,62 +126,6 @@ class App {
   }
 }
 
-const app = new App({
-  pageName: 'Contacts',
-  navData: [
-    {
-      href: 'index.html',
-      linkClass: 'tab',
-      linkActive: true,
-      linkText: 'Contacts',
-      spanOneClass: 'glyphicon glyphicon-search',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'keypad.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'Keypad',
-      spanOneClass: 'glyphicon glyphicon-th',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'edit-user.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'Edit contact',
-      spanOneClass: 'glyphicon glyphicon-pencil',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'user.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'User',
-      spanOneClass: 'glyphicon glyphicon-user',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-    {
-      href: 'add-user.html',
-      linkClass: 'tab',
-      linkActive: false,
-      linkText: 'Add user',
-      spanOneClass: 'glyphicon glyphicon-plus',
-      spanOneAttr: 'aria-hidden',
-      spanOneAttrValue: 'true',
-      spanTwoClass: 'tab-text'
-    },
-  ],
-
-  theadData: ['Full name', 'Phone', 'Email'],
-});
+const app = new App();
 app.render();
 
