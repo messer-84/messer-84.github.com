@@ -1,18 +1,5 @@
 class App {
   constructor() {
-    this.state = {
-      db: {
-        users: [],
-        activeUsers: [],
-        lastMessages: []
-      },
-      locals: {
-        forms: {
-          input: ''
-        }
-      }
-    };
-
     this.ui = {
       index: new Contacts(this.state), // users
       // keypad: new Keypad(this.state),

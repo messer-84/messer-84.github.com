@@ -1,8 +1,8 @@
 class Contacts {
-  constructor(options) {
+  constructor(state) {
     this.app = document.querySelector('#app');
     this.url = 'https://easycode-js.herokuapp.com/test/users'
-    this.state = '';
+    this.state = state;
   }
 
   createTag(tag, parent, mClass) {
@@ -15,26 +15,25 @@ class Contacts {
     return myTag;
   }
 
-  getUsers(parent) {
-    fetch(this.url)
-        .then(
-            response => {
-              if (response.status !== 200) {
-                console.log('Looks like there was a problem. Status Code: ' +
-                    response.status);
-                return;
-              }
-              response.json().then(data => {
-                this.createTR(parent, data);
-
-                this.tableSort(data);
-              });
-            }
-        )
-        .catch(err => {
-          console.log('Fetch Error :-S', err);
-        });
-  }
+  // getUsers(parent) {
+  //   fetch(this.url)
+  //       .then(response => {
+  //             if (response.status !== 200) {
+  //               console.log('Looks like there was a problem. Status Code: ' +
+  //                   response.status);
+  //               return;
+  //             }
+  //             response.json().then(data => {
+  //               this.createTR(parent, data);
+  //
+  //               this.tableSort(data);
+  //             });
+  //           }
+  //       )
+  //       .catch(err => {
+  //         console.log('Fetch Error :-S', err);
+  //       });
+  // }
 
   createSearchBlock(parent) {
     const form = this.createTag('form', parent, 'form-inline search-form');
@@ -58,7 +57,9 @@ class Contacts {
     const thead = this.createTag('thead', table);
     thead.innerHTML = `<tr><th>Full Name</th><th>Phone</th><th>Email</th></tr>`;
     const tbody = this.createTag('tbody', table);
-    this.getUsers(tbody);
+    // this.getUsers(tbody);
+
+
   }
 
   createFooter() {
@@ -107,7 +108,14 @@ class Contacts {
 
   header() {
     const header = this.createTag('header', this.app, 'header');
-    header.innerHTML = `<div class="container top-radius"><h2>Contacts</h2></div>`;
+    header.innerHTML = `<div class="container top-radius">
+          <div class="user-top-line">
+    				<a href="index.html" id="backToContacts">
+    					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Contacts
+    				</a>
+    				<a href="edit-contact.html" id="editContact">Edit</a>
+    			</div>
+        </div>`;
   }
 
   main() {
@@ -119,6 +127,9 @@ class Contacts {
   }
 
   render() {
+    console.log(this.state);
+
+
     this.header();
     this.main();
 
