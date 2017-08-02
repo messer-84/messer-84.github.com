@@ -1,6 +1,6 @@
 class AddUser {
   constructor() {
-    this.app = document.querySelector('.app');
+    this.app = document.querySelector('#app');
     this.url = 'https://easycode-js.herokuapp.com/maksimVorobyov/users';
   }
 

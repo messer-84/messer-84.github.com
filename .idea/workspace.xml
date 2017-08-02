@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phoneBook/contacts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phoneBook/js/api.service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phoneBook/js/contact.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phoneBook/js/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/router.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/router/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" afterPath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/add-user.html" afterPath="$PROJECT_DIR$/phoneBook/add-user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/edit-user.html" afterPath="$PROJECT_DIR$/phoneBook/edit-user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/index.html" afterPath="$PROJECT_DIR$/phoneBook/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/add-user.js" afterPath="$PROJECT_DIR$/phoneBook/js/add-user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/app.js" afterPath="$PROJECT_DIR$/phoneBook/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/edit-user.js" afterPath="$PROJECT_DIR$/phoneBook/js/edit-user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/keypad.js" afterPath="$PROJECT_DIR$/phoneBook/js/keypad.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/user.js" afterPath="$PROJECT_DIR$/phoneBook/js/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/keypad.html" afterPath="$PROJECT_DIR$/phoneBook/keypad.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/user.html" afterPath="$PROJECT_DIR$/phoneBook/user.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,72 +32,83 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72689074">
+    <splitter split-orientation="horizontal" split-proportion="0.47393364">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="edit-user.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/phoneBook/edit-user.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+                <state relative-caret-position="144">
+                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="edit-user.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/js/edit-user.js">
+          <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+                <state relative-caret-position="677">
+                  <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
                   <folding>
-                    <element signature="n#!!block;n#setCursorPosition#0;n#!!block;n#phoneCheck#0;n#EditUser#0" expanded="false" />
-                    <element signature="n#!!block;n#mask#0;n#!!block;n#phoneCheck#0;n#EditUser#0" expanded="false" />
-                    <marker date="1501600675000" expanded="true" signature="510:648" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="691:823" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="868:1004" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1414:1536" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1734:1844" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1887:2871" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1924:2210" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="2247:2535" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="2572:2853" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3063:5295" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3087:3378" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3402:3684" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3722:4018" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="4059:4374" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="4415:4755" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="4796:5108" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="5151:5272" ph="..." />
+                    <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
+                    <element signature="n#!!block;n#createSearchBlock#0;n#Contacts#0" expanded="false" />
+                    <element signature="n#!!block;n#createTR#0;n#Contacts#0" expanded="false" />
+                    <element signature="e#1350#1460#0" expanded="false" />
+                    <element signature="n#!!block;n#createTable#0;n#Contacts#0" expanded="false" />
+                    <element signature="n#!!block;n#createFooter#0;n#Contacts#0" expanded="false" />
+                    <element signature="n#!!block;n#tableSort#0;n#Contacts#0" expanded="false" />
+                    <element signature="n#!!block;n#header#0;n#Contacts#0" expanded="false" />
+                    <element signature="n#!!block;n#main#0;n#Contacts#0" expanded="false" />
+                    <element signature="n#!!block;n#render#0;n#Contacts#0" expanded="false" />
+                    <marker date="1501665271000" expanded="true" signature="1090:1268" ph="..." />
+                    <marker date="1501665271000" expanded="true" signature="2017:2566" ph="..." />
+                    <marker date="1501665271000" expanded="true" signature="2066:2204" ph="..." />
+                    <marker date="1501665271000" expanded="true" signature="2247:2379" ph="..." />
+                    <marker date="1501665271000" expanded="true" signature="2424:2560" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/phoneBook/js/user.js">
+          <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phoneBook/js/router.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="97" column="61" lean-forward="true" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
-                  <folding>
-                    <element signature="n#!!block;n#createNav#0;n#User#0" expanded="false" />
-                    <marker date="1501601585000" expanded="true" signature="464:602" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="645:777" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="822:958" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="1307:1571" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="1334:1565" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="1384:1489" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="1730:1911" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="1938:2117" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="2145:2331" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="2358:2537" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="2700:2900" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="2723:2793" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="2816:2894" ph="..." />
-                    <marker date="1501601585000" expanded="true" signature="3419:3449" ph="..." />
-                  </folding>
+                <state relative-caret-position="252">
+                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phoneBook/contacts.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="api.service.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/phoneBook/js/api.service.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -91,26 +116,29 @@
           <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/phoneBook/user.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="144">
+                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="keypad.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/js/keypad.js">
+          <file leaf-file-name="keypad.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phoneBook/keypad.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="222">
-                  <caret line="96" column="58" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="58" />
-                  <folding>
-                    <element signature="n#!!block;n#createFooter#0;n#Keypad#0" expanded="false" />
-                    <marker date="1501600675000" expanded="true" signature="512:1061" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="561:699" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="742:874" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="919:1055" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1220:1452" ph="..." />
-                  </folding>
+                <state relative-caret-position="144">
+                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="add-user.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phoneBook/add-user.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -118,35 +146,61 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="edit-user.js" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="edit-user.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/phoneBook/js/edit-user.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="47">
-                  <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="38" selection-end-column="3" />
+                <state relative-caret-position="54">
+                  <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
                   <folding>
-                    <element signature="n#!!block;n#createNav#0;n#EditUser#0" expanded="false" />
-                    <element signature="n#!!block;n#createMainInfo#0;n#EditUser#0" expanded="false" />
-                    <element signature="n#!!block;n#createInfo#0;n#EditUser#0" expanded="false" />
                     <element signature="n#!!block;n#setCursorPosition#0;n#!!block;n#phoneCheck#0;n#EditUser#0" expanded="false" />
                     <element signature="n#!!block;n#mask#0;n#!!block;n#phoneCheck#0;n#EditUser#0" expanded="false" />
-                    <marker date="1501600675000" expanded="true" signature="510:648" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="691:823" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="868:1004" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1414:1536" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1734:1844" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1887:2871" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="1924:2210" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="2247:2535" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="2572:2853" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3063:5295" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3087:3378" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3402:3684" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="3722:4018" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="4059:4374" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="4415:4755" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="4796:5108" ph="..." />
-                    <marker date="1501600675000" expanded="true" signature="5151:5272" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="510:648" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="691:823" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="868:1004" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="1414:1536" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="1734:1844" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="1887:2871" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="1924:2210" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="2247:2535" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="2572:2853" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="3063:5295" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="3087:3378" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="3402:3684" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="3722:4018" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="4059:4374" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="4415:4755" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="4796:5108" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="5151:5272" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="keypad.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/phoneBook/js/keypad.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="36">
+                  <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+                  <folding>
+                    <element signature="n#!!block;n#createFooter#0;n#Keypad#0" expanded="false" />
+                    <marker date="1501626344000" expanded="true" signature="512:1061" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="561:699" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="742:874" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="919:1055" ph="..." />
+                    <marker date="1501626344000" expanded="true" signature="1220:1452" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="522">
+                  <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+                  <folding>
+                    <element signature="n#!!block;n#router#0;n#App#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -175,6 +229,9 @@
       <find>add-foto</find>
       <find>getData</find>
       <find>getUse</find>
+      <find>app.js</find>
+      <find>app</find>
+      <find>console</find>
     </findStrings>
     <replaceStrings>
       <replace>cafe</replace>
@@ -187,6 +244,7 @@
       <dir>$PROJECT_DIR$/test_ie</dir>
       <dir>$PROJECT_DIR$/test_ie/very very long title – sunny_files</dir>
       <dir>$PROJECT_DIR$/test_ie/test – sunny_files</dir>
+      <dir>$PROJECT_DIR$/phoneBook/js</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -195,22 +253,22 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/phoneBook/js/add-user.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/phoneBook/js/app.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/phoneBook/js/contact.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_ie/sunny_files/ef32679-6118e8a.js" />
-        <option value="$PROJECT_DIR$/test_ie/sunny.html" />
-        <option value="$PROJECT_DIR$/test_ie/sunny_files/2a3e4e3-1f171cf.css" />
-        <option value="$PROJECT_DIR$/test_ie/very very long title – sunny_files/2a3e4e3-27e3f25.css" />
-        <option value="$PROJECT_DIR$/test_ie/test – sunny_files/c90a42d-9093411.js" />
-        <option value="$PROJECT_DIR$/phoneBook/css/main.css" />
-        <option value="$PROJECT_DIR$/phoneBook/js/add-user.js" />
-        <option value="$PROJECT_DIR$/phoneBook/js/app.js" />
-        <option value="$PROJECT_DIR$/phoneBook/js/keypad.js" />
-        <option value="$PROJECT_DIR$/phoneBook/js/edit-user.js" />
         <option value="$PROJECT_DIR$/phoneBook/js/user.js" />
+        <option value="$PROJECT_DIR$/phoneBook/user.html" />
+        <option value="$PROJECT_DIR$/phoneBook/keypad.html" />
+        <option value="$PROJECT_DIR$/phoneBook/edit-user.html" />
+        <option value="$PROJECT_DIR$/phoneBook/contacts.html" />
+        <option value="$PROJECT_DIR$/phoneBook/add-user.html" />
+        <option value="$PROJECT_DIR$/phoneBook/index.html" />
+        <option value="$PROJECT_DIR$/phoneBook/js/app.js" />
+        <option value="$PROJECT_DIR$/phoneBook/js/api.service.js" />
+        <option value="$PROJECT_DIR$/phoneBook/js/router.js" />
+        <option value="$PROJECT_DIR$/phoneBook/js/contact.js" />
       </list>
     </option>
   </component>
@@ -229,10 +287,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="59" />
-    <option name="y" value="131" />
-    <option name="width" value="1840" />
-    <option name="height" value="1003" />
+    <option name="x" value="164" />
+    <option name="y" value="115" />
+    <option name="width" value="1562" />
+    <option name="height" value="996" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -249,19 +307,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <expand>
-            <path>
-              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phoneBook" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phoneBook" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -279,126 +372,6 @@
       <recent name="$PROJECT_DIR$/test_ie/sunny_files" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/css/main.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/js/add-user.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/js/app.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/js/edit-user.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/js/keypad.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/fonts/bootstrap/glyphicons-halflings-regular.eot</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/fonts/bootstrap/glyphicons-halflings-regular.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/fonts/bootstrap/glyphicons-halflings-regular.ttf</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/fonts/bootstrap/glyphicons-halflings-regular.woff</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/phoneBook/fonts/bootstrap/glyphicons-halflings-regular.woff2</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -412,14 +385,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -445,6 +410,15 @@
     </configuration>
     <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
       <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -493,6 +467,8 @@
       <workItem from="1501452073674" duration="1571000" />
       <workItem from="1501531347054" duration="6730000" />
       <workItem from="1501571275480" duration="8612000" />
+      <workItem from="1501623811364" duration="2843000" />
+      <workItem from="1501661150727" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -764,40 +740,35 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33538000" />
+    <option name="totallyTimeSpent" value="38706000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="0" />
+    <frame x="164" y="115" width="1562" height="996" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14878398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16710526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09924488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5928237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09924488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5928237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15684094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40938723" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14236902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -815,140 +786,148 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53694">
-          <caret line="7638" column="12" lean-forward="false" selection-start-line="7638" selection-start-column="12" selection-end-line="7638" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/edit-user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="144">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/add-user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="144">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
+    <entry file="file://$PROJECT_DIR$/phoneBook/keypad.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="138" selection-end-column="12" />
+        <state relative-caret-position="3366">
+          <caret line="187" column="49" lean-forward="false" selection-start-line="187" selection-start-column="49" selection-end-line="187" selection-end-column="49" />
           <folding>
-            <element signature="n#!!block;n#createFooter#0;n#AddUser#0" expanded="false" />
-            <element signature="n#!!block;n#header#0;n#AddUser#0" expanded="false" />
+            <marker date="1501626344000" expanded="true" signature="533:671" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="714:846" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="891:1027" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="1437:1559" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="1721:1949" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="1760:1934" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="1989:2839" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="2023:2268" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="2302:2549" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="2583:2824" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="2999:4955" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="3023:3304" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="3328:3568" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="3602:3854" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="3891:4161" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="4198:4488" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="4525:4787" ph="..." />
+            <marker date="1501626344000" expanded="true" signature="4826:4936" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
+    <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding>
-            <marker date="1501587878000" expanded="true" signature="1085:1263" ph="..." />
-            <marker date="1501587878000" expanded="true" signature="2012:2561" ph="..." />
-            <marker date="1501587878000" expanded="true" signature="2061:2199" ph="..." />
-            <marker date="1501587878000" expanded="true" signature="2242:2374" ph="..." />
-            <marker date="1501587878000" expanded="true" signature="2419:2555" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/edit-user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#setCursorPosition#0;n#!!block;n#phoneCheck#0;n#EditUser#0" expanded="false" />
-            <element signature="n#!!block;n#mask#0;n#!!block;n#phoneCheck#0;n#EditUser#0" expanded="false" />
-            <marker date="1501600675000" expanded="true" signature="510:648" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="691:823" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="868:1004" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="1414:1536" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="1734:1844" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="1887:2871" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="1924:2210" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="2247:2535" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="2572:2853" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="3063:5295" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="3087:3378" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="3402:3684" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="3722:4018" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="4059:4374" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="4415:4755" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="4796:5108" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="5151:5272" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/keypad.js">
+    <entry file="file://$PROJECT_DIR$/phoneBook/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="96" column="58" lean-forward="true" selection-start-line="96" selection-start-column="24" selection-end-line="96" selection-end-column="58" />
-          <folding>
-            <element signature="n#!!block;n#createFooter#0;n#Keypad#0" expanded="false" />
-            <marker date="1501600675000" expanded="true" signature="512:1061" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="561:699" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="742:874" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="919:1055" ph="..." />
-            <marker date="1501600675000" expanded="true" signature="1220:1452" ph="..." />
-          </folding>
+        <state relative-caret-position="216">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="97" column="61" lean-forward="true" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="n#!!block;n#createNav#0;n#User#0" expanded="false" />
-            <marker date="1501601585000" expanded="true" signature="464:602" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="645:777" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="822:958" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="1307:1571" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="1334:1565" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="1384:1489" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="1730:1911" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="1938:2117" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="2145:2331" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="2358:2537" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="2700:2900" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="2723:2793" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="2816:2894" ph="..." />
-            <marker date="1501601585000" expanded="true" signature="3419:3449" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="615:1220" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="644:1209" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="696:836" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="879:1013" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="1058:1196" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="1365:1649" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="1403:1634" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="1453:1558" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="1878:2736" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="1908:2091" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2118:2299" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2327:2515" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2542:2723" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2770:3039" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2770:3474" ph="..." />
+            <marker date="1501626543000" expanded="false" signature="2806:3039" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2840:2880" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2840:2915" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2949:2989" ph="..." />
+            <marker date="1501626543000" expanded="true" signature="2949:3024" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#createSearchBlock#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#createTR#0;n#Contacts#0" expanded="false" />
+            <element signature="e#1350#1460#0" expanded="false" />
+            <element signature="n#!!block;n#createTable#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#createFooter#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#tableSort#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#header#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#main#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#render#0;n#Contacts#0" expanded="false" />
+            <marker date="1501665271000" expanded="true" signature="1090:1268" ph="..." />
+            <marker date="1501665271000" expanded="true" signature="2017:2566" ph="..." />
+            <marker date="1501665271000" expanded="true" signature="2066:2204" ph="..." />
+            <marker date="1501665271000" expanded="true" signature="2247:2379" ph="..." />
+            <marker date="1501665271000" expanded="true" signature="2424:2560" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/api.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="53" column="1" lean-forward="true" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!block;n#router#0;n#App#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,7 @@
 class EditUser {
   constructor(options) {
     this.userData = options.userMainData;
-    this.app = document.querySelector('.app');
+    this.app = document.querySelector('#app');
   }
 
   createTag(tag, parent, mClass) {
