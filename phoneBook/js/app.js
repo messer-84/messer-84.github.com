@@ -1,37 +1,65 @@
 class App {
   constructor() {
+    // console.log(this.state);
+    console.log('app', this);
+    this.state = {
+          db: {
+            users: [],
+            activeUsers: [],
+            lastMessages: []
+          },
+          locals: {
+            forms: {
+              input: 'qweqwe'
+            }
+          }
+        };
+
     this.ui = {
       index: new Contacts(this.state), // users
-      // keypad: new Keypad(this.state),
+      keypad: new Keypad(this.state),
       // addUser: new AddUser(this.state),
       // editUser: new EditUser(this.state),
       // user: new User(this.state)
     };
+
+  }
+  init(){
+    this.render();
+    this.router();
   }
 
   router() {
-    const content = document.querySelector('.content');
-    // обновление контента внутри данного элемента
-    function updateState(state) {
-      content.innerHTML = state;
-    }
+    console.log('router work');
+
     // все ссылки к которым мы добавим собственный роутер
     window.addEventListener('load', (e) => {
+
       const links = [...document.querySelectorAll('.tab')];
       links.forEach(link => {
         // куда ведет ссылка
         let href = link.getAttribute('href');
 
         link.addEventListener('click', e => {
+          console.log('click');
+
           e.preventDefault();
-          updateState(href); // ТО ЧТО ВЫ ХОТИТЕ ОТРЕНДЕРИТЬ !
-          // для того, чтобы работали переходы на сервере вперед -> назад <-
+
+
+          if(href === 'keypad.html'){
+            this.ui.keypad.render();
+          }
+          if(href === 'index.html'){
+            this.ui.index.render();
+            console.log('inddddddeeeexxxx');
+
+          }
           history.pushState(href, href, href);
         });
       });
     });
     window.addEventListener('popstate', event => {
-      updateState(event.state);
+
     });
   }
 
@@ -41,4 +69,5 @@ class App {
 }
 
 const app = new App();
-// console.log(app.state);
+app.init();
+

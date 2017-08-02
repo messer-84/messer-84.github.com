@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phoneBook/edit-user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phoneBook/keypad.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/index.html" afterPath="$PROJECT_DIR$/phoneBook/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/api.service.js" afterPath="$PROJECT_DIR$/phoneBook/js/api.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/app.js" afterPath="$PROJECT_DIR$/phoneBook/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/contact.js" afterPath="$PROJECT_DIR$/phoneBook/js/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/keypad.js" afterPath="$PROJECT_DIR$/phoneBook/js/keypad.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,90 +23,112 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.41056338">
+    <splitter split-orientation="horizontal" split-proportion="0.5960699">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="edit-user.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/edit-user.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/js/router.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/contacts.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="api.service.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/phoneBook/js/api.service.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/user.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="keypad.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/keypad.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="add-user.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/add-user.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
+        <splitter split-orientation="horizontal" split-proportion="0.49037582">
+          <split-first>
+            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="router.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/phoneBook/js/router.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="324">
+                      <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/phoneBook/contacts.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="216">
+                      <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="216">
+                      <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="504">
+                      <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+                      <folding>
+                        <element signature="n#!!block;n#router#0;n#App#0" expanded="false" />
+                        <marker date="1501704963000" expanded="true" signature="859:1332" ph="{...}" />
+                        <marker date="1501704963000" expanded="true" signature="981:1322" ph="{...}" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="api.service.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/phoneBook/js/api.service.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="342">
+                      <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/phoneBook/user.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="162">
+                      <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="add-user.html" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/phoneBook/add-user.html">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="144">
+                      <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-first>
+          <split-second>
+            <leaf>
+              <file leaf-file-name="api.service.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/phoneBook/js/api.service.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="306">
+                      <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="16">
+                      <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="3" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+            </leaf>
+          </split-second>
+        </splitter>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -140,27 +165,17 @@
           <file leaf-file-name="keypad.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/phoneBook/js/keypad.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+                <state relative-caret-position="610">
+                  <caret line="117" column="18" lean-forward="true" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
                   <folding>
+                    <element signature="n#!!block;n#createTag#0;n#Keypad#0" expanded="false" />
                     <element signature="n#!!block;n#createFooter#0;n#Keypad#0" expanded="false" />
-                    <marker date="1501626344000" expanded="true" signature="512:1061" ph="..." />
-                    <marker date="1501626344000" expanded="true" signature="561:699" ph="..." />
-                    <marker date="1501626344000" expanded="true" signature="742:874" ph="..." />
-                    <marker date="1501626344000" expanded="true" signature="919:1055" ph="..." />
-                    <marker date="1501626344000" expanded="true" signature="1220:1452" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-                  <folding>
-                    <element signature="n#!!block;n#router#0;n#App#0" expanded="false" />
+                    <element signature="n#!!block;n#createNumberHolder#0;n#Keypad#0" expanded="false" />
+                    <marker date="1501704783000" expanded="true" signature="543:1092" ph="..." />
+                    <marker date="1501704783000" expanded="true" signature="592:730" ph="..." />
+                    <marker date="1501704783000" expanded="true" signature="773:905" ph="..." />
+                    <marker date="1501704783000" expanded="true" signature="950:1086" ph="..." />
+                    <marker date="1501704783000" expanded="true" signature="1251:1483" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -169,23 +184,17 @@
           <file leaf-file-name="contact.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="612">
-                  <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+                <state relative-caret-position="619">
+                  <caret line="110" column="18" lean-forward="true" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
                   <folding>
-                    <element signature="e#400#421#0" expanded="false" />
-                    <element signature="n#!!block;n#createTR#0;n#Contacts#0" expanded="false" />
-                    <element signature="e#1396#1506#0" expanded="false" />
+                    <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
                     <element signature="n#!!block;n#createFooter#0;n#Contacts#0" expanded="false" />
                     <element signature="n#!!block;n#tableSort#0;n#Contacts#0" expanded="false" />
-                    <element signature="n#!!block;n#header#0;n#Contacts#0" expanded="false" />
-                    <marker date="1501671247000" expanded="true" signature="1136:1314" ph="..." />
-                    <marker date="1501671247000" expanded="true" signature="2068:2617" ph="..." />
-                    <marker date="1501671247000" expanded="true" signature="2117:2255" ph="..." />
-                    <marker date="1501671247000" expanded="true" signature="2298:2430" ph="..." />
-                    <marker date="1501671247000" expanded="true" signature="2475:2611" ph="..." />
-                    <marker date="1501671247000" expanded="true" signature="3417:3701" ph="..." />
-                    <marker date="1501671247000" expanded="true" signature="3455:3686" ph="..." />
-                    <marker date="1501671247000" expanded="true" signature="3505:3610" ph="..." />
+                    <marker date="1501705008000" expanded="true" signature="1012:1190" ph="..." />
+                    <marker date="1501705008000" expanded="true" signature="1622:2171" ph="..." />
+                    <marker date="1501705008000" expanded="true" signature="1671:1809" ph="..." />
+                    <marker date="1501705008000" expanded="true" signature="1852:1984" ph="..." />
+                    <marker date="1501705008000" expanded="true" signature="2029:2165" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -194,7 +203,7 @@
           <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/phoneBook/js/user.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="468">
+                <state relative-caret-position="774">
                   <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="53" selection-end-column="3" />
                   <folding>
                     <marker date="1501626543000" expanded="true" signature="615:1220" ph="..." />
@@ -274,16 +283,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/phoneBook/js/user.js" />
         <option value="$PROJECT_DIR$/phoneBook/user.html" />
         <option value="$PROJECT_DIR$/phoneBook/keypad.html" />
         <option value="$PROJECT_DIR$/phoneBook/edit-user.html" />
         <option value="$PROJECT_DIR$/phoneBook/contacts.html" />
         <option value="$PROJECT_DIR$/phoneBook/add-user.html" />
         <option value="$PROJECT_DIR$/phoneBook/js/router.js" />
-        <option value="$PROJECT_DIR$/phoneBook/index.html" />
-        <option value="$PROJECT_DIR$/phoneBook/js/app.js" />
         <option value="$PROJECT_DIR$/phoneBook/js/api.service.js" />
+        <option value="$PROJECT_DIR$/phoneBook/index.html" />
+        <option value="$PROJECT_DIR$/phoneBook/js/keypad.js" />
+        <option value="$PROJECT_DIR$/phoneBook/js/app.js" />
         <option value="$PROJECT_DIR$/phoneBook/js/contact.js" />
       </list>
     </option>
@@ -303,9 +312,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="100" />
-    <option name="y" value="92" />
-    <option name="width" value="1716" />
+    <option name="x" value="30" />
+    <option name="y" value="96" />
+    <option name="width" value="1874" />
     <option name="height" value="996" />
   </component>
   <component name="ProjectView">
@@ -484,7 +493,8 @@
       <workItem from="1501531347054" duration="6730000" />
       <workItem from="1501571275480" duration="8612000" />
       <workItem from="1501623811364" duration="2843000" />
-      <workItem from="1501661150727" duration="5945000" />
+      <workItem from="1501661150727" duration="10108000" />
+      <workItem from="1501699177568" duration="4948000" />
     </task>
     <task id="LOCAL-00001" summary="-add">
       <created>1496332099082</created>
@@ -773,35 +783,42 @@
       <option name="project" value="LOCAL" />
       <updated>1501666414447</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="-add">
+      <created>1501671288414</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1501671288414</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42326000" />
+    <option name="totallyTimeSpent" value="51437000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="100" y="92" width="1716" height="996" extended-state="0" />
+    <frame x="30" y="96" width="1874" height="996" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15173237" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18613537" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09924488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5928237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14236902" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -823,22 +840,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phoneBook/add-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/keypad.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3366">
@@ -866,25 +867,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/edit-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="324">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
+        <state relative-caret-position="774">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="53" selection-end-column="3" />
           <folding>
             <marker date="1501626543000" expanded="true" signature="615:1220" ph="..." />
@@ -919,52 +912,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/edit-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/keypad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="216">
+          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/api.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/keypad.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="610">
+          <caret line="117" column="18" lean-forward="true" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
           <folding>
-            <element signature="n#!!block;n#router#0;n#App#0" expanded="false" />
+            <element signature="n#!!block;n#createTag#0;n#Keypad#0" expanded="false" />
+            <element signature="n#!!block;n#createFooter#0;n#Keypad#0" expanded="false" />
+            <element signature="n#!!block;n#createNumberHolder#0;n#Keypad#0" expanded="false" />
+            <marker date="1501704783000" expanded="true" signature="543:1092" ph="..." />
+            <marker date="1501704783000" expanded="true" signature="592:730" ph="..." />
+            <marker date="1501704783000" expanded="true" signature="773:905" ph="..." />
+            <marker date="1501704783000" expanded="true" signature="950:1086" ph="..." />
+            <marker date="1501704783000" expanded="true" signature="1251:1483" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+        <state relative-caret-position="619">
+          <caret line="110" column="18" lean-forward="true" selection-start-line="110" selection-start-column="18" selection-end-line="110" selection-end-column="18" />
           <folding>
-            <element signature="e#400#421#0" expanded="false" />
-            <element signature="n#!!block;n#createTR#0;n#Contacts#0" expanded="false" />
-            <element signature="e#1396#1506#0" expanded="false" />
+            <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
             <element signature="n#!!block;n#createFooter#0;n#Contacts#0" expanded="false" />
             <element signature="n#!!block;n#tableSort#0;n#Contacts#0" expanded="false" />
-            <element signature="n#!!block;n#header#0;n#Contacts#0" expanded="false" />
-            <marker date="1501671247000" expanded="true" signature="1136:1314" ph="..." />
-            <marker date="1501671247000" expanded="true" signature="2068:2617" ph="..." />
-            <marker date="1501671247000" expanded="true" signature="2117:2255" ph="..." />
-            <marker date="1501671247000" expanded="true" signature="2298:2430" ph="..." />
-            <marker date="1501671247000" expanded="true" signature="2475:2611" ph="..." />
-            <marker date="1501671247000" expanded="true" signature="3417:3701" ph="..." />
-            <marker date="1501671247000" expanded="true" signature="3455:3686" ph="..." />
-            <marker date="1501671247000" expanded="true" signature="3505:3610" ph="..." />
+            <marker date="1501705008000" expanded="true" signature="1012:1190" ph="..." />
+            <marker date="1501705008000" expanded="true" signature="1622:2171" ph="..." />
+            <marker date="1501705008000" expanded="true" signature="1671:1809" ph="..." />
+            <marker date="1501705008000" expanded="true" signature="1852:1984" ph="..." />
+            <marker date="1501705008000" expanded="true" signature="2029:2165" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

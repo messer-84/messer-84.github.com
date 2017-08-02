@@ -1,8 +1,8 @@
 class Contacts {
-  constructor(state) {
+  constructor(appState) {
+    this.appState = appState;
     this.app = document.querySelector('#app');
     this.url = 'https://easycode-js.herokuapp.com/test/users'
-    this.state = state;
   }
 
   createTag(tag, parent, mClass) {
@@ -15,25 +15,19 @@ class Contacts {
     return myTag;
   }
 
-  // getUsers(parent) {
-  //   fetch(this.url)
-  //       .then(response => {
-  //             if (response.status !== 200) {
-  //               console.log('Looks like there was a problem. Status Code: ' +
-  //                   response.status);
-  //               return;
-  //             }
-  //             response.json().then(data => {
-  //               this.createTR(parent, data);
-  //
-  //               this.tableSort(data);
-  //             });
-  //           }
-  //       )
-  //       .catch(err => {
-  //         console.log('Fetch Error :-S', err);
-  //       });
-  // }
+  renderUsers(parent){
+    api.requestUsers().then(users=>{
+      this.appState.db.users = users;
+      console.log('appstate', this.appState);
+
+      const table = this.createTag('table', parent, 'table table-hover contacts');
+      table.innerHTML = `<thead><tr><th>Full Name</th><th>Phone</th><th>Email</th></tr></thead>`;
+      const tbody = this.createTag('tbody', table);
+      this.createTR(tbody, users);
+      this.tableSort(users);
+
+   })
+  }
 
   createSearchBlock(parent) {
     const form = this.createTag('form', parent, 'form-inline search-form');
@@ -49,16 +43,6 @@ class Contacts {
       trHtml += `<tr></tr><td>${elem.fullName}</td><td>${elem.phone}</td><td>${elem.email}</td></tr>`;
     });
     parent.innerHTML = trHtml;
-
-  }
-
-  createTable(parent) {
-    const table = this.createTag('table', parent, 'table table-hover contacts');
-    const thead = this.createTag('thead', table);
-    thead.innerHTML = `<tr><th>Full Name</th><th>Phone</th><th>Email</th></tr>`;
-    const tbody = this.createTag('tbody', table);
-    // this.getUsers(tbody);
-
 
   }
 
@@ -97,45 +81,37 @@ class Contacts {
       if (control === thCell[2]) {
         field = 'email'
       }
-      this.state = userData.sort((a, b) => {
+      console.log(userData);
+
+      var newUsers = userData.sort((a, b) => {
         return a[field] > b[field];
       });
       let tbodyHtml = document.querySelector('tbody');
       tbodyHtml.innerHTML = '';
-      this.createTR(tbodyHtml, this.state);
+      this.createTR(tbodyHtml, newUsers);
     });
   }
 
   header() {
+
     const header = this.createTag('header', this.app, 'header');
-    header.innerHTML = `<div class="container top-radius">
-          <div class="user-top-line">
-    				<a href="index.html" id="backToContacts">
-    					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Contacts
-    				</a>
-    				<a href="edit-contact.html" id="editContact">Edit</a>
-    			</div>
-        </div>`;
+    header.innerHTML = `<div class="container top-radius"><h2>Contacts</h2></div>`;
   }
 
   main() {
     const mainHtml = this.createTag('main', this.app);
     const div = this.createTag('div', mainHtml, 'container');
     this.createSearchBlock(div);
-    this.createTable(div);
+    this.renderUsers(div);
     this.createFooter();
   }
 
   render() {
-    console.log(this.state);
-
-
+    this.app.innerHTML = '';
     this.header();
     this.main();
 
   }
 }
 
-// const contacts = new Contacts();
-// contacts.render();
 

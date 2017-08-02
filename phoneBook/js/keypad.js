@@ -1,5 +1,6 @@
 class Keypad {
-  constructor(options) {
+  constructor(appState) {
+    this.appState = appState;
     this.app = document.querySelector('#app');
   }
 
@@ -113,12 +114,10 @@ class Keypad {
   }
 
   render() {
-
+    this.app.innerHTML = '';
     this.header();
     this.main();
 
   }
 }
 
-const keypad = new Keypad();
-keypad.render();
