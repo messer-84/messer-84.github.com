@@ -14,7 +14,7 @@ class App {
     };
 
     this.ui = {
-      // index: new Contacts(this.state), // users
+      index: new Contacts(this.state), // users
       // keypad: new Keypad(this.state),
       // addUser: new AddUser(this.state),
       // editUser: new EditUser(this.state),
@@ -49,7 +49,7 @@ class App {
   }
 
   render() {
-    // this.ui.index.render();
+    this.ui.index.render();
   }
 }
 
