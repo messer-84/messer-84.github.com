@@ -31,21 +31,15 @@ class App {
 
   router() {
     console.log('router work');
-
-    // все ссылки к которым мы добавим собственный роутер
     window.addEventListener('load', (e) => {
 
       const links = [...document.querySelectorAll('.tab')];
       links.forEach(link => {
-        // куда ведет ссылка
         let href = link.getAttribute('href');
 
         link.addEventListener('click', e => {
           console.log('click');
-
           e.preventDefault();
-
-
           if(href === 'keypad.html'){
             this.ui.keypad.render();
           }
