@@ -14,23 +14,6 @@ class Keypad {
     return myTag;
   }
 
-  createFooter() {
-    const footer = this.createTag('footer', this.app, 'footer');
-    const div = this.createTag('div', footer, 'container bottom-radius');
-    div.innerHTML = `<nav class="main-nav">
-    				<a href="index.html" class="tab active">
-    					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-    					<span class="tab-text">Contacts</span>
-    				</a>
-    				<a href="keypad.html" class="tab">
-    					<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-    					<span class="tab-text">Keypad</span>
-    				</a>
-    				<a href="add-user.html" class="tab">
-    					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-    					<span class="tab-text">Add user</span>
-    				</a></nav>`;
-  }
 
   createNumberHolder(parent) {
     const keypadWrap = this.createTag('div', parent, 'keypad-holder');
@@ -109,7 +92,6 @@ class Keypad {
     const div = this.createTag('div', mainHtml, 'container');
     this.createNumberHolder(div);
     this.events();
-    this.createFooter();
 
   }
 

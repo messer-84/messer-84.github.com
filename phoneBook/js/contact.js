@@ -46,23 +46,6 @@ class Contacts {
 
   }
 
-  createFooter() {
-    const footer = this.createTag('footer', this.app, 'footer');
-    const div = this.createTag('div', footer, 'container bottom-radius');
-    div.innerHTML = `<nav class="main-nav">
-    				<a href="index.html" class="tab active">
-    					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-    					<span class="tab-text">Contacts</span>
-    				</a>
-    				<a href="keypad.html" class="tab">
-    					<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-    					<span class="tab-text">Keypad</span>
-    				</a>
-    				<a href="add-user.html" class="tab">
-    					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-    					<span class="tab-text">Add user</span>
-    				</a></nav>`;
-  }
 
   tableSort(userData) {
     let thCell = document.querySelectorAll('th');
@@ -103,7 +86,6 @@ class Contacts {
     const div = this.createTag('div', mainHtml, 'container');
     this.createSearchBlock(div);
     this.renderUsers(div);
-    this.createFooter();
   }
 
   render() {
