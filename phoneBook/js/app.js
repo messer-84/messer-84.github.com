@@ -18,7 +18,7 @@ class App {
 		this.ui = {
 			index: new Contacts(this.state), // users
 			keypad: new Keypad(this.state),
-			// addUser: new AddUser(this.state),
+			addUser: new AddUser(this.state),
 			// editUser: new EditUser(this.state),
 			// user: new User(this.state)
 		};
@@ -67,7 +67,9 @@ class App {
 					if (href === 'index.html') {
 						this.ui.index.render();
 					}
-					if(href === 'add-user.html')
+					if(href === 'add-user.html'){
+						this.ui.addUser.render();
+					}
 					history.pushState(href, href, href);
 				});
 			});

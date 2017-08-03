@@ -7669,6 +7669,7 @@ h3 {
   border-bottom: 1px solid #fff;
   width: 100%;
   display: flex;
+  justify-content: flex-start;
 
 }
 .edit-field:focus{
@@ -7757,4 +7758,44 @@ th{
 }
 .placeholder.hide{
   display: none;
+}
+.glyphicon{
+  position: relative;
+  z-index: 10;
+  pointer-events: none;
+}
+.add-label{
+  z-index: 10;
+  position: relative;
+  margin: 0 0 0 6px;
+  color: #555;
+  pointer-events: none;
+}
+.contentedit{
+  z-index: 5;
+  position: absolute;
+  left: 12px;
+  padding: 0 0 0 90px;
+  margin: 0 0 0 6px;
+  cursor: text;
+  right: 0;
+
+}
+
+.contentedit#birthday,
+.contentedit#address{
+  padding-left: 105px;
+}
+.contentedit#socialProfile {
+  padding-left: 135px;
+}
+.contentedit#addField{
+  padding-left: 80px;
+}
+.contentedit:focus{
+  outline: none;
+  background: beige;
+}
+.scroll-holder{
+  margin-bottom:22px;
 }
