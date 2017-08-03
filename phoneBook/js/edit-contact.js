@@ -1,7 +1,6 @@
 class EditContact {
   constructor(appState) {
     this.appState = appState;
-    // this.userData = options.userMainData;
     this.app = document.querySelector('#app');
   }
 
