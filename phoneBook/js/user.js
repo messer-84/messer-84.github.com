@@ -1,15 +1,11 @@
 class User {
-  constructor(options) {
+  constructor(appState) {
     this.app = document.querySelector('#app');
-    this.fullName = options.fullName;
-    this.photo = options.photo;
-    this.email = options.email;
-    this.phone = options.phone;
+    this.appState = appState;
+
   }
 
   createTag(tag, parent, mClass) {
-    console.log(parent);
-
     mClass = mClass || false;
     var myTag = document.createElement(tag);
 
@@ -20,26 +16,6 @@ class User {
     return myTag;
   }
 
-  createFooter() {
-    const footer = this.createTag('footer', this.app, 'footer');
-    footer.innerHTML = `<div class="container bottom-radius">
-      <nav class="main-nav">
-        <a href="contacts.html" class="tab active">
-          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-          <span class="tab-text">Contacts</span>
-        </a>
-        <a href="keypad.html" class="tab">
-          <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-          <span class="tab-text">Keypad</span>
-        </a>
-        <a href="add-user.html" class="tab">
-          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-          <span class="tab-text">Add user</span>
-        </a>
-      </nav>
-    </div>`;
-
-  }
 
   header() {
     const header = this.createTag('header', this.app, 'header');
@@ -54,9 +30,12 @@ class User {
   }
 
   createOptionsLine(parent) {
+    var index = this.appState.db.selectedUser;
+    var user = this.appState.db.users[index];
+
     parent.innerHTML = `
-      <img src="${this.photo}" alt="#" class=" user-img img-circle center-block">
-      <div class="user-name">${this.fullName}</div>
+      <img src="img/avatar.jpg" alt="#" class=" user-img img-circle center-block">
+      <div class="user-name">${user.fullName}</div>
       <div class="options-line">
         <div class="message">
           <div class="options-icon"><span class="icon glyphicon glyphicon-comment" aria-hidden="true"></span></div>
@@ -79,11 +58,11 @@ class User {
         <div class="user-data-all">
           <div class="user-data">
     					<h3>email</h3>
-    					<div>${this.email}</div>
+    					<div>${user.email}</div>
           </div>
           <div class="user-data">
     					<h3>phone</h3>
-    					<div>${this.phone}</div>
+    					<div>${user.phone}</div>
           </div>
         </div>
         <div class="options-item"><a href="#">Notes</a></div>
@@ -96,25 +75,28 @@ class User {
       </div>`;
 
   }
+  goToEditUser(){
+    var control = document.querySelector('#editContact');
+    var href = control.getAttribute('href');
+    control.addEventListener('click', e =>{
+      e.preventDefault();
 
+      app.ui.editContact.render();
+      history.pushState(href, href, href);
+    });
+
+  }
   main() {
     const mainHtml = this.createTag('main', this.app);
     const div = this.createTag('div', mainHtml, 'container');
     this.createOptionsLine(div);
-    this.createFooter();
+    this.goToEditUser();
   }
 
   render() {
+    this.app.innerHTML = '';
     this.header();
     this.main();
   }
 }
-
-const user = new User({
-  fullName: 'Татьяна Иванова',
-  photo: 'img/galina.png',
-  email: 'test@test.com',
-  phone: '(254)-14-44-444'
-});
-user.render();
 

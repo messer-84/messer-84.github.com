@@ -1,12 +1,12 @@
 class App {
 	constructor() {
-		// console.log(this.state);
-		console.log('app', this);
 		this.state = {
 			db: {
 				users: [],
 				activeUsers: [],
-				lastMessages: []
+				selectedUser: 1,
+				lastMessages: [],
+				sortedUsers: []
 			},
 			locals: {
 				forms: {
@@ -19,8 +19,8 @@ class App {
 			index: new Contacts(this.state), // users
 			keypad: new Keypad(this.state),
 			addUser: new AddUser(this.state),
-			// editUser: new EditUser(this.state),
-			// user: new User(this.state)
+			editContact: new EditContact(this.state),
+			user: new User(this.state)
 		};
 
 	}
@@ -61,6 +61,11 @@ class App {
 				let href = link.getAttribute('href');
 				link.addEventListener('click', e => {
 					e.preventDefault();
+					links.forEach(elem => {
+						elem.classList.remove('active');
+					});
+					link.classList.toggle('active');
+
 					if (href === 'keypad.html') {
 						this.ui.keypad.render();
 					}

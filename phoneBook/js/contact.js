@@ -18,13 +18,13 @@ class Contacts {
   renderUsers(parent){
     api.requestUsers().then(users=>{
       this.appState.db.users = users;
-      console.log('appstate', this.appState);
-
+      this.appState.db.sortedUsers = users;
       const table = this.createTag('table', parent, 'table table-hover contacts');
       table.innerHTML = `<thead><tr><th>Full Name</th><th>Phone</th><th>Email</th></tr></thead>`;
       const tbody = this.createTag('tbody', table);
       this.createTR(tbody, users);
-      this.tableSort(users);
+      this.tableSort(this.appState.db.sortedUsers);
+      this.getUser(this.appState.db.sortedUsers);
 
    })
   }
@@ -40,7 +40,7 @@ class Contacts {
   createTR(parent, data) {
     var trHtml = '';
     data.forEach(elem => {
-      trHtml += `<tr></tr><td>${elem.fullName}</td><td>${elem.phone}</td><td>${elem.email}</td></tr>`;
+      trHtml += `<tr><td>${elem.fullName}</td><td>${elem.phone}</td><td>${elem.email}</td></tr>`;
     });
     parent.innerHTML = trHtml;
 
@@ -48,6 +48,7 @@ class Contacts {
 
 
   tableSort(userData) {
+
     let thCell = document.querySelectorAll('th');
     var thead = document.querySelector('thead');
 
@@ -64,15 +65,27 @@ class Contacts {
       if (control === thCell[2]) {
         field = 'email'
       }
-      console.log(userData);
-
       var newUsers = userData.sort((a, b) => {
         return a[field] > b[field];
       });
       let tbodyHtml = document.querySelector('tbody');
       tbodyHtml.innerHTML = '';
+      this.appState.db.sortedUsers = newUsers;
       this.createTR(tbodyHtml, newUsers);
+
     });
+  }
+  getUser(users){
+    var href = 'user.html';
+    var tbody = document.querySelector('tbody');
+    tbody.addEventListener('click', e =>{
+      var userIndex = e.target.parentElement.rowIndex - 1;
+      this.appState.db.selectedUser = userIndex;
+      app.ui.user.render();
+      history.pushState(href, href, href);
+
+    });
+
   }
 
   header() {

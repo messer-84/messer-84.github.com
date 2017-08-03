@@ -7759,7 +7759,7 @@ th{
 .placeholder.hide{
   display: none;
 }
-.glyphicon{
+.edit-field .glyphicon{
   position: relative;
   z-index: 10;
   pointer-events: none;
