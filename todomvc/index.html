@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TODO</title>
+    <style type="text/css">
+        #app{
+            width: 300px;
+            margin: 0 auto;
+        }
+        .delete{
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 10;
+            width: 20px;
+            cursor: pointer;
+        }
+        .delete:hover{
+            background: red;
+            outline: none;
+            border:none;
+        }
+        .text{
+            position: relative;
+            display: block;
+            z-index: 1;
+            width: calc(100% - 20px);
+        }
+        li{
+            position: relative;
+            width: 150px;
+            margin:0 0 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <h2>Todo App</h2>
+    <ul class="list-item"></ul>
+    <div class="controls">
+        <input type="text" class="input" value=""/>
+        <button class="btn">Add Item</button>
+    </div>
+</div>
+
+
+
+<script src="src/model.js"></script>
+<script src="src/view.js"></script>
+<script src="src/controller.js"></script>
+<script src="src/app.js"></script>
+
+</body>
+</html>
