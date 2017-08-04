@@ -2,7 +2,6 @@ function Controller(model, view) {
   this.model = model;
   this.view = view;
   this.init();
-
 }
 
 Controller.prototype.init = function () {
@@ -29,7 +28,6 @@ Controller.prototype.deleteTask = function () {
     if (event.target.className === 'delete') {
       const deleteItem = event.target.previousElementSibling.textContent;
       this.model.deleteItem(deleteItem);
-
       this.view.render(this.model.dataBase);
     }
 

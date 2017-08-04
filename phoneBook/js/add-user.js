@@ -3,7 +3,7 @@ class AddUser {
 		this.appState = appState;
 		this.app = document.querySelector('#app');
 		this.phoneBlock = '';
-		this.url = 'https://easycode-js.herokuapp.com/test/users';
+		this.url = 'http://easycode-js.herokuapp.com/maksimVorobyov/users';
 
 	}
 
@@ -121,6 +121,7 @@ class AddUser {
 				newUser[elem.id] = elem.textContent;
 			});
 			api.addUser(this.url, newUser);
+
 			alert('User added!!!');
 		});
 	}

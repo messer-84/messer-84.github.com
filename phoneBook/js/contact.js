@@ -2,7 +2,7 @@ class Contacts {
   constructor(appState) {
     this.appState = appState;
     this.app = document.querySelector('#app');
-    this.url = 'https://easycode-js.herokuapp.com/test/users'
+    this.url = 'http://easycode-js.herokuapp.com/maksimVorobyov'
   }
 
   createTag(tag, parent, mClass) {

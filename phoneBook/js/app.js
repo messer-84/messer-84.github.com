@@ -22,7 +22,6 @@ class App {
 			editContact: new EditContact(this.state),
 			user: new User(this.state)
 		};
-
 	}
 
 	createFooter() {

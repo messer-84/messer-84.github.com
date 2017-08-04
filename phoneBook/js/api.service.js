@@ -38,7 +38,9 @@ class Api {
 		.catch( err => console.error(err));
 	}
 }
-const url = 'https://easycode-js.herokuapp.com/test/';
+
+
+const url = 'http://easycode-js.herokuapp.com/maksimVorobyov/';
 const api = new Api(url + 'users');
 
 

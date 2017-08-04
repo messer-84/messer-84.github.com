@@ -20,7 +20,5 @@ Model.prototype.updateItem = function (oldItem, newItem) {
   let index = this.dataBase.indexOf(oldItem);
 
   if (!~index) return;
-
   this.dataBase.splice(index, 1, newItem);
-
 };
