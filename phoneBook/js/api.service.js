@@ -18,6 +18,25 @@ class Api {
 			body: JSON.stringify(user)
 		});
 	}
+
+	editContact(url, user) {
+		fetch(url, {
+			method: 'PATCH',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(user)
+		}).catch( err => console.error(err));
+	}
+
+	deleteContact(url){
+		fetch ( url,
+		  {
+		    method: 'DELETE',
+		  }
+		)
+		.catch( err => console.error(err));
+	}
 }
 const url = 'https://easycode-js.herokuapp.com/test/';
 const api = new Api(url + 'users');

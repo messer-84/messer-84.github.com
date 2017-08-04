@@ -3,7 +3,7 @@ class AddUser {
 		this.appState = appState;
 		this.app = document.querySelector('#app');
 		this.phoneBlock = '';
-		this.url = 'https://easycode-js.herokuapp.com/maksimVorobyov/users';
+		this.url = 'https://easycode-js.herokuapp.com/test/users';
 
 	}
 
@@ -81,7 +81,7 @@ class AddUser {
       					</div><div class="edit-field">
       			<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
       			<span class="add-label">add email</span>
-      			      						<span class="contentedit" id='email' contenteditable="true"></span>
+						<span class="contentedit" id='email' contenteditable="true"></span>
       			
       					</div>
       			<div class="edit-field">
@@ -112,15 +112,13 @@ class AddUser {
             </div> `;
 	}
 
-	sendData(mod) {
+	sendData() {
 		const doneBtn = document.querySelector('#done');
 		doneBtn.addEventListener('click', e => {
 			var newUser = {};
 			var fieldsElem = document.querySelectorAll('.contentedit');
 			[...fieldsElem].forEach(elem => {
-				if (mod === 'edit') {
-						newUser[elem.id] = elem.textContent;
-				}
+				newUser[elem.id] = elem.textContent;
 			});
 			api.addUser(this.url, newUser);
 			alert('User added!!!');
@@ -147,50 +145,34 @@ class AddUser {
 		selection.addRange(range);
 	}
 
-	numberPressed(evt) {
-		var phoneBlock = document.querySelector('#phone');
-
-		this.setEndOfContenteditable(phoneBlock);
-		var charCode = (evt.which) ? evt.which : evt.keyCode;
-		if (charCode > 31 && (charCode < 48 || charCode > 57) && (charCode < 36 || charCode > 40)) {
-			return false;
-		}
-		return true;
-	}
-
-	phoneFormat(input) {
-		var phoneBlock = document.querySelector('#phone');
-
-		this.setEndOfContenteditable(phoneBlock);
-		input = input.replace(/\D/g, '');
-		input = input.slice(0, 10);
-
-		var size = input.length;
-
-		if (size == 0) {
-			input = input;
-		}
-		else if (size < 4) {
-			input = '(' + input;
-		} else if (size < 7) {
-			input = '(' + input.slice(0, 3) + ') ' + input.slice(3, 7);
-		} else {
-			input = '(' + input.slice(0, 3) + ') ' + input.slice(3, 7) + ' - ' + input.slice(7, 10);
-		}
-		return input;
-
-
-	}
-
-
 	phoneCheck() {
-		var phoneBlock = document.querySelector('#phone');
+		const phone = document.querySelector('#phone');
 
-		phoneBlock.addEventListener('keyup', (e) => {
-			phoneBlock.textContent = this.phoneFormat(phoneBlock.textContent);
+		phone.addEventListener('keydown', e => {
+			if (e.key !== 'Backspace') {
+				phone.textContent = phoneMask(phone.textContent);
+				setEndOfContenteditable(phone);
+			}
 		});
 
-		phoneBlock.addEventListener('keypress', this.numberPressed.bind(this));
+		function setEndOfContenteditable(contentEditableElement) {
+			var range, selection;
+			range = document.createRange();
+			range.selectNodeContents(contentEditableElement);
+			range.collapse(false);
+			selection = window.getSelection();
+			selection.removeAllRanges();
+			selection.addRange(range);
+		}
+
+		function phoneMask(elementContent) {
+			elementContent = elementContent.slice(0, 13);
+			return elementContent.replace(/\D/g, '')
+					.replace(/^(\d)/, '($1')
+					.replace(/^(\(\d{3})(\d)/, '$1) $2')
+					.replace(/(\d{3})(\d{1,4})/, '$1-$2')
+					.replace(/(-\d{4})\d+?$/, '$1');
+		}
 	}
 
 	main() {
@@ -198,7 +180,7 @@ class AddUser {
 		const div = this.createTag('div', mainHtml, 'container');
 		this.createMainInfo(div);
 		this.createInfo(div);
-		this.sendData('edit');
+		this.sendData();
 		this.clearData();
 		this.phoneCheck();
 	}

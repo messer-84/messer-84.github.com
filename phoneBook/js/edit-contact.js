@@ -1,175 +1,171 @@
 class EditContact {
-  constructor(appState) {
-    this.appState = appState;
-    this.app = document.querySelector('#app');
-  }
+	constructor(appState) {
+		this.appState = appState;
+		this.app = document.querySelector('#app');
+		this.url = 'https://easycode-js.herokuapp.com/test/users';
+	}
 
-  createTag(tag, parent, mClass) {
-    mClass = mClass || false;
-    var myTag = document.createElement(tag);
-    if (mClass) {
-      myTag.className = mClass;
-    }
-    parent.appendChild(myTag);
-    return myTag;
-  }
+	createTag(tag, parent, mClass) {
+		mClass = mClass || false;
+		var myTag = document.createElement(tag);
+		if (mClass) {
+			myTag.className = mClass;
+		}
+		parent.appendChild(myTag);
+		return myTag;
+	}
 
 
-  header() {
-    const header = this.createTag('header', this.app, 'header');
-    const div = this.createTag('div', header, 'container top-radius');
-    div.innerHTML = `<nav class="user-top-line">
-    				<a href="user.html" id="cancel">Cancel</a>
+	header() {
+		const header = this.createTag('header', this.app, 'header');
+		const div = this.createTag('div', header, 'container top-radius');
+		div.innerHTML = `<nav class="user-top-line">
+    				<a href="index.html" id="cancel">Cancel</a>
     				<button class="done-btn" id="done">Done</button>
     			</nav>`;
-  }
+	}
 
-  createMainInfo(parent) {
+	createMainInfo(parent) {
 
-    var index = this.appState.db.selectedUser;
-    var user = this.appState.db.users[index];
-console.log(user);
+		var index = this.appState.db.selectedUser;
+		var user = this.appState.db.users[index];
 
-    const editMainBlock = this.createTag('div', parent, 'edit-main-info');
-    editMainBlock.innerHTML = `<div class="edit-foto">
+		const editMainBlock = this.createTag('div', parent, 'edit-main-info');
+		editMainBlock.innerHTML = `<div class="edit-foto">
        					<img src="img/avatar.jpg" alt="#" class=" user-img img-circle center-block">
        				</div>
         				<div class="main-info-holder">
        					<div class="edit-field">
         						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-        						<label class="sr-only" for="name">First name</label>
-        						<input type="text" class="add-btn" id="fullName" placeholder="First Name" value="${user.fullName}">
+        						<span class="add-label">First name</span>
+                    <span class="contentedit" id='fullName' contenteditable="true">${user.fullName}</span>
         					</div>
         					<div class="edit-field">
         						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-        						<label class="sr-only" for="lastname">Last name</label>
-        						<input type="text" class="add-btn" id="lastname" placeholder="Last Name" value="">
+        						<span class="add-label">Last name</span>
+                    <span class="contentedit" id='lastname' contenteditable="true"></span>
         					</div>
         					<div class="edit-field">
         						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-        						<label class="sr-only" for="company">Company</label>
-        						<input type="text" class="add-btn" id="company" placeholder="Company" value="">
+        						<span class="add-label">Company</span>
+                    <span class="contentedit" id='company' contenteditable="true"></span>
         					</div>
         				</div> `;
-  }
+	}
 
-  createInfo(parent) {
-    var index = this.appState.db.selectedUser;
-    var user = this.appState.db.users[index];
-    const scrollHolder = this.createTag('div', parent, 'scroll-holder');
-    scrollHolder.innerHTML = `<div class="edit-info"><div class="edit-field">
+	createInfo(parent) {
+		var index = this.appState.db.selectedUser;
+		var user = this.appState.db.users[index];
+		const scrollHolder = this.createTag('div', parent, 'scroll-holder');
+		scrollHolder.innerHTML = `<div class="edit-info"><div class="edit-field">
           						<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-          						<label class="sr-only" for="phone">Add phone</label>
-          						<input type="text" class="add-btn" id="phone" placeholder="add phone" value="${user.phone}">
+          						<span class="add-label">add phone</span>
+                      <span class="contentedit" id='phone' contenteditable="true">${user.phone}</span>
           					</div><div class="edit-field">
           			<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-          			<label class="sr-only" for="email">Add email</label>
-          			<input type="text" class="add-btn" id="email" placeholder="add email" value="${user.email}">
+          			<span class="add-label">add email</span>
+                <span class="contentedit" id='email' contenteditable="true">${user.email}</span>
+          			
           					</div>
           			<div class="edit-field">
           				<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-          				<label class="sr-only" for="address">Add address</label>
-          				<input type="text" class="add-btn" id="address" placeholder="add address" value="">
+          				<span class="add-label">Add address</span>
+                  <span class="contentedit" id='address' contenteditable="true"></span>
                 </div>
                 <div class="edit-field">
                   <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-                  <label class="sr-only" for="birthday">Add birthday</label>
-                  <input type="text" class="add-btn" id="birthday" placeholder="add birthday" value="">
+                  <span class="add-label">Add birthday</span>
+                  <span class="contentedit" id='birthday' contenteditable="true"></span>
                   </div>
                 <div class="edit-field">
                   <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-                  <label class="sr-only" for="socialProfile">Add social profile</label>
-                  <input type="text" class="add-btn" id="socialProfile" placeholder="add social profile" value="">
+                  <span class="add-label">Add social profile</span>
+                  <span class="contentedit" id='socialProfile' contenteditable="true"></span>
                 </div>
                 <div class="edit-field">
                   <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
-                  <label class="sr-only" for="addField">Add field</label>
-                  <input type="text" class="add-btn" id="addField" placeholder="add field" value="">
+                  <span class="add-label">Add field</span>
+                  <span class="contentedit" id='addField' contenteditable="true"></span>
                 </div>
                   <div class="edit-field">
                     <button href="#" class="delete-contact" id="delete">delete contact</button>
                   </div>
                 </div> `;
-  }
-  sendData(mod) {
-    const doneBtn = document.querySelector('#done');
-    doneBtn.addEventListener('click', e => {
-      var userObj = {};
-      var fieldsElem = document.querySelectorAll('.add-btn');
-      [...fieldsElem].forEach(elem => {
-        if(mod === 'edit'){
-          if (elem.id === 'phone') {
-            userObj[elem.id] = elem.value.slice(10);
-          }
-          else {
-            userObj[elem.id] = elem.value;
-          }
-        }
-        else{
-          userObj[elem.id] = elem.value;
-        }
-      });
+	}
 
-      fetch(this.url, {
-        method: 'post',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(userObj)
-      });
-    });
-  }
+	sendEditData() {
+		const indexSelectedContact = this.appState.db.selectedUser;
+		const idSelectedContact = this.appState.db.users[indexSelectedContact]['_id'];
+		const doneBtn = document.querySelector('#done');
+		doneBtn.addEventListener('click', e => {
+			var userData = {};
+			var fieldsElem = document.querySelectorAll('.contentedit');
+			[...fieldsElem].forEach(elem => {
+				userData[elem.id] = elem.textContent;
+			});
+			console.log(userData);
 
-  phoneCheck(id) {
-    const phoneField = document.querySelector(id);
+			api.editContact(`${this.url}/${idSelectedContact}`, userData);
+			alert('User info changed');
 
-    function setCursorPosition(pos, elem) {
-      elem.focus();
-      if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
-      else if (elem.createTextRange) {
-        var range = elem.createTextRange();
-        range.collapse(true);
-        range.moveEnd("character", pos);
-        range.moveStart("character", pos);
-        range.select()
-      }
-    }
+		});
+	}
 
-    function mask(event) {
-      var matrix = this.defaultValue,
-          i = 0,
-          def = matrix.replace(/\D/g, ""),
-          val = this.value.replace(/\D/g, "");
-      def.length >= val.length && (val = def);
-      matrix = matrix.replace(/[_\d]/g, function (a) {
-        return val.charAt(i++) || "_"
-      });
-      this.value = matrix;
-      i = matrix.lastIndexOf(val.substr(-1));
-      i < matrix.length && matrix != this.defaultValue ? i++ : i = matrix.indexOf("_");
-      setCursorPosition(i, this)
-    }
+	deleteContact() {
+		const deleteBtn = document.querySelector('#delete');
+		const indexSelectedContact = this.appState.db.selectedUser;
+		const idSelectedContact = this.appState.db.users[indexSelectedContact]['_id'];
+		deleteBtn.addEventListener('click', e => {
+			console.log(idSelectedContact);
+			api.deleteContact(`${this.url}/${idSelectedContact}`,)
+			alert('User deleted!!!');
 
-    // phoneField.addEventListener('input', mask, false);
+		});
+	}
 
-  }
+	phoneCheck() {
+		const phone = document.querySelector('#phone');
+		phone.addEventListener('keydown', e => {
+			if (e.key !== 'Backspace') {
+				phone.textContent = phoneMask(phone.textContent);
+				setEndOfContenteditable(phone);
+			}
+		});
+		function setEndOfContenteditable(contentEditableElement) {
+			var range, selection;
+			range = document.createRange();
+			range.selectNodeContents(contentEditableElement);
+			range.collapse(false);
+			selection = window.getSelection();
+			selection.removeAllRanges();
+			selection.addRange(range);
+		}
+		function phoneMask(elementContent) {
+			elementContent = elementContent.slice(0,13);
+			return elementContent.replace(/\D/g, '')
+					.replace(/^(\d)/, '($1')
+					.replace(/^(\(\d{3})(\d)/, '$1) $2')
+					.replace(/(\d{3})(\d{1,4})/, '$1-$2')
+					.replace(/(-\d{4})\d+?$/, '$1');
+		}
+	}
 
-  main() {
-    const mainHtml = this.createTag('main', this.app);
-    const div = this.createTag('div', mainHtml, 'container');
-    this.createMainInfo(div);
-    this.createInfo(div);
-    this.sendData();
-    // this.deleteContact();
-    this.phoneCheck('#phone');
+	main() {
+		const mainHtml = this.createTag('main', this.app);
+		const div = this.createTag('div', mainHtml, 'container');
+		this.createMainInfo(div);
+		this.createInfo(div);
+		this.sendEditData();
+		this.deleteContact();
+		this.phoneCheck();
 
-  }
+	}
 
-  render() {
-    this.app.innerHTML = '';
-    this.header();
-    this.main();
-  }
+	render() {
+		this.app.innerHTML = '';
+		this.header();
+		this.main();
+	}
 }
 
 
