@@ -56,6 +56,7 @@ class Keypad {
 				this.transformPhoneNumber(numBlock, e.key);
 			}
 			if (e.key === 'Backspace') {
+				//todo delete this hack // funcDelete init on add and edit pages
 				var num = document.querySelector('.numbers');
 				if (num !== null) {
 					this.funcDeleteNumber();
