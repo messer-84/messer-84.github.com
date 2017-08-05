@@ -1,6 +1,8 @@
+import app from './app';
+
 class User {
   constructor(appState) {
-    this.app = document.querySelector('#app');
+    this.appHTML = document.querySelector('#app');
     this.appState = appState;
 
   }
@@ -18,7 +20,7 @@ class User {
 
 
   header() {
-    const header = this.createTag('header', this.app, 'header');
+    const header = this.createTag('header', this.appHTML, 'header');
     header.innerHTML = `<div class="container top-radius">
           <div class="user-top-line">
     				<a href="index.html" id="backToContacts">
@@ -87,16 +89,17 @@ class User {
 
   }
   main() {
-    const mainHtml = this.createTag('main', this.app);
+    const mainHtml = this.createTag('main', this.appHTML);
     const div = this.createTag('div', mainHtml, 'container');
     this.createOptionsLine(div);
     this.goToEditUser();
   }
 
   render() {
-    this.app.innerHTML = '';
+    this.appHTML.innerHTML = '';
     this.header();
     this.main();
   }
 }
 
+export default User;

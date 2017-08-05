@@ -1,3 +1,11 @@
+import api from './api-service';
+import Contacts from './contact';
+import Keypad from './keypad';
+import AddUser from './add-user';
+import EditContact from './edit-contact';
+import User from './user';
+
+
 class App {
 	constructor() {
 		this.state = {
@@ -91,4 +99,6 @@ class App {
 
 const app = new App();
 app.init();
+
+export default app;
 

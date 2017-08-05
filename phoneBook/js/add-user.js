@@ -1,7 +1,9 @@
+import api from './api-service'
+
 class AddUser {
 	constructor(appState) {
 		this.appState = appState;
-		this.app = document.querySelector('#app');
+		this.appHTML = document.querySelector('#app');
 		this.phoneBlock = '';
 		this.url = 'http://easycode-js.herokuapp.com/maksimVorobyov/users';
 
@@ -17,27 +19,8 @@ class AddUser {
 		return myTag;
 	}
 
-	createNav(parent) {
-		const myNav = this.createTag('nav', parent, 'main-nav');
-		myNav.innerHTML = `
-    				<a href="index.html" class="tab active">
-    					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-    					<span class="tab-text">Contacts</span>
-    				</a>
-    				<a href="keypad.html" class="tab">
-    					<span class="glyphicon glyphicon-th" aria-hidden="true"></span>
-    					<span class="tab-text">Keypad</span>
-    				</a>
-    				<a href="add-user.html" class="tab">
-    					<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-    					<span class="tab-text">Add user</span>
-    				</a>`;
-		return myNav;
-	}
-
-
 	header() {
-		const header = this.createTag('header', this.app, 'header');
+		const header = this.createTag('header', this.appHTML, 'header');
 		header.innerHTML = `<div class="container top-radius"><nav class="user-top-line">
     				<a href="index.html" id="cancel">Cancel</a>
     				<button class="done-btn" id="done">Done</button>
@@ -136,16 +119,6 @@ class AddUser {
 		});
 	}
 
-	setEndOfContenteditable(contentEditableElement) {
-		var range, selection;
-		range = document.createRange();
-		range.selectNodeContents(contentEditableElement);
-		range.collapse(false);
-		selection = window.getSelection();
-		selection.removeAllRanges();
-		selection.addRange(range);
-	}
-
 	phoneCheck() {
 		const phone = document.querySelector('#phone');
 
@@ -177,7 +150,7 @@ class AddUser {
 	}
 
 	main() {
-		const mainHtml = this.createTag('main', this.app);
+		const mainHtml = this.createTag('main', this.appHTML);
 		const div = this.createTag('div', mainHtml, 'container');
 		this.createMainInfo(div);
 		this.createInfo(div);
@@ -187,10 +160,12 @@ class AddUser {
 	}
 
 	render() {
-		this.app.innerHTML = '';
+		this.appHTML.innerHTML = '';
 		this.header();
 		this.main();
 	}
 }
+
+export default AddUser;
 
 

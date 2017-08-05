@@ -1,8 +1,10 @@
+import api from './api-service'
+
 class EditContact {
 	constructor(appState) {
 		this.appState = appState;
-		this.app = document.querySelector('#app');
-		this.url = 'https://easycode-js.herokuapp.com/test/users';
+		this.appHTML = document.querySelector('#app');
+		this.url = 'http://easycode-js.herokuapp.com/maksimVorobyov/users';
 	}
 
 	createTag(tag, parent, mClass) {
@@ -17,7 +19,7 @@ class EditContact {
 
 
 	header() {
-		const header = this.createTag('header', this.app, 'header');
+		const header = this.createTag('header', this.appHTML, 'header');
 		const div = this.createTag('div', header, 'container top-radius');
 		div.innerHTML = `<nav class="user-top-line">
     				<a href="index.html" id="cancel">Cancel</a>
@@ -117,7 +119,9 @@ class EditContact {
 		const idSelectedContact = this.appState.db.users[indexSelectedContact]['_id'];
 		deleteBtn.addEventListener('click', e => {
 			console.log(idSelectedContact);
-			api.deleteContact(`${this.url}/${idSelectedContact}`,)
+			console.log(`${this.url}/${idSelectedContact}`);
+
+			api.deleteContact(`${this.url}/${idSelectedContact}`);
 			alert('User deleted!!!');
 
 		});
@@ -151,7 +155,7 @@ class EditContact {
 	}
 
 	main() {
-		const mainHtml = this.createTag('main', this.app);
+		const mainHtml = this.createTag('main', this.appHTML);
 		const div = this.createTag('div', mainHtml, 'container');
 		this.createMainInfo(div);
 		this.createInfo(div);
@@ -162,11 +166,12 @@ class EditContact {
 	}
 
 	render() {
-		this.app.innerHTML = '';
+		this.appHTML.innerHTML = '';
 		this.header();
 		this.main();
 	}
 }
 
+export default EditContact;
 
 

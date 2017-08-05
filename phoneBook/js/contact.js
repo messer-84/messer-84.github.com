@@ -1,8 +1,10 @@
+import api from './api-service';
+import app from './app';
+
 class Contacts {
   constructor(appState) {
     this.appState = appState;
     this.app = document.querySelector('#app');
-    this.url = 'http://easycode-js.herokuapp.com/maksimVorobyov'
   }
 
   createTag(tag, parent, mClass) {
@@ -109,4 +111,5 @@ class Contacts {
   }
 }
 
+export default Contacts;
 

@@ -11,7 +11,7 @@ class Api {
 
 	addUser(url, user) {
 		fetch(url, {
-			method: 'post',
+			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
 			},
@@ -30,6 +30,8 @@ class Api {
 	}
 
 	deleteContact(url){
+		console.log(url);
+
 		fetch ( url,
 		  {
 		    method: 'DELETE',
@@ -42,6 +44,8 @@ class Api {
 
 const url = 'http://easycode-js.herokuapp.com/maksimVorobyov/';
 const api = new Api(url + 'users');
+
+export default api;
 
 
 
