@@ -1,5 +1,4 @@
-// const path = require('path');
-// const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   entry: './js/app.js',
@@ -9,16 +8,16 @@ module.exports = {
   devtool: 'cheap-source-map',
   devServer: {
     port: 3000
-  }
-  // module: {
-  //   rules: [
-  //     {
-  //       test:/\.js$/,
-  //       use: 'babel-loader'
-  //     }
-  //   ]
-  // },
-  // plugins: [
-  //    new UglifyJSPlugin()
-  //  ]
+  },
+  module: {
+    rules: [
+      {
+        test:/\.js$/,
+        use: 'babel-loader'
+      }
+    ]
+  },
+  plugins: [
+     new UglifyJSPlugin()
+   ]
 };
