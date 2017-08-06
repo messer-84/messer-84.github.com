@@ -157,14 +157,14 @@
           <file leaf-file-name="contact.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="384">
-                  <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+                <state relative-caret-position="312">
+                  <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
                     <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
                     <element signature="n#!!block;n#createSearchBlock#0;n#Contacts#0" expanded="false" />
                     <element signature="n#!!block;n#getUser#0;n#Contacts#0" expanded="false" />
-                    <marker date="1502053316000" expanded="true" signature="1025:1203" ph="..." />
+                    <marker date="1502053410000" expanded="true" signature="1025:1203" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -571,14 +571,7 @@
       <workItem from="1501881770031" duration="113000" />
       <workItem from="1501881908218" duration="2685000" />
       <workItem from="1501939725949" duration="3921000" />
-      <workItem from="1502050775355" duration="2146000" />
-    </task>
-    <task id="LOCAL-00010" summary="-add">
-      <created>1497888878917</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1497888878917</updated>
+      <workItem from="1502050775355" duration="2160000" />
     </task>
     <task id="LOCAL-00011" summary="-add">
       <created>1497888936678</created>
@@ -916,11 +909,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502051073154</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="-add">
+      <created>1502053399114</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1502053399114</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94182000" />
+    <option name="totallyTimeSpent" value="94196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="139" width="1848" height="996" extended-state="0" />
@@ -1103,14 +1103,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="37" selection-end-line="74" selection-end-column="37" />
+        <state relative-caret-position="312">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
             <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
             <element signature="n#!!block;n#createSearchBlock#0;n#Contacts#0" expanded="false" />
             <element signature="n#!!block;n#getUser#0;n#Contacts#0" expanded="false" />
-            <marker date="1502053316000" expanded="true" signature="1025:1203" ph="..." />
+            <marker date="1502053410000" expanded="true" signature="1025:1203" ph="..." />
           </folding>
         </state>
       </provider>

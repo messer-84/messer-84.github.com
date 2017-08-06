@@ -68,7 +68,6 @@ class Contacts {
 			if (control === thCell[2]) {
 				field = 'email'
 			}
-			console.log(control.className);
 			var newUsers = userData.sort((a, b) => {
 
 				if (control.className.indexOf('sort') !== -1) {
@@ -78,10 +77,6 @@ class Contacts {
 					return a[field] < b[field];
 				}
 			});
-			console.log(control);
-
-			console.log(newUsers);
-
 			let tbodyHtml = document.querySelector('tbody');
 			tbodyHtml.innerHTML = '';
 			this.appState.db.sortedUsers = newUsers;
