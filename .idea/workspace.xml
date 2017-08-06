@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phoneBook/dist/bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phoneBook/dist/bundle.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/index.html" afterPath="$PROJECT_DIR$/phoneBook/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -132,11 +131,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+                <state relative-caret-position="198">
+                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -155,7 +154,7 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contact.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-990">
@@ -269,7 +268,6 @@
         <option value="$PROJECT_DIR$/phoneBook/package.json" />
         <option value="$PROJECT_DIR$/phoneBook/js/api.service.js" />
         <option value="$PROJECT_DIR$/phoneBook/js/keypad.js" />
-        <option value="$PROJECT_DIR$/phoneBook/index.html" />
         <option value="$PROJECT_DIR$/phoneBook/js/app.js" />
         <option value="$PROJECT_DIR$/phoneBook/js/user.js" />
         <option value="$PROJECT_DIR$/phoneBook/.babelrc" />
@@ -277,6 +275,7 @@
         <option value="$PROJECT_DIR$/phoneBook/js/add-user.js" />
         <option value="$PROJECT_DIR$/phoneBook/js/edit-contact.js" />
         <option value="$PROJECT_DIR$/phoneBook/webpack.config.js" />
+        <option value="$PROJECT_DIR$/phoneBook/index.html" />
       </list>
     </option>
   </component>
@@ -571,14 +570,7 @@
       <workItem from="1501881770031" duration="113000" />
       <workItem from="1501881908218" duration="2685000" />
       <workItem from="1501939725949" duration="3921000" />
-      <workItem from="1502050775355" duration="254000" />
-    </task>
-    <task id="LOCAL-00008" summary="-add">
-      <created>1497548082217</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1497548082217</updated>
+      <workItem from="1502050775355" duration="294000" />
     </task>
     <task id="LOCAL-00009" summary="-add">
       <created>1497888687289</created>
@@ -916,11 +908,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502050963650</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="-add">
+      <created>1502051032504</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1502051032504</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92290000" />
+    <option name="totallyTimeSpent" value="92330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="139" width="1848" height="996" extended-state="0" />
@@ -973,27 +972,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1501942104000" expanded="true" signature="513:797" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="551:782" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="601:706" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="1121:1979" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="1151:1334" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="1361:1542" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="1570:1758" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="1785:1966" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="2013:2717" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="2049:2282" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="2083:2158" ph="..." />
-            <marker date="1501942104000" expanded="true" signature="2192:2267" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/dist/bundle.js.map">
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
@@ -1098,19 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
-            <element signature="n#!!block;n#createSearchBlock#0;n#Contacts#0" expanded="false" />
-            <element signature="n#!!block;n#tableSort#0;n#Contacts#0" expanded="false" />
-            <marker date="1501942467000" expanded="true" signature="1079:1257" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1124,6 +1089,27 @@
             <marker date="1501941740000" expanded="true" signature="1138:1270" ph="..." />
             <marker date="1501941740000" expanded="true" signature="1315:1451" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-990">
+          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!block;n#createTag#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#createSearchBlock#0;n#Contacts#0" expanded="false" />
+            <element signature="n#!!block;n#tableSort#0;n#Contacts#0" expanded="false" />
+            <marker date="1501942467000" expanded="true" signature="1079:1257" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
