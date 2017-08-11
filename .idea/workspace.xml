@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/package-lock.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/public/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/src/App.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/src/App.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/src/App.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/src/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/src/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_app/new_app/src/registerServiceWorker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_learn/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_learn/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_learn/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_learn/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_learn/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react_learn/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" afterPath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/public/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/src/App.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/src/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/src/App.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/src/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-weather/weather/src/registerServiceWorker.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/.babelrc" afterPath="$PROJECT_DIR$/phoneBook/.babelrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react_learn/src/index.js" afterPath="$PROJECT_DIR$/react_learn/src/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,26 +31,46 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react_learn/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="414">
               <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react_learn/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
               <folding>
-                <marker date="1502316262000" expanded="true" signature="483:561" ph="{&quot;start&quot;: &quot;webpack-dev-server --hot --inline&quot;...}" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react_learn/src/index.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-weather/weather/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react-weather/weather/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="113" column="63" lean-forward="false" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>body</find>
       <find>main_list</find>
       <find>Café (SPACING DONE) – Sunnylands_files</find>
       <find>touchDevice</find>
@@ -124,6 +136,7 @@
       <find>this.set</find>
       <find>User</find>
       <find>app</find>
+      <find>active</find>
     </findStrings>
     <replaceStrings>
       <replace>cafe</replace>
@@ -153,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react_app/new_app/src/index.js" />
-        <option value="$PROJECT_DIR$/contact-manager/app/index.html" />
         <option value="$PROJECT_DIR$/contact-manager/app/main.js" />
         <option value="$PROJECT_DIR$/contact-manager/webpack.config.js" />
         <option value="$PROJECT_DIR$/contact-manager/package.json" />
@@ -164,6 +175,8 @@
         <option value="$PROJECT_DIR$/react_learn/index.html" />
         <option value="$PROJECT_DIR$/react_learn/package.json" />
         <option value="$PROJECT_DIR$/react_learn/src/index.js" />
+        <option value="$PROJECT_DIR$/react-weather/weather/src/WeatherDisplay.js" />
+        <option value="$PROJECT_DIR$/react-weather/weather/src/App.js" />
       </list>
     </option>
   </component>
@@ -181,15 +194,16 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/phoneBook/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-weather/weather/node_modules" />
     <handled-path value="$PROJECT_DIR$/react_app/new_app/node_modules" />
     <handled-path value="$PROJECT_DIR$/react_learn/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="647" />
-    <option name="y" value="429" />
-    <option name="width" value="1102" />
-    <option name="height" value="680" />
+    <option name="x" value="204" />
+    <option name="y" value="130" />
+    <option name="width" value="1551" />
+    <option name="height" value="929" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -207,7 +221,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,7 +243,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="react_learn" />
+              <option name="myItemId" value="react-weather" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,7 +261,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="react_learn" />
+              <option name="myItemId" value="react-weather" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weather" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -254,6 +275,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +284,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="7.6.0" />
@@ -387,14 +409,10 @@
       <workItem from="1502130564036" duration="740000" />
       <workItem from="1502177201061" duration="26000" />
       <workItem from="1502304446909" duration="1548000" />
-      <workItem from="1502306194562" duration="4280000" />
-    </task>
-    <task id="LOCAL-00012" summary="-add">
-      <created>1497889169552</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1497889169552</updated>
+      <workItem from="1502306194562" duration="4303000" />
+      <workItem from="1502393831978" duration="8206000" />
+      <workItem from="1502436106042" duration="3334000" />
+      <workItem from="1502461769422" duration="72000" />
     </task>
     <task id="LOCAL-00013" summary="-add">
       <created>1497889366394</created>
@@ -732,24 +750,31 @@
       <option name="project" value="LOCAL" />
       <updated>1502053413177</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="-add">
+      <created>1502316563365</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1502316563366</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102805000" />
+    <option name="totallyTimeSpent" value="114440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="647" y="429" width="1102" height="680" extended-state="0" />
+    <frame x="204" y="130" width="1551" height="929" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21415095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22133863" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09924488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3113879" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13070284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -789,43 +814,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react_learn/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_app/new_app/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_learn/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_learn/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phoneBook/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,26 +848,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react_learn/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="414">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <marker date="1502316262000" expanded="true" signature="483:561" ph="{&quot;start&quot;: &quot;webpack-dev-server --hot --inline&quot;...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react_learn/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="126">
+          <caret line="8" column="60" lean-forward="false" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/weather/src/WeatherDisplay.js" />
+    <entry file="file://$PROJECT_DIR$/react-weather/weather/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../web_tech/react/city.list.json/city.list.json">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/weather/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="113" column="63" lean-forward="false" selection-start-line="113" selection-start-column="63" selection-end-line="113" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
