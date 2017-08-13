@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<form id="form">
+	<div class="holder">
+		<div class="part part1">
+			<h3>Insert your package.json here:</h3>
+			<textarea rows="15" cols="70" id="objectData">
+  {
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.3",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server"
+  }
+}
+
+</textarea>
+			<br>
+			<h3>Select bundler agent:</h3>
+			<input class="radio" type="radio" id="npm" value="npm" name="bundler" />
+			<label for="npm">NPM</label>
+			<br><br>
+			<input class="radio" type="radio" id="yarn" value="yarn" name="bundler" checked="true" />
+			<label for="yarn">YARN</label>
+			<br>
+			<br>
+			<h3>Type dependencies:</h3>
+			<input class="radio2" type="radio" id="depend" value="dependencies" name="typeDenendencies" checked="true" />
+			<label for="depend">dependencies</label>
+			<br><br>
+			<input class="radio2" type="radio" id="devDepend" value="devDependencies" name="typeDenendencies" />
+			<label for="devDepend">devDependencies</label>
+			<br>
+			<br>
+			
+			
+			<br>
+			<br>
+		</div>
+		<div class="part part2">
+			<button class="btn">Convert =></button>
+		</div>
+		<div class="part part3">
+			<h3>Commands:</h3>
+			<textarea rows="5" cols="100" id="commands"></textarea>
+		</div>
+	</div>
+</form>
+
+<script src="main.js"></script>
+</body>
+</html>
