@@ -21,8 +21,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="198">
+              <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -339,14 +339,7 @@
       <workItem from="1502622760551" duration="4271000" />
       <workItem from="1502650428374" duration="2572000" />
       <workItem from="1502736592680" duration="667000" />
-      <workItem from="1502737608685" duration="2289000" />
-    </task>
-    <task id="LOCAL-00019" summary="-add">
-      <created>1499363880643</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1499363880643</updated>
+      <workItem from="1502737608685" duration="2565000" />
     </task>
     <task id="LOCAL-00020" summary="-add">
       <created>1499364006627</created>
@@ -684,11 +677,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502738902844</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="-add">
+      <created>1502740024186</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1502740024186</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124347000" />
+    <option name="totallyTimeSpent" value="124623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="98" width="1752" height="1036" extended-state="0" />
@@ -823,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="198">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding />
         </state>
       </provider>

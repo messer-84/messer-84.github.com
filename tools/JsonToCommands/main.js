@@ -1,7 +1,5 @@
 (function() {
-  const find = (selector, attr) => {
-    return document.querySelector(selector);
-  };
+  const find = selector => document.querySelector(selector);
 
   const btn = find('.btn');
 
@@ -19,9 +17,7 @@
       packageContent,
     );
 
-    commandsField.addEventListener('focus', e => {
-      commandsField.select();
-    });
+    commandsField.addEventListener('focus', e => commandsField.select());
   });
 
   const getCommands = (bundlerAgent, dependenciesType, packageContent) => {
