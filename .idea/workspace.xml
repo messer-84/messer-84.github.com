@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-weather/weather/src/App.js" afterPath="$PROJECT_DIR$/react-weather/weather/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/add-user.js" afterPath="$PROJECT_DIR$/phoneBook/js/add-user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/api-service.js" afterPath="$PROJECT_DIR$/phoneBook/js/api-service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/app.js" afterPath="$PROJECT_DIR$/phoneBook/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/contact.js" afterPath="$PROJECT_DIR$/phoneBook/js/contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/edit-contact.js" afterPath="$PROJECT_DIR$/phoneBook/js/edit-contact.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/keypad.js" afterPath="$PROJECT_DIR$/phoneBook/js/keypad.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phoneBook/js/user.js" afterPath="$PROJECT_DIR$/phoneBook/js/user.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,14 +56,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-weather/weather/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1494">
+            <state relative-caret-position="378">
               <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-weather/weather/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-user.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/phoneBook/webpack.config.js" />
         <option value="$PROJECT_DIR$/react_learn/.gitignore" />
         <option value="$PROJECT_DIR$/react_learn/.babelrc" />
         <option value="$PROJECT_DIR$/react_learn/index.html" />
@@ -144,6 +171,7 @@
         <option value="$PROJECT_DIR$/tools/JsonToCommands/index.html" />
         <option value="$PROJECT_DIR$/tools/JsonToCommands/main.js" />
         <option value="$PROJECT_DIR$/react-weather/weather/src/App.js" />
+        <option value="$PROJECT_DIR$/phoneBook/js/add-user.js" />
       </list>
     </option>
   </component>
@@ -197,64 +225,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JsonToCommands" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-weather" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weather" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="react-weather" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="weather" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,14 +373,7 @@
       <workItem from="1502622760551" duration="4271000" />
       <workItem from="1502650428374" duration="2572000" />
       <workItem from="1502736592680" duration="667000" />
-      <workItem from="1502737608685" duration="39000" />
-    </task>
-    <task id="LOCAL-00015" summary="-add">
-      <created>1499363222184</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1499363222184</updated>
+      <workItem from="1502737608685" duration="248000" />
     </task>
     <task id="LOCAL-00016" summary="-add">
       <created>1499363665688</created>
@@ -748,15 +711,22 @@
       <option name="project" value="LOCAL" />
       <updated>1502635262287</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="-add">
+      <created>1502737652794</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1502737652795</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122097000" />
+    <option name="totallyTimeSpent" value="122306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="98" width="1752" height="1036" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19181287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -805,13 +775,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react_learn/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_learn/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -850,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-weather/weather/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-weather/weather/src/city.list.json">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
@@ -880,11 +836,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-weather/weather/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1494">
+        <state relative-caret-position="378">
           <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-weather/weather/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="168" column="23" lean-forward="true" selection-start-line="168" selection-start-column="23" selection-end-line="168" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

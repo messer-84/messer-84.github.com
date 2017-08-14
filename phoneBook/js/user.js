@@ -4,7 +4,6 @@ class User {
   constructor(appState) {
     this.appHTML = document.querySelector('#app');
     this.appState = appState;
-
   }
 
   createTag(tag, parent, mClass) {
@@ -17,7 +16,6 @@ class User {
     parent.appendChild(myTag);
     return myTag;
   }
-
 
   header() {
     const header = this.createTag('header', this.appHTML, 'header');
@@ -75,18 +73,16 @@ class User {
         <div class="options-item"><a href="#">Block this caller</a></div>
       </div>
       </div>`;
-
   }
-  goToEditUser(){
+  goToEditUser() {
     var control = document.querySelector('#editContact');
     var href = control.getAttribute('href');
-    control.addEventListener('click', e =>{
+    control.addEventListener('click', e => {
       e.preventDefault();
 
       app.ui.editContact.render();
       history.pushState(href, href, href);
     });
-
   }
   main() {
     const mainHtml = this.createTag('main', this.appHTML);
