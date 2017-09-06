@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" afterPath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.html" afterPath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +38,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
@@ -212,7 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react_learn/.babelrc" />
         <option value="$PROJECT_DIR$/react_learn/index.html" />
         <option value="$PROJECT_DIR$/react_learn/package.json" />
         <option value="$PROJECT_DIR$/react_learn/src/index.js" />
@@ -223,6 +232,7 @@
         <option value="$PROJECT_DIR$/tools/JsonToCommands/main.js" />
         <option value="$PROJECT_DIR$/react-weather/weather/src/App.js" />
         <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" />
+        <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/index.html" />
       </list>
     </option>
   </component>
@@ -461,14 +471,7 @@
       <workItem from="1503663025980" duration="3376000" />
       <workItem from="1503866023560" duration="175000" />
       <workItem from="1504359999201" duration="591000" />
-      <workItem from="1504706535634" duration="409000" />
-    </task>
-    <task id="LOCAL-00022" summary="-add">
-      <created>1499364306923</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1499364306923</updated>
+      <workItem from="1504706535634" duration="478000" />
     </task>
     <task id="LOCAL-00023" summary="-add">
       <created>1499364581857</created>
@@ -806,11 +809,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504706555757</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="-add">
+      <created>1504706948499</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1504706948500</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130556000" />
+    <option name="totallyTimeSpent" value="130625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="536" y="106" width="1343" height="960" extended-state="0" />
@@ -863,13 +873,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-weather/weather/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-weather/weather/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -975,6 +978,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -983,10 +994,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
+    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="136">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
