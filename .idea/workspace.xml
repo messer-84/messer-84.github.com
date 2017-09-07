@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/borderRadiusGenerator/style.css" afterPath="$PROJECT_DIR$/tools/borderRadiusGenerator/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" afterPath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,145 +18,32 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="112">
+              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="627">
+              <caret line="39" column="60" lean-forward="true" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-user.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-              <folding>
-                <element signature="n#!!block;n#createTag#0;n#AddUser#0" expanded="false" />
-                <marker date="1502737771000" expanded="true" signature="619:775" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="646:769" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="937:1165" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="976:1150" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="1205:2006" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="1239:1476" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="1510:1735" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="1769:1991" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="2164:3990" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="2188:2435" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="2459:2691" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="2725:2966" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="3003:3260" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="3297:3548" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="3585:3822" ph="..." />
-                <marker date="1502737771000" expanded="true" signature="3861:3971" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1502737813000" expanded="true" signature="1116:1294" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api-service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoneBook/js/api-service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit-contact.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoneBook/js/edit-contact.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1502737816000" expanded="true" signature="658:781" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="1039:1146" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="1189:2088" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="1226:1494" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="1532:1783" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="1821:2069" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="2339:4327" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="2363:2632" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="2656:2927" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="2965:3218" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="3259:3524" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="3565:3839" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="3880:4140" ph="..." />
-                <marker date="1502737816000" expanded="true" signature="4183:4304" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-                <marker date="1502737809000" expanded="true" signature="960:1568" ph="..." />
-                <marker date="1502737809000" expanded="true" signature="993:1553" ph="..." />
-                <marker date="1502737809000" expanded="true" signature="1042:1180" ph="..." />
-                <marker date="1502737809000" expanded="true" signature="1223:1355" ph="..." />
-                <marker date="1502737809000" expanded="true" signature="1400:1536" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -240,9 +127,9 @@
         <option value="$PROJECT_DIR$/tools/JsonToCommands/index.html" />
         <option value="$PROJECT_DIR$/tools/JsonToCommands/main.js" />
         <option value="$PROJECT_DIR$/react-weather/weather/src/App.js" />
-        <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" />
         <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/index.html" />
         <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/style.css" />
+        <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" />
       </list>
     </option>
   </component>
@@ -266,10 +153,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="536" />
-    <option name="y" value="106" />
-    <option name="width" value="1343" />
-    <option name="height" value="960" />
+    <option name="x" value="283" />
+    <option name="y" value="23" />
+    <option name="width" value="1752" />
+    <option name="height" value="1099" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -286,6 +173,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,7 +221,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -481,14 +368,8 @@
       <workItem from="1503663025980" duration="3376000" />
       <workItem from="1503866023560" duration="175000" />
       <workItem from="1504359999201" duration="591000" />
-      <workItem from="1504706535634" duration="627000" />
-    </task>
-    <task id="LOCAL-00025" summary="-add">
-      <created>1499890208301</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1499890208301</updated>
+      <workItem from="1504706535634" duration="1207000" />
+      <workItem from="1504793235065" duration="5448000" />
     </task>
     <task id="LOCAL-00026" summary="-add">
       <created>1499891093978</created>
@@ -826,35 +707,42 @@
       <option name="project" value="LOCAL" />
       <updated>1504707061797</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="-add">
+      <created>1504707167329</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1504707167329</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130774000" />
+    <option name="totallyTimeSpent" value="136802000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="536" y="106" width="1343" height="960" extended-state="0" />
-    <editor active="false" />
+    <frame x="283" y="23" width="1752" height="1099" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24365872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1877193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09924488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.072375126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1819172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17973857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19476081" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -883,14 +771,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-weather/weather/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1602">
@@ -903,34 +783,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
             <marker date="1502737813000" expanded="true" signature="1116:1294" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!block;n#createTag#0;n#AddUser#0" expanded="false" />
-            <marker date="1502737771000" expanded="true" signature="619:775" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="646:769" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="937:1165" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="976:1150" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1205:2006" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1239:1476" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1510:1735" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1769:1991" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2164:3990" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2188:2435" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2459:2691" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2725:2966" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3003:3260" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3297:3548" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3585:3822" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3861:3971" ph="..." />
           </folding>
         </state>
       </provider>
@@ -963,7 +817,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
             <marker date="1502737809000" expanded="true" signature="960:1568" ph="..." />
             <marker date="1502737809000" expanded="true" signature="993:1553" ph="..." />
             <marker date="1502737809000" expanded="true" signature="1042:1180" ph="..." />
@@ -981,14 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -997,18 +843,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.html">
+    <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="801">
+          <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!block;n#createTag#0;n#AddUser#0" expanded="false" />
+            <marker date="1502737771000" expanded="true" signature="619:775" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="646:769" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="937:1165" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="976:1150" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="1205:2006" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="1239:1476" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="1510:1735" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="1769:1991" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="2164:3990" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="2188:2435" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="2459:2691" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="2725:2966" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="3003:3260" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="3297:3548" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="3585:3822" ph="..." />
+            <marker date="1502737771000" expanded="true" signature="3861:3971" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="112">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="39" column="60" lean-forward="true" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
           <folding />
         </state>
       </provider>

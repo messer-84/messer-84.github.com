@@ -2,16 +2,15 @@
   const divBlock = document.querySelector('.block');
   const inputRangeArray = document.querySelectorAll('.inpRange');
 
-  function transferDataToVisualBlock(inputValue, inputId) {
+  function setDataForVisualBlock() {
     const cornersArray = document.querySelectorAll('.corner');
-
-    [...cornersArray].forEach(corner => {
-      if (corner.getAttribute('data-corner') === inputId) {
-        corner.textContent = inputValue + 'px';
+    [...inputRangeArray].forEach((inputRange, index) => {
+      if (cornersArray[index].getAttribute('data-corner') === inputRange.id) {
+        cornersArray[index].textContent = inputRange.value + 'px';
       }
     });
   }
-  function transferDataToCopy() {
+  function setDataForCopy() {
     const copyTextElement = document.querySelector('.dataValue');
     let copyText = '';
 
@@ -21,37 +20,26 @@
     copyTextElement.textContent = copyText.slice(0, -1) + ';';
   }
 
-  (function transferRangeToTextValue() {
-    [...inputRangeArray].forEach(inputRange => {
-      inputRange.addEventListener('input', e => {
-        const thisInput = e.target;
-        const parentRow = thisInput.parentNode.parentNode;
-        const inputText = parentRow.querySelector('.inpText');
-        const thisInputValue = e.target.value;
-        inputText.value = thisInputValue;
-        divBlock.style[inputRange.id] = thisInputValue + 'px';
-        transferDataToVisualBlock(thisInputValue, inputRange.id);
-        transferDataToCopy();
-      });
-    });
-  })();
-  (function transferTextToRangeValue() {
-    const maxValue = 150;
-    const inpTextArray = document.querySelectorAll('.inpText');
+  document.addEventListener('input', e => {
+    const thisInput = e.target;
+    const parentRow = thisInput.parentNode.parentNode;
+    const inpRangeRow = parentRow.querySelector('.inpRange');
+    const isInpText = thisInput.classList.contains('inpText');
+    const isInpRange = thisInput.classList.contains('inpRange');
 
-    [...inpTextArray].forEach(inputText => {
-      inputText.addEventListener('input', e => {
-        const thisInput = e.target;
-        const parentRow = thisInput.parentNode.parentNode;
-        const inputRange = parentRow.querySelector('.inpRange');
+    if (isInpText) {
+      const maxValue = 150;
+      thisInput.value = thisInput.value.replace(/\D/, '');
+      thisInput.value = thisInput.value > maxValue ? 10 : thisInput.value;
+      inpRangeRow.value = thisInput.value === '' ? 0 : thisInput.value;
+    } else if (isInpRange) {
+      const inputText = parentRow.querySelector('.inpText');
+      inputText.value = thisInput.value;
+    }
+    //set style visual block
+    divBlock.style[inpRangeRow.id] = thisInput.value + 'px';
 
-        thisInput.value = thisInput.value.replace(/\D/, '');
-        thisInput.value = thisInput.value > maxValue ? 10 : thisInput.value;
-        inputRange.value = thisInput.value === '' ? 0 : thisInput.value;
-
-        divBlock.style[inputRange.id] = thisInput.value + 'px';
-        transferDataToVisualBlock(thisInput.value, inputRange.id);
-      });
-    });
-  })();
+    setDataForVisualBlock();
+    setDataForCopy();
+  });
 })();
