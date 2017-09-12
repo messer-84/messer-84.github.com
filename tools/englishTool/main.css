@@ -1,0 +1,21 @@
+*{
+	font-family: Arial, sans-serif;
+}
+.word {
+	display: inline-block;
+	border: 1px solid #444;
+	padding: 10px;
+	margin: 10px;
+
+}
+.inpWord{
+	display: inline-block;
+}
+.inpCopy{
+	font-size: 16px;
+}
+
+.del {
+	border: 1px solid red;
+cursor: pointer;
+}

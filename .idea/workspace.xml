@@ -2,8 +2,81 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/amen-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/amen-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/amen-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/contact-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/create-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/create.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/neigh-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/neigh-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/plan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/press-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/press-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/press-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/press-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/press-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/ramsa-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/ramsa-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/ramsa-bottom.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/ramsa-full-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/ramsa-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/residences-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/residences-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/residences-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/slider-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/slider-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/slider-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/slider-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/team-full.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/team-logo-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/team-logo-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/team-logo-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/team-logo-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/team-logo-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/content/team-logo-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/index.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/nav-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/privacy-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/slider/slide-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/slider/slide-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/i/slider/slide-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/amenities.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/avail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/contact.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextBold.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextDemi.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextDemi.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextLight.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextLight.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextLightItalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/fonts/Neutraface2TextLightItalic.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/font-loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/jquery-1.11.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/mainMap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/mapCodePen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/js/svg4everybody.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/neighborhood.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/press.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/ramsa.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/residences.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/styles/main_global.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love_joy/team.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/bdt_mocha/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/bdt_mocha/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/borderRadiusGenerator/timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/englishTool/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/englishTool/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tools/englishTool/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" afterPath="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,31 +92,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.html">
+        <entry file="file://$PROJECT_DIR$/tools/bdt_mocha/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="578">
+              <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/style.css">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tools/bdt_mocha/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="39" column="60" lean-forward="true" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding>
+                <element signature="e#104#310#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Café (SPACING DONE) – Sunnylands_files</find>
       <find>touchDevice</find>
       <find>tm-main</find>
       <find>touchDe</find>
@@ -81,7 +145,6 @@
       <find>scrollHo</find>
       <find>console.log</find>
       <find>cons</find>
-      <find>console</find>
       <find>backsp</find>
       <find>this.url</find>
       <find>this.set</find>
@@ -89,6 +152,8 @@
       <find>app</find>
       <find>active</find>
       <find>api</find>
+      <find>class</find>
+      <find>console</find>
     </findStrings>
     <replaceStrings>
       <replace>cafe</replace>
@@ -119,17 +184,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react_learn/package.json" />
-        <option value="$PROJECT_DIR$/react_learn/src/index.js" />
-        <option value="$PROJECT_DIR$/react-weather/weather/src/WeatherDisplay.js" />
-        <option value="$PROJECT_DIR$/tools/JsonToCommands/main.css" />
-        <option value="$PROJECT_DIR$/phoneBook/js/add-user.js" />
-        <option value="$PROJECT_DIR$/tools/JsonToCommands/index.html" />
-        <option value="$PROJECT_DIR$/tools/JsonToCommands/main.js" />
         <option value="$PROJECT_DIR$/react-weather/weather/src/App.js" />
         <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/index.html" />
         <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/style.css" />
         <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/index.js" />
+        <option value="$PROJECT_DIR$/tools/borderRadiusGenerator/timer.js" />
+        <option value="$PROJECT_DIR$/tools/englishTool/main.css" />
+        <option value="$PROJECT_DIR$/tools/englishTool/index.js" />
+        <option value="$PROJECT_DIR$/tools/englishTool/index.html" />
+        <option value="$PROJECT_DIR$/tools/bdt_jasmine/package.json" />
+        <option value="$PROJECT_DIR$/tools/bdt_mocha/index.html" />
+        <option value="$PROJECT_DIR$/tools/bdt_mocha/test.js" />
       </list>
     </option>
   </component>
@@ -153,10 +218,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="283" />
-    <option name="y" value="23" />
-    <option name="width" value="1752" />
-    <option name="height" value="1099" />
+    <option name="x" value="271" />
+    <option name="y" value="215" />
+    <option name="width" value="1582" />
+    <option name="height" value="845" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -173,7 +238,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,31 +261,13 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="borderRadiusGenerator" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
+              <option name="myItemId" value="love_joy" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,14 +416,10 @@
       <workItem from="1503866023560" duration="175000" />
       <workItem from="1504359999201" duration="591000" />
       <workItem from="1504706535634" duration="1207000" />
-      <workItem from="1504793235065" duration="5448000" />
-    </task>
-    <task id="LOCAL-00026" summary="-add">
-      <created>1499891093978</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1499891093978</updated>
+      <workItem from="1504793235065" duration="6579000" />
+      <workItem from="1504980582364" duration="4172000" />
+      <workItem from="1505033482345" duration="1241000" />
+      <workItem from="1505215495887" duration="21000" />
     </task>
     <task id="LOCAL-00027" summary="-add">
       <created>1499892536789</created>
@@ -714,35 +757,42 @@
       <option name="project" value="LOCAL" />
       <updated>1504707167329</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="-add">
+      <created>1504802165942</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1504802165942</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136802000" />
+    <option name="totallyTimeSpent" value="143367000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="283" y="23" width="1752" height="1099" extended-state="0" />
-    <editor active="true" />
+    <frame x="271" y="215" width="1582" height="845" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1877193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26948053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09924488" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.072375126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1819172" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0875" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19476081" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -765,123 +815,36 @@
           <line>2</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tools/bdt_mocha/test.js</url>
+          <line>1</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-weather/weather/src/App.js">
+    <entry file="file://$PROJECT_DIR$/tools/bdt_jasmine/node_modules/wrappy/wrappy.js" />
+    <entry file="file://$PROJECT_DIR$/tools/englishTool/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="94" column="56" lean-forward="false" selection-start-line="94" selection-start-column="56" selection-end-line="94" selection-end-column="56" />
+        <state relative-caret-position="374">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/contact.js">
+    <entry file="file://$PROJECT_DIR$/tools/englishTool/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-            <marker date="1502737813000" expanded="true" signature="1116:1294" ph="..." />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/edit-contact.js">
+    <entry file="file://$PROJECT_DIR$/tools/englishTool/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1502737816000" expanded="true" signature="658:781" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="1039:1146" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="1189:2088" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="1226:1494" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="1532:1783" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="1821:2069" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="2339:4327" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="2363:2632" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="2656:2927" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="2965:3218" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="3259:3524" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="3565:3839" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="3880:4140" ph="..." />
-            <marker date="1502737816000" expanded="true" signature="4183:4304" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-            <marker date="1502737809000" expanded="true" signature="960:1568" ph="..." />
-            <marker date="1502737809000" expanded="true" signature="993:1553" ph="..." />
-            <marker date="1502737809000" expanded="true" signature="1042:1180" ph="..." />
-            <marker date="1502737809000" expanded="true" signature="1223:1355" ph="..." />
-            <marker date="1502737809000" expanded="true" signature="1400:1536" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/api-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phoneBook/js/add-user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="801">
-          <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!block;n#createTag#0;n#AddUser#0" expanded="false" />
-            <marker date="1502737771000" expanded="true" signature="619:775" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="646:769" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="937:1165" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="976:1150" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1205:2006" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1239:1476" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1510:1735" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="1769:1991" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2164:3990" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2188:2435" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2459:2691" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="2725:2966" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3003:3260" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3297:3548" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3585:3822" ph="..." />
-            <marker date="1502737771000" expanded="true" signature="3861:3971" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="197">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -889,15 +852,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/bdt_jasmine/node_modules/once/once.js" />
+    <entry file="file://$PROJECT_DIR$/tools/bdt_jasmine/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/tools/bdt_jasmine/spec/support/jasmine.json" />
+    <entry file="file://$PROJECT_DIR$/tools/bdt_jasmine/package.json" />
+    <entry file="file://$PROJECT_DIR$/tools/bdt_mocha/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tools/borderRadiusGenerator/index.js">
+    <entry file="file://$PROJECT_DIR$/tools/bdt_mocha/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="39" column="60" lean-forward="true" selection-start-line="39" selection-start-column="60" selection-end-line="39" selection-end-column="60" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="24" column="3" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding>
+            <element signature="e#104#310#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
