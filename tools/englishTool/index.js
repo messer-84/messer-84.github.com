@@ -39,8 +39,6 @@
 
   function select() {
     document.addEventListener('click', e => {
-      console.log(e.target.classList.contains('inpCopy'));
-
       if (e.target.classList.contains('inpCopy')) {
         e.target.select();
       }
