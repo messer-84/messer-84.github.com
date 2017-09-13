@@ -1,0 +1,15 @@
+#accordion{
+    width: 600px;
+    margin: 0 auto;
+}
+.accordion-cont{
+    display: none;
+}
+.accordion-title{
+    height: 60px;
+    line-height: 60px;
+    background: #cccccc;
+}
+.accordion-title.active + .accordion-cont{
+    display: block;
+}
