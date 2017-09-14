@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -25,7 +24,7 @@ class App extends Component {
   cardData = {
     number: 5460979700001111,
     cvv: 911,
-    date: '01-09-2017',
+    date: '14-09-2017',
   };
 
   createMessageErrors(errors) {
@@ -117,7 +116,7 @@ class App extends Component {
                   ref="number"
                   name="number"
                   defaultValue={5460979700001111}
-                  onChange={this.checkFields.bind(this)}
+                  onChange={this.checkFields}
                 />
               </li>
               <li className="itemWrap">
@@ -133,7 +132,7 @@ class App extends Component {
                     ref="cvv"
                     name="cvv"
                     defaultValue={911}
-                    onChange={this.checkFields.bind(this)}
+                    onChange={this.checkFields}
                   />
                 </div>
               </li>
