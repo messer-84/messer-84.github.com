@@ -4,14 +4,14 @@ import './App.css';
 class App extends Component {
   state = {
     card: {
+      number: '5460979700001111',
+      cvv: '911',
+      date: '2017-09-14',
+    },
+    formErrors: {
       number: '',
       cvv: '',
       date: '',
-    },
-    formErrors: {
-      numberError: '',
-      cvvError: '',
-      dateError: '',
     },
     numberValid: false,
     cvvValid: false,
@@ -20,12 +20,13 @@ class App extends Component {
     messageValid: '',
     cssClassValid: '',
   };
+  // card for check
   cardData = {
     testNumber: 5460979700001111,
     testCVV: 911,
-    testDate: '14-09-2017',
+    testDate: '2017-09-14',
   };
-
+  //creating string messages with list errors or 'good' for show on site
   createMessageErrors(errors) {
     let message = '';
     for (let error in errors) {
@@ -35,86 +36,65 @@ class App extends Component {
     }
     return (message = message ? message : 'Good, thanks!');
   }
-  createCSSClass(formValid) {
-    return formValid ? 'good' : 'bad';
-  }
-  checkFields(e) {
-    let count;
-    if (e.target.name === 'cvv') {
-      count = 3;
-    }
-    if (e.target.name === 'number') {
-      count = 16;
-    }
-    e.target.value = e.target.value.slice(0, count);
-    e.target.value = e.target.value.replace(/\D/g, '');
-  }
 
-  validate = e => {
+  // creating css class for messages GOOD or Error
+  createCSSClassForTitle = formValid => formValid ? 'good' : 'bad';
+
+  checkFields = e => {
+    const fieldName = e.target.name;
+    let sizeLimit, newValue;
+    if (fieldName !== 'date') {
+      if (fieldName === 'cvv') {
+        sizeLimit = 3;
+      }
+      if (fieldName === 'number') {
+        sizeLimit = 16;
+      }
+      newValue = e.target.value.slice(0, sizeLimit);
+      newValue = newValue.replace(/\D/g, '');
+    } else {
+      newValue = e.target.value;
+    }
+
+    this.setState({
+      card: {
+        [fieldName]: newValue || '',
+      },
+    });
+  };
+
+  validateForm = e => {
     e.preventDefault();
     const formElements = this.refs;
-    let newState = {
-      card: {
-        number: '',
-        cvv: '',
-        date: '',
-      },
-      formErrors: {
-        numberError: '',
-        cvvError: '',
-        dateError: '',
-      },
-      cvvValid: '',
-      dateValid: 'f',
-      formValid: '',
-      messageValid: '',
-      cssClassValid: '',
-    };
-
-    let {
-      card: { number, cvv, date },
-      formErrors: { numberError, cvvError, dateError },
-      numberValid,
-      cvvValid,
-      dateValid,
-      formValid,
-      messageValid,
-      cssClassValid,
-    } = newState;
+    let newState = {};
+    newState.formErrors = {};
+    newState.card = {};
     const { testNumber, testCVV, testDate } = this.cardData;
-    const convertData = formElements.date.value.split('-').reverse().join('-');
 
     for (const field in formElements) {
       let fieldValue = formElements[field].value;
       if (field === 'number') {
-        numberValid = parseInt(fieldValue) === testNumber;
-        numberError = numberValid ? '' : ' is invalid ';
-        console.log(numberValid, numberError);
-
+        newState.numberValid = parseInt(fieldValue) === testNumber;
+        newState.formErrors.number = newState.numberValid ? '' : ' is invalid ';
       }
       if (field === 'cvv') {
-        cvvValid = parseInt(fieldValue) === testCVV;
-        cvvError = cvvValid ? '' : ' is invalid ';
+        newState.cvvValid = parseInt(fieldValue) === testCVV;
+        newState.formErrors.cvv = newState.cvvValid ? '' : ' is invalid ';
       }
       if (field === 'date') {
-        dateValid = convertData === testDate;
-        dateError = dateValid ? '' : ' is invalid ';
+        newState.dateValid = fieldValue === testDate;
+        newState.formErrors.date = newState.dateValid ? '' : ' is invalid ';
       }
     }
-    formValid = numberValid && cvvValid && dateValid;
-    number = parseInt(formElements.number.value);
-    cvv = parseInt(formElements.cvv.value);
-    date = convertData;
-    messageValid = this.createMessageErrors(dateError);
-    cssClassValid = this.createCSSClass(formValid);
+    newState.formValid =
+      newState.numberValid && newState.cvvValid && newState.dateValid;
+    newState.card.number = parseInt(formElements.number.value) || '';
+    newState.card.cvv = parseInt(formElements.cvv.value) || '';
+    newState.card.date = formElements.date.value;
+    newState.messageValid = this.createMessageErrors(newState.formErrors);
+    newState.cssClassValid = this.createCSSClassForTitle(newState.formValid);
+
     this.setState(newState);
-    console.log(newState);
-
-    // console.log(this.setState(newState));
-
-    // console.log('state', this.state);
-    // console.log('new', formValid);
-    // console.log(this.createCSSClass(formValid));
   };
   render() {
     return (
@@ -124,7 +104,7 @@ class App extends Component {
           <div id="msg" className={`title ${this.state.cssClassValid}`}>
             {this.state.messageValid}
           </div>
-          <form action="/" onSubmit={this.validate}>
+          <form action="/" onSubmit={this.validateForm}>
             <ul className="list">
               <li className="item">
                 <label htmlFor="number">Card number</label>
@@ -133,14 +113,21 @@ class App extends Component {
                   id="number"
                   ref="number"
                   name="number"
-                  defaultValue={5460979700001111}
                   onChange={this.checkFields}
+                  value={this.state.card.number}
                 />
               </li>
               <li className="itemWrap">
                 <div className="item">
                   <label htmlFor="date">Date</label>
-                  <input type="date" id="date" ref="date" name="date" />
+                  <input
+                    type="date"
+                    id="date"
+                    ref="date"
+                    name="date"
+                    value={this.state.card.date}
+                    onChange={this.checkFields}
+                  />
                 </div>
                 <div className="item">
                   <label htmlFor="cvv">CVV</label>
@@ -149,12 +136,11 @@ class App extends Component {
                     id="cvv"
                     ref="cvv"
                     name="cvv"
-                    defaultValue={911}
                     onChange={this.checkFields}
+                    value={this.state.card.cvv}
                   />
                 </div>
               </li>
-
               <li>
                 <button className="btn">Submit</button>
               </li>

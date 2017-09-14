@@ -66,7 +66,7 @@ for(
 // get the cached <use> index
 var c=0;c<l.length;){
 // get the current <use>
-var g=l[c],h=g.parentNode;if(h&&/svg/i.test(h.nodeName)){var i=g.getAttribute("xlink:href");if(e&&(!f.validate||f.validate(i,h,g))){
+var g=l[c],h=g.parentNode;if(h&&/svg/i.test(h.nodeName)){var i=g.getAttribute("xlink:href");if(e&&(!f.validateForm||f.validateForm(i,h,g))){
 // remove the <use> element
 h.removeChild(g);
 // parse the src and get the url and id
