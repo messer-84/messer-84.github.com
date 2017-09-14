@@ -8,11 +8,10 @@ class App extends Component {
       cvv: '',
       date: '',
     },
-
     formErrors: {
-      number: '',
-      cvv: '',
-      date: '',
+      numberError: '',
+      cvvError: '',
+      dateError: '',
     },
     numberValid: false,
     cvvValid: false,
@@ -22,9 +21,9 @@ class App extends Component {
     cssClassValid: '',
   };
   cardData = {
-    number: 5460979700001111,
-    cvv: 911,
-    date: '14-09-2017',
+    testNumber: 5460979700001111,
+    testCVV: 911,
+    testDate: '14-09-2017',
   };
 
   createMessageErrors(errors) {
@@ -54,49 +53,68 @@ class App extends Component {
   validate = e => {
     e.preventDefault();
     const formElements = this.refs;
+    let newState = {
+      card: {
+        number: '',
+        cvv: '',
+        date: '',
+      },
+      formErrors: {
+        numberError: '',
+        cvvError: '',
+        dateError: '',
+      },
+      cvvValid: '',
+      dateValid: 'f',
+      formValid: '',
+      messageValid: '',
+      cssClassValid: '',
+    };
+
     let {
+      card: { number, cvv, date },
+      formErrors: { numberError, cvvError, dateError },
       numberValid,
       cvvValid,
       dateValid,
-      formErrors,
       formValid,
-    } = this.state;
-    const { number, cvv, date } = this.cardData;
+      messageValid,
+      cssClassValid,
+    } = newState;
+    const { testNumber, testCVV, testDate } = this.cardData;
     const convertData = formElements.date.value.split('-').reverse().join('-');
 
     for (const field in formElements) {
       let fieldValue = formElements[field].value;
       if (field === 'number') {
-        numberValid = parseInt(fieldValue) === number;
-        formErrors.number = numberValid ? '' : ' is invalid ';
+        numberValid = parseInt(fieldValue) === testNumber;
+        numberError = numberValid ? '' : ' is invalid ';
+        console.log(numberValid, numberError);
+
       }
       if (field === 'cvv') {
-        cvvValid = parseInt(fieldValue) === cvv;
-        formErrors.cvv = cvvValid ? '' : ' is invalid ';
+        cvvValid = parseInt(fieldValue) === testCVV;
+        cvvError = cvvValid ? '' : ' is invalid ';
       }
       if (field === 'date') {
-        const convertData = fieldValue.split('-').reverse().join('-');
-        dateValid = convertData === date;
-        formErrors.date = dateValid ? '' : ' is invalid ';
+        dateValid = convertData === testDate;
+        dateError = dateValid ? '' : ' is invalid ';
       }
     }
     formValid = numberValid && cvvValid && dateValid;
+    number = parseInt(formElements.number.value);
+    cvv = parseInt(formElements.cvv.value);
+    date = convertData;
+    messageValid = this.createMessageErrors(dateError);
+    cssClassValid = this.createCSSClass(formValid);
+    this.setState(newState);
+    console.log(newState);
 
-    this.setState({
-      card: {
-        number: parseInt(formElements.number.value),
-        cvv: parseInt(formElements.cvv.value),
-        date: convertData,
-      },
-      formErrors,
-      numberValid,
-      cvvValid,
-      dateValid,
-      formValid,
-      messageValid: this.createMessageErrors(formErrors),
-      cssClassValid: this.createCSSClass(formValid),
-    });
-    console.log(this.state);
+    // console.log(this.setState(newState));
+
+    // console.log('state', this.state);
+    // console.log('new', formValid);
+    // console.log(this.createCSSClass(formValid));
   };
   render() {
     return (
