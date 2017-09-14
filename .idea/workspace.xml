@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/react-apps/validatecard/src/App2.js" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/public/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/App.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/App.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/registerServiceWorker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/yarn.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -417,14 +429,7 @@
       <workItem from="1505033482345" duration="1241000" />
       <workItem from="1505215495887" duration="766000" />
       <workItem from="1505285384468" duration="19992000" />
-      <workItem from="1505379137526" duration="11814000" />
-    </task>
-    <task id="LOCAL-00040" summary="-add">
-      <created>1501665922198</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1501665922198</updated>
+      <workItem from="1505379137526" duration="11887000" />
     </task>
     <task id="LOCAL-00041" summary="-add">
       <created>1501666414446</created>
@@ -762,18 +767,25 @@
       <option name="project" value="LOCAL" />
       <updated>1505393810561</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="-add">
+      <created>1505395524127</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1505395524127</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175918000" />
+    <option name="totallyTimeSpent" value="175991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="53" width="1494" height="1055" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14393939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14393939" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
