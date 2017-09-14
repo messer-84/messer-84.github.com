@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/public/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/public/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/App.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/App.test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/logo.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/src/registerServiceWorker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-apps/validatecard/yarn.lock" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react-apps/validatecard/src/App.test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/react-apps/validatecard/src/logo.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,7 +32,7 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-apps/validatecard/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
+            <state relative-caret-position="714">
               <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
@@ -429,14 +418,7 @@
       <workItem from="1505033482345" duration="1241000" />
       <workItem from="1505215495887" duration="766000" />
       <workItem from="1505285384468" duration="19992000" />
-      <workItem from="1505379137526" duration="11887000" />
-    </task>
-    <task id="LOCAL-00041" summary="-add">
-      <created>1501666414446</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1501666414447</updated>
+      <workItem from="1505379137526" duration="11915000" />
     </task>
     <task id="LOCAL-00042" summary="-add">
       <created>1501671288414</created>
@@ -774,11 +756,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505395524127</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="-add">
+      <created>1505395598743</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1505395598743</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175991000" />
+    <option name="totallyTimeSpent" value="176019000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="182" y="53" width="1494" height="1055" extended-state="0" />
@@ -936,7 +925,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-apps/validatecard/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
+        <state relative-caret-position="714">
           <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
