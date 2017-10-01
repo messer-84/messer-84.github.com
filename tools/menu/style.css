@@ -1,0 +1,18 @@
+.menu_item{
+	position: relative;
+	border:2px solid #666;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.sub_menu{
+	position: absolute;
+	height: 40px;
+	width: 120px;
+	background: green;
+	cursor: pointer;
+	display: none;
+}
+.sub_menu.open{
+	display: block;
+}
