@@ -1,0 +1,50 @@
+.nav{
+	height: 100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #222;
+	color: #fff;
+
+}
+.nav-hold{
+	display: flex;
+	justify-content: flex-end;
+	width: 1000px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+.search-drop{
+	position: absolute;
+	width: 300px;
+	display: none;
+	color: #fff;
+	background: #000;
+}
+.search-block.open .search-drop{
+	display: block;
+}
+.search-block.over .search-drop{
+	background: darkblue;
+}
+.cart-drop{
+	position: absolute;
+	width: 300px;
+	display: none;
+	color: #fff;
+	background: blue;
+}
+.cart-block.open .cart-drop{
+	display: block;
+}
+.cart-block.over .cart-drop{
+	background: red;
+}
+.search-control,
+.cart-control{
+	margin:40px 30px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
