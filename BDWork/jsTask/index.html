@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css" />
+</head>
+<body>
+<form id="calcPrice">
+    <div class="row">
+        <div class="large-12 columns">
+            <h1 class="text-center subheader">Регистрация на всемирную выставку новых сортов бананов</h1>
+        </div>
+    </div>
+    <fieldset class="row">
+        <legend>Дата</legend>
+        <div class="large-4 columns">
+            <label>Дата
+                <select id="inputDate">
+                   
+                  
+                  
+                 
+                </select>
+            </label>
+        </div>
+        <div class="large-4 columns">
+            <label>Месяц
+                <select id="inputMonth">
+                </select>
+            </label>
+        </div>
+        <div class="large-4 columns">
+            <label>Год
+                <select id="inputYear">
+                </select>
+            </label>
+        </div>
+    </fieldset>
+    <fieldset class="row">
+        <legend>Сколько вы хотите зарегистрировать обезьян?</legend>
+        <div class="large-12 columns">
+            <label></label>
+            <input type="radio" checked name="typeOrder" value="personOrder" id="typePerson">
+            <label for="typePerson">До 10 обезьян (Индивидуальная)</label>
+            <input type="radio" name="typeOrder" value="groupOrder" id="typeGroup">
+            <label for="typeGroup">От 10 обезьян (Групповая)</label>
+        </div>
+        <div class="large-12 columns">
+            <table id="showCurrentPrice">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th>Будни</th>
+                    <th>Выходные</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="person_row">
+                    <td>Индивидуальная</td>
+                    <!--класс .current_ используйте для подчеркивания текущей цены-->
+                    <td class="current_ weekday_"></td>
+                    <td class="weekend_"></td>
+                </tr>
+                <tr class="group_row">
+                    <td>Групповая</td>
+                    <td class="weekday_"></td>
+                    <td class="weekend_"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </fieldset>
+    <fieldset class="row">
+        <legend>
+            Количество и цена
+        </legend>
+        <div class="large-4 columns">
+            <div class="row collapse">
+                <div class="small-2 columns">
+                    <button type="button" class="button prefix">-</button>
+                </div>
+                <div class="small-8 columns">
+                    <input type="number" name="" value="1" min="1" max="999" id="inputCounter"/>
+                </div>
+                <div class="small-2 columns">
+                    <button type="button" class="button postfix">+</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="large-12 columns">
+            <output class="panel callout radius left" id="outputTotalPrice">0 грн.</output>
+            <input name="totalPrice" id="totalPrice" type="hidden"/>
+            <button type="submit" class="right">Отправить</button>
+        </div>
+
+    </fieldset>
+</form>
+<p class="dayResult"></p>
+<p class="dayResult_"></p>
+<p class="dayResult1"></p>
+<p class="dayResult2"></p>
+<script src="main.js"></script>
+</body>
+</html>
