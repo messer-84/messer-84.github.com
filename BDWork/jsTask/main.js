@@ -1,9 +1,3 @@
-//смена даты - может менять totalPrice
-//смена месяца - может менять totalPrice
-//если count > 9 - делать typeOrder - group и менять цену и totalPrice
-//если count < 9 - делать typeOrder - group и менять цену и totalPrice
-
-//
 (function () {
 	const prices = {
 		personWeekday: 50,
@@ -11,14 +5,12 @@
 		groupWeekday: 40,
 		groupWeekend: 45
 	};
-
 	const pricesHtml = {
 		personWeekday: document.querySelector(".person_row .weekday_"),
 		personWeekend: document.querySelector(".person_row .weekend_"),
 		groupWeekday: document.querySelector(".group_row .weekday_"),
 		groupWeekend: document.querySelector(".group_row .weekend_")
 	};
-
 	const exchange = "грн.";
 	let totalPriceHtml = document.querySelector("#outputTotalPrice");
 	let countHtml = document.querySelector("#inputCounter");
@@ -26,10 +18,8 @@
 	const plusBtn = document.querySelector(".postfix");
 	const typePersonHtml = document.querySelector("#typePerson");
 	const typeGroupHtml = document.querySelector("#typeGroup");
-
-
-	const nowDate = new Date();
-	const nowYear = nowDate.getFullYear();
+	const resultsBlock = document.querySelector('.results');
+	const nowYear = new Date().getFullYear();
 	const monthsArray = [
 		"Январь",
 		"Февраль",
@@ -49,102 +39,65 @@
 	const daysHtml = document.querySelector('#inputDate');
 	const radioArray = document.getElementsByName("typeOrder");
 	let actualPrice;
-	let typeOrder = 'person';
-	let typeDay = '';
+	let typeOrder = '';
+	let typeDay='';
 	let actualCount = 1;
 
-	yearHtml.innerHTML = `<option value='${nowYear}'>${nowYear}</option>`;
-
-
-	(function createPrices() {
+	function createPrices() {
 		for (let key in pricesHtml) {
 			pricesHtml[key].textContent = prices[key];
 		}
-
-	})();
-	(function createMonths() {
+	}
+	function createMonths() {
 		let monthsStr = "";
 		monthsArray.forEach((item, index) => {
 			monthsStr += `<option value='${index}'>${item}</option>`;
 		});
-
-		// monthsHtml.insertAdjacentHTML('beforeEnd', monthsStr);
 		monthsHtml.innerHTML = monthsStr;
-	})();
-
+	}
 	function createDays(month) {
-		let newCountDays = new Date(2017, +month + 1, 0).getDate();
-
+		let newCountDays = new Date(nowYear, +month + 1, 0).getDate();
 		let daysStr = "";
+
 		for (let i = 1; i < newCountDays + 1; i++) {
 			daysStr += `<option value='${i}'>${i}</option>`;
 		}
 		daysHtml.innerHTML = daysStr;
 	}
+	function setTypeDay(month, day) {
+		let dayIndex = new Date(nowYear, +month, +day).getDay();
+		if (dayIndex === 0 || dayIndex === 6) {
+			typeDay = 'weekend';
+		}
+		else {
+			typeDay = 'weekday';
+		}
 
-	createDays(monthsHtml.value);
-
-
-	monthsHtml.addEventListener("change", e => {
-		createDays(monthsHtml.value);
-	});
-
-	daysHtml.addEventListener("change", e => {
-		checkDay(monthsHtml.value, daysHtml.value);
-		getActualPrice();
-		setTotalPrice();
-	});
-
-
-	function checkDay(month, day) {
-		let newDate = new Date(2017, +month, +day);
-		typeDay = newDate.getDay() < 5 ? 'weekday' : 'weekend';
 	}
-
-	checkDay(monthsHtml.value, daysHtml.value);
-
-
-	function checkTypeOrder() {
+	function setTypeOrder() {
 		[...radioArray].forEach((item, index) => {
 			if (item.checked) {
 				typeOrder = index === 0 ? 'person' : 'group';
 			}
 		});
 	}
-
-	checkTypeOrder();
-
-
 	function setCountValue() {
 		countHtml.value = typeOrder === 'person' ? 1 : 10;
 	}
-
-	setCountValue();
-
-	function setTotalPrice() {
-		totalPriceHtml.textContent = countHtml.value * actualPrice + exchange;
-	}
-
-	setTotalPrice();
-
-	function changeTypeOrder(count) {
-		console.log(count);
-
-		if(count > 2 ){
-			// radioArray[0].checked = false;
+	function checkTypeOrder(count) {
+		if (count > 9) {
 			radioArray[0].checked = false;
 			radioArray[1].checked = true;
+		}
+		else {
+			radioArray[0].checked = true;
+			radioArray[1].checked = false;
 
 		}
-		else{
-			// radioArray[0].checked = true;
-			// radioArray[1].checked = false;
-
-		}
+		setTypeOrder();
+		setActualPrice();
 	}
-
-	function getActualPrice() {
-		let countNow = parseInt(countHtml.value);
+	function setActualPrice() {
 		const isWeekday = typeDay === 'weekday';
 		const isWeekend = typeDay === 'weekend';
 		const isPerson = typeOrder === 'person';
@@ -164,70 +117,58 @@
 		else if (isGroup && isWeekend) {
 			actualPrice = prices.groupWeekend;
 		}
-		// console.log(actualPrice);
+		setTotalPrice();
+	}
+	function setTotalPrice() {
+		totalPriceHtml.textContent = countHtml.value * actualPrice + exchange;
+
+		resultsBlock.innerHTML = `typeOrder - ${typeOrder}; typeDay - ${typeDay}; actualPrice - ${actualPrice}; count - ${countHtml.value}`;
+	}
+	function events() {
+		monthsHtml.addEventListener("change", e => {
+			setTypeDay(monthsHtml.value, daysHtml.value);
+			createDays(monthsHtml.value);
+			setActualPrice();
+		});
+		daysHtml.addEventListener("change", e => {
+			setTypeDay(monthsHtml.value, daysHtml.value);
+			setActualPrice();
+		});
+		typePersonHtml.addEventListener("click", e => {
+			setTypeOrder();
+			setCountValue();
+			setActualPrice();
+		});
+		typeGroupHtml.addEventListener("click", e => {
+			setTypeOrder();
+			setCountValue();
+			setActualPrice();
+		});
+		minusBtn.addEventListener("click", e => {
+			countHtml.value = +countHtml.value - 1;
+			checkTypeOrder(parseInt(countHtml.value));
+		});
+		plusBtn.addEventListener("click", e => {
+			countHtml.value = +countHtml.value + 1;
+			checkTypeOrder(parseInt(countHtml.value));
+		});
+		countHtml.addEventListener("input", e => {
+			checkTypeOrder(parseInt(countHtml.value));
+		});
 	}
 
-	getActualPrice();
-
-
-	typePersonHtml.addEventListener("click", e => {
-		checkTypeOrder();
-		getActualPrice();
+	function init() {
+		yearHtml.innerHTML = `<option value='${nowYear}'>${nowYear}</option>`;
+		createPrices();
+		createMonths();
+		createDays(monthsHtml.value);
+		setTypeDay(monthsHtml.value, daysHtml.value);
+		setTypeOrder();
 		setCountValue();
+		setActualPrice();
 		setTotalPrice();
-		console.log(typeDay, typeOrder, actualPrice);
-
-
-	});
-	typeGroupHtml.addEventListener("click", e => {
-		checkTypeOrder();
-		getActualPrice();
-		setCountValue();
-		setTotalPrice();
-
-		console.log(typeDay, typeOrder, actualPrice);
-
-
-	});
-
-	minusBtn.addEventListener("click", e => {
-		checkTypeOrder();
-		getActualPrice();
-		console.log(typeDay, typeOrder, actualPrice);
-
-		totalPriceHtml.textContent =
-				--countHtml.value * actualPrice + exchange;
-	});
-
-	plusBtn.addEventListener("click", e => {
-		checkTypeOrder();
-		getActualPrice();
-
-		console.log(typeDay, typeOrder, actualPrice);
-		countHtml.value = +countHtml.value + 1;
-		// console.log(parseInt(countHtml.value));
-
-		if(parseInt(countHtml.value) > 2){
-			changeTypeOrder(parseInt(countHtml.value));
-
-			totalPriceHtml.textContent = countHtml.value * actualPrice + exchange;
-
-		}
-		else{
-		totalPriceHtml.textContent = countHtml.value * actualPrice + exchange;
-		}
-
-	});
-
-
-	countHtml.addEventListener("input", e => {
-		totalPriceHtml.textContent =
-				countHtml.value * actualPrice + exchange;
-	});
-
-	totalPriceHtml.textContent =
-			countHtml.value * actualPrice + exchange;
-	console.log(typeOrder, typeDay, actualPrice);
-
+	}
+	init();
+	events();
 
 })();
