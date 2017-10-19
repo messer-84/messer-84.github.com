@@ -40,7 +40,7 @@
 	const radioArray = document.getElementsByName("typeOrder");
 	let actualPrice;
 	let typeOrder = '';
-	let typeDay='';
+	let typeDay = '';
 	let actualCount = 1;
 
 	function createPrices() {
@@ -48,6 +48,7 @@
 			pricesHtml[key].textContent = prices[key];
 		}
 	}
+
 	function createMonths() {
 		let monthsStr = "";
 		monthsArray.forEach((item, index) => {
@@ -55,6 +56,7 @@
 		});
 		monthsHtml.innerHTML = monthsStr;
 	}
+
 	function createDays(month) {
 		let newCountDays = new Date(nowYear, +month + 1, 0).getDate();
 		let daysStr = "";
@@ -64,6 +66,7 @@
 		}
 		daysHtml.innerHTML = daysStr;
 	}
+
 	function setTypeDay(month, day) {
 		let dayIndex = new Date(nowYear, +month, +day).getDay();
 		if (dayIndex === 0 || dayIndex === 6) {
@@ -74,6 +77,7 @@
 		}
 
 	}
+
 	function setTypeOrder() {
 		[...radioArray].forEach((item, index) => {
 			if (item.checked) {
@@ -81,9 +85,11 @@
 			}
 		});
 	}
+
 	function setCountValue() {
 		countHtml.value = typeOrder === 'person' ? 1 : 10;
 	}
+
 	function checkTypeOrder(count) {
 		if (count > 9) {
 			radioArray[0].checked = false;
@@ -97,6 +103,7 @@
 		setTypeOrder();
 		setActualPrice();
 	}
+
 	function setActualPrice() {
 		const isWeekday = typeDay === 'weekday';
 		const isWeekend = typeDay === 'weekend';
@@ -119,11 +126,13 @@
 		}
 		setTotalPrice();
 	}
+
 	function setTotalPrice() {
 		totalPriceHtml.textContent = countHtml.value * actualPrice + exchange;
 
 		resultsBlock.innerHTML = `typeOrder - ${typeOrder}; typeDay - ${typeDay}; actualPrice - ${actualPrice}; count - ${countHtml.value}`;
 	}
+
 	function events() {
 		monthsHtml.addEventListener("change", e => {
 			setTypeDay(monthsHtml.value, daysHtml.value);
@@ -168,6 +177,7 @@
 		setActualPrice();
 		setTotalPrice();
 	}
+
 	init();
 	events();
 

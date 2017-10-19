@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BDWork/jsTask/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BDWork/jsTask/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +12,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
@@ -34,7 +29,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="442">
               <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-              <folding />
+              <folding>
+                <marker date="1508420031738" expanded="true" signature="663:814" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="693:733" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="768:811" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="864:1079" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1145:1530" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1189:1199" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1221:1393" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1244:1296" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1302:1358" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1444:1521" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,13 +48,43 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BDWork/jsTask/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1104#1247#0" expanded="false" />
-                <element signature="e#1786#2017#0" expanded="false" />
-                <element signature="e#4058#4190#0" expanded="false" />
+                <marker date="1508420031738" expanded="true" signature="31:116" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="138:401" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="906:1049" ph="[...]" />
+                <marker date="1508420031738" expanded="true" signature="1387:1473" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1419:1470" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1499:1669" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1562:1576" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1698:1923" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1831:1888" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="1957:2128" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2058:2087" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2095:2124" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2154:2287" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2199:2212" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2222:2278" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2314:2371" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2404:2617" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2423:2495" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2503:2576" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2645:3148" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2848:2892" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="2927:2971" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3005:3049" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3083:3126" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3175:3388" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3408:4294" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3455:3481" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3609:3635" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3735:3754" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3850:3869" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="3960:3974" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="4098:4112" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="4238:4266" ph="{...}" />
+                <marker date="1508420031738" expanded="true" signature="4313:4582" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -58,7 +94,7 @@
         <entry file="file://$PROJECT_DIR$/BDWork/jsTask/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -128,13 +164,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/phoneBook/js/add-user.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/phoneBook/js/app.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/phoneBook/js/contact.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/phoneBook/js/add-user.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/react-apps/validatecard/src/App.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/BDWork/myproject/gulpfile.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/phoneBook/js/edit-contact.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/phoneBook/js/app.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/BDWork/myproject/gulpfile.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,34 +190,24 @@
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/jsTricks/native-framework/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
-    <service-enabled>false</service-enabled>
+    <service-enabled>true</service-enabled>
     <exe-path />
     <annotation-enable>false</annotation-enable>
-    <other-services-enabled>false</other-services-enabled>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/BDWork/myproject/node_modules" />
-    <handled-path value="$PROJECT_DIR$/jsTricks/native-framework/node_modules" />
-    <handled-path value="$PROJECT_DIR$/phoneBook/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react-apps/validatecard/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react-weather/weather/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react_app/new_app/node_modules" />
-    <handled-path value="$PROJECT_DIR$/react_learn/node_modules" />
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="592" />
-    <option name="y" value="139" />
-    <option name="width" value="1200" />
-    <option name="height" value="1073" />
+    <option name="x" value="131" />
+    <option name="y" value="35" />
+    <option name="width" value="1661" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -198,54 +224,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDWork" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="messer-84.github.com" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BDWork" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsTask" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +235,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="7.6.0" />
@@ -283,15 +264,13 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/jsTricks/native-framework/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
@@ -320,15 +299,6 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -349,9 +319,15 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="npm.start" />
-    </list>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/jsTricks/native-framework/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="npm.start" />
@@ -430,6 +406,7 @@
       <workItem from="1506865181205" duration="6906000" />
       <workItem from="1507481101310" duration="8093000" />
       <workItem from="1507746749346" duration="7767000" />
+      <workItem from="1508423899713" duration="22000" />
     </task>
     <task id="LOCAL-00050" summary="-add">
       <created>1501773726916</created>
@@ -778,19 +755,17 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223373000" />
+    <option name="totallyTimeSpent" value="223395000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="592" y="139" width="1200" height="1073" extended-state="0" />
-    <editor active="true" />
+    <frame x="131" y="35" width="1661" height="1056" extended-state="0" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2132988" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15541796" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27372766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2132988" sideWeight="0.23769633" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.044326242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -799,6 +774,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2132988" sideWeight="0.23769633" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5613661" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -807,7 +783,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -876,9 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -886,7 +859,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-          <folding />
+          <folding>
+            <marker date="1508420031738" expanded="true" signature="663:814" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="693:733" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="768:811" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="864:1079" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1145:1530" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1189:1199" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1221:1393" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1244:1296" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1302:1358" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1444:1521" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -894,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="54" selection-end-line="0" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -909,20 +892,50 @@
     <entry file="file://$PROJECT_DIR$/BDWork/jsTask/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BDWork/jsTask/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1104#1247#0" expanded="false" />
-            <element signature="e#1786#2017#0" expanded="false" />
-            <element signature="e#4058#4190#0" expanded="false" />
+            <marker date="1508420031738" expanded="true" signature="31:116" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="138:401" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="906:1049" ph="[...]" />
+            <marker date="1508420031738" expanded="true" signature="1387:1473" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1419:1470" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1499:1669" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1562:1576" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1698:1923" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1831:1888" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="1957:2128" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2058:2087" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2095:2124" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2154:2287" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2199:2212" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2222:2278" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2314:2371" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2404:2617" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2423:2495" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2503:2576" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2645:3148" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2848:2892" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="2927:2971" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3005:3049" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3083:3126" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3175:3388" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3408:4294" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3455:3481" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3609:3635" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3735:3754" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3850:3869" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="3960:3974" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="4098:4112" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="4238:4266" ph="{...}" />
+            <marker date="1508420031738" expanded="true" signature="4313:4582" ph="{...}" />
           </folding>
         </state>
       </provider>
