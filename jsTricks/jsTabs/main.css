@@ -1,0 +1,37 @@
+
+.tabs-wrapper{
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+
+.tabs-titles-wrap{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.tab{
+	width: 100px;
+	height: 60px;
+	background: #ccc;
+	color: #222222;
+	text-align: center;
+	line-height: 60px;
+	font-family:Arial;
+	font-size: 20px;
+	cursor: pointer;
+}
+.tab.active{
+	background: #222;
+	color: #ccc;
+	cursor: default;
+}
+
+.tab-content{
+	padding:30px 20px;
+	border:1px solid #222222;
+	display: none;
+}
+.tab-content.active{
+	display: block;
+}
