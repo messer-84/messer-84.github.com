@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTricks/jsTabs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTricks/jsTabs/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTricks/jsTabs/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/public/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/src/App.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/src/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/src/App.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/src/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/src/logo.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/app-1/src/registerServiceWorker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/npm-debug.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +33,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDWork/dropdowns/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="578">
               <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding />
             </state>
@@ -44,7 +55,7 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BDWork/jsTask/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="901">
               <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
               <folding />
             </state>
@@ -55,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -65,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -183,6 +194,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/reduxTask/app-1/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="128" />
@@ -205,7 +219,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,29 +230,17 @@
             <path>
               <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jsTricks" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jsTricks" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jsLoader" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jsTricks" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="jsTabs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="reduxTask" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test-projects/react-test/react-one" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
@@ -415,14 +417,9 @@
       <workItem from="1507481101310" duration="8093000" />
       <workItem from="1507746749346" duration="7767000" />
       <workItem from="1508423899713" duration="923000" />
-      <workItem from="1508841781223" duration="626000" />
-    </task>
-    <task id="LOCAL-00052" summary="-add">
-      <created>1501838358738</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1501838358738</updated>
+      <workItem from="1508841781223" duration="691000" />
+      <workItem from="1508857258544" duration="178000" />
+      <workItem from="1508857467168" duration="43000" />
     </task>
     <task id="LOCAL-00053" summary="-add">
       <created>1501838590015</created>
@@ -760,18 +757,24 @@
       <option name="project" value="LOCAL" />
       <updated>1508841850847</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="-add">
+      <created>1508842409426</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1508842409426</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224922000" />
+    <option name="totallyTimeSpent" value="225208000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="-11" width="1865" height="1092" extended-state="6" />
-    <editor active="true" />
+    <frame x="128" y="56" width="1865" height="1092" extended-state="6" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13979086" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.143093" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -863,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDWork/dropdowns/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="578">
           <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding />
         </state>
@@ -879,24 +882,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BDWork/jsTask/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="901">
           <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/.idea/misc.xml" />
     <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -904,7 +900,7 @@
     <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
