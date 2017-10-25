@@ -1,27 +1,16 @@
 import React from 'react';
 import {render} from 'react-dom';
 import {Provider} from 'react-redux';
-import {createStore} from 'redux';
+import {composeWithDevTools} from 'redux-devtools-extension';
+import {createStore, applyMiddleware} from 'redux';
+import thunk from 'redux-thunk';
 
 import App from './App';
 import './index.css';
+import reducer from './reducers';
 
-const initialState = [
-	'Smells like spirit',
-	'Enter Sandman'
-];
 
-function playlist(state = initialState, action) {
-	if (action.type === 'ADD_TRACK') {
-		return [
-			...state,
-			action.payload
-		]
-	}
-	return state;
-}
-
-const store = createStore(playlist);
+const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
 
 
 render(
