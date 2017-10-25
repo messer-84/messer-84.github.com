@@ -60,6 +60,7 @@ export default connect(
 				dispatch({type: 'ADD_TRACK', payload})
 			},
 			onFindTrack: (name) => {
+				console.log('name', name);
 				dispatch({type: 'FIND_TRACK', payload: name})
 			},
 			onGetTracks: () => {
