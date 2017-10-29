@@ -7479,10 +7479,10 @@ function initNewsPages() {
   var year = 0;
   var page = 1;
   var per_page = 4;
-  var template = $('.press_release').length ? 'press' : 'articles';
+  var template = $('.press_release').length ? 'press' : 'initialArticles';
   var icon_pdf = $('.pdf_icon_ajax').html();
 
-  // Filter articles by category and year.
+  // Filter initialArticles by category and year.
   var ENDPOINT = '//' + window.location.host + '/wp-json/wp/v2/sun_article?';
   var url = ENDPOINT;
 

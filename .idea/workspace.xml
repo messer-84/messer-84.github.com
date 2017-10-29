@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/actions/tracks.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/actions/tracks.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/.gitignore" afterPath="$PROJECT_DIR$/reduxTask/playlist/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/README.md" afterPath="$PROJECT_DIR$/reduxTask/playlist/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/package.json" afterPath="$PROJECT_DIR$/reduxTask/playlist/package.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/public/favicon.ico" afterPath="$PROJECT_DIR$/reduxTask/playlist/public/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/public/index.html" afterPath="$PROJECT_DIR$/reduxTask/playlist/public/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/public/manifest.json" afterPath="$PROJECT_DIR$/reduxTask/playlist/public/manifest.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/App.css" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/App.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/App.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/App.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/App.test.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/App.test.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/index.css" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/index.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/index.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/logo.svg" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/logo.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/reducers/filterTracks.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/reducers/filterTracks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/reducers/index.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/reducers/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/reducers/playlists.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/reducers/playlists.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/reducers/tracks.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/reducers/tracks.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/reduxTask/app-1/src/registerServiceWorker.js" afterPath="$PROJECT_DIR$/reduxTask/playlist/src/registerServiceWorker.js" />
+    <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="-add">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/images/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/images/trash_16x16.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/uploads/51u6y9Rm8QL._SY300_.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/uploads/Agnes_Case_for_Samsung_Galaxy_S6_(1)__92643_thumb.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/uploads/Lumia1520-Front-Back-png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/uploads/_35 (1).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/uploads/htc-one-m7-802w-dual-sim-silver.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/uploads/iphone5c-selection-hero-2013.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lesson-01/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lesson-01/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessson-02-oop/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessson-02-oop/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessson-02-oop/this.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/public/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/src/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reduxTask/ reduxStore/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" afterPath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_ie/test – sunny_files/c90a42d-9093411.js" afterPath="$PROJECT_DIR$/test_ie/test – sunny_files/c90a42d-9093411.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,40 +37,17 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.509009">
+    <splitter split-orientation="horizontal" split-proportion="0.6405959">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/index.js">
+          <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/BDWork/projects/thinklogical/assets/html/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="tracks.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/reducers/tracks.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1071">
-                  <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -75,53 +56,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/App.js">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/react-winter/lessson-02-oop/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="521">
-                  <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#39#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/reducers/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="playlists.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/reducers/playlists.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="filterTracks.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/reducers/filterTracks.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="tracks.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/actions/tracks.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -194,22 +133,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/phoneBook/js/app.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/phoneBook/js/contact.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/reduxTask/playlist/src/reducers/index.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/phoneBook/js/add-user.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/react-apps/validatecard/src/App.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/tools/JsonToCommands/main.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/phoneBook/js/edit-contact.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/BDWork/myproject/gulpfile.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/phoneBook/js/edit-contact.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/react-winter/lessson-02-oop/main.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/phoneBook/js/app.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/reduxTask/playlist/src/reducers/index.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/BDWork/dropdowns/main.js" />
-        <option value="$PROJECT_DIR$/BDWork/jsTask/index.html" />
-        <option value="$PROJECT_DIR$/BDWork/jsTask/main.js" />
-        <option value="$PROJECT_DIR$/jsTricks/jsTabs/main.js" />
         <option value="$PROJECT_DIR$/reduxTask/app-1/src/reducers/playlists.js" />
         <option value="$PROJECT_DIR$/reduxTask/app-1/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/reduxTask/app-1/src/reducers/filterTracks.js" />
@@ -217,6 +153,10 @@
         <option value="$PROJECT_DIR$/reduxTask/app-1/src/App.js" />
         <option value="$PROJECT_DIR$/reduxTask/app-1/src/actions/tracks.js" />
         <option value="$PROJECT_DIR$/reduxTask/app-1/src/index.js" />
+        <option value="$PROJECT_DIR$/react-winter/lessson-02-oop/this.js" />
+        <option value="$PROJECT_DIR$/react-winter/lessson-02-oop/index.html" />
+        <option value="$PROJECT_DIR$/react-winter/lessson-02-oop/main.js" />
+        <option value="$PROJECT_DIR$/BDWork/projects/thinklogical/assets/html/home.html" />
       </list>
     </option>
   </component>
@@ -234,14 +174,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/reduxTask/playlist/node_modules" />
+    <handled-path value="$PROJECT_DIR$/BDWork/myproject/node_modules" />
+    <handled-path value="$PROJECT_DIR$/jsTricks/native-framework/node_modules" />
+    <handled-path value="$PROJECT_DIR$/phoneBook/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-apps/validatecard/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react-weather/weather/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react_app/new_app/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react_learn/node_modules" />
+    <handled-path value="$PROJECT_DIR$/reduxTask/ reduxStore/node_modules" />
+    <handled-path value="$PROJECT_DIR$/reduxTask/ reduxStore/src/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="128" />
-    <option name="y" value="56" />
-    <option name="width" value="1661" />
-    <option name="height" value="998" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -258,35 +204,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="BDWork" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="reduxTask" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="reduxTask" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="playlist" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDWork" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="messer-84.github.com" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BDWork" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinklogical" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,6 +270,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="7.6.0" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -324,13 +294,15 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
+    <configuration default="false" name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/jsTricks/native-framework/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
       <envs />
+      <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
@@ -359,6 +331,15 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -379,15 +360,9 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/jsTricks/native-framework/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="npm.start" />
+    </list>
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="npm.start" />
@@ -471,6 +446,7 @@
       <workItem from="1508857258544" duration="178000" />
       <workItem from="1508857467168" duration="64000" />
       <workItem from="1508911747201" duration="15759000" />
+      <workItem from="1509267375483" duration="5119000" />
     </task>
     <task id="LOCAL-00055" summary="-add">
       <created>1501944624952</created>
@@ -819,19 +795,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240988000" />
+    <option name="totallyTimeSpent" value="246107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="128" y="56" width="1865" height="1092" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14474408" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22896698" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27372766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1827957" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2753623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -847,7 +824,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -877,56 +854,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/.idea/misc.xml" />
-    <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTricks/jsTabs/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BDWork/jsTask/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/reducers/playlists.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -956,8 +888,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/actions/tracks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="263">
+          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reduxTask/playlist/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-winter/lessson-02-oop/this.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-winter/lessson-02-oop/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="110" column="34" lean-forward="false" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#Worker#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BDWork/projects/thinklogical/assets/html/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-winter/lessson-02-oop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding />
         </state>
       </provider>
