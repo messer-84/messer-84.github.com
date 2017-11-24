@@ -59,4 +59,5 @@ class Task_h_7_2 extends Component {
 	}
 }
 
+
 export default Task_h_7_2;

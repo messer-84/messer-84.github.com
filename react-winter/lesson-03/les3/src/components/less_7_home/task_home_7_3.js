@@ -17,6 +17,8 @@ class Task_h_7_3 extends Component {
 		};
 	}
 
+
+
 	updateValue = (e, index) => {
 		const numbers = [...this.state.numbers];
 		numbers[index] = parseInt(e.target.value);

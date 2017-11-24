@@ -20,6 +20,8 @@ class Task_h_7_5 extends Component {
 		};
 	}
 
+
+
 	updateValue = (index) => {
 		this.setState({
 			selectedPathIndex: index

@@ -17,6 +17,8 @@ class Task_h_7_6 extends Component {
 		};
 	}
 
+
+
 	addNote(e) {
 		e.preventDefault();
 		console.log(this.state);

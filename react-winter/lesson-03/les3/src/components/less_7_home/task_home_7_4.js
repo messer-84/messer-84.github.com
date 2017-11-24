@@ -20,6 +20,7 @@ class Task_h_7_4 extends Component {
 		};
 	}
 
+
 	updateValue = (e, index) => {
 		console.log(e.target.name);
 		const name = e.target.name;
