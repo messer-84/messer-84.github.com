@@ -13,15 +13,18 @@ class Task_h_7_6 extends Component {
 		super();
 		this.state = {
 			notes: [],
-			value: '',
 		};
 	}
 
-
+	componentDidMount() {
+		this.setState({
+			...this.state.notes,
+			value: '',
+		});
+	}
 
 	addNote(e) {
 		e.preventDefault();
-		console.log(this.state);
 
 		const notes = this.state.notes.length ? [...this.state.notes] : [];
 		const datetime = new Date();
@@ -31,8 +34,9 @@ class Task_h_7_6 extends Component {
 		const date = `${hours}:${minutes}:${seconds}`;
 
 		notes.push({
-			text:this.state.value,
-			datetime:date
+			text: this.state.value,
+			datetime: date,
+			visibleEditField: false
 		});
 
 		this.setState({
@@ -41,7 +45,22 @@ class Task_h_7_6 extends Component {
 		})
 	}
 
-	updateValue = (e) => {
+	updateTextValue = (e, index) => {
+		const notes = [...this.state.notes];
+		const finalNotes = notes.map((note, noteIndex) => {
+			if (index === noteIndex) {
+				note.text = e.target.value;
+			}
+			return note;
+		});
+
+		this.setState({
+			notes: finalNotes
+		});
+
+	};
+
+	updateMainValue = (e) => {
 		this.setState({
 			value: e.target.value
 		})
@@ -49,10 +68,33 @@ class Task_h_7_6 extends Component {
 
 	editNote = (e, index) => {
 		const notes = [...this.state.notes];
+		const finalNotes = notes.map((note, noteIndex) => {
+			if (index === noteIndex) {
+				note.text = e.target.value;
+			}
+			return note;
+		});
+
+		this.setState({
+			notes: finalNotes
+		});
+
 
 	};
 
-	removeNote = (e, index) => {
+	showEditNote = (index) => {
+		const notes = [...this.state.notes];
+		notes.map((note, noteIndex) => {
+			if (index === noteIndex) {
+				note.visibleEditField = !note.visibleEditField;
+			}
+		});
+		this.setState({
+			notes
+		});
+	};
+
+	removeNote = (index) => {
 		const notes = [...this.state.notes];
 		notes.splice(index, 1);
 		this.setState({
@@ -61,31 +103,46 @@ class Task_h_7_6 extends Component {
 	};
 
 	render() {
-		console.log(this.state);
-
 		const {notes, value} = this.state;
+		const list = notes ? notes.map((item, index) => {
+					return (
+							<div key={index} data={index}>
+								<h3>Заметка №{index + 1}</h3>
+								<div>Добавлено: {item.datetime}</div>
+								{ !item.visibleEditField && <div>{item.text}</div> }
+								{ item.visibleEditField &&
+								<div className="editBlock">
+											<textarea
+													onChange={(e) => this.updateTextValue(e, index)}
+													name="note" cols="30" rows="10"
+													value={item.text}
+											/>
+									<div>
+										<button onClick={() => {
+											this.showEditNote(index)
+										}}>Submit
+										</button>
+										<button onClick={() => {
+											this.showEditNote(index)
+										}}>Cancel
+										</button>
 
-
-
-		const list =  notes ? notes.map((item, index) => {
-			return (
-					<div key={index}>
-						<h3>Заметка №{index + 1}</h3>
-						<div>Добавлено: {item.datetime}</div>
-						<div>{item.text}</div>
-						<div>
-							<button onClick={(e) => {
-								this.editNote(e, index)
-							}}>Редактировать
-							</button>
-							<button onClick={() => {
-								this.removeNote(index)
-							}}>Удалить
-							</button>
-						</div>
-					</div>
-			);
-		}) : null;
+									</div>
+									<br />
+								</div>}
+								<div>
+									<button disabled={item.visibleEditField} onClick={() => {
+										this.showEditNote(index)
+									}}>Редактировать
+									</button>
+									<button onClick={() => {
+										this.removeNote(index)
+									}}>Удалить
+									</button>
+								</div>
+							</div>
+					);
+				}) : null;
 
 		return (
 				<div className="app">
@@ -93,9 +150,12 @@ class Task_h_7_6 extends Component {
 					<div>
 						<form action="#" onSubmit={e => this.addNote(e)}>
 						<textarea
-								onChange={e => this.updateValue(e)}
+								onChange={e => this.updateMainValue(e)}
 								name="note" cols="30" rows="10" value={value} />
-							<button>Add note</button>
+							<div>
+
+								<button disabled={value === ''}>Add note</button>
+							</div>
 						</form>
 
 					</div>

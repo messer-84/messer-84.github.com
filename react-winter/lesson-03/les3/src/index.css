@@ -3,6 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+*{
+  box-sizing: border-box;
+}
 button{
   border:1px solid #000;
 }
@@ -18,5 +21,34 @@ button{
 }
 .notActive{
   text-decoration: line-through;
+
+}
+table {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+table th,
+table td{
+  border:1px solid black;
+
+}
+table th{
+  cursor: pointer;
+}
+
+
+input{
+  height: 40px;
+  padding: 10px;
+
+}
+input:focus{
+  outline: none;
+}
+.bad{
+  border:4px solid red;
+}
+.good{
+  border:4px solid green;
 
 }
