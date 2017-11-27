@@ -46,10 +46,12 @@ input:focus{
   outline: none;
 }
 .bad{
-  border:4px solid red;
+  /*border:4px solid red;*/
+  color: red;
 }
 .good{
-  border:4px solid green;
+  color: green;
+  /*border:4px solid green;*/
 
 }
 

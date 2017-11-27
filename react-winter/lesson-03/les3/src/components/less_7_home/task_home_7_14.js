@@ -2,10 +2,10 @@ import React, {Component} from 'react';
 
 /*
  *
- Дан массив с числами. Сделайте так, чтобы каждый элемент этого массива
- записался в свой инпут. С помощью каждого инпута можно поредактировать
- тот элемент массива, который в нем записан. Сделайте так, чтобы под всеми
- инпутами выводилась сумма элементов этого массива.
+Реализуйте текст с вопросами и вариантами ответов. Каждый вопрос должен быть в своем абзаце,
+а под ним - 5 радиокнопочек, с помощью которых можно выбрать один из ответов.
+Если ответ правильный - вопрос должен покраситься в зеленый цвет,
+а если неправильный - в красный.
  *
  * */
 
@@ -68,8 +68,6 @@ class Task_h_7_14 extends Component {
 		const checkedAnswered = this.state.test[name].checkedAnswer;
 		const newTest = this.state.test.map((item, index)=>{
 			if(index === name){
-				console.log('item-name', item.checkedAnswer);
-
 				item.checkedAnswer = value;
 			}
 			return item;
@@ -85,7 +83,7 @@ class Task_h_7_14 extends Component {
 	checkTest = (e) => {
 		e.preventDefault();
 		const test = this.state.test.map((item, index) => {
-			item.resultTest = item.checkedAnswer === item.right;
+			item.resultTest = item.checkedAnswer === item.right ? 'good' : 'bad';
 			return item;
 		});
 		this.setState({
@@ -101,7 +99,7 @@ class Task_h_7_14 extends Component {
 		const list = test.map((item, index) => {
 			return (
 					<li key={index}>
-						<h3 {item.resultTest && className} >{item.question}</h3>
+						<h3 className={item.resultTest} >{item.question}</h3>
 						<ul>
 							{item.answers.map((subItem, subIndex) => {
 								fieldId++;
