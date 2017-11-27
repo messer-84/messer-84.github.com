@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import ActualTask from './components/less_7_home/task_home_7_10'
+import ActualTask from './components/less_7_home/task_home_7_14'
 
 class App extends Component {
 

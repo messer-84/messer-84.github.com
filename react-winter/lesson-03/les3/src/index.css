@@ -38,8 +38,8 @@ table th{
 
 
 input{
-  height: 40px;
-  padding: 10px;
+  /*height: 40px;*/
+  /*padding: 10px;*/
 
 }
 input:focus{
@@ -51,4 +51,23 @@ input:focus{
 .good{
   border:4px solid green;
 
+}
+
+.pagination{
+  display: flex;
+  list-style: none;
+}
+
+.pagination li{
+  margin:0 5px;
+}
+
+.pagination li a{
+  padding:10px;
+  text-decoration: none;
+}
+
+.pagination li.active a{
+  background: black;
+  color: #fff;
 }
