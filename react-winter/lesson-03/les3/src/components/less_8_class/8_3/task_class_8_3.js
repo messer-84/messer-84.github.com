@@ -47,6 +47,7 @@ class Task_c_8_3 extends Component {
 							<th>Имя</th>
 							<th>Фамилия</th>
 							<th>Возраст</th>
+							<th>Link</th>
 						</tr>
 						</thead>
 						<tbody>

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import User from '../8_3/User'
+import User from '../8_4/User'
 
 /*
  *
@@ -11,7 +11,7 @@ import User from '../8_3/User'
  *
  * */
 
-class Task_c_8_3 extends Component {
+class Task_c_8_4 extends Component {
 	constructor() {
 		super();
 		this.state = {
@@ -25,7 +25,6 @@ class Task_c_8_3 extends Component {
 	}
 
 	showMessage = (name) => {
-		alert('!');
 		alert(name);
 
 	};
@@ -49,6 +48,7 @@ class Task_c_8_3 extends Component {
 							<th>Имя</th>
 							<th>Фамилия</th>
 							<th>Возраст</th>
+							<th>Link</th>
 						</tr>
 						</thead>
 						<tbody>
@@ -60,4 +60,4 @@ class Task_c_8_3 extends Component {
 	}
 }
 
-export default Task_c_8_3;
+export default Task_c_8_4;
