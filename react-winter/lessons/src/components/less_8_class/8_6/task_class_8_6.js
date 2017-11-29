@@ -37,12 +37,13 @@ class Task_c_8_6 extends Component {
   render() {
     const {users} = this.state;
     const usersList = users.map((item, index) => {
-      return <User key={index}
+      return <User
+          key={index}
           name={item.firstName}
           lastName={item.lastName}
           age={item.age}
           id={index}
-          showMessage={this.deleteUser}
+          deleteUser={this.deleteUser}
       />
     });
     return (

@@ -1,7 +1,9 @@
 import React from 'react';
 
 const User = (props) => {
-  const {name, lastName, age, id, showMessage} = props;
+  const {name, lastName, age, id, deleteUser} = props;
+  console.log(deleteUser);
+
   return (
       <tr>
         <td>{name}</td>
@@ -9,7 +11,7 @@ const User = (props) => {
         <td>{age}</td>
         <td>
           <a href="#" onClick={() => {
-            showMessage(id)
+            deleteUser(id)
           }}>Push
           </a>
         </td>
