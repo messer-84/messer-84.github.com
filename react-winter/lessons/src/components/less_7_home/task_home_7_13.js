@@ -1,113 +1,113 @@
 import React, {Component} from 'react';
 
 /*
-Дан селект. Изначально он пустой. Дан инпут и кнопка.
+ Дан селект. Изначально он пустой. Дан инпут и кнопка.
  В этот инпут вводится название города. По нажатию на кнопку
-  этот город должен попасть в селект. Пользователь нашего
-  скрипта добавляет несколько городов в селект,
-   затем выбирает один из добавленных городов - и этот город
-    должен отобразиться на экране в каком-нибудь абзаце.
+ этот город должен попасть в селект. Пользователь нашего
+ скрипта добавляет несколько городов в селект,
+ затем выбирает один из добавленных городов - и этот город
+ должен отобразиться на экране в каком-нибудь абзаце.
  * */
 
 class Task_h_7_13 extends Component {
-	constructor() {
-		super();
-		this.state = {
-			currency: ['гривна', 'рубль', 'доллар'],
-			fromCurrency: 0,
-			toCurrency: 1,
-			sum: 0,
-			inputValue: '',
-		};
-	}
+  constructor() {
+    super();
+    this.state = {
+      currency: ['гривна', 'рубль', 'доллар'],
+      fromCurrency: 0,
+      toCurrency: 1,
+      sum: 0,
+      inputValue: '',
+    };
+  }
 
-	updateValue = (e) => {
-		this.setState({
-			inputValue: parseInt(e.target.value)
-		});
+  updateValue = (e) => {
+    this.setState({
+      inputValue: parseInt(e.target.value)
+    });
 
-	};
-	updateFromCurrency = (e) => {
-		const newValue = parseInt(e.target.value);
-		this.setState({
-			fromCurrency: newValue
-		});
-	};
-	updateToCurrency = (e) => {
-		const newValue = parseInt(e.target.value);
-		this.setState({
-			toCurrency: newValue
-		});
-	};
-	getSum = (e) => {
-		e.preventDefault();
-		const {currency, fromCurrency, toCurrency, inputValue} = this.state;
-		const startCurrency = currency[fromCurrency];
-		const endCurrency = currency[toCurrency];
-		let ratio;
+  };
+  updateFromCurrency = (e) => {
+    const newValue = parseInt(e.target.value);
+    this.setState({
+      fromCurrency: newValue
+    });
+  };
+  updateToCurrency = (e) => {
+    const newValue = parseInt(e.target.value);
+    this.setState({
+      toCurrency: newValue
+    });
+  };
+  getSum = (e) => {
+    e.preventDefault();
+    const {currency, fromCurrency, toCurrency, inputValue} = this.state;
+    const startCurrency = currency[fromCurrency];
+    const endCurrency = currency[toCurrency];
+    let ratio;
 
-		if (startCurrency === 'гривна' && endCurrency === 'доллар') {
-			ratio = 0.037;
-		}
-		if (startCurrency === 'доллар' && endCurrency === 'гривна') {
-			ratio = 27;
-		}
-		if (startCurrency === 'гривна' && endCurrency === 'рубль') {
-			ratio = 4;
-		}
-		if (startCurrency === 'рубль' && endCurrency === 'гривна') {
-			ratio = 0.25;
-		}
-		if (startCurrency === 'доллар' && endCurrency === 'рубль') {
-			ratio = 70;
-		}
-		if (startCurrency === 'рубль' && endCurrency === 'доллар') {
-			ratio = 0.014;
-		}
-		if (startCurrency === endCurrency) {
-			ratio = 1;
-		}
+    if (startCurrency === 'гривна' && endCurrency === 'доллар') {
+      ratio = 0.037;
+    }
+    if (startCurrency === 'доллар' && endCurrency === 'гривна') {
+      ratio = 27;
+    }
+    if (startCurrency === 'гривна' && endCurrency === 'рубль') {
+      ratio = 4;
+    }
+    if (startCurrency === 'рубль' && endCurrency === 'гривна') {
+      ratio = 0.25;
+    }
+    if (startCurrency === 'доллар' && endCurrency === 'рубль') {
+      ratio = 70;
+    }
+    if (startCurrency === 'рубль' && endCurrency === 'доллар') {
+      ratio = 0.014;
+    }
+    if (startCurrency === endCurrency) {
+      ratio = 1;
+    }
 
-		this.setState({
-			sum: Math.round(ratio * inputValue)
-		});
+    this.setState({
+      sum: Math.round(ratio * inputValue)
+    });
 
-	};
+  };
 
-	render() {
-		const {currency, fromCurrency, toCurrency, inputValue, sum} = this.state;
-		const currencyList = currency.map((item, index) => {
-			return <option key={index} value={index}>{item}</option>
-		});
+  render() {
+    const {currency, fromCurrency, toCurrency, inputValue, sum} = this.state;
+    const currencyList = currency.map((item, index) => {
+      return <option key={index} value={index}>{item}</option>
+    });
 
-		return (
-				<div className="app">
-					<h1>Task home-7-13</h1>
-					<form action="#" onSubmit={e => this.getSum(e)}>
-						<h3>Сумма:</h3>
-						<input type="text" value={inputValue} onChange={e => {
-							this.updateValue(e)
-						}}
-						/>
-						<div>
-							<h3>Из какой валюты:</h3>
-							<select value={fromCurrency} onChange={e => this.updateFromCurrency(e)}>
-								{currencyList}
-							</select>
-						</div>
-						<div>
-							<h3>В какую валюту:</h3>
-							<select value={toCurrency} onChange={e => this.updateToCurrency(e)}>
-								{currencyList}
-							</select>
-						</div>
-						<br />
-						<button>Submit</button>
-						<h3>Итого: {sum}</h3>
-					</form>
-				</div>
-		);
-	}
+    return (
+        <div className="app">
+          <h1>Task home-7-13</h1>
+          <form action="#" onSubmit={e => this.getSum(e)}>
+            <h3>Сумма:</h3>
+            <input type="text" value={inputValue} onChange={e => {
+              this.updateValue(e)
+            }}
+            />
+            <div>
+              <h3>Из какой валюты:</h3>
+              <select value={fromCurrency} onChange={e => this.updateFromCurrency(e)}>
+                {currencyList}
+              </select>
+            </div>
+            <div>
+              <h3>В какую валюту:</h3>
+              <select value={toCurrency} onChange={e => this.updateToCurrency(e)}>
+                {currencyList}
+              </select>
+            </div>
+            <br />
+            <button>Submit</button>
+            <h3>Итого: {sum}</h3>
+          </form>
+        </div>
+    );
+  }
 }
 
 export default Task_h_7_13;

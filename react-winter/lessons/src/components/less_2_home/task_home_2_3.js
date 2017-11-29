@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Task_h_2_3 extends Component {
   constructor() {
@@ -18,12 +18,12 @@ class Task_h_2_3 extends Component {
 
   render() {
     return (
-      <div>
-        <button onClick={this.setSum}>Set sum</button>
-        <p>
-          {this.state.numbersSum}
-        </p>
-      </div>
+        <div>
+          <button onClick={this.setSum}>Set sum</button>
+          <p>
+            {this.state.numbersSum}
+          </p>
+        </div>
     );
   }
 }

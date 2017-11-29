@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Task_h_3_5 extends Component {
   constructor() {
@@ -10,7 +10,7 @@ class Task_h_3_5 extends Component {
   }
 
   changeColor = () => {
-    const { actualIndex, colors } = this.state;
+    const {actualIndex, colors} = this.state;
     const newColor = actualIndex < colors.length - 1 ? actualIndex + 1 : 0;
     this.setState({
       actualIndex: newColor,
@@ -24,12 +24,12 @@ class Task_h_3_5 extends Component {
     };
 
     return (
-      <div>
-        <button onClick={this.changeColor}>Change color</button>
-        <p style={style}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing.
-        </p>
-      </div>
+        <div>
+          <button onClick={this.changeColor}>Change color</button>
+          <p style={style}>
+            Lorem ipsum dolor sit amet, consectetur adipisicing.
+          </p>
+        </div>
     );
   }
 }

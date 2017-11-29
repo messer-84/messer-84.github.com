@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Task_h_6_2 extends Component {
   constructor() {
@@ -16,33 +16,33 @@ class Task_h_6_2 extends Component {
 
   render() {
     return (
-      <div className="app">
-        <div>Ваш пол?</div>
-        <div>
-          <input
-            id="one"
-            type="radio"
-            name="number"
-            value="Мужчина"
-            defaultChecked="checked"
-            onChange={e => this.updateValue(e)}
-          />
-          <label htmlFor="one">Мужчина</label>
+        <div className="app">
+          <div>Ваш пол?</div>
+          <div>
+            <input
+                id="one"
+                type="radio"
+                name="number"
+                value="Мужчина"
+                defaultChecked="checked"
+                onChange={e => this.updateValue(e)}
+            />
+            <label htmlFor="one">Мужчина</label>
+          </div>
+          <div>
+            <input
+                id="two"
+                type="radio"
+                name="number"
+                value="Женщина"
+                onChange={e => this.updateValue(e)}
+            />
+            <label htmlFor="two">Женщина</label>
+          </div>
+          <p>
+            {this.state.gender}
+          </p>
         </div>
-        <div>
-          <input
-            id="two"
-            type="radio"
-            name="number"
-            value="Женщина"
-            onChange={e => this.updateValue(e)}
-          />
-          <label htmlFor="two">Женщина</label>
-        </div>
-        <p>
-          {this.state.gender}
-        </p>
-      </div>
     );
   }
 }

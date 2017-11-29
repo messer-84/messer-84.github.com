@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Task_c_6_5 extends Component {
   constructor() {
@@ -16,33 +16,33 @@ class Task_c_6_5 extends Component {
 
   render() {
     return (
-      <div className="app">
-        <input
-          type="radio"
-          checked={this.state.option === 'one'}
-          name="number"
-          value="one"
-          onChange={e => this.updateValue(e)}
-        />
-        <input
-          type="radio"
-          checked={this.state.option === 'two'}
-          name="number"
-          value="two"
-          onChange={e => this.updateValue(e)}
-        />
-        <input
-          type="radio"
-          checked={this.state.option === 'three'}
-          name="number"
-          value="three"
-          onChange={e => this.updateValue(e)}
-        />
+        <div className="app">
+          <input
+              type="radio"
+              checked={this.state.option === 'one'}
+              name="number"
+              value="one"
+              onChange={e => this.updateValue(e)}
+          />
+          <input
+              type="radio"
+              checked={this.state.option === 'two'}
+              name="number"
+              value="two"
+              onChange={e => this.updateValue(e)}
+          />
+          <input
+              type="radio"
+              checked={this.state.option === 'three'}
+              name="number"
+              value="three"
+              onChange={e => this.updateValue(e)}
+          />
 
-        <p>
-          {this.state.option}
-        </p>
-      </div>
+          <p>
+            {this.state.option}
+          </p>
+        </div>
     );
   }
 }

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Task_h_2_6 extends Component {
   constructor() {
@@ -16,10 +16,10 @@ class Task_h_2_6 extends Component {
 
   render() {
     return (
-      <div>
-        <div style={{width:"300px", height: "300px", border: "15px solid " + this.state.color }}></div>
-        <button onClick={this.setColor}>Set new color</button>
-      </div>
+        <div>
+          <div style={{width: "300px", height: "300px", border: "15px solid " + this.state.color}}></div>
+          <button onClick={this.setColor}>Set new color</button>
+        </div>
     );
   }
 }

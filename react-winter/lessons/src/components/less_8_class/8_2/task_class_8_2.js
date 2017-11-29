@@ -12,41 +12,41 @@ import User from '../8_2/User'
  * */
 
 class Task_c_8_2 extends Component {
-	constructor() {
-		super();
-		this.state = {
-			users: [
-				{firstName: 'Petr', lastName: 'Petrov', age: 25},
-				{firstName: 'Ivan', lastName: 'Ivanov', age: 50},
-				{firstName: 'Vasya', lastName: 'Sidorov', age: 40},
-				{firstName: 'Oleg', lastName: 'Olegov', age: 20},
-			],
-		};
-	}
+  constructor() {
+    super();
+    this.state = {
+      users: [
+        {firstName: 'Petr', lastName: 'Petrov', age: 25},
+        {firstName: 'Ivan', lastName: 'Ivanov', age: 50},
+        {firstName: 'Vasya', lastName: 'Sidorov', age: 40},
+        {firstName: 'Oleg', lastName: 'Olegov', age: 20},
+      ],
+    };
+  }
 
 
-	render() {
-		const {users} = this.state;
-		const usersList = users.map((item, index) => {
-			return <User name={item.firstName} lastName={item.lastName} age={item.age} />
-		});
-		return (
-				<div className="app">
-					<table>
-						<thead>
-						<tr>
-							<th>Имя</th>
-							<th>Фамилия</th>
-							<th>Возраст</th>
-						</tr>
-						</thead>
-						<tbody>
-						{usersList}
-						</tbody>
-					</table>
-				</div>
-		);
-	}
+  render() {
+    const {users} = this.state;
+    const usersList = users.map((item, index) => {
+      return <User name={item.firstName} lastName={item.lastName} age={item.age} />
+    });
+    return (
+        <div className="app">
+          <table>
+            <thead>
+            <tr>
+              <th>Имя</th>
+              <th>Фамилия</th>
+              <th>Возраст</th>
+            </tr>
+            </thead>
+            <tbody>
+            {usersList}
+            </tbody>
+          </table>
+        </div>
+    );
+  }
 }
 
 export default Task_c_8_2;

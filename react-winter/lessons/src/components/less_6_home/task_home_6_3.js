@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Task_h_6_3 extends Component {
   constructor() {
@@ -27,30 +27,30 @@ class Task_h_6_3 extends Component {
   }
 
   render() {
-    const { texts, value } = this.state;
+    const {texts, value} = this.state;
     const content = texts.map((item, i) => {
       return (
-        <p key={i}>
-          {item}
-        </p>
+          <p key={i}>
+            {item}
+          </p>
       );
     });
     return (
-      <div className="app">
-        <form action="#" onSubmit={e => this.addText(e)}>
+        <div className="app">
+          <form action="#" onSubmit={e => this.addText(e)}>
           <textarea
-            ref={el => (this.text = el)}
-            value={value}
-            onChange={e => this.updateValue(e)}
+              ref={el => (this.text = el)}
+              value={value}
+              onChange={e => this.updateValue(e)}
           />
+            <div>
+              <button>Отправить</button>
+            </div>
+          </form>
           <div>
-            <button>Отправить</button>
+            {content}
           </div>
-        </form>
-        <div>
-          {content}
         </div>
-      </div>
     );
   }
 }

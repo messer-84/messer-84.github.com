@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class Task_h_6_6 extends Component {
   constructor() {
@@ -15,17 +15,17 @@ class Task_h_6_6 extends Component {
   }
 
   render() {
-    const { isChecked } = this.state;
+    const {isChecked} = this.state;
 
     return (
-      <div className="app">
-        <input type="text" disabled={!isChecked} />
-        <input
-          type="checkbox"
-          checked={isChecked}
-          onChange={e => this.updateValue(e)}
-        />
-      </div>
+        <div className="app">
+          <input type="text" disabled={!isChecked} />
+          <input
+              type="checkbox"
+              checked={isChecked}
+              onChange={e => this.updateValue(e)}
+          />
+        </div>
     );
   }
 }
