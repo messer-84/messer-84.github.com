@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+button{
+  border:1px solid #000;
+}
+
+.app{
+  width: 800px;
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
+.disable,.hide{
+  display: none;
+}
+.notActive{
+  text-decoration: line-through;
+
+}
+table {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+table th,
+table td{
+  border:1px solid black;
+
+}
+table th{
+  cursor: pointer;
+}
+
+
+input{
+  /*height: 40px;*/
+  /*padding: 10px;*/
+
+}
+input:focus{
+  outline: none;
+}
+.bad{
+  /*border:4px solid red;*/
+  color: red;
+}
+.good{
+  color: green;
+  /*border:4px solid green;*/
+
+}
+
+.pagination{
+  display: flex;
+  list-style: none;
+}
+
+.pagination li{
+  margin:0 5px;
+}
+
+.pagination li a{
+  padding:10px;
+  text-decoration: none;
+}
+
+.pagination li.active a{
+  background: black;
+  color: #fff;
+}
