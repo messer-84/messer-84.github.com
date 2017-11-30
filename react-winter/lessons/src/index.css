@@ -73,3 +73,6 @@ input:focus{
   background: black;
   color: #fff;
 }
+.done > span{
+  text-decoration: line-through;
+}
