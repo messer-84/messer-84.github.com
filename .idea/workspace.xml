@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_10_class/task_class_10.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" afterPath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_8_home/8_3/Product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_8_home/8_3/TotalBlock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_8_home/8_3/task_home_8_3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/App.js" afterPath="$PROJECT_DIR$/react-winter/lessons/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/components/less_10_class/TaskRow.js" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_10_class/TaskRow.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/components/less_10_class/task_class_10.js" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_10_class/task_class_10.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +25,8 @@
       <file leaf-file-name="task_class_10.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/components/less_10_class/task_class_10.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -32,7 +35,7 @@
       <file leaf-file-name="task_class_7_1.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/components/less_7_class/task_class_7_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
+            <state relative-caret-position="884">
               <caret line="52" column="55" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="55" />
               <folding />
             </state>
@@ -162,13 +165,14 @@
     <handled-path value="$PROJECT_DIR$/BDWork/myproject/node_modules" />
     <handled-path value="$PROJECT_DIR$/react-winter/lessons/node_modules" />
     <handled-path value="$PROJECT_DIR$/reduxTask/ reduxStore/src/node_modules" />
+    <handled-path value="$PROJECT_DIR$/reduxTask/playlist/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="76" />
-    <option name="y" value="157" />
-    <option name="width" value="1613" />
-    <option name="height" value="856" />
+    <option name="x" value="57" />
+    <option name="y" value="60" />
+    <option name="width" value="1861" />
+    <option name="height" value="984" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -185,7 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,17 +230,56 @@
               <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less_8_home" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="react-winter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less_8_home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="8_1" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="react-winter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less_8_home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="8_2" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="react-winter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less_8_home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="8_3" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="react-winter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="less_10_class" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects/thinklogical" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/react-winter" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
@@ -260,347 +303,6 @@
       <recent name="$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_2" />
       <recent name="$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_1" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/public/favicon.ico</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/public/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/public/manifest.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/App.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/App.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/App.test.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_class/task_class_2_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_class/task_class_2_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_class/task_class_2_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_class/task_class_2_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_home/task_home_2_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_home/task_home_2_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_home/task_home_2_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_home/task_home_2_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_home/task_home_2_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_2_home/task_home_2_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_class/task_class_3_9.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_3_home/task_home_3_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_class/task_class_4_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_class/task_class_4_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_class/task_class_4_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_class/task_class_4_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_home/task_home_4_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_home/task_home_4_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_home/task_home_4_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_4_home/task_home_4_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_10.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_11.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_12.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_class/task_class_5_9.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_5_home/task_home_5_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_5_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_class/task_class_6_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_home/task_home_6_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_home/task_home_6_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_home/task_home_6_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_home/task_home_6_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_home/task_home_6_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_home/task_home_6_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_6_home/task_home_6_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_class/task_class_7_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_class/task_class_7_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_class/task_class_7_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_10.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_11.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_12.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_13.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_14.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_4_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_7_home/task_home_7_9.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_1/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_1/task_class_8_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_2/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_2/task_class_8_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_3/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_3/task_class_8_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_4/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_4/task_class_8_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_5/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_5/task_class_8_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_6/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/components/less_8_class/8_6/task_class_8_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/index.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/logo.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/src/registerServiceWorker.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessons/yarn.lock</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-01/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-01/main.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/.gitignore</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/package.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/public/favicon.ico</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/public/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/public/manifest.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/App.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/App.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/App.test.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_class/task_class_2_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_class/task_class_2_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_class/task_class_2_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_class/task_class_2_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_home/task_home_2_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_home/task_home_2_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_home/task_home_2_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_home/task_home_2_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_home/task_home_2_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_2_home/task_home_2_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_class/task_class_3_9.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_3_home/task_home_3_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_class/task_class_4_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_class/task_class_4_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_class/task_class_4_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_class/task_class_4_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_home/task_home_4_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_home/task_home_4_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_home/task_home_4_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_4_home/task_home_4_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_10.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_11.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_12.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_class/task_class_5_9.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_5_home/task_home_5_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_5_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_class/task_class_6_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_home/task_home_6_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_home/task_home_6_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_home/task_home_6_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_home/task_home_6_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_home/task_home_6_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_home/task_home_6_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_6_home/task_home_6_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_class/task_class_7_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_class/task_class_7_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_class/task_class_7_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_10.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_11.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_12.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_13.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_14.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_4_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_5.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_6.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_7.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_8.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_7_home/task_home_7_9.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_1/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_1/task_class_8_1.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_2/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_2/task_class_8_2.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_3/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_3/task_class_8_3.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_4/User.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/components/less_8_class/8_4/task_class_8_4.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/index.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/index.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/logo.svg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/src/registerServiceWorker.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lesson-03/les3/yarn.lock</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessson-02-oop/index.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessson-02-oop/main.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/react-winter/lessson-02-oop/this.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -691,7 +393,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="" />
-      <changelist id="43fc8454-f8e9-4c04-92f9-aa1f1a885116" name="winter" comment="" />
       <created>1496331757344</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -782,13 +483,8 @@
       <workItem from="1511978787908" duration="110000" />
       <workItem from="1511979096849" duration="1970000" />
       <workItem from="1511994407927" duration="7000" />
-    </task>
-    <task id="LOCAL-00065" summary="-add">
-      <created>1502737860528</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1502737860528</updated>
+      <workItem from="1512112097463" duration="1869000" />
+      <workItem from="1512127735200" duration="26000" />
     </task>
     <task id="LOCAL-00066" summary="-add">
       <created>1502738265856</created>
@@ -1126,44 +822,42 @@
       <option name="project" value="LOCAL" />
       <updated>1511980168371</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="winter">
+      <created>1512062449293</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1512062449294</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292420000" />
+    <option name="totallyTimeSpent" value="294409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
+    <frame x="57" y="60" width="1861" height="984" extended-state="0" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19372593" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20055096" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27235773" sideWeight="0.50601506" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42250288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27324915" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27235773" sideWeight="0.49398497" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17526881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1746988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27235773" sideWeight="0.50601506" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20547946" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2132988" sideWeight="0.23769633" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27235773" sideWeight="0.49398497" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Quokka" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17526881" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19605348" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42250288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1187,6 +881,9 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1279,7 +976,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/components/less_7_class/task_class_7_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
+        <state relative-caret-position="884">
           <caret line="52" column="55" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="55" />
           <folding />
         </state>
@@ -1289,16 +986,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-969">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/components/less_10_class/task_class_10.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding />
         </state>
       </provider>
