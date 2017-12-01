@@ -55,7 +55,7 @@ class Task_h_7_14 extends Component {
   }
 
   componentDidMount() {
-    const test = this.state.test.map((item, index) => {
+    const test = this.state.test.map((item) => {
       item.checkedAnswer = 0;
       return item;
     });
@@ -67,7 +67,6 @@ class Task_h_7_14 extends Component {
   updateValue = (e) => {
     const name = parseInt(e.target.name);
     const value = parseInt(e.target.value);
-    const checkedAnswered = this.state.test[name].checkedAnswer;
     const newTest = this.state.test.map((item, index) => {
       if (index === name) {
         item.checkedAnswer = value;
@@ -84,7 +83,7 @@ class Task_h_7_14 extends Component {
 
   checkTest = (e) => {
     e.preventDefault();
-    const test = this.state.test.map((item, index) => {
+    const test = this.state.test.map((item) => {
       item.resultTest = item.checkedAnswer === item.right ? 'good' : 'bad';
       return item;
     });
