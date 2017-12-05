@@ -20,7 +20,7 @@ class Task_c_10 extends Component {
 
 	componentDidMount() {
 		const tasks = [...this.state.tasks];
-		const newTasks = tasks.map((item, index) => {
+		const newTasks = tasks.map((item) => {
 			item.editing = false;
 			item.status = false;
 			item.nameValue = item.name;
