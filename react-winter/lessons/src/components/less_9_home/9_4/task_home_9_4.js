@@ -76,7 +76,8 @@ class Task_h_9_3 extends Component {
       return item;
     });
     this.setState({
-      test
+      test,
+      testEnd: !this.state.testEnd
     });
 
   };
@@ -93,18 +94,30 @@ class Task_h_9_3 extends Component {
 
   updateShowPart = (index,type) => {
     const partIndexNow = this.state.showPart;
-    const partIndex = type === 'prev' ? this.state.showPart - 1 :
+    var newIndex = 0;
+    if(type === 'next'){
+      newIndex = this.state.showPart + 1;
+    }
+    else if(type === 'prev'){
+      newIndex = this.state.showPart - 1;
+    }
+    this.setState({
+      showPart: newIndex
+    });
   };
 
 
   render() {
-    const {test} = this.state;
+
+    const {test, showPart, testEnd} = this.state;
+
     var fieldId = 0;
     const list = test.map((item, index) => {
       const resultItem = item.resultItem || false;
       const rightAnswerText = '. Правильно';
       const wrongAnswerText = '. Не правильно! Правильный ответ ' + parseInt(item.right + 1);
-      if (index === this.state.showPart) {
+
+      if (index === showPart && !testEnd) {
         return (
             <div key={index}>
               <h3 className={item.resultTest}>{item.question}</h3>
@@ -125,16 +138,48 @@ class Task_h_9_3 extends Component {
                 <b>Ваш ответ - {item.answerValue} {resultItem ? rightAnswerText : wrongAnswerText}</b>
               </div>}
               <div>
-                {this.state.showPart > 0 && <button onClick={() => {
+                {showPart > 0 && <button onClick={() => {
                   this.updateShowPart(index, 'prev')
                 }}>Назад</button>}
-                {this.state.showPart < this.state.test.length - 1 && <button onClick={() => {
+                {showPart < test.length - 1 && <button onClick={() => {
                   this.updateShowPart(index, 'next')
                 }}>Вперед</button>}
+
               </div>
 
             </div>
         );
+      }
+      else if(testEnd){
+        return (<div key={index}>
+          <h3 className={item.resultTest}>{item.question}</h3>
+          <ol>
+            {item.answers.map((subItem, subIndex) => {
+              fieldId++;
+              return <li key={subIndex}>{subItem}</li>;
+            })}
+          </ol>
+          {!testEnd && <input
+              type="text"
+              value={item.answerValue || ''}
+              onChange={(e) => {
+                this.updateAnswer(e, index)
+              }}/>}
+          {item.showResult &&
+          <div className={resultItem ? 'good' : 'bad'}>
+            <b>Ваш ответ - {item.answerValue} {resultItem ? rightAnswerText : wrongAnswerText}</b>
+          </div>}
+          {!testEnd && <div>
+            {showPart > 0 && <button onClick={() => {
+              this.updateShowPart(index, 'prev')
+            }}>Назад</button>}
+            {showPart < test.length - 1 && <button onClick={() => {
+              this.updateShowPart(index, 'next')
+            }}>Вперед</button>}
+          </div>}
+
+        </div>);
+
       }
 
     });
@@ -144,7 +189,8 @@ class Task_h_9_3 extends Component {
             <div>
               {list}
             </div>
-            {this.state.testEnd && <button>Проверить ответы</button>}
+            <br />
+            {showPart === test.length-1 && <button>Проверить ответы</button>}
           </form>
 
         </div>
