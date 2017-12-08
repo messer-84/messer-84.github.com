@@ -46,13 +46,10 @@ input:focus{
   outline: none;
 }
 .bad{
-  /*border:4px solid red;*/
   color: red;
 }
 .good{
   color: green;
-  /*border:4px solid green;*/
-
 }
 
 .pagination{
