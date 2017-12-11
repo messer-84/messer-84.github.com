@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea4eff8f-bc6f-4000-bee6-15e359a569d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_4/AnswerList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_5/AnswerList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_5/task_home_9_5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" afterPath="$PROJECT_DIR$/.idea/messer-84.github.com.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_6/AnswerList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_6/task_home_9_6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_7/task_home_9_6.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_8/BlockForAddProduct.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_8/Product.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_8/task_home_9_8.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_4/task_home_9_4.js" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_4/task_home_9_4.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/index.css" afterPath="$PROJECT_DIR$/react-winter/lessons/src/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/App.js" afterPath="$PROJECT_DIR$/react-winter/lessons/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_5/AnswerList.js" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_5/AnswerList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_5/task_home_9_5.js" afterPath="$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_5/task_home_9_5.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +28,7 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="204">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -37,8 +40,8 @@
       <file leaf-file-name="task_home_9_4.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_4/task_home_9_4.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="111" column="43" lean-forward="false" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+            <state relative-caret-position="362">
+              <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -181,8 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +234,7 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="less_9_home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="9_4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="9_5" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
@@ -243,12 +244,34 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="less_9_home" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="9_5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="9_6" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="react-winter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less_9_home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="9_7" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="messer-84.github.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="messer-84.github.com" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="react-winter" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lessons" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="less_9_home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="9_8" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,14 +498,10 @@
       <workItem from="1512544512788" duration="7000" />
       <workItem from="1512679079377" duration="3000000" />
       <workItem from="1512731684678" duration="15000" />
-      <workItem from="1512749340602" duration="199000" />
-    </task>
-    <task id="LOCAL-00068" summary="-add">
-      <created>1502740024186</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1502740024186</updated>
+      <workItem from="1512749340602" duration="217000" />
+      <workItem from="1512979476566" duration="82000" />
+      <workItem from="1513000588486" duration="51000" />
+      <workItem from="1513011108162" duration="62000" />
     </task>
     <task id="LOCAL-00069" summary="-add">
       <created>1502740300100</created>
@@ -820,17 +839,25 @@
       <option name="project" value="LOCAL" />
       <updated>1512144138360</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="winter">
+      <created>1512749546054</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1512749546054</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334013000" />
+    <option name="totallyTimeSpent" value="334226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1863" height="1084" extended-state="6" />
+    <frame x="57" y="-4" width="1863" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1574023" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16235553" sideWeight="0.76230365" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27235773" sideWeight="0.50601506" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -938,7 +965,7 @@
     <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_4/User.js" />
     <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -969,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-winter/lessons/src/components/less_9_home/9_4/task_home_9_4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="111" column="43" lean-forward="false" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+        <state relative-caret-position="362">
+          <caret line="93" column="7" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="93" selection-end-column="7" />
           <folding />
         </state>
       </provider>

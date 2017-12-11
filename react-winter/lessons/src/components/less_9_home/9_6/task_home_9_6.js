@@ -9,7 +9,7 @@ import AnswerList from './AnswerList';
  * */
 
 
-class Task_h_9_5 extends Component {
+class Task_h_9_6 extends Component {
    constructor() {
       super();
       this.state = {
@@ -56,7 +56,7 @@ class Task_h_9_5 extends Component {
 
   componentDidMount() {
     const test = this.state.test.map((item) => {
-      item.checkedAnswer = 0;
+      item.checked = false;
       return item;
     });
     this.setState({
@@ -170,4 +170,4 @@ class Task_h_9_5 extends Component {
    }
 }
 
-export default Task_h_9_5;
+export default Task_h_9_6;

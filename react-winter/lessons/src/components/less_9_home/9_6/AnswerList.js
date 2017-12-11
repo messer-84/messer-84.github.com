@@ -11,11 +11,11 @@ const AnswerList = (props) =>{
 
             return <li key={subIndex}>
                <input
-                   type="radio"
+                   type="checkbox"
                    name={index}
                    value={subIndex}
                    id={fieldId}
-                   checked={group.checkedAnswer === subIndex}
+                   checked={group.checked}
                    onChange={e => updateAnswer(e)}
                />
                <label htmlFor={fieldId}>{subItem}</label>
