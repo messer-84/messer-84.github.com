@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import Product from './Product';
+import TotalSum from './TotalSum';
 import BlockForAddProduct from './BlockForAddProduct';
 
 /*
@@ -120,6 +121,7 @@ class Task_h_9_8 extends Component {
 							addNewProduct={this.addNewProduct}
 							updateValue={this.updateValue}
 					/>
+					<TotalSum products={this.state.products}/>
 				</div>
 		);
 	}
