@@ -1,0 +1,94 @@
+[
+  {
+    "posts": [
+      {
+        "postId": 1,
+        "name": "Canada reels as it tries to imagine its economy without NAFTA",
+        "date": "04.02.2018",
+        "text": "President Donald Trump has gone behind Canada’s back and negotiated what he calls a trade deal with Mexico, leaving Canada on the sidelines.It’s the biggest rift yet in the relations between the two nations, and one that could have the biggest..",
+        "comments": [
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 1 1"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 1 2"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 1 3"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 1 4"
+          }
+        ]
+      },
+      {
+        "postId": 2,
+        "name": "Anchorage attorney withdraws from federal judge nomination",
+        "date": "03.02.2018",
+        "text": "The Anchorage attorney nominated by President Donald Trump to be a federal judge on the U.S. District Court for Alaska has withdrawn from his nomination.",
+        "comments": [
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 2 1"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 2 2"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 2 3"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 2 4"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 2 5"
+          }
+        ]
+      },
+      {
+        "postId": 3,
+        "name": "Trump lawyer denounces ‘excesses’ of Romania’s anti-corruption efforts – EURACTIV.com",
+        "date": "04.02.2018",
+        "text": "US President <b>Donald Trump</b>’s lawyer, Rudy Giuliani, has written a letter to Romania’s president, accusing the Eastern European country’s anticorruption efforts of going too far and calling for amnesty for those already prosecuted and convicted.",
+        "comments": [
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 3 1"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 3 2"
+          }
+        ]
+      },
+      {
+        "postId": 4,
+        "name": "U.S. Justice Department Official Grilled Over Role In Russia Investigation",
+        "date": "03.02.2018",
+        "text": "A U.S. Justice Department attorney who has drawn President <b>Donald Trump</b>'s ire has been grilled for more than seven hours by congressional Republicans over his role in aiding the department's invest...",
+        "comments": [
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 4 1"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 4 2"
+          },
+          {
+            "date": "04.02.2018",
+            "text": "Comment post 4 3"
+          }
+        ]
+      }
+    ]
+  }
+]

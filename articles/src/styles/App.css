@@ -1,0 +1,112 @@
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans');*/
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+
+#root{
+    font-family: Arial, sans-serif;
+    /*font-size: 14px;*/
+}
+
+.main-container{
+    position: relative;
+    padding: 100px 0;
+}
+
+.table-posts,
+.table-comments{
+    padding: 0 15px;
+    border-top:1px solid #999;
+    border-right:1px solid #999;
+}
+
+.table-posts-row > div,
+.comment-row > div{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+}
+.comment-row > div:last-child{
+    justify-content: center;
+}
+.comment-row:first-child > div,
+.table-posts-row:first-child > div{
+    background: lightgrey;
+    font-size: 14px;
+}
+.table-posts-row > div:last-child {
+    padding: 0 10px;
+}
+.table-posts-row .btn-group{
+    display: flex;
+    align-items: center;
+}
+.table-posts-row .btn{
+    margin: 0 5px !important;
+}
+.table-posts-row .btn-link{
+    padding: 0;
+    transition: opacity .3s ease;
+}
+.table-posts-row .btn-link:hover{
+    opacity: .8;
+}
+.table-posts-row .btn-link svg{
+    pointer-events: none;
+}
+.table-posts-row .btn.close,
+.comment-row .btn.close{
+    width: 24px;
+    height: 24px;
+    border-radius: 50% !important;
+    background: #dc3545;
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.table-posts-row .close span,
+.comment-row .close span {
+    display: block;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    text-shadow: none;
+}
+
+.summary-container{
+    padding-top: 30px;
+}
+
+.summary-block{
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    /*margin: 0 10px 0 0;*/
+    border:1px solid #999;
+    font-family: "Comic Sans MS", sans-serif;
+}
+.summary-block.comments{
+    /*margin-left: 10px;*/
+    margin-right: 0;
+}
+
+.summary-block span{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.summary-block .icon{
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.modal .modal-footer{
+    justify-content: center;
+}
+.modal-footer .btn{
+    width: 150px;
+}
