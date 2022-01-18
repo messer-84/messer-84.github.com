@@ -5,9 +5,9 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "bootswatch": "^3.3.7",
-    "react": "^15.6.1",
+    "react": "^16.5.0",
     "react-bootstrap": "^0.31.2",
-    "react-dom": "^15.6.1",
+    "react-dom": "^16.5.0",
     "react-scripts": "1.0.11"
   },
   "scripts": {
