@@ -5,13 +5,16 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.1.1",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "babel-jest": "^21.2.0",
@@ -20,5 +23,6 @@
     "jest": "^21.2.1",
     "react-polyfills": "0.0.1",
     "react-test-renderer": "^16.2.0"
-  }
+  },
+  "snyk": true
 }
